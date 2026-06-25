@@ -2291,3 +2291,42 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-25 14:47:13]   ✓ added to keyword_map.spokes
 [2026-06-25 14:47:13] queue: 46 remaining, 428 consumed total
 [2026-06-25 14:47:13] running deploy.sh …
+[2026-06-25 14:47:17] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-25 17:30:02] === Daily content run (kind-balanced): 5 blog + 4 landing = 9 item(s) ===
+[2026-06-25 17:30:02] [1/9] blog · blog/astondoa-40-vs-azimut-39-cost-comparison
+[2026-06-25 17:30:32]   ✓ saved content/blog_astondoa-40-vs-azimut-39-cost-comparison.json
+[2026-06-25 17:30:32]   ✓ added to keyword_map.blog
+[2026-06-25 17:30:32] [2/9] blog · blog/mangusta-80-vs-azimut-58-comparison
+[2026-06-25 17:30:58]   ✓ saved content/blog_mangusta-80-vs-azimut-58-comparison.json
+[2026-06-25 17:30:58]   ✓ added to keyword_map.blog
+[2026-06-25 17:30:58] [3/9] blog · blog/pershing-46-vs-astondoa-40-comparison
+[2026-06-25 17:31:23]   ✓ saved content/blog_pershing-46-vs-astondoa-40-comparison.json
+[2026-06-25 17:31:23]   ✓ added to keyword_map.blog
+[2026-06-25 17:31:23] [4/9] blog · blog/astondoa-40-vs-princess-v58-marbella-comparison
+[2026-06-25 17:31:52]   ✓ saved content/blog_astondoa-40-vs-princess-v58-marbella-comparison.json
+[2026-06-25 17:31:52]   ✓ added to keyword_map.blog
+[2026-06-25 17:31:52] [5/9] blog · blog/marbella-yacht-charter-sotogrande-polo-final
+[2026-06-25 17:32:22]   ✓ saved content/blog_marbella-yacht-charter-sotogrande-polo-final.json
+[2026-06-25 17:32:22]   ✓ added to keyword_map.blog
+[2026-06-25 17:32:22] [6/9] experience · experiences/marbella-birthday-yacht-decorations-themes
+[2026-06-25 17:32:59]   ✓ saved content/experiences_marbella-birthday-yacht-decorations-themes.json
+[2026-06-25 17:32:59]   ✓ added to keyword_map.spokes
+[2026-06-25 17:32:59] [7/9] spoke · marbella-yacht-charter-vs-cannes
+[2026-06-25 17:33:29]   ✓ saved content/marbella-yacht-charter-vs-cannes.json
+[2026-06-25 17:33:29]   ✓ added to keyword_map.spokes
+[2026-06-25 17:33:29] [8/9] spoke · marbella-boat-rental-vs-torremolinos
+[2026-06-25 17:33:58]   ✓ saved content/marbella-boat-rental-vs-torremolinos.json
+[2026-06-25 17:33:58]   ✓ added to keyword_map.spokes
+[2026-06-25 17:33:58] [9/9] spoke · marbella-yacht-charter-vs-barcelona
+[2026-06-25 17:34:27]   ✓ saved content/marbella-yacht-charter-vs-barcelona.json
+[2026-06-25 17:34:27]   ✓ added to keyword_map.spokes
+[2026-06-25 17:34:27] queue: 37 remaining, 437 consumed total
+[2026-06-25 17:34:27] running deploy.sh …
