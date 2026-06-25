@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 516,
+  "count": 526,
   "kinds": [
     "blog",
     "boat",
@@ -830,6 +830,14 @@
       "excerpt": "Planning a stag weekend in Marbella and want to hit the water without blowing your budget? A yacht charter is the ultimate group activity, combining sun, sea, and celebration along the Costa del Sol. This breakdown covers costs, boat options, and what's included, so your crew can"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-cabopino-departure/",
+      "title": "Cabopino Boat Rental: Departing from Cabopino Marina",
+      "description": "Book a Cabopino boat rental departing from Cabopino Marina, Marbella. Enjoy 8-hour charters from €2,299 with skipper &amp; drinks included. Reserve now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Looking for a Cabopino boat rental that departs directly from Cabopino Marina? While our standard fleet operates from Puerto Banús, we can arrange pickups from Cabopino for groups of 10 or more on select yachts. This guide covers everything you need to know about chartering a boa"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-cost-per-person/",
       "title": "Marbella Boat Rental Cost Per Person: Shared Charter Prices",
       "description": "Discover the real Marbella boat rental cost per person for shared charters in Puerto Banús. From €83/person/hour with drinks &amp; skipper included. Book now.",
@@ -844,6 +852,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Marbella's coastline is a natural highway for dolphins, and a private boat rental from Puerto Banús is the best way to see them up close. The marbella boat rental dolphin watching season runs from April to October, with peak sightings in the warm summer months. Whether you choose"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-estepona-departure/",
+      "title": "Estepona Boat Rental: Departing from Estepona Marina",
+      "description": "Estepona boat rental from Marbella: depart Estepona Marina on a private charter from €749/2h. Skipper, drinks, fuel &amp; IVA included. Book today.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "If you're looking for an estepona boat rental marbella experience that combines convenience, luxury, and value, departing from Estepona Marina is your best bet. Located just 15 minutes from Puerto Banús, Estepona Marina offers easy access, free parking, and a quieter departure po"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-family-day-cabopino/",
@@ -900,6 +916,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "If you're looking for Marbella boat rental no license prices 2026 , you've come to the right place. Renting a yacht in Marbella without a skipper's license is straightforward – every boat in our fleet comes with a licensed skipper, so you can focus on the views. This guide covers"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-sotogrande-departure/",
+      "title": "Sotogrande Boat Rental: Departing from Sotogrande Marina",
+      "description": "Explore Sotogrande boat rental with departures from Sotogrande Marina. Charter a 12m Fairline Targa from €749/2h. Book now for a luxury day on the Costa del Sol.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Looking for a sotogrande boat rental marbella experience that combines luxury, convenience, and the Costa del Sol's best coastline? Departing from Sotogrande Marina, our fleet of 16+ yachts offers direct access to the exclusive southern coast of Spain. Whether you want to cruise "
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-sotogrande-vs-cabopino/",
@@ -1566,6 +1590,14 @@
       "excerpt": "Booking a Marbella yacht charter for the F1 Grand Prix weekend is one of the most memorable ways to experience the race. Instead of battling crowds on the shore, you anchor just off the circuit with a cold drink in hand, watching the cars scream past from the water. Here’s exactl"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-f1-weekend-guide/",
+      "title": "Marbella Yacht Charter for F1 Weekend: Viewing Parties",
+      "description": "Experience the F1 weekend from the sea with a Marbella yacht charter. Watch the race on board with drinks, skipper &amp; 12 guests. Book your boat now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Formula 1 and Marbella: two worlds that collide in a weekend of speed, glamour, and Mediterranean sun. If you want to watch the Grand Prix from a front-row seat on the water, a Marbella yacht charter for the F1 weekend is the way to do it. Gather up to 12 friends, bring your own "
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-family-day-cabopino/",
       "title": "Family Boat Day from Cabopino: Marbella Yacht Charter for All Ages",
       "description": "Plan a Marbella family boat day from Cabopino with our yacht charter for all ages. From €749/2h, includes skipper, drinks, and snacks. Book now!",
@@ -1668,6 +1700,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Planning a hen party in Marbella and wondering about the food and drinks on board? You are in the right place. Every yacht charter from our fleet includes a licensed skipper, fuel, insurance, and a selection of drinks and snacks – all covered in the price. Whether you want a simp"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-hen-weekend-budget/",
+      "title": "Marbella Yacht Charter for a Hen Weekend: Cost Breakdown",
+      "description": "Plan a marbella yacht charter hen weekend budget with real costs from €749. Book now for a luxurious day on the water in Puerto Banús.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a hen weekend in Marbella? A private yacht charter is the ultimate way to celebrate, combining sun, sea, and style. With costs starting at just €749 for a 2-hour trip, it's more affordable than you might think. This guide breaks down the marbella yacht charter hen weeken"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-hispanic-day/",
@@ -3406,12 +3446,28 @@
       "excerpt": "Imagine gliding across the Mediterranean at 10:00, a glass of cava in hand, as a pod of bottlenose dolphins arcs through the wake of your private motor yacht. That's the promise of a Marbella dolphin watching brunch cruise — a two-hour morning escape from Puerto Banús that pairs "
     },
     {
+      "url": "https://boatrentalinmarbella.com/experiences/marbella-dolphin-watching-picnic-cruise/",
+      "title": "Marbella Dolphin Watching Picnic Cruise: Family-Friendly Fun",
+      "description": "Enjoy a marbella dolphin watching picnic cruise with up to 12 guests. From €749 for 2 hours, includes skipper, snacks, drinks &amp; VAT. Book your family day out now.",
+      "kind": "experience",
+      "locale": "en",
+      "excerpt": "Imagine a marbella dolphin watching picnic cruise where you glide out of Puerto Banús, the Mediterranean sun warming your skin, and within minutes you're scanning the glittering water for dorsal fins. This is the family-friendly day out that combines the thrill of spotting wild d"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/experiences/marbella-dolphin-watching-sunset-combo/",
       "title": "Marbella Dolphin Watching and Sunset Cruise Combo",
       "description": "Book a dolphin watching sunset cruise Marbella combo. Spot wild dolphins off the Costa del Sol then watch the sun sink behind La Concha from your private charter.",
       "kind": "experience",
       "locale": "en",
       "excerpt": "Combine two of Marbella's best experiences into one evening: a dolphin watching sunset cruise. You'll spend the first part of your charter scanning the Mediterranean for wild dolphins, then anchor off the coast to watch the sun sink behind La Concha. It's a private charter, so th"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/experiences/marbella-family-boat-day-jetski-combo/",
+      "title": "Marbella Family Boat Day with Jet Ski Combo: Adventure for All",
+      "description": "Book a Marbella family boat day jet ski combo for 12 guests from Puerto Banús. Includes skipper, drinks, snacks &amp; a free jet ski. From €4,719.",
+      "kind": "experience",
+      "locale": "en",
+      "excerpt": "Looking for the ultimate Marbella family boat day jet ski combo ? The Mangusta 80 delivers 24 metres of deck space, a free jet ski, and all-inclusive service from Puerto Banús. With room for 12 guests, it's the perfect way to spend a day on the Costa del Sol — swimming, cruising,"
     },
     {
       "url": "https://boatrentalinmarbella.com/experiences/marbella-family-boat-day-paddleboarding/",
@@ -3470,6 +3526,14 @@
       "excerpt": "Combine the thrill of Mediterranean fishing with the romance of a Costa del Sol sunset on a Marbella fishing and sunset combo charter . Spend the afternoon trolling for bonito and sea bass off Puerto Banús, then drop anchor in a quiet cove as the sky turns gold and pink behind La"
     },
     {
+      "url": "https://boatrentalinmarbella.com/experiences/marbella-fishing-charter-bottom-fishing/",
+      "title": "Marbella Fishing Charter for Bottom Fishing: Species &amp; Techniques",
+      "description": "Book a Marbella fishing charter for bottom fishing. Target bream, grouper &amp; snapper with expert skippers from Puerto Banús. Prices from €749 for 2h.",
+      "kind": "experience",
+      "locale": "en",
+      "excerpt": "Bottom fishing from Marbella is one of the most accessible and rewarding ways to fish the Mediterranean. Dropping a baited rig to the seabed off Puerto Banús can yield gilthead bream, grouper, red snapper, and European sea bass. With a Marbella boat charter , you get a licensed s"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/experiences/marbella-fishing-charter-half-day/",
       "title": "Marbella Half-Day Fishing Charter: Catch and Release",
       "description": "Book a Marbella half day fishing charter from Puerto Banús. Catch and release with licensed skipper, drinks &amp; snacks included. Prices from €749.",
@@ -3492,6 +3556,14 @@
       "kind": "experience",
       "locale": "en",
       "excerpt": "Escape the crowds and find your centre on a marbella full day yoga retreat at sea . This exclusive wellness experience combines a morning yoga session on the deck of a luxury motor yacht, paddleboarding in crystal-clear coves, and a Mediterranean lunch—all from the glamorous sett"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/experiences/marbella-full-moon-cruise-champagne/",
+      "title": "Marbella Full Moon Cruise with Champagne: Night Magic",
+      "description": "Experience a magical Marbella full moon cruise with champagne. Book a private boat from Puerto Banús, sip cava under the moonlight, and enjoy the Costa del Sol night. Reserve now!",
+      "kind": "experience",
+      "locale": "en",
+      "excerpt": "There is something undeniably magical about watching the full moon rise over the Mediterranean while sipping chilled champagne on a private yacht. A Marbella full moon cruise with champagne is the perfect way to celebrate a special occasion, surprise a partner, or simply indulge "
     },
     {
       "url": "https://boatrentalinmarbella.com/experiences/marbella-full-moon-yoga-cruise/",
@@ -3540,6 +3612,14 @@
       "kind": "experience",
       "locale": "en",
       "excerpt": "There's something primal about casting a line as the sun lifts over La Concha. A sunrise fishing charter Marbella gets you on the water before the jet skis and day-trippers, when the sea is glassy and the fish are hungry. Departing from Puerto Banús, our 4-hour trip combines the "
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/experiences/marbella-sunset-cruise-tapas-pairing/",
+      "title": "Marbella Sunset Cruise with Tapas Pairing: A Culinary Voyage",
+      "description": "Experience a Marbella sunset cruise with tapas pairing on a private boat from Puerto Banús. 5-course menu, €749/2h, book now.",
+      "kind": "experience",
+      "locale": "en",
+      "excerpt": "Imagine gliding across the calm Mediterranean as the sun dips behind La Concha, a glass of cava in hand, and a plate of perfectly paired tapas before you. This is the Marbella sunset cruise with tapas pairing —a culinary voyage that combines the best of the Costa del Sol: a priva"
     },
     {
       "url": "https://boatrentalinmarbella.com/experiences/marbella-sunset-photoshoot-yacht/",
@@ -4072,7 +4152,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 514 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 524 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
