@@ -86,3 +86,14 @@
 [2026-06-24 13:58:14]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
 [2026-06-24 13:58:26]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
 [2026-06-24 17:00:38] topic generation failed: claude CLI exit 1: 
+[2026-06-25 12:30:01] === Telegraph run: target 3 article(s) · 26 previously published ===
+[2026-06-25 12:30:03] [1/3] A Chef's Floating Table: Private Dining on a Marbella Yacht Charter
+[2026-06-25 12:30:24]   attempt 1: JSON parse failed, retrying
+[2026-06-25 12:30:48]   ✓ published https://telegra.ph/A-Chefs-Floating-Table-Private-Dining-on-a-Marbella-Yacht-Charter-06-25 (5 backlinks)
+[2026-06-25 12:30:48] [2/3] Marbella to Benalmádena: An Art and Marina Day Charter by Water
+[2026-06-25 12:31:04]   ✓ published https://telegra.ph/Marbella-to-Benalmádena-An-Art-and-Marina-Day-Charter-by-Water-06-25 (5 backlinks)
+[2026-06-25 12:31:04] [3/3] A Weekend on a Classic Motor Yacht: Puerto Banús to Calahonda
+[2026-06-25 12:31:20]   attempt 1: JSON parse failed, retrying
+[2026-06-25 12:31:50]   ✓ published https://telegra.ph/A-Weekend-on-a-Classic-Motor-Yacht-Puerto-Banús-to-Calahonda-06-25 (5 backlinks)
+[2026-06-25 12:31:50] === Done: 3/3 published. Ledger total: 29 ===
+

@@ -794,6 +794,41 @@
       "title": "Marbella vs Málaga Boat Rental: Pros, Cons & Best Choices",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-tapas-pairing",
+      "primary_keyword": "marbella sunset cruise tapas pairing",
+      "title": "Marbella Sunset Cruise with Tapas Pairing: A Culinary Voyage",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-combo",
+      "primary_keyword": "marbella family boat day jetski combo",
+      "title": "Marbella Family Boat Day with Jet Ski Combo: Adventure for All",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-picnic-cruise",
+      "primary_keyword": "marbella dolphin watching picnic cruise",
+      "title": "Marbella Dolphin Watching Picnic Cruise: Family-Friendly Fun",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-full-moon-cruise-champagne",
+      "primary_keyword": "marbella full moon cruise champagne",
+      "title": "Marbella Full Moon Cruise with Champagne: Night Magic",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-fishing-charter-bottom-fishing",
+      "primary_keyword": "marbella fishing charter bottom fishing",
+      "title": "Marbella Fishing Charter for Bottom Fishing: Species & Techniques",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -3134,6 +3169,41 @@
       "title": "Marbella Yacht Charter for a Stag Weekend: Budget Planning",
       "intent": "informational",
       "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-hen-weekend-budget",
+      "primary_keyword": "marbella yacht charter hen weekend budget",
+      "title": "Marbella Yacht Charter for a Hen Weekend: Cost Breakdown",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-f1-weekend-guide",
+      "primary_keyword": "marbella yacht charter f1 weekend",
+      "title": "Marbella Yacht Charter for F1 Weekend: Viewing Parties",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-sotogrande-departure",
+      "primary_keyword": "sotogrande boat rental marbella",
+      "title": "Sotogrande Boat Rental: Departing from Sotogrande Marina",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-cabopino-departure",
+      "primary_keyword": "cabopino boat rental marbella",
+      "title": "Cabopino Boat Rental: Departing from Cabopino Marina",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-estepona-departure",
+      "primary_keyword": "estepona boat rental marbella",
+      "title": "Estepona Boat Rental: Departing from Estepona Marina",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }

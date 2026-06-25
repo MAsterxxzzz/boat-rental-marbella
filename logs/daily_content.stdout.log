@@ -781,3 +781,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-25 09:02:20] queue under threshold (28 < 30) — auto-refilling…
 [2026-06-25 09:02:36] refill: +28 topics (queue now 56)
 [2026-06-25 09:02:36] running deploy.sh …
+[2026-06-25 09:02:57] deploy.sh OK
+[2026-06-25 09:02:57] === Done: 5 succeeded, 0 failed ===
+

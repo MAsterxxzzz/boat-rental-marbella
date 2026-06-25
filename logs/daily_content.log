@@ -2255,3 +2255,39 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-25 09:02:20] queue under threshold (28 < 30) — auto-refilling…
 [2026-06-25 09:02:36] refill: +28 topics (queue now 56)
 [2026-06-25 09:02:36] running deploy.sh …
+[2026-06-25 09:02:57] deploy.sh OK
+[2026-06-25 09:02:57] === Done: 5 succeeded, 0 failed ===
+
+[2026-06-25 14:43:03] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-06-25 14:43:03] [1/10] blog · blog/marbella-yacht-charter-hen-weekend-budget
+[2026-06-25 14:43:26]   ✓ saved content/blog_marbella-yacht-charter-hen-weekend-budget.json
+[2026-06-25 14:43:26]   ✓ added to keyword_map.blog
+[2026-06-25 14:43:26] [2/10] blog · blog/marbella-yacht-charter-f1-weekend-guide
+[2026-06-25 14:43:50]   ✓ saved content/blog_marbella-yacht-charter-f1-weekend-guide.json
+[2026-06-25 14:43:50]   ✓ added to keyword_map.blog
+[2026-06-25 14:43:50] [3/10] blog · blog/marbella-boat-rental-sotogrande-departure
+[2026-06-25 14:44:17]   ✓ saved content/blog_marbella-boat-rental-sotogrande-departure.json
+[2026-06-25 14:44:17]   ✓ added to keyword_map.blog
+[2026-06-25 14:44:17] [4/10] blog · blog/marbella-boat-rental-cabopino-departure
+[2026-06-25 14:44:40]   ✓ saved content/blog_marbella-boat-rental-cabopino-departure.json
+[2026-06-25 14:44:40]   ✓ added to keyword_map.blog
+[2026-06-25 14:44:40] [5/10] blog · blog/marbella-boat-rental-estepona-departure
+[2026-06-25 14:45:01]   ✓ saved content/blog_marbella-boat-rental-estepona-departure.json
+[2026-06-25 14:45:01]   ✓ added to keyword_map.blog
+[2026-06-25 14:45:01] [6/10] experience · experiences/marbella-sunset-cruise-tapas-pairing
+[2026-06-25 14:45:24]   ✓ saved content/experiences_marbella-sunset-cruise-tapas-pairing.json
+[2026-06-25 14:45:24]   ✓ added to keyword_map.spokes
+[2026-06-25 14:45:24] [7/10] experience · experiences/marbella-family-boat-day-jetski-combo
+[2026-06-25 14:45:48]   ✓ saved content/experiences_marbella-family-boat-day-jetski-combo.json
+[2026-06-25 14:45:48]   ✓ added to keyword_map.spokes
+[2026-06-25 14:45:48] [8/10] experience · experiences/marbella-dolphin-watching-picnic-cruise
+[2026-06-25 14:46:19]   ✓ saved content/experiences_marbella-dolphin-watching-picnic-cruise.json
+[2026-06-25 14:46:19]   ✓ added to keyword_map.spokes
+[2026-06-25 14:46:19] [9/10] experience · experiences/marbella-full-moon-cruise-champagne
+[2026-06-25 14:46:42]   ✓ saved content/experiences_marbella-full-moon-cruise-champagne.json
+[2026-06-25 14:46:42]   ✓ added to keyword_map.spokes
+[2026-06-25 14:46:42] [10/10] experience · experiences/marbella-fishing-charter-bottom-fishing
+[2026-06-25 14:47:13]   ✓ saved content/experiences_marbella-fishing-charter-bottom-fishing.json
+[2026-06-25 14:47:13]   ✓ added to keyword_map.spokes
+[2026-06-25 14:47:13] queue: 46 remaining, 428 consumed total
+[2026-06-25 14:47:13] running deploy.sh …
