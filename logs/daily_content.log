@@ -2386,3 +2386,33 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-26 14:46:54] queue under threshold (27 < 30) — auto-refilling…
 [2026-06-26 14:47:11] refill: +11 topics (queue now 38)
 [2026-06-26 14:47:11] running deploy.sh …
+[2026-06-26 14:47:15] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-26 17:30:05] === Daily content run (kind-balanced): 5 blog + 1 landing = 6 item(s) ===
+[2026-06-26 17:30:05] [1/6] blog · blog/marbella-sunset-cruise-romantic-dinner-menu-ideas
+[2026-06-26 17:30:39]   ✓ saved content/blog_marbella-sunset-cruise-romantic-dinner-menu-ideas.json
+[2026-06-26 17:30:39]   ✓ added to keyword_map.blog
+[2026-06-26 17:30:39] [2/6] blog · blog/pershing-46-vs-sunseeker-predator-55-marbella
+[2026-06-26 17:31:08]   ✓ saved content/blog_pershing-46-vs-sunseeker-predator-55-marbella.json
+[2026-06-26 17:31:08]   ✓ added to keyword_map.blog
+[2026-06-26 17:31:08] [3/6] blog · blog/marbella-boat-rental-estepona-fishing-charter
+[2026-06-26 17:31:34]   ✓ saved content/blog_marbella-boat-rental-estepona-fishing-charter.json
+[2026-06-26 17:31:34]   ✓ added to keyword_map.blog
+[2026-06-26 17:31:34] [4/6] blog · blog/marbella-yacht-charter-new-years-eve-2026-fireworks
+[2026-06-26 17:32:11]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2026-fireworks.json
+[2026-06-26 17:32:11]   ✓ added to keyword_map.blog
+[2026-06-26 17:32:11] [5/6] blog · blog/marbella-boat-rental-what-to-bring-food-checklist
+[2026-06-26 17:32:45]   ✓ saved content/blog_marbella-boat-rental-what-to-bring-food-checklist.json
+[2026-06-26 17:32:45]   ✓ added to keyword_map.blog
+[2026-06-26 17:32:45] [6/6] experience · experiences/marbella-sunset-cruise-romantic-proposal
+[2026-06-26 17:33:19]   ✓ saved content/experiences_marbella-sunset-cruise-romantic-proposal.json
+[2026-06-26 17:33:19]   ✓ added to keyword_map.spokes
+[2026-06-26 17:33:19] queue: 32 remaining, 453 consumed total
+[2026-06-26 17:33:19] running deploy.sh …

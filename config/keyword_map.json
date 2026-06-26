@@ -857,6 +857,13 @@
       "title": "Marbella Yacht Charter vs Barcelona: Costs & Experiences",
       "intent": "transactional",
       "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-romantic-proposal",
+      "primary_keyword": "marbella sunset cruise proposal",
+      "title": "Romantic Sunset Cruise Proposal in Marbella: Plan the Perfect Moment",
+      "intent": "transactional",
+      "target_words": 1250
     }
   ],
   "blog": [
@@ -3335,6 +3342,41 @@
       "slug": "blog/marbella-yacht-charter-weather-july-peak-season",
       "primary_keyword": "marbella yacht charter weather july peak season",
       "title": "July Weather Guide for Marbella Yacht Charters: Peak Season Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-sunset-cruise-romantic-dinner-menu-ideas",
+      "primary_keyword": "marbella sunset cruise romantic dinner menu ideas",
+      "title": "Romantic Dinner Menu Ideas for a Marbella Sunset Cruise",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/pershing-46-vs-sunseeker-predator-55-marbella",
+      "primary_keyword": "pershing 46 vs sunseeker predator 55 marbella",
+      "title": "Pershing 46 vs Sunseeker Predator 55: Marbella Charter Showdown",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-boat-rental-estepona-fishing-charter",
+      "primary_keyword": "marbella boat rental estepona fishing charter",
+      "title": "Estepona Fishing Charter from Marbella: Best Boat Rental Options",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-new-years-eve-2026-fireworks",
+      "primary_keyword": "marbella yacht charter new years eve 2026 fireworks",
+      "title": "NYE 2026 Yacht Charter in Marbella: Best Fireworks Views at Sea",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-checklist",
+      "primary_keyword": "marbella boat rental what to bring food checklist",
+      "title": "What Food to Bring on a Marbella Boat Rental: Complete Checklist",
       "intent": "informational",
       "target_words": 1100
     }
