@@ -784,3 +784,21 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-25 09:02:57] deploy.sh OK
 [2026-06-25 09:02:57] === Done: 5 succeeded, 0 failed ===
 
+[2026-06-26 09:00:02] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-26 09:00:02] [1/5] blog · blog/marbella-boat-rental-weather-april-easter
+[2026-06-26 09:00:29]   ✓ saved content/blog_marbella-boat-rental-weather-april-easter.json
+[2026-06-26 09:00:29]   ✓ added to keyword_map.blog
+[2026-06-26 09:00:29] [2/5] blog · blog/mangusta-80-vs-sunseeker-predator-74-cost-comparison
+[2026-06-26 09:00:56]   ✓ saved content/blog_mangusta-80-vs-sunseeker-predator-74-cost-comparison.json
+[2026-06-26 09:00:56]   ✓ added to keyword_map.blog
+[2026-06-26 09:00:56] [3/5] blog · blog/marbella-hen-party-yacht-budget-breakdown-catering
+[2026-06-26 09:01:28]   ✓ saved content/blog_marbella-hen-party-yacht-budget-breakdown-catering.json
+[2026-06-26 09:01:28]   ✓ added to keyword_map.blog
+[2026-06-26 09:01:28] [4/5] blog · blog/marbella-boat-rental-cabopino-snorkeling-spots-map
+[2026-06-26 09:01:58]   ✓ saved content/blog_marbella-boat-rental-cabopino-snorkeling-spots-map.json
+[2026-06-26 09:01:58]   ✓ added to keyword_map.blog
+[2026-06-26 09:01:58] [5/5] blog · blog/marbella-yacht-charter-feria-san-bernabe-2026
+[2026-06-26 09:02:30]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2026.json
+[2026-06-26 09:02:30]   ✓ added to keyword_map.blog
+[2026-06-26 09:02:30] queue: 32 remaining, 442 consumed total
+[2026-06-26 09:02:30] running deploy.sh …
