@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 566,
+  "count": 574,
   "kinds": [
     "blog",
     "boat",
@@ -36,6 +36,14 @@
       "kind": "spoke",
       "locale": "en",
       "excerpt": ""
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/astondoa-40-vs-fairline-targa-12m-marbella-comparison/",
+      "title": "Astondoa 40 vs Fairline Targa 12M: Marbella Charter Showdown",
+      "description": "Astondoa 40 vs Fairline Targa 12M Marbella: compare length, pax, price, and style. Find your ideal charter boat for Puerto Banús. Book now.",
+      "kind": "spoke",
+      "locale": "en",
+      "excerpt": "Choosing between the Astondoa 40 and the Fairline Targa 12M for your Marbella charter? Both are top-tier sport cruisers departing from Puerto Banús, but they cater to slightly different needs. The Astondoa 40 (12.5m, 9 pax) offers all-inclusive Tier A pricing at €749 for 2 hours,"
     },
     {
       "url": "https://boatrentalinmarbella.com/astondoa-40-vs-pershing-46-marbella-comparison/",
@@ -510,6 +518,14 @@
       "excerpt": "An Estepona sunset cruise boat charter offers one of the Costa del Sol's most memorable experiences. Departing from Puerto Banús, just 15 minutes from Estepona's old town, our private charters let you watch the sun dip below the Mediterranean from the comfort of a luxury yacht. W"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/estepona-boat-charter-sunset-cruise-romantic/",
+      "title": "Estepona Boat Charter Sunset Cruise: Romantic Evening Ideas",
+      "description": "Plan a romantic Estepona boat charter sunset cruise with our guide. See prices from €749, best boats, and evening ideas for a perfect night on the water.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Few experiences rival watching the sun dip into the Mediterranean from the deck of a private boat. An Estepona boat charter sunset cruise offers a romantic escape with stunning views of the Costa del Sol coastline. Whether you’re celebrating an anniversary, planning a proposal, o"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/estepona-boat-rental-snorkeling-spots-guide/",
       "title": "Estepona Boat Rental: Best Snorkeling Spots Accessible by Yacht",
       "description": "Discover the best snorkeling spots near Estepona accessible by yacht. Rent a boat from Puerto Banús and explore Cala del Faro, Cala Cortés &amp; more. Book now.",
@@ -884,6 +900,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Planning a stag weekend in Marbella and want to hit the water without blowing your budget? A yacht charter is the ultimate group activity, combining sun, sea, and celebration along the Costa del Sol. This breakdown covers costs, boat options, and what's included, so your crew can"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-charter-stag-weekend-itinerary-2026/",
+      "title": "Marbella Boat Charter Stag Weekend Itinerary 2026: Ultimate Guide",
+      "description": "Plan the ultimate marbella boat charter stag weekend itinerary 2026 with our guide to Puerto Banús party boats, prices from €749, and top Costa del Sol stops.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a marbella boat charter stag weekend itinerary 2026 doesn't have to be complicated. This guide covers the best boats, real prices, and a no-fluff route to make your stag do unforgettable – without the sales pitch. Whether you want a two-hour party cruise or a full-day is"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-charter-weather-december-guide/",
@@ -1926,6 +1950,14 @@
       "excerpt": "The Marbella Ironman 2028 is set to push thousands of athletes to their limits – and afterwards, nothing beats a private yacht charter for recovery. Instead of queuing for a post-race drink or fighting for a sun lounger, you can step straight onto your own boat at Puerto Banús, j"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-ironman-2029/",
+      "title": "Marbella Yacht Charter for Ironman 2029: Recovery &amp; Celebration",
+      "description": "Book a marbella yacht charter ironman 2029 for post-race recovery and celebration. Prices from €749/2h. Depart Puerto Banús with skipper, drinks, and snacks included.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Crossing the finish line of Ironman 2029 in Marbella is a monumental achievement. After months of training, a 3.8 km swim, 180 km bike, and a full marathon, your body and mind deserve more than a hotel pool. A marbella yacht charter ironman 2029 offers the perfect blend of recove"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-ironman-recovery/",
       "title": "Marbella Yacht Charter for Ironman Recovery: Post-Race Relaxation",
       "description": "Marbella yacht charter for Ironman recovery: post-race relaxation on the Costa del Sol. Charter a boat from Puerto Banús for up to 12 guests. Book now.",
@@ -2156,6 +2188,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Marbella Pride 2028 is set to be the Costa del Sol's most colourful celebration, and there's no better way to experience it than from the deck of a private yacht. Our fleet of 17 boats — from speedy 5-pax runabouts to 12-pax superyachts — departs directly from Puerto Banús, putti"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-pride-2029/",
+      "title": "Marbella Yacht Charter for Pride 2029: Parties &amp; Parades",
+      "description": "Book a Marbella yacht charter for Pride 2029. Party at sea, watch parades from the water, and celebrate with up to 12 guests. Depart Puerto Banús.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Pride 2029 in Marbella promises to be the biggest celebration yet—and there’s no better way to experience it than from the deck of a private yacht. Whether you want to watch the parade from the water, anchor near a beach party, or simply enjoy a day out with friends, a Marbella y"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-pride-celebration/",
@@ -2444,6 +2484,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Planning a Marbella yacht charter in November ? You’re in for a treat. The summer crowds have gone, the sea is still warm enough for a dip, and the light over La Concha is stunning. November brings mild temperatures, calm seas, and a relaxed pace – ideal for a private day on the "
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-weather-november-guide/",
+      "title": "Marbella Yacht Charter Weather in November: What to Know",
+      "description": "Plan your Marbella yacht charter in November with our weather guide. 18°C seas, 8 hours sun &amp; calm waters. Book your boat today.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Thinking about a Marbella yacht charter in November ? You might be wondering if the weather holds up. The short answer: yes. November on the Costa del Sol offers mild air (15-20°C), calm seas, and fewer crowds – a surprisingly pleasant window for a relaxed cruise. This guide cove"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-weather-october/",
@@ -4222,6 +4270,14 @@
       "excerpt": "Luxury yacht rental in Marbella means stepping onto an 18-to-30-metre crewed yacht at Puerto Banús, being greeted by a stewardess with a chilled glass, and handing the day over to a professional crew while you and your guests do nothing but enjoy it. Day charters start at €2,400 "
     },
     {
+      "url": "https://boatrentalinmarbella.com/mangusta-80-vs-azimut-58-marbella-comparison/",
+      "title": "Mangusta 80 vs Azimut 58: Marbella Yacht Charter Comparison",
+      "description": "Mangusta 80 vs Azimut 58 Marbella comparison: speed, capacity, and price. Find your ideal charter boat in Puerto Banús. Book now.",
+      "kind": "spoke",
+      "locale": "en",
+      "excerpt": "Choosing between the Mangusta 80 and the Azimut 58 Flybridge for your Marbella yacht charter? Both depart from Puerto Banús and accommodate up to 12 guests, but they offer distinct experiences. The Mangusta 80 is a 24-metre sports yacht with a jet ski included, while the Azimut 5"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/mangusta-80-vs-ferretti-94-marbella-comparison/",
       "title": "Mangusta 80 vs Ferretti 94: Which Luxury Yacht for Marbella?",
       "description": "Mangusta 80 vs Ferretti 94 Marbella comparison: 24m vs 29m, 12 pax each, €4,719/4h vs price on request. Which luxury yacht suits your charter?",
@@ -4414,6 +4470,14 @@
       "excerpt": "Sleeping aboard a yacht in Marbella is the ultimate way to experience the Costa del Sol after dark. With overnight yacht rental Marbella , you can anchor in a quiet cove or stay dockside at Puerto Banús, wake up to sea views, and enjoy a morning swim before heading back. Our flee"
     },
     {
+      "url": "https://boatrentalinmarbella.com/pershing-46-vs-sunseeker-predator-55-marbella-comparison/",
+      "title": "Pershing 46 vs Sunseeker Predator 55: Marbella Yacht Face-Off",
+      "description": "Pershing 46 vs Sunseeker Predator 55 in Marbella: compare speed, capacity, and charter cost. Find your ideal boat for Puerto Banús departure.",
+      "kind": "spoke",
+      "locale": "en",
+      "excerpt": "Choosing between a Pershing 46 vs Sunseeker Predator 55 Marbella charter comes down to speed versus space. The Pershing 46 is a sleek, fast sports yacht, while the Predator 55 offers a larger, more luxurious deck for socialising. Both depart from Puerto Banús and include all esse"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/pl/",
       "title": "Wynajem łodzi Marbella 2026 — Jachty, katamarany i czartery od 749 €",
       "description": "Wynajmij jacht w Marbelli z licencjonowanym kapitanem. Puerto Banús, Marbella Marina, Cabopino. Stałe ceny, natychmiastowe potwierdzenie przez WhatsApp.",
@@ -4472,7 +4536,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 564 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 572 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
