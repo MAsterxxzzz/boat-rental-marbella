@@ -811,3 +811,23 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-06-27 09:00:05] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-27 09:00:05] [1/5] blog · blog/marbella-yacht-charter-age-policy-kids-teens
+[2026-06-27 09:00:30]   ✓ saved content/blog_marbella-yacht-charter-age-policy-kids-teens.json
+[2026-06-27 09:00:30]   ✓ added to keyword_map.blog
+[2026-06-27 09:00:30] [2/5] blog · blog/marbella-boat-rental-sotogrande-vs-estepona
+[2026-06-27 09:01:01]   ✓ saved content/blog_marbella-boat-rental-sotogrande-vs-estepona.json
+[2026-06-27 09:01:01]   ✓ added to keyword_map.blog
+[2026-06-27 09:01:01] [3/5] blog · blog/marbella-yacht-charter-ironman-2026-recovery-day
+[2026-06-27 09:01:42]   ✓ saved content/blog_marbella-yacht-charter-ironman-2026-recovery-day.json
+[2026-06-27 09:01:42]   ✓ added to keyword_map.blog
+[2026-06-27 09:01:42] [4/5] blog · blog/marbella-boat-charter-weather-december-guide
+[2026-06-27 09:02:16]   ✓ saved content/blog_marbella-boat-charter-weather-december-guide.json
+[2026-06-27 09:02:16]   ✓ added to keyword_map.blog
+[2026-06-27 09:02:16] [5/5] blog · blog/estepona-boat-charter-dolphin-watching-season
+[2026-06-27 09:02:45]   ✓ saved content/blog_estepona-boat-charter-dolphin-watching-season.json
+[2026-06-27 09:02:45]   ✓ added to keyword_map.blog
+[2026-06-27 09:02:45] queue: 27 remaining, 458 consumed total
+[2026-06-27 09:02:45] queue under threshold (27 < 30) — auto-refilling…
+[2026-06-27 09:03:08] refill: +30 topics (queue now 57)
+[2026-06-27 09:03:08] running deploy.sh …
