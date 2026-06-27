@@ -864,6 +864,41 @@
       "title": "Romantic Sunset Cruise Proposal in Marbella: Plan the Perfect Moment",
       "intent": "transactional",
       "target_words": 1250
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas",
+      "primary_keyword": "Marbella sunset champagne tapas cruise",
+      "title": "Marbella Sunset Champagne and Tapas Cruise: A Perfect Evening",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-combo",
+      "primary_keyword": "Marbella family boat day jet ski snorkel combo",
+      "title": "Marbella Family Boat Day: Jet Ski and Snorkel Adventure Combo",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-sunset-picnic",
+      "primary_keyword": "Marbella dolphin watching sunset picnic",
+      "title": "Marbella Dolphin Watching Sunset Picnic: A Unique Sea Experience",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-charter-bottom-fishing-half-day",
+      "primary_keyword": "Marbella bottom fishing half day charter",
+      "title": "Marbella Bottom Fishing Half-Day Charter: Catch and Cook Option",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-golden-hour",
+      "primary_keyword": "Marbella photoshoot yacht sunset golden hour",
+      "title": "Marbella Photoshoot Yacht: Golden Hour Sunset Session",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -3414,6 +3449,41 @@
       "title": "Estepona Boat Charter Dolphin Watching Season: Best Months & Tips",
       "intent": "informational",
       "target_words": 1150
+    },
+    {
+      "slug": "blog/puerto-banus-yacht-charter-new-years-eve-2027",
+      "primary_keyword": "puerto banus yacht charter new years eve 2027",
+      "title": "Puerto Banús Yacht Charter for New Year's Eve 2027: Celebrate in Style",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-october-guide",
+      "primary_keyword": "marbella boat rental weather october",
+      "title": "Marbella Boat Rental Weather in October: Shoulder Season Guide",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/sotogrande-yacht-charter-sunset-cruise",
+      "primary_keyword": "sotogrande yacht charter sunset cruise",
+      "title": "Sotogrande Yacht Charter Sunset Cruise: Routes & Best Times",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2029",
+      "primary_keyword": "marbella yacht charter f1 grand prix 2029",
+      "title": "Marbella Yacht Charter for F1 Grand Prix 2029: Plan Your Weekend",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/cabopino-boat-rental-snorkeling-tour",
+      "primary_keyword": "cabopino boat rental snorkeling tour",
+      "title": "Cabopino Boat Rental Snorkeling Tour: Best Spots & Gear Tips",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }
