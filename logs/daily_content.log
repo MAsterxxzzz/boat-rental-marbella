@@ -2550,3 +2550,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-28 09:02:08]   ✓ added to keyword_map.blog
 [2026-06-28 09:02:08] queue: 34 remaining, 481 consumed total
 [2026-06-28 09:02:08] running deploy.sh …
+[2026-06-28 09:02:12] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-28 14:39:19] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-28 14:39:19] [1/5] blog · blog/marbella-boat-rental-weather-march-guide
+[2026-06-28 14:39:40]   ✓ saved content/blog_marbella-boat-rental-weather-march-guide.json
+[2026-06-28 14:39:40]   ✓ added to keyword_map.blog
+[2026-06-28 14:39:40] [2/5] blog · blog/marbella-yacht-charter-new-years-eve-2029
+[2026-06-28 14:40:00]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2029.json
+[2026-06-28 14:40:00]   ✓ added to keyword_map.blog
+[2026-06-28 14:40:00] [3/5] blog · blog/marbella-boat-rental-weather-july-guide
+[2026-06-28 14:40:29]   ✓ saved content/blog_marbella-boat-rental-weather-july-guide.json
+[2026-06-28 14:40:29]   ✓ added to keyword_map.blog
+[2026-06-28 14:40:29] [4/5] blog · blog/marbella-yacht-charter-weather-june-guide
+[2026-06-28 14:40:51]   ✓ saved content/blog_marbella-yacht-charter-weather-june-guide.json
+[2026-06-28 14:40:51]   ✓ added to keyword_map.blog
+[2026-06-28 14:40:51] [5/5] blog · blog/marbella-yacht-charter-weather-may
+[2026-06-28 14:41:13]   ✓ saved content/blog_marbella-yacht-charter-weather-may.json
+[2026-06-28 14:41:13]   ✓ added to keyword_map.blog
+[2026-06-28 14:41:13] queue: 29 remaining, 486 consumed total
+[2026-06-28 14:41:13] queue under threshold (29 < 30) — auto-refilling…
+[2026-06-28 14:41:31] refill: +28 topics (queue now 57)
+[2026-06-28 14:41:31] running deploy.sh …
