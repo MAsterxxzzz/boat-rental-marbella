@@ -840,3 +840,21 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-06-28 09:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-28 09:00:00] [1/5] blog · blog/puerto-banus-yacht-charter-cost-per-person-2026
+[2026-06-28 09:00:24]   ✓ saved content/blog_puerto-banus-yacht-charter-cost-per-person-2026.json
+[2026-06-28 09:00:24]   ✓ added to keyword_map.blog
+[2026-06-28 09:00:24] [2/5] blog · blog/marbella-yacht-charter-starlite-2029
+[2026-06-28 09:00:49]   ✓ saved content/blog_marbella-yacht-charter-starlite-2029.json
+[2026-06-28 09:00:49]   ✓ added to keyword_map.blog
+[2026-06-28 09:00:49] [3/5] blog · blog/marbella-boat-rental-weather-february-guide
+[2026-06-28 09:01:15]   ✓ saved content/blog_marbella-boat-rental-weather-february-guide.json
+[2026-06-28 09:01:15]   ✓ added to keyword_map.blog
+[2026-06-28 09:01:15] [4/5] blog · blog/sotogrande-yacht-charter-fishing-trip
+[2026-06-28 09:01:43]   ✓ saved content/blog_sotogrande-yacht-charter-fishing-trip.json
+[2026-06-28 09:01:43]   ✓ added to keyword_map.blog
+[2026-06-28 09:01:43] [5/5] blog · blog/marbella-yacht-charter-feria-san-bernabe-2029
+[2026-06-28 09:02:08]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2029.json
+[2026-06-28 09:02:08]   ✓ added to keyword_map.blog
+[2026-06-28 09:02:08] queue: 34 remaining, 481 consumed total
+[2026-06-28 09:02:08] running deploy.sh …
