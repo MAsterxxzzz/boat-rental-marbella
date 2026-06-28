@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october",
-      "primary_keyword": "marbella boat rental weather october",
-      "title": "Marbella Boat Rental in October: Shoulder Season Weather & Charter Value",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/pershing-46-vs-astondoa-40-marbella-comparison",
-      "primary_keyword": "pershing 46 vs astondoa 40 marbella",
-      "title": "Pershing 46 vs Astondoa 40 in Marbella: Performance, Space & Cost",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/azimut-58-vs-sunseeker-predator-74-marbella",
-      "primary_keyword": "azimut 58 vs sunseeker predator 74 marbella",
-      "title": "Azimut 58 vs Sunseeker Predator 74 in Marbella: Luxury Yacht Showdown",
-      "target_words": 1400
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/mangusta-80-vs-ferretti-94-marbella-comparison",
-      "primary_keyword": "mangusta 80 vs ferretti 94 marbella",
-      "title": "Mangusta 80 vs Ferretti 94 in Marbella: Speed vs Space for Groups",
-      "target_words": 1350
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-easter-week-2026",
-      "primary_keyword": "marbella easter yacht charter",
-      "title": "Easter Week 2026 in Marbella: Family Yacht Charter & Weather Guide",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-group-size-limits",
       "primary_keyword": "marbella boat rental group size",
       "title": "Marbella Boat Rental Group Size Limits: Capacity by Boat Type",
@@ -364,41 +329,6 @@
       "slug": "blog/marbella-boat-rental-weather-january-2028",
       "primary_keyword": "Marbella boat rental weather January 2028",
       "title": "January 2028 Boat Rentals in Marbella: Is It Worth It? Weather Insights",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2026",
-      "primary_keyword": "dolphin watching brunch cruise Marbella 2026",
-      "title": "Dolphin Watching Brunch Cruise in Marbella 2026: A Family Experience",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-tapas-wine-pairing",
-      "primary_keyword": "sunset tapas and wine pairing cruise Marbella",
-      "title": "Sunset Tapas & Wine Pairing Cruise in Marbella: A Romantic Evening",
-      "target_words": 1150
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-fishing-charter-bottom-fishing-full-day",
-      "primary_keyword": "full day bottom fishing charter Marbella",
-      "title": "Full Day Bottom Fishing Charter in Marbella: What You’ll Catch & Costs",
-      "target_words": 1200
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-boat-rental-no-license-prices-2027",
-      "primary_keyword": "Marbella boat rental no license prices 2027",
-      "title": "Marbella Boat Rental No License Prices 2027: Complete Cost Breakdown",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-yacht-charter-group-size-limits-2027",
-      "primary_keyword": "Marbella yacht charter group size limits 2027",
-      "title": "Marbella Yacht Charter Group Size Limits 2027: What You Need to Know",
       "target_words": 1100
     }
   ],
@@ -4437,6 +4367,86 @@
       "primary_keyword": "marbella yacht charter weather may",
       "title": "Marbella Yacht Charter in May: Spring Conditions, Crowds & What to Expect",
       "target_words": 1150,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october",
+      "primary_keyword": "marbella boat rental weather october",
+      "title": "Marbella Boat Rental in October: Shoulder Season Weather & Charter Value",
+      "target_words": 1200,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/pershing-46-vs-astondoa-40-marbella-comparison",
+      "primary_keyword": "pershing 46 vs astondoa 40 marbella",
+      "title": "Pershing 46 vs Astondoa 40 in Marbella: Performance, Space & Cost",
+      "target_words": 1300,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-58-vs-sunseeker-predator-74-marbella",
+      "primary_keyword": "azimut 58 vs sunseeker predator 74 marbella",
+      "title": "Azimut 58 vs Sunseeker Predator 74 in Marbella: Luxury Yacht Showdown",
+      "target_words": 1400,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-ferretti-94-marbella-comparison",
+      "primary_keyword": "mangusta 80 vs ferretti 94 marbella",
+      "title": "Mangusta 80 vs Ferretti 94 in Marbella: Speed vs Space for Groups",
+      "target_words": 1350,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-easter-week-2026",
+      "primary_keyword": "marbella easter yacht charter",
+      "title": "Easter Week 2026 in Marbella: Family Yacht Charter & Weather Guide",
+      "target_words": 1150,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2026",
+      "primary_keyword": "dolphin watching brunch cruise Marbella 2026",
+      "title": "Dolphin Watching Brunch Cruise in Marbella 2026: A Family Experience",
+      "target_words": 1200,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-tapas-wine-pairing",
+      "primary_keyword": "sunset tapas and wine pairing cruise Marbella",
+      "title": "Sunset Tapas & Wine Pairing Cruise in Marbella: A Romantic Evening",
+      "target_words": 1150,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-charter-bottom-fishing-full-day",
+      "primary_keyword": "full day bottom fishing charter Marbella",
+      "title": "Full Day Bottom Fishing Charter in Marbella: What You’ll Catch & Costs",
+      "target_words": 1200,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-no-license-prices-2027",
+      "primary_keyword": "Marbella boat rental no license prices 2027",
+      "title": "Marbella Boat Rental No License Prices 2027: Complete Cost Breakdown",
+      "target_words": 1100,
+      "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-yacht-charter-group-size-limits-2027",
+      "primary_keyword": "Marbella yacht charter group size limits 2027",
+      "title": "Marbella Yacht Charter Group Size Limits 2027: What You Need to Know",
+      "target_words": 1100,
       "consumed_at": "2026-06-28"
     }
   ],

@@ -2579,3 +2579,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-28 14:41:13] queue under threshold (29 < 30) — auto-refilling…
 [2026-06-28 14:41:31] refill: +28 topics (queue now 57)
 [2026-06-28 14:41:31] running deploy.sh …
+[2026-06-28 14:41:34] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-28 17:30:02] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-06-28 17:30:02] [1/10] blog · blog/marbella-boat-rental-weather-october
+[2026-06-28 17:30:30]   ✓ saved content/blog_marbella-boat-rental-weather-october.json
+[2026-06-28 17:30:30]   ✓ added to keyword_map.blog
+[2026-06-28 17:30:30] [2/10] blog · blog/pershing-46-vs-astondoa-40-marbella-comparison
+[2026-06-28 17:30:50]   ✓ saved content/blog_pershing-46-vs-astondoa-40-marbella-comparison.json
+[2026-06-28 17:30:50]   ✓ added to keyword_map.blog
+[2026-06-28 17:30:50] [3/10] blog · blog/azimut-58-vs-sunseeker-predator-74-marbella
+[2026-06-28 17:31:20]   ✓ saved content/blog_azimut-58-vs-sunseeker-predator-74-marbella.json
+[2026-06-28 17:31:20]   ✓ added to keyword_map.blog
+[2026-06-28 17:31:20] [4/10] blog · blog/mangusta-80-vs-ferretti-94-marbella-comparison
+[2026-06-28 17:31:45]   ✓ saved content/blog_mangusta-80-vs-ferretti-94-marbella-comparison.json
+[2026-06-28 17:31:45]   ✓ added to keyword_map.blog
+[2026-06-28 17:31:45] [5/10] blog · blog/marbella-yacht-charter-easter-week-2026
+[2026-06-28 17:32:13]   ✓ saved content/blog_marbella-yacht-charter-easter-week-2026.json
+[2026-06-28 17:32:13]   ✓ added to keyword_map.blog
+[2026-06-28 17:32:13] [6/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2026
+[2026-06-28 17:32:46]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2026.json
+[2026-06-28 17:32:46]   ✓ added to keyword_map.spokes
+[2026-06-28 17:32:46] [7/10] experience · experiences/marbella-sunset-cruise-tapas-wine-pairing
+[2026-06-28 17:33:12]   ✓ saved content/experiences_marbella-sunset-cruise-tapas-wine-pairing.json
+[2026-06-28 17:33:12]   ✓ added to keyword_map.spokes
+[2026-06-28 17:33:12] [8/10] experience · experiences/marbella-fishing-charter-bottom-fishing-full-day
+[2026-06-28 17:33:46]   ✓ saved content/experiences_marbella-fishing-charter-bottom-fishing-full-day.json
+[2026-06-28 17:33:46]   ✓ added to keyword_map.spokes
+[2026-06-28 17:33:46] [9/10] spoke · marbella-boat-rental-no-license-prices-2027
+[2026-06-28 17:34:10]   ✓ saved content/marbella-boat-rental-no-license-prices-2027.json
+[2026-06-28 17:34:10]   ✓ added to keyword_map.spokes
+[2026-06-28 17:34:10] [10/10] spoke · marbella-yacht-charter-group-size-limits-2027
+[2026-06-28 17:34:37]   ✓ saved content/marbella-yacht-charter-group-size-limits-2027.json
+[2026-06-28 17:34:37]   ✓ added to keyword_map.spokes
+[2026-06-28 17:34:37] queue: 47 remaining, 496 consumed total
+[2026-06-28 17:34:37] running deploy.sh …
