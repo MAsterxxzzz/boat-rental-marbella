@@ -867,3 +867,21 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-06-29 09:00:01] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-29 09:00:01] [1/5] blog · blog/marbella-boat-rental-group-size-limits
+[2026-06-29 09:00:23]   ✓ saved content/blog_marbella-boat-rental-group-size-limits.json
+[2026-06-29 09:00:23]   ✓ added to keyword_map.blog
+[2026-06-29 09:00:23] [2/5] blog · blog/marbella-yacht-charter-license-requirements
+[2026-06-29 09:00:43]   ✓ saved content/blog_marbella-yacht-charter-license-requirements.json
+[2026-06-29 09:00:43]   ✓ added to keyword_map.blog
+[2026-06-29 09:00:43] [3/5] blog · blog/marbella-yacht-charter-may-day-bank-holiday
+[2026-06-29 09:01:06]   ✓ saved content/blog_marbella-yacht-charter-may-day-bank-holiday.json
+[2026-06-29 09:01:06]   ✓ added to keyword_map.blog
+[2026-06-29 09:01:06] [4/5] blog · blog/marbella-boat-rental-cabopino-sunset-photography
+[2026-06-29 09:01:30]   ✓ saved content/blog_marbella-boat-rental-cabopino-sunset-photography.json
+[2026-06-29 09:01:30]   ✓ added to keyword_map.blog
+[2026-06-29 09:01:30] [5/5] blog · blog/marbella-yacht-charter-puerto-banus-dinner-cruise
+[2026-06-29 09:01:59]   ✓ saved content/blog_marbella-yacht-charter-puerto-banus-dinner-cruise.json
+[2026-06-29 09:01:59]   ✓ added to keyword_map.blog
+[2026-06-29 09:01:59] queue: 42 remaining, 501 consumed total
+[2026-06-29 09:01:59] running deploy.sh …

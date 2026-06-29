@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-group-size-limits",
-      "primary_keyword": "marbella boat rental group size",
-      "title": "Marbella Boat Rental Group Size Limits: Capacity by Boat Type",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-license-requirements",
-      "primary_keyword": "marbella yacht charter license requirements",
-      "title": "Do You Need a License for a Yacht Charter in Marbella? 2026 Rules",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-may-day-bank-holiday",
-      "primary_keyword": "Marbella yacht charter May bank holiday",
-      "title": "Marbella Yacht Charter for May Day Bank Holiday: Best Boats & Tips",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-cabopino-sunset-photography",
-      "primary_keyword": "Cabopino boat rental sunset photography",
-      "title": "Cabopino Boat Rental for Sunset Photography: Best Spots & Tips",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-puerto-banus-dinner-cruise",
-      "primary_keyword": "Puerto Banús dinner cruise yacht charter",
-      "title": "Puerto Banús Dinner Cruise: Yacht Charter with Fine Dining at Sea",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-estepona-snorkeling-gear",
       "primary_keyword": "Estepona boat rental snorkeling gear provided",
       "title": "Estepona Boat Rental: Snorkeling Gear Provided and Best Hidden Coves",
@@ -4448,6 +4413,46 @@
       "title": "Marbella Yacht Charter Group Size Limits 2027: What You Need to Know",
       "target_words": 1100,
       "consumed_at": "2026-06-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-group-size-limits",
+      "primary_keyword": "marbella boat rental group size",
+      "title": "Marbella Boat Rental Group Size Limits: Capacity by Boat Type",
+      "target_words": 1100,
+      "consumed_at": "2026-06-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements",
+      "primary_keyword": "marbella yacht charter license requirements",
+      "title": "Do You Need a License for a Yacht Charter in Marbella? 2026 Rules",
+      "target_words": 1150,
+      "consumed_at": "2026-06-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-may-day-bank-holiday",
+      "primary_keyword": "Marbella yacht charter May bank holiday",
+      "title": "Marbella Yacht Charter for May Day Bank Holiday: Best Boats & Tips",
+      "target_words": 1200,
+      "consumed_at": "2026-06-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-cabopino-sunset-photography",
+      "primary_keyword": "Cabopino boat rental sunset photography",
+      "title": "Cabopino Boat Rental for Sunset Photography: Best Spots & Tips",
+      "target_words": 1150,
+      "consumed_at": "2026-06-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-puerto-banus-dinner-cruise",
+      "primary_keyword": "Puerto Banús dinner cruise yacht charter",
+      "title": "Puerto Banús Dinner Cruise: Yacht Charter with Fine Dining at Sea",
+      "target_words": 1300,
+      "consumed_at": "2026-06-29"
     }
   ],
   "refill_threshold": 30,
