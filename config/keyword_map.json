@@ -3715,6 +3715,41 @@
       "title": "Puerto Banús Dinner Cruise: Yacht Charter with Fine Dining at Sea",
       "intent": "informational",
       "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-boat-rental-estepona-snorkeling-gear",
+      "primary_keyword": "Estepona boat rental snorkeling gear provided",
+      "title": "Estepona Boat Rental: Snorkeling Gear Provided and Best Hidden Coves",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-sotogrande-polo-weekend",
+      "primary_keyword": "Sotogrande polo weekend yacht charter",
+      "title": "Sotogrande Polo Weekend: Yacht Charter for the Ultimate VIP Experience",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2026",
+      "primary_keyword": "Marbella stag weekend boat rental cost breakdown 2026",
+      "title": "Marbella Stag Weekend Boat Rental: Full Cost Breakdown for 2026",
+      "intent": "informational",
+      "target_words": 1400
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dolphin-watching-morning-vs-afternoon",
+      "primary_keyword": "Marbella dolphin watching morning vs afternoon charter",
+      "title": "Marbella Dolphin Watching: Morning vs Afternoon Yacht Charter Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-june-seasickness",
+      "primary_keyword": "Marbella boat rental June seasickness prevention",
+      "title": "Marbella Boat Rental in June: Seasickness Prevention and Sea Conditions",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }
