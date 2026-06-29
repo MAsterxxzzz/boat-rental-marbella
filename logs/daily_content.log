@@ -2675,3 +2675,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-29 14:41:32]   ✓ added to keyword_map.blog
 [2026-06-29 14:41:32] queue: 37 remaining, 506 consumed total
 [2026-06-29 14:41:32] running deploy.sh …
+[2026-06-29 14:41:36] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-29 17:30:07] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-29 17:30:07] [1/5] blog · blog/marbella-yacht-charter-new-years-eve-2027-fireworks-view
+[2026-06-29 17:30:40]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2027-fireworks-view.json
+[2026-06-29 17:30:40]   ✓ added to keyword_map.blog
+[2026-06-29 17:30:40] [2/5] blog · blog/marbella-boat-rental-hen-party-decorations-diy
+[2026-06-29 17:31:12]   ✓ saved content/blog_marbella-boat-rental-hen-party-decorations-diy.json
+[2026-06-29 17:31:12]   ✓ added to keyword_map.blog
+[2026-06-29 17:31:12] [3/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2027-puerto-banus
+[2026-06-29 17:31:46]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2027-puerto-banus.json
+[2026-06-29 17:31:46]   ✓ added to keyword_map.blog
+[2026-06-29 17:31:46] [4/5] blog · blog/marbella-boat-rental-family-day-paddleboarding-snorkeling
+[2026-06-29 17:32:13]   ✓ saved content/blog_marbella-boat-rental-family-day-paddleboarding-snorkeling.json
+[2026-06-29 17:32:13]   ✓ added to keyword_map.blog
+[2026-06-29 17:32:13] [5/5] blog · blog/marbella-yacht-charter-starlite-2027-pre-concert-cruise
+[2026-06-29 17:32:49]   ✓ saved content/blog_marbella-yacht-charter-starlite-2027-pre-concert-cruise.json
+[2026-06-29 17:32:49]   ✓ added to keyword_map.blog
+[2026-06-29 17:32:49] queue: 32 remaining, 511 consumed total
+[2026-06-29 17:32:49] running deploy.sh …
