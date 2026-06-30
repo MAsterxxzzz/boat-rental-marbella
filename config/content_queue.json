@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2027-boat-party",
-      "primary_keyword": "Feria San Bernabé 2027 boat party Marbella",
-      "title": "Feria San Bernabé 2027: Boat Party Yacht Charter Guide",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-august-heat-tips",
-      "primary_keyword": "Marbella boat rental August heat tips",
-      "title": "Marbella Boat Rental in August: Beating the Heat with Onboard Comfort",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-astondoa-40-vs-azimut-39-fuel-cost",
-      "primary_keyword": "Astondoa 40 vs Azimut 39 fuel cost Marbella",
-      "title": "Astondoa 40 vs Azimut 39: Fuel Cost Comparison for Marbella Charters",
-      "target_words": 1400
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-what-to-bring-food-vegan-options",
-      "primary_keyword": "Marbella boat rental vegan food options",
-      "title": "Marbella Boat Rental: Vegan Food Options and What to Bring",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/azimut-39-vs-mangusta-80-cost-comparison-marbella",
-      "primary_keyword": "Azimut 39 vs Mangusta 80 cost comparison Marbella",
-      "title": "Azimut 39 vs Mangusta 80: Cost Comparison for Marbella Charters",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/mangusta-80-vs-sunseeker-predator-55-marbella",
       "primary_keyword": "Mangusta 80 vs Sunseeker Predator 55 Marbella",
       "title": "Mangusta 80 vs Sunseeker Predator 55: Which Open Yacht for Marbella?",
@@ -218,6 +183,216 @@
       "primary_keyword": "Marbella stag weekend yacht budget breakdown",
       "title": "Marbella Stag Weekend Yacht: Full Budget Breakdown for 2026",
       "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison",
+      "primary_keyword": "astondoa 40 vs azimut 39 vs pershing 46 marbella",
+      "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Best Marbella Charter Boat",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-starlite-festival-2028-preview",
+      "primary_keyword": "marbella boat rental starlite festival 2028",
+      "title": "Marbella Boat Rental for Starlite Festival 2028: Pre-Concert Cruise Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-snorkeling-combo-puerto-banus",
+      "primary_keyword": "marbella sunset snorkeling combo puerto banus",
+      "title": "Marbella Sunset Snorkeling Combo Cruise from Puerto Banús",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2030-guide",
+      "primary_keyword": "marbella boat rental feria san bernabe 2030",
+      "title": "Marbella Boat Rental for Feria San Bernabé 2030: Party on the Water",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "mangusta-80-vs-sunseeker-predator-74-marbella-comparison",
+      "primary_keyword": "mangusta 80 vs sunseeker predator 74 marbella",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Charter Comparison",
+      "target_words": 1300
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2030-fireworks-view",
+      "primary_keyword": "marbella boat rental new years eve 2030 fireworks",
+      "title": "Marbella Boat Rental for NYE 2030: Best Fireworks Views from the Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Marbella Family Boat Day with Jet Ski, Snorkeling & Paddleboarding",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2030-recovery-charter",
+      "primary_keyword": "marbella boat rental ironman 2030 recovery",
+      "title": "Marbella Boat Rental for Ironman 2030: Post-Race Recovery Cruise",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-pride-2031-celebration",
+      "primary_keyword": "marbella yacht charter pride 2031",
+      "title": "Marbella Yacht Charter for Pride 2031: Celebrate at Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "astondoa-40-vs-sunseeker-predator-55-marbella-comparison",
+      "primary_keyword": "astondoa 40 vs sunseeker predator 55 marbella",
+      "title": "Astondoa 40 vs Sunseeker Predator 55: Marbella Charter Showdown",
+      "target_words": 1250
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2027",
+      "primary_keyword": "marbella boat rental stag weekend cost breakdown 2027",
+      "title": "Marbella Boat Rental Stag Weekend Cost Breakdown 2027: Budget Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2027",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2027",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2027: Morning at Sea",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2028-easter",
+      "primary_keyword": "marbella boat rental weather april 2028 easter",
+      "title": "Marbella Boat Rental Weather April 2028: Easter Weekend Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2031-guide",
+      "primary_keyword": "marbella yacht charter f1 grand prix 2031",
+      "title": "Marbella Yacht Charter for F1 Grand Prix 2031: Race Weekend at Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "azimut-39-vs-sunseeker-predator-55-marbella-comparison",
+      "primary_keyword": "azimut 39 vs sunseeker predator 55 marbella",
+      "title": "Azimut 39 vs Sunseeker Predator 55: Marbella Boat Comparison",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2027",
+      "primary_keyword": "marbella boat rental hen party budget breakdown 2027",
+      "title": "Marbella Boat Rental Hen Party Budget Breakdown 2027: Cost Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-romantic-proposal-2027",
+      "primary_keyword": "marbella sunset cruise romantic proposal 2027",
+      "title": "Marbella Sunset Cruise Romantic Proposal 2027: Plan Your Moment",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2027",
+      "primary_keyword": "marbella boat rental sotogrande polo final 2027",
+      "title": "Marbella Boat Rental for Sotogrande Polo Final 2027: Luxury Day Out",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-group-size-limits-2028",
+      "primary_keyword": "marbella boat rental group size limits 2028",
+      "title": "Marbella Boat Rental Group Size Limits 2028: What You Need to Know",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2030-pre-concert-cruise",
+      "primary_keyword": "marbella yacht charter starlite 2030",
+      "title": "Marbella Yacht Charter for Starlite 2030: Pre-Concert Cruise Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2027",
+      "primary_keyword": "marbella fishing and sunset combo charter 2027",
+      "title": "Marbella Fishing and Sunset Combo Charter 2027: Best of Both",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2028",
+      "primary_keyword": "marbella boat rental no license prices 2028",
+      "title": "Marbella Boat Rental No License Prices 2028: Cost Breakdown",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "pershing-46-vs-astondoa-40-marbella-comparison",
+      "primary_keyword": "pershing 46 vs astondoa 40 marbella",
+      "title": "Pershing 46 vs Astondoa 40: Marbella Charter Boat Comparison",
+      "target_words": 1250
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2028-guide",
+      "primary_keyword": "marbella boat rental weather may 2028",
+      "title": "Marbella Boat Rental Weather May 2028: Ideal Conditions Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-photoshoot-yacht-session-2027",
+      "primary_keyword": "marbella sunset photoshoot yacht session 2027",
+      "title": "Marbella Sunset Photoshoot Yacht Session 2027: Capture the Moment",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2031-recovery-day",
+      "primary_keyword": "marbella yacht charter ironman 2031 recovery",
+      "title": "Marbella Yacht Charter for Ironman 2031: Recovery Day at Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2028-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october 2028",
+      "title": "Marbella Boat Rental Weather October 2028: Shoulder Season Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-paddleboarding-snorkeling-2027",
+      "primary_keyword": "marbella family boat day paddleboarding snorkeling 2027",
+      "title": "Marbella Family Boat Day with Paddleboarding & Snorkeling 2027",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2027",
+      "primary_keyword": "marbella boat rental stag weekend itinerary 2027",
+      "title": "Marbella Boat Rental Stag Weekend Itinerary 2027: Full Day Plan",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "azimut-58-vs-sunseeker-predator-74-marbella-comparison",
+      "primary_keyword": "azimut 58 vs sunseeker predator 74 marbella",
+      "title": "Azimut 58 vs Sunseeker Predator 74: Marbella Charter Comparison",
+      "target_words": 1300
     }
   ],
   "consumed": [
@@ -4495,6 +4670,46 @@
       "primary_keyword": "Sotogrande golf transfers by boat Marbella",
       "title": "Sotogrande Golf Transfers by Boat: Marbella Rental for Golfers",
       "target_words": 1150,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2027-boat-party",
+      "primary_keyword": "Feria San Bernabé 2027 boat party Marbella",
+      "title": "Feria San Bernabé 2027: Boat Party Yacht Charter Guide",
+      "target_words": 1300,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-heat-tips",
+      "primary_keyword": "Marbella boat rental August heat tips",
+      "title": "Marbella Boat Rental in August: Beating the Heat with Onboard Comfort",
+      "target_words": 1200,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-astondoa-40-vs-azimut-39-fuel-cost",
+      "primary_keyword": "Astondoa 40 vs Azimut 39 fuel cost Marbella",
+      "title": "Astondoa 40 vs Azimut 39: Fuel Cost Comparison for Marbella Charters",
+      "target_words": 1400,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-vegan-options",
+      "primary_keyword": "Marbella boat rental vegan food options",
+      "title": "Marbella Boat Rental: Vegan Food Options and What to Bring",
+      "target_words": 1100,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-39-vs-mangusta-80-cost-comparison-marbella",
+      "primary_keyword": "Azimut 39 vs Mangusta 80 cost comparison Marbella",
+      "title": "Azimut 39 vs Mangusta 80: Cost Comparison for Marbella Charters",
+      "target_words": 1100,
       "consumed_at": "2026-06-30"
     }
   ],

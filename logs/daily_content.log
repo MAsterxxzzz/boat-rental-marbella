@@ -2731,3 +2731,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-30 09:02:23] queue under threshold (27 < 30) — auto-refilling…
 [2026-06-30 09:02:43] refill: +4 topics (queue now 31)
 [2026-06-30 09:02:43] running deploy.sh …
+[2026-06-30 09:02:47] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-30 16:02:52] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-30 16:02:52] [1/5] blog · blog/marbella-yacht-charter-feria-san-bernabe-2027-boat-party
+[2026-06-30 16:03:25]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2027-boat-party.json
+[2026-06-30 16:03:25]   ✓ added to keyword_map.blog
+[2026-06-30 16:03:25] [2/5] blog · blog/marbella-boat-rental-weather-august-heat-tips
+[2026-06-30 16:03:57]   ✓ saved content/blog_marbella-boat-rental-weather-august-heat-tips.json
+[2026-06-30 16:03:57]   ✓ added to keyword_map.blog
+[2026-06-30 16:03:57] [3/5] blog · blog/marbella-yacht-charter-astondoa-40-vs-azimut-39-fuel-cost
+[2026-06-30 16:04:29]   ✓ saved content/blog_marbella-yacht-charter-astondoa-40-vs-azimut-39-fuel-cost.json
+[2026-06-30 16:04:29]   ✓ added to keyword_map.blog
+[2026-06-30 16:04:29] [4/5] blog · blog/marbella-boat-rental-what-to-bring-food-vegan-options
+[2026-06-30 16:05:04]   ✓ saved content/blog_marbella-boat-rental-what-to-bring-food-vegan-options.json
+[2026-06-30 16:05:04]   ✓ added to keyword_map.blog
+[2026-06-30 16:05:04] [5/5] blog · blog/azimut-39-vs-mangusta-80-cost-comparison-marbella
+[2026-06-30 16:05:29]   ✓ saved content/blog_azimut-39-vs-mangusta-80-cost-comparison-marbella.json
+[2026-06-30 16:05:29]   ✓ added to keyword_map.blog
+[2026-06-30 16:05:29] queue: 26 remaining, 521 consumed total
+[2026-06-30 16:05:29] queue under threshold (26 < 30) — auto-refilling…
+[2026-06-30 16:05:50] refill: +30 topics (queue now 56)
+[2026-06-30 16:05:50] running deploy.sh …
