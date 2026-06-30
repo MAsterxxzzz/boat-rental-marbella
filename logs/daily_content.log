@@ -2760,3 +2760,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-30 16:05:29] queue under threshold (26 < 30) — auto-refilling…
 [2026-06-30 16:05:50] refill: +30 topics (queue now 56)
 [2026-06-30 16:05:50] running deploy.sh …
+[2026-06-30 16:05:53] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-30 17:30:06] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-06-30 17:30:06] [1/10] blog · blog/mangusta-80-vs-sunseeker-predator-55-marbella
+[2026-06-30 17:30:27]   ✓ saved content/blog_mangusta-80-vs-sunseeker-predator-55-marbella.json
+[2026-06-30 17:30:27]   ✓ added to keyword_map.blog
+[2026-06-30 17:30:27] [2/10] blog · blog/fairline-targa-12m-vs-pershing-46-marbella-comparison
+[2026-06-30 17:30:50]   ✓ saved content/blog_fairline-targa-12m-vs-pershing-46-marbella-comparison.json
+[2026-06-30 17:30:50]   ✓ added to keyword_map.blog
+[2026-06-30 17:30:50] [3/10] blog · blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison
+[2026-06-30 17:31:11]   ✓ saved content/blog_pershing-46-vs-sunseeker-predator-55-marbella-comparison.json
+[2026-06-30 17:31:11]   ✓ added to keyword_map.blog
+[2026-06-30 17:31:11] [4/10] blog · blog/marbella-yacht-charter-feria-san-bernabe-2028
+[2026-06-30 17:31:35]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2028.json
+[2026-06-30 17:31:35]   ✓ added to keyword_map.blog
+[2026-06-30 17:31:35] [5/10] blog · blog/marbella-yacht-charter-new-years-eve-2030
+[2026-06-30 17:32:03]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2030.json
+[2026-06-30 17:32:03]   ✓ added to keyword_map.blog
+[2026-06-30 17:32:03] [6/10] experience · experiences/marbella-sunset-snorkeling-combo-puerto-banus
+[2026-06-30 17:32:39]   ✓ saved content/experiences_marbella-sunset-snorkeling-combo-puerto-banus.json
+[2026-06-30 17:32:39]   ✓ added to keyword_map.spokes
+[2026-06-30 17:32:39] [7/10] spoke · mangusta-80-vs-sunseeker-predator-74-marbella-comparison
+[2026-06-30 17:33:10]   ✓ saved content/mangusta-80-vs-sunseeker-predator-74-marbella-comparison.json
+[2026-06-30 17:33:10]   ✓ added to keyword_map.spokes
+[2026-06-30 17:33:10] [8/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo
+[2026-06-30 17:33:32]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo.json
+[2026-06-30 17:33:32]   ✓ added to keyword_map.spokes
+[2026-06-30 17:33:32] [9/10] spoke · astondoa-40-vs-sunseeker-predator-55-marbella-comparison
+[2026-06-30 17:34:00]   ✓ saved content/astondoa-40-vs-sunseeker-predator-55-marbella-comparison.json
+[2026-06-30 17:34:00]   ✓ added to keyword_map.spokes
+[2026-06-30 17:34:00] [10/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2027
+[2026-06-30 17:34:26]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2027.json
+[2026-06-30 17:34:26]   ✓ added to keyword_map.spokes
+[2026-06-30 17:34:26] queue: 46 remaining, 531 consumed total
+[2026-06-30 17:34:26] running deploy.sh …

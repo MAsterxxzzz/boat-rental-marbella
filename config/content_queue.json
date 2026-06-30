@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/mangusta-80-vs-sunseeker-predator-55-marbella",
-      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 55 Marbella",
-      "title": "Mangusta 80 vs Sunseeker Predator 55: Which Open Yacht for Marbella?",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/fairline-targa-12m-vs-pershing-46-marbella-comparison",
-      "primary_keyword": "Fairline Targa 12m vs Pershing 46 Marbella",
-      "title": "Fairline Targa 12m vs Pershing 46: Comparing Two Sport Cruisers in Marbella",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison",
-      "primary_keyword": "Pershing 46 vs Sunseeker Predator 55 Marbella",
-      "title": "Pershing 46 vs Sunseeker Predator 55: Which Performance Yacht for Marbella?",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2028",
-      "primary_keyword": "Feria San Bernabe yacht charter 2028 Marbella",
-      "title": "Feria San Bernabe 2028: Best Yacht Charter Options in Marbella",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-new-years-eve-2030",
-      "primary_keyword": "New Year's Eve yacht charter Marbella 2030",
-      "title": "NYE 2030 in Marbella: Book Your Yacht Charter for Fireworks at Sea",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-f1-grand-prix-2030",
       "primary_keyword": "F1 Grand Prix yacht charter Marbella 2030",
       "title": "F1 Grand Prix 2030: Ultimate Yacht Charter Experience in Marbella",
@@ -199,13 +164,6 @@
       "target_words": 1100
     },
     {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-snorkeling-combo-puerto-banus",
-      "primary_keyword": "marbella sunset snorkeling combo puerto banus",
-      "title": "Marbella Sunset Snorkeling Combo Cruise from Puerto Banús",
-      "target_words": 1150
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2030-guide",
       "primary_keyword": "marbella boat rental feria san bernabe 2030",
@@ -213,25 +171,11 @@
       "target_words": 1100
     },
     {
-      "kind": "spoke",
-      "slug": "mangusta-80-vs-sunseeker-predator-74-marbella-comparison",
-      "primary_keyword": "mangusta 80 vs sunseeker predator 74 marbella",
-      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Charter Comparison",
-      "target_words": 1300
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-boat-rental-nye-2030-fireworks-view",
       "primary_keyword": "marbella boat rental new years eve 2030 fireworks",
       "title": "Marbella Boat Rental for NYE 2030: Best Fireworks Views from the Sea",
       "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo",
-      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
-      "title": "Marbella Family Boat Day with Jet Ski, Snorkeling & Paddleboarding",
-      "target_words": 1200
     },
     {
       "kind": "blog",
@@ -248,25 +192,11 @@
       "target_words": 1100
     },
     {
-      "kind": "spoke",
-      "slug": "astondoa-40-vs-sunseeker-predator-55-marbella-comparison",
-      "primary_keyword": "astondoa 40 vs sunseeker predator 55 marbella",
-      "title": "Astondoa 40 vs Sunseeker Predator 55: Marbella Charter Showdown",
-      "target_words": 1250
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2027",
       "primary_keyword": "marbella boat rental stag weekend cost breakdown 2027",
       "title": "Marbella Boat Rental Stag Weekend Cost Breakdown 2027: Budget Guide",
       "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2027",
-      "primary_keyword": "marbella dolphin watching brunch cruise 2027",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2027: Morning at Sea",
-      "target_words": 1150
     },
     {
       "kind": "blog",
@@ -4710,6 +4640,86 @@
       "primary_keyword": "Azimut 39 vs Mangusta 80 cost comparison Marbella",
       "title": "Azimut 39 vs Mangusta 80: Cost Comparison for Marbella Charters",
       "target_words": 1100,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-sunseeker-predator-55-marbella",
+      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 55 Marbella",
+      "title": "Mangusta 80 vs Sunseeker Predator 55: Which Open Yacht for Marbella?",
+      "target_words": 1150,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/fairline-targa-12m-vs-pershing-46-marbella-comparison",
+      "primary_keyword": "Fairline Targa 12m vs Pershing 46 Marbella",
+      "title": "Fairline Targa 12m vs Pershing 46: Comparing Two Sport Cruisers in Marbella",
+      "target_words": 1200,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison",
+      "primary_keyword": "Pershing 46 vs Sunseeker Predator 55 Marbella",
+      "title": "Pershing 46 vs Sunseeker Predator 55: Which Performance Yacht for Marbella?",
+      "target_words": 1150,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2028",
+      "primary_keyword": "Feria San Bernabe yacht charter 2028 Marbella",
+      "title": "Feria San Bernabe 2028: Best Yacht Charter Options in Marbella",
+      "target_words": 1200,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-new-years-eve-2030",
+      "primary_keyword": "New Year's Eve yacht charter Marbella 2030",
+      "title": "NYE 2030 in Marbella: Book Your Yacht Charter for Fireworks at Sea",
+      "target_words": 1250,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-snorkeling-combo-puerto-banus",
+      "primary_keyword": "marbella sunset snorkeling combo puerto banus",
+      "title": "Marbella Sunset Snorkeling Combo Cruise from Puerto Banús",
+      "target_words": 1150,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "spoke",
+      "slug": "mangusta-80-vs-sunseeker-predator-74-marbella-comparison",
+      "primary_keyword": "mangusta 80 vs sunseeker predator 74 marbella",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Charter Comparison",
+      "target_words": 1300,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Marbella Family Boat Day with Jet Ski, Snorkeling & Paddleboarding",
+      "target_words": 1200,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "spoke",
+      "slug": "astondoa-40-vs-sunseeker-predator-55-marbella-comparison",
+      "primary_keyword": "astondoa 40 vs sunseeker predator 55 marbella",
+      "title": "Astondoa 40 vs Sunseeker Predator 55: Marbella Charter Showdown",
+      "target_words": 1250,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2027",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2027",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2027: Morning at Sea",
+      "target_words": 1150,
       "consumed_at": "2026-06-30"
     }
   ],
