@@ -2702,3 +2702,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-06-29 17:32:49]   ✓ added to keyword_map.blog
 [2026-06-29 17:32:49] queue: 32 remaining, 511 consumed total
 [2026-06-29 17:32:49] running deploy.sh …
+[2026-06-29 17:32:52] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-06-30 09:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-06-30 09:00:00] [1/5] blog · blog/marbella-boat-rental-vs-malaga-cost-comparison
+[2026-06-30 09:00:32]   ✓ saved content/blog_marbella-boat-rental-vs-malaga-cost-comparison.json
+[2026-06-30 09:00:32]   ✓ added to keyword_map.blog
+[2026-06-30 09:00:32] [2/5] blog · blog/marbella-yacht-charter-ironman-2027-recovery-day
+[2026-06-30 09:01:02]   ✓ saved content/blog_marbella-yacht-charter-ironman-2027-recovery-day.json
+[2026-06-30 09:01:02]   ✓ added to keyword_map.blog
+[2026-06-30 09:01:02] [3/5] blog · blog/marbella-boat-rental-no-license-maximum-speed
+[2026-06-30 09:01:27]   ✓ saved content/blog_marbella-boat-rental-no-license-maximum-speed.json
+[2026-06-30 09:01:27]   ✓ added to keyword_map.blog
+[2026-06-30 09:01:27] [4/5] blog · blog/marbella-yacht-charter-pride-2027-cabopino-departure
+[2026-06-30 09:01:57]   ✓ saved content/blog_marbella-yacht-charter-pride-2027-cabopino-departure.json
+[2026-06-30 09:01:57]   ✓ added to keyword_map.blog
+[2026-06-30 09:01:57] [5/5] blog · blog/marbella-boat-rental-sotogrande-golf-transfers
+[2026-06-30 09:02:23]   ✓ saved content/blog_marbella-boat-rental-sotogrande-golf-transfers.json
+[2026-06-30 09:02:23]   ✓ added to keyword_map.blog
+[2026-06-30 09:02:23] queue: 27 remaining, 516 consumed total
+[2026-06-30 09:02:23] queue under threshold (27 < 30) — auto-refilling…
+[2026-06-30 09:02:43] refill: +4 topics (queue now 31)
+[2026-06-30 09:02:43] running deploy.sh …

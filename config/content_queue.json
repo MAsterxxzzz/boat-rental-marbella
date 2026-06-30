@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-vs-malaga-cost-comparison",
-      "primary_keyword": "Marbella vs Malaga boat rental cost comparison",
-      "title": "Marbella vs Malaga Boat Rental: Cost Comparison for 2026",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2027-recovery-day",
-      "primary_keyword": "Ironman Marbella 2027 recovery yacht charter",
-      "title": "Ironman Marbella 2027: Post-Race Recovery Yacht Charter Guide",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-maximum-speed",
-      "primary_keyword": "Marbella boat rental no license maximum speed",
-      "title": "Marbella Boat Rental No License: Maximum Speed and Boat Options",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-pride-2027-cabopino-departure",
-      "primary_keyword": "Marbella Pride 2027 yacht charter Cabopino",
-      "title": "Marbella Pride 2027: Yacht Charter from Cabopino Marina",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-sotogrande-golf-transfers",
-      "primary_keyword": "Sotogrande golf transfers by boat Marbella",
-      "title": "Sotogrande Golf Transfers by Boat: Marbella Rental for Golfers",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2027-boat-party",
       "primary_keyword": "Feria San Bernabé 2027 boat party Marbella",
       "title": "Feria San Bernabé 2027: Boat Party Yacht Charter Guide",
@@ -225,6 +190,34 @@
       "primary_keyword": "Marbella boat rental weather January 2028",
       "title": "January 2028 Boat Rentals in Marbella: Is It Worth It? Weather Insights",
       "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-march-wind-conditions",
+      "primary_keyword": "Marbella boat rental weather March wind conditions",
+      "title": "Marbella Boat Rental in March: Wind, Rain & Sea Conditions Guide",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2029-boat-party",
+      "primary_keyword": "Marbella Feria San Bernabe 2029 yacht charter",
+      "title": "Marbella Feria San Bernabe 2029: Best Yacht Charter for the Fair",
+      "target_words": 1300
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-39-vs-pershing-46-marbella-comparison",
+      "primary_keyword": "Azimut 39 vs Pershing 46 Marbella comparison",
+      "title": "Azimut 39 vs Pershing 46: Which Yacht Suits Your Marbella Charter?",
+      "target_words": 1400
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown",
+      "primary_keyword": "Marbella stag weekend yacht budget breakdown",
+      "title": "Marbella Stag Weekend Yacht: Full Budget Breakdown for 2026",
+      "target_words": 1200
     }
   ],
   "consumed": [
@@ -4463,6 +4456,46 @@
       "title": "Starlite 2027: Pre-Concert Yacht Cruise from Marbella Marina",
       "target_words": 1250,
       "consumed_at": "2026-06-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-vs-malaga-cost-comparison",
+      "primary_keyword": "Marbella vs Malaga boat rental cost comparison",
+      "title": "Marbella vs Malaga Boat Rental: Cost Comparison for 2026",
+      "target_words": 1300,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2027-recovery-day",
+      "primary_keyword": "Ironman Marbella 2027 recovery yacht charter",
+      "title": "Ironman Marbella 2027: Post-Race Recovery Yacht Charter Guide",
+      "target_words": 1200,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-maximum-speed",
+      "primary_keyword": "Marbella boat rental no license maximum speed",
+      "title": "Marbella Boat Rental No License: Maximum Speed and Boat Options",
+      "target_words": 1100,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-pride-2027-cabopino-departure",
+      "primary_keyword": "Marbella Pride 2027 yacht charter Cabopino",
+      "title": "Marbella Pride 2027: Yacht Charter from Cabopino Marina",
+      "target_words": 1250,
+      "consumed_at": "2026-06-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-golf-transfers",
+      "primary_keyword": "Sotogrande golf transfers by boat Marbella",
+      "title": "Sotogrande Golf Transfers by Boat: Marbella Rental for Golfers",
+      "target_words": 1150,
+      "consumed_at": "2026-06-30"
     }
   ],
   "refill_threshold": 30,

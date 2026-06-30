@@ -3785,6 +3785,41 @@
       "title": "Starlite 2027: Pre-Concert Yacht Cruise from Marbella Marina",
       "intent": "informational",
       "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-boat-rental-vs-malaga-cost-comparison",
+      "primary_keyword": "Marbella vs Malaga boat rental cost comparison",
+      "title": "Marbella vs Malaga Boat Rental: Cost Comparison for 2026",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-ironman-2027-recovery-day",
+      "primary_keyword": "Ironman Marbella 2027 recovery yacht charter",
+      "title": "Ironman Marbella 2027: Post-Race Recovery Yacht Charter Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-no-license-maximum-speed",
+      "primary_keyword": "Marbella boat rental no license maximum speed",
+      "title": "Marbella Boat Rental No License: Maximum Speed and Boat Options",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-pride-2027-cabopino-departure",
+      "primary_keyword": "Marbella Pride 2027 yacht charter Cabopino",
+      "title": "Marbella Pride 2027: Yacht Charter from Cabopino Marina",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-boat-rental-sotogrande-golf-transfers",
+      "primary_keyword": "Sotogrande golf transfers by boat Marbella",
+      "title": "Sotogrande Golf Transfers by Boat: Marbella Rental for Golfers",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }
