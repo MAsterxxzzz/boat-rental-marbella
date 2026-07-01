@@ -990,6 +990,41 @@
       "title": "Marbella Dolphin Watching Brunch Cruise 2027: Morning at Sea",
       "intent": "transactional",
       "target_words": 1150
+    },
+    {
+      "slug": "azimut-39-vs-sunseeker-predator-55-marbella-comparison",
+      "primary_keyword": "azimut 39 vs sunseeker predator 55 marbella",
+      "title": "Azimut 39 vs Sunseeker Predator 55: Marbella Boat Comparison",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-romantic-proposal-2027",
+      "primary_keyword": "marbella sunset cruise romantic proposal 2027",
+      "title": "Marbella Sunset Cruise Romantic Proposal 2027: Plan Your Moment",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2027",
+      "primary_keyword": "marbella fishing and sunset combo charter 2027",
+      "title": "Marbella Fishing and Sunset Combo Charter 2027: Best of Both",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "pershing-46-vs-astondoa-40-marbella-comparison",
+      "primary_keyword": "pershing 46 vs astondoa 40 marbella",
+      "title": "Pershing 46 vs Astondoa 40: Marbella Charter Boat Comparison",
+      "intent": "transactional",
+      "target_words": 1250
+    },
+    {
+      "slug": "experiences/marbella-sunset-photoshoot-yacht-session-2027",
+      "primary_keyword": "marbella sunset photoshoot yacht session 2027",
+      "title": "Marbella Sunset Photoshoot Yacht Session 2027: Capture the Moment",
+      "intent": "transactional",
+      "target_words": 1150
     }
   ],
   "blog": [
@@ -3925,6 +3960,41 @@
       "title": "NYE 2030 in Marbella: Book Your Yacht Charter for Fireworks at Sea",
       "intent": "informational",
       "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2030",
+      "primary_keyword": "F1 Grand Prix yacht charter Marbella 2030",
+      "title": "F1 Grand Prix 2030: Ultimate Yacht Charter Experience in Marbella",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-ironman-2030-recovery",
+      "primary_keyword": "Ironman Marbella 2030 yacht recovery charter",
+      "title": "Ironman Marbella 2030: Yacht Charter Recovery Day for Athletes",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-pride-2030",
+      "primary_keyword": "Pride Marbella yacht charter 2030",
+      "title": "Pride Marbella 2030: Best Yacht Charter Party on the Costa del Sol",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-december-2026",
+      "primary_keyword": "Marbella boat rental weather December 2026",
+      "title": "Marbella Boat Rental in December 2026: Weather, Tips & Best Yachts",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-january-2027",
+      "primary_keyword": "Marbella boat rental weather January 2027",
+      "title": "Can You Boat in January? Marbella Weather Guide for 2027 Charters",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }
