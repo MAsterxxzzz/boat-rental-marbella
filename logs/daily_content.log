@@ -2879,3 +2879,44 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-01 14:41:56] queue under threshold (29 < 30) — auto-refilling…
 [2026-07-01 14:42:15] refill: +29 topics (queue now 58)
 [2026-07-01 14:42:15] running deploy.sh …
+[2026-07-01 14:42:18] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-01 17:30:01] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-01 17:30:01] [1/10] blog · blog/marbella-boat-rental-weather-july-2027
+[2026-07-01 17:30:37]   ✓ saved content/blog_marbella-boat-rental-weather-july-2027.json
+[2026-07-01 17:30:37]   ✓ added to keyword_map.blog
+[2026-07-01 17:30:37] [2/10] blog · blog/marbella-boat-rental-weather-august-2027
+[2026-07-01 17:31:13]   ✓ saved content/blog_marbella-boat-rental-weather-august-2027.json
+[2026-07-01 17:31:13]   ✓ added to keyword_map.blog
+[2026-07-01 17:31:13] [3/10] blog · blog/marbella-boat-rental-weather-september-2027
+[2026-07-01 17:31:46]   ✓ saved content/blog_marbella-boat-rental-weather-september-2027.json
+[2026-07-01 17:31:46]   ✓ added to keyword_map.blog
+[2026-07-01 17:31:46] [4/10] blog · blog/marbella-boat-rental-weather-october-2027
+[2026-07-01 17:32:20]   ✓ saved content/blog_marbella-boat-rental-weather-october-2027.json
+[2026-07-01 17:32:20]   ✓ added to keyword_map.blog
+[2026-07-01 17:32:20] [5/10] blog · blog/marbella-boat-rental-weather-november-2027
+[2026-07-01 17:32:54]   ✓ saved content/blog_marbella-boat-rental-weather-november-2027.json
+[2026-07-01 17:32:54]   ✓ added to keyword_map.blog
+[2026-07-01 17:32:54] [6/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2028
+[2026-07-01 17:33:21]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2028.json
+[2026-07-01 17:33:21]   ✓ added to keyword_map.spokes
+[2026-07-01 17:33:21] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2027
+[2026-07-01 17:33:51]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2027.json
+[2026-07-01 17:33:51]   ✓ added to keyword_map.spokes
+[2026-07-01 17:33:51] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2028
+[2026-07-01 17:34:21]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2028.json
+[2026-07-01 17:34:21]   ✓ added to keyword_map.spokes
+[2026-07-01 17:34:21] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2028
+[2026-07-01 17:34:46]   ✗ FAILED: JSONDecodeError: Expecting ',' delimiter: line 25 column 8 (char 1961)
+[2026-07-01 17:34:46] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2028
+[2026-07-01 17:35:11]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2028.json
+[2026-07-01 17:35:11]   ✓ added to keyword_map.spokes
+[2026-07-01 17:35:11] queue: 49 remaining, 557 consumed total
+[2026-07-01 17:35:11] running deploy.sh …

@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-july-2027",
-      "primary_keyword": "Marbella boat rental weather July 2027",
-      "title": "July 2027 Boat Rentals in Marbella: Peak Season Weather & Booking Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-august-2027",
-      "primary_keyword": "Marbella boat rental weather August 2027",
-      "title": "August 2027 in Marbella: Hot Weather Boat Rental Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-september-2027",
-      "primary_keyword": "Marbella boat rental weather September 2027",
-      "title": "September 2027 Boat Rentals: Marbella's Shoulder Season Weather Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2027",
-      "primary_keyword": "Marbella boat rental weather October 2027",
-      "title": "October 2027 Boat Rentals in Marbella: Autumn Weather & Charter Options",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-november-2027",
-      "primary_keyword": "Marbella boat rental weather November 2027",
-      "title": "November 2027 Boat Charters in Marbella: What the Weather Really Looks Like",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-weather-december-2027",
       "primary_keyword": "Marbella yacht charter weather December 2027",
       "title": "December 2027 Yacht Charters in Marbella: Winter Weather & Festive Cruises",
@@ -347,38 +312,10 @@
     },
     {
       "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2028",
-      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2028",
-      "title": "Marbella Family Boat Day: Jetski, Snorkel & Paddleboard Combo 2028",
-      "target_words": 1300
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2027",
-      "primary_keyword": "Marbella sunset cruise champagne tapas 2027",
-      "title": "Marbella Sunset Cruise with Champagne & Tapas 2027: A Romantic Evening",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2028",
-      "primary_keyword": "Marbella dolphin watching brunch cruise 2028",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2028: Morning Magic at Sea",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
       "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2028",
       "primary_keyword": "Marbella fishing and sunset combo charter 2028",
       "title": "Marbella Fishing & Sunset Combo Charter 2028: Catch Dinner, Watch the Sky",
       "target_words": 1300
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2028",
-      "primary_keyword": "Marbella photoshoot yacht sunset session 2028",
-      "title": "Marbella Photoshoot Yacht Sunset Session 2028: Capture the Golden Hour",
-      "target_words": 1100
     },
     {
       "kind": "spoke",
@@ -4940,6 +4877,78 @@
       "primary_keyword": "azimut 58 vs sunseeker predator 74 marbella",
       "title": "Azimut 58 vs Sunseeker Predator 74: Marbella Charter Comparison",
       "target_words": 1300,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-july-2027",
+      "primary_keyword": "Marbella boat rental weather July 2027",
+      "title": "July 2027 Boat Rentals in Marbella: Peak Season Weather & Booking Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2027",
+      "primary_keyword": "Marbella boat rental weather August 2027",
+      "title": "August 2027 in Marbella: Hot Weather Boat Rental Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2027",
+      "primary_keyword": "Marbella boat rental weather September 2027",
+      "title": "September 2027 Boat Rentals: Marbella's Shoulder Season Weather Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2027",
+      "primary_keyword": "Marbella boat rental weather October 2027",
+      "title": "October 2027 Boat Rentals in Marbella: Autumn Weather & Charter Options",
+      "target_words": 1100,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2027",
+      "primary_keyword": "Marbella boat rental weather November 2027",
+      "title": "November 2027 Boat Charters in Marbella: What the Weather Really Looks Like",
+      "target_words": 1100,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2028",
+      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2028",
+      "title": "Marbella Family Boat Day: Jetski, Snorkel & Paddleboard Combo 2028",
+      "target_words": 1300,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2027",
+      "primary_keyword": "Marbella sunset cruise champagne tapas 2027",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2027: A Romantic Evening",
+      "target_words": 1200,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2028",
+      "primary_keyword": "Marbella dolphin watching brunch cruise 2028",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2028: Morning Magic at Sea",
+      "target_words": 1200,
+      "consumed_at": "2026-07-01"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2028",
+      "primary_keyword": "Marbella photoshoot yacht sunset session 2028",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2028: Capture the Golden Hour",
+      "target_words": 1100,
       "consumed_at": "2026-07-01"
     }
   ],
