@@ -1025,6 +1025,20 @@
       "title": "Marbella Sunset Photoshoot Yacht Session 2027: Capture the Moment",
       "intent": "transactional",
       "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-paddleboarding-snorkeling-2027",
+      "primary_keyword": "marbella family boat day paddleboarding snorkeling 2027",
+      "title": "Marbella Family Boat Day with Paddleboarding & Snorkeling 2027",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "azimut-58-vs-sunseeker-predator-74-marbella-comparison",
+      "primary_keyword": "azimut 58 vs sunseeker predator 74 marbella",
+      "title": "Azimut 58 vs Sunseeker Predator 74: Marbella Charter Comparison",
+      "intent": "transactional",
+      "target_words": 1300
     }
   ],
   "blog": [
@@ -3995,6 +4009,41 @@
       "title": "Can You Boat in January? Marbella Weather Guide for 2027 Charters",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-february-2027",
+      "primary_keyword": "Marbella boat rental weather February 2027",
+      "title": "February Boat Rentals in Marbella 2027: What to Expect from the Weather",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-march-2027",
+      "primary_keyword": "Marbella boat rental weather March 2027",
+      "title": "March 2027 in Marbella: Is It Warm Enough for a Boat Rental?",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-april-2027",
+      "primary_keyword": "Marbella boat rental weather April 2027",
+      "title": "April Boat Rentals in Marbella 2027: Easter Weather & Charter Tips",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-may-2027",
+      "primary_keyword": "Marbella boat rental weather May 2027",
+      "title": "May 2027 Boat Rentals in Marbella: Ideal Spring Weather for Charters",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-june-2027",
+      "primary_keyword": "Marbella boat rental weather June 2027",
+      "title": "June 2027: The Best Month for Boat Rentals in Marbella? Weather & Advice",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }
