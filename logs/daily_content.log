@@ -2959,3 +2959,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-02 09:04:40]   ✓ added to keyword_map.spokes
 [2026-07-02 09:04:40] queue: 40 remaining, 566 consumed total
 [2026-07-02 09:04:40] running deploy.sh …
+[2026-07-02 09:04:44] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-02 14:40:48] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-02 14:40:48] [1/5] blog · blog/marbella-yacht-charter-stag-weekend-budget-breakdown
+[2026-07-02 14:41:15]   ✓ saved content/blog_marbella-yacht-charter-stag-weekend-budget-breakdown.json
+[2026-07-02 14:41:15]   ✓ added to keyword_map.blog
+[2026-07-02 14:41:15] [2/5] blog · blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison
+[2026-07-02 14:41:37]   ✓ saved content/blog_astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison.json
+[2026-07-02 14:41:37]   ✓ added to keyword_map.blog
+[2026-07-02 14:41:37] [3/5] blog · blog/marbella-boat-rental-starlite-festival-2028-preview
+[2026-07-02 14:42:03]   ✓ saved content/blog_marbella-boat-rental-starlite-festival-2028-preview.json
+[2026-07-02 14:42:03]   ✓ added to keyword_map.blog
+[2026-07-02 14:42:03] [4/5] blog · blog/marbella-boat-rental-feria-san-bernabe-2030-guide
+[2026-07-02 14:42:28]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2030-guide.json
+[2026-07-02 14:42:28]   ✓ added to keyword_map.blog
+[2026-07-02 14:42:28] [5/5] blog · blog/marbella-boat-rental-nye-2030-fireworks-view
+[2026-07-02 14:42:53]   ✓ saved content/blog_marbella-boat-rental-nye-2030-fireworks-view.json
+[2026-07-02 14:42:53]   ✓ added to keyword_map.blog
+[2026-07-02 14:42:53] queue: 35 remaining, 571 consumed total
+[2026-07-02 14:42:53] running deploy.sh …
