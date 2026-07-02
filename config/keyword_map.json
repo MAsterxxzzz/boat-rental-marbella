@@ -1067,6 +1067,34 @@
       "title": "Marbella Photoshoot Yacht Sunset Session 2028: Capture the Golden Hour",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2028",
+      "primary_keyword": "Marbella fishing and sunset combo charter 2028",
+      "title": "Marbella Fishing & Sunset Combo Charter 2028: Catch Dinner, Watch the Sky",
+      "intent": "transactional",
+      "target_words": 1300
+    },
+    {
+      "slug": "marbella-boat-rental-vs-marbella-marina-vs-puerto-banus",
+      "primary_keyword": "Marbella boat rental vs Marbella Marina vs Puerto Banús",
+      "title": "Marbella Boat Rental: Marbella Marina vs Puerto Banús – Which to Choose?",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-yacht-charter-vs-costa-del-sol-destinations",
+      "primary_keyword": "Marbella yacht charter vs Costa del Sol destinations",
+      "title": "Marbella Yacht Charter vs Other Costa del Sol Destinations: A Comparison",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "marbella-boat-rental-vs-malaga-boat-rental-2027",
+      "primary_keyword": "Marbella boat rental vs Malaga boat rental 2027",
+      "title": "Marbella Boat Rental vs Malaga Boat Rental 2027: Which Is Better?",
+      "intent": "transactional",
+      "target_words": 1200
     }
   ],
   "blog": [
@@ -4107,6 +4135,41 @@
       "title": "November 2027 Boat Charters in Marbella: What the Weather Really Looks Like",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-weather-december-2027",
+      "primary_keyword": "Marbella yacht charter weather December 2027",
+      "title": "December 2027 Yacht Charters in Marbella: Winter Weather & Festive Cruises",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-january-2028",
+      "primary_keyword": "Marbella boat rental weather January 2028",
+      "title": "January 2028 Boat Rentals in Marbella: Is It Worth It? Weather Insights",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-march-wind-conditions",
+      "primary_keyword": "Marbella boat rental weather March wind conditions",
+      "title": "Marbella Boat Rental in March: Wind, Rain & Sea Conditions Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2029-boat-party",
+      "primary_keyword": "Marbella Feria San Bernabe 2029 yacht charter",
+      "title": "Marbella Feria San Bernabe 2029: Best Yacht Charter for the Fair",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/azimut-39-vs-pershing-46-marbella-comparison",
+      "primary_keyword": "Azimut 39 vs Pershing 46 Marbella comparison",
+      "title": "Azimut 39 vs Pershing 46: Which Yacht Suits Your Marbella Charter?",
+      "intent": "informational",
+      "target_words": 1400
     }
   ]
 }
