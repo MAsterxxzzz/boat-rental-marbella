@@ -3086,3 +3086,39 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-03 14:47:27]   ✓ added to keyword_map.spokes
 [2026-07-03 14:47:27] queue: 43 remaining, 591 consumed total
 [2026-07-03 14:47:27] running deploy.sh …
+[2026-07-03 14:47:31] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-03 17:33:09] === Daily content run (kind-balanced): 5 blog + 3 landing = 8 item(s) ===
+[2026-07-03 17:33:09] [1/8] blog · blog/starlite-festival-2026-marbella-yacht-charter-guide
+[2026-07-03 17:33:32]   ✓ saved content/blog_starlite-festival-2026-marbella-yacht-charter-guide.json
+[2026-07-03 17:33:32]   ✓ added to keyword_map.blog
+[2026-07-03 17:33:32] [2/8] blog · blog/marbella-yacht-charter-f1-grand-prix-2032-guide
+[2026-07-03 17:34:00]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2032-guide.json
+[2026-07-03 17:34:00]   ✓ added to keyword_map.blog
+[2026-07-03 17:34:00] [3/8] blog · blog/marbella-boat-rental-weather-july-2028-guide
+[2026-07-03 17:34:23]   ✓ saved content/blog_marbella-boat-rental-weather-july-2028-guide.json
+[2026-07-03 17:34:23]   ✓ added to keyword_map.blog
+[2026-07-03 17:34:23] [4/8] blog · blog/pershing-46-vs-astondoa-40-vs-azimut-39-marbella-three-way-comparison
+[2026-07-03 17:34:52]   ✓ saved content/blog_pershing-46-vs-astondoa-40-vs-azimut-39-marbella-three-way-comparison.json
+[2026-07-03 17:34:52]   ✓ added to keyword_map.blog
+[2026-07-03 17:34:52] [5/8] blog · blog/marbella-boat-rental-cabopino-dolphin-watching-morning-vs-afternoon
+[2026-07-03 17:35:17]   ✓ saved content/blog_marbella-boat-rental-cabopino-dolphin-watching-morning-vs-afternoon.json
+[2026-07-03 17:35:17]   ✓ added to keyword_map.blog
+[2026-07-03 17:35:17] [6/8] spoke · marbella-boat-rental-vs-costa-del-sol-destinations-2028
+[2026-07-03 17:35:42]   ✓ saved content/marbella-boat-rental-vs-costa-del-sol-destinations-2028.json
+[2026-07-03 17:35:42]   ✓ added to keyword_map.spokes
+[2026-07-03 17:35:42] [7/8] spoke · marbella-yacht-charter-vs-malaga-2029
+[2026-07-03 17:36:06]   ✓ saved content/marbella-yacht-charter-vs-malaga-2029.json
+[2026-07-03 17:36:06]   ✓ added to keyword_map.spokes
+[2026-07-03 17:36:06] [8/8] spoke · marbella-boat-rental-vs-estepona-2028
+[2026-07-03 17:36:34]   ✓ saved content/marbella-boat-rental-vs-estepona-2028.json
+[2026-07-03 17:36:34]   ✓ added to keyword_map.spokes
+[2026-07-03 17:36:34] queue: 35 remaining, 599 consumed total
+[2026-07-03 17:36:34] running deploy.sh …

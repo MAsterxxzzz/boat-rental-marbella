@@ -1130,6 +1130,27 @@
       "title": "Marbella Photoshoot Yacht Sunset Session 2029: Golden Hour Shots",
       "intent": "transactional",
       "target_words": 1150
+    },
+    {
+      "slug": "marbella-boat-rental-vs-costa-del-sol-destinations-2028",
+      "primary_keyword": "marbella boat rental vs costa del sol destinations",
+      "title": "Marbella Boat Rental vs Other Costa del Sol Destinations 2028",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-yacht-charter-vs-malaga-2029",
+      "primary_keyword": "marbella yacht charter vs malaga",
+      "title": "Marbella Yacht Charter vs Malaga Boat Rental 2029: Which is Better?",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-vs-estepona-2028",
+      "primary_keyword": "marbella boat rental vs estepona",
+      "title": "Marbella Boat Rental vs Estepona Charter 2028: Marina Comparison",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -4345,6 +4366,41 @@
       "title": "Valentine's Day Boat Rental Marbella: How to Plan a Perfect Proposal",
       "intent": "informational",
       "target_words": 1300
+    },
+    {
+      "slug": "blog/starlite-festival-2026-marbella-yacht-charter-guide",
+      "primary_keyword": "Starlite Festival 2026 Marbella yacht charter",
+      "title": "Starlite Festival 2026 Marbella: Combine a Yacht Charter with Your Concert Night",
+      "intent": "informational",
+      "target_words": 1400
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2032-guide",
+      "primary_keyword": "F1 Grand Prix 2032 Marbella yacht charter",
+      "title": "F1 Grand Prix 2032 Marbella: The Ultimate Yacht Charter Weekend Guide",
+      "intent": "informational",
+      "target_words": 1500
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-july-2028-guide",
+      "primary_keyword": "Marbella boat rental weather July 2028",
+      "title": "Marbella Boat Rental Weather July 2028: Peak Season Conditions & Tips",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/pershing-46-vs-astondoa-40-vs-azimut-39-marbella-three-way-comparison",
+      "primary_keyword": "Pershing 46 vs Astondoa 40 vs Azimut 39 Marbella",
+      "title": "Pershing 46 vs Astondoa 40 vs Azimut 39: Which Marbella Yacht Fits Your Group?",
+      "intent": "informational",
+      "target_words": 1500
+    },
+    {
+      "slug": "blog/marbella-boat-rental-cabopino-dolphin-watching-morning-vs-afternoon",
+      "primary_keyword": "Cabopino dolphin watching morning vs afternoon Marbella",
+      "title": "Cabopino Dolphin Watching: Morning vs Afternoon Boat Tours in Marbella",
+      "intent": "informational",
+      "target_words": 1200
     }
   ]
 }
