@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-may-2028-guide",
-      "primary_keyword": "marbella boat rental weather may 2028",
-      "title": "Marbella Boat Rental Weather May 2028: Ideal Conditions Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2031-recovery-day",
-      "primary_keyword": "marbella yacht charter ironman 2031 recovery",
-      "title": "Marbella Yacht Charter for Ironman 2031: Recovery Day at Sea",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2028-shoulder-season",
-      "primary_keyword": "marbella boat rental weather october 2028",
-      "title": "Marbella Boat Rental Weather October 2028: Shoulder Season Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2027",
-      "primary_keyword": "marbella boat rental stag weekend itinerary 2027",
-      "title": "Marbella Boat Rental Stag Weekend Itinerary 2027: Full Day Plan",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-valentines-day-proposal-guide",
-      "primary_keyword": "Valentine's Day boat rental Marbella proposal",
-      "title": "Valentine's Day Boat Rental Marbella: How to Plan a Perfect Proposal",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
       "slug": "blog/starlite-festival-2026-marbella-yacht-charter-guide",
       "primary_keyword": "Starlite Festival 2026 Marbella yacht charter",
       "title": "Starlite Festival 2026 Marbella: Combine a Yacht Charter with Your Concert Night",
@@ -316,41 +281,6 @@
       "primary_keyword": "marbella yacht charter minimum age policy",
       "title": "Marbella Yacht Charter Minimum Age Policy 2027: What You Need to Know",
       "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2029",
-      "primary_keyword": "marbella sunset cruise champagne tapas",
-      "title": "Marbella Sunset Cruise with Champagne and Tapas 2029: Evening Experience",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2029",
-      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
-      "title": "Marbella Family Boat Day with Jetski, Snorkel, and Paddleboard 2029",
-      "target_words": 1250
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2029",
-      "primary_keyword": "marbella dolphin watching brunch cruise",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2029: Morning on the Sea",
-      "target_words": 1150
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2029",
-      "primary_keyword": "marbella fishing and sunset combo charter",
-      "title": "Marbella Fishing and Sunset Combo Charter 2029: Day to Dusk Adventure",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2029",
-      "primary_keyword": "marbella photoshoot yacht sunset session",
-      "title": "Marbella Photoshoot Yacht Sunset Session 2029: Golden Hour Shots",
-      "target_words": 1150
     },
     {
       "kind": "spoke",
@@ -5169,6 +5099,86 @@
       "primary_keyword": "marbella boat rental no license prices 2028",
       "title": "Marbella Boat Rental No License Prices 2028: Cost Breakdown",
       "target_words": 1100,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2028-guide",
+      "primary_keyword": "marbella boat rental weather may 2028",
+      "title": "Marbella Boat Rental Weather May 2028: Ideal Conditions Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2031-recovery-day",
+      "primary_keyword": "marbella yacht charter ironman 2031 recovery",
+      "title": "Marbella Yacht Charter for Ironman 2031: Recovery Day at Sea",
+      "target_words": 1100,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2028-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october 2028",
+      "title": "Marbella Boat Rental Weather October 2028: Shoulder Season Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2027",
+      "primary_keyword": "marbella boat rental stag weekend itinerary 2027",
+      "title": "Marbella Boat Rental Stag Weekend Itinerary 2027: Full Day Plan",
+      "target_words": 1100,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-valentines-day-proposal-guide",
+      "primary_keyword": "Valentine's Day boat rental Marbella proposal",
+      "title": "Valentine's Day Boat Rental Marbella: How to Plan a Perfect Proposal",
+      "target_words": 1300,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2029",
+      "primary_keyword": "marbella sunset cruise champagne tapas",
+      "title": "Marbella Sunset Cruise with Champagne and Tapas 2029: Evening Experience",
+      "target_words": 1200,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2029",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel, and Paddleboard 2029",
+      "target_words": 1250,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2029",
+      "primary_keyword": "marbella dolphin watching brunch cruise",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2029: Morning on the Sea",
+      "target_words": 1150,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2029",
+      "primary_keyword": "marbella fishing and sunset combo charter",
+      "title": "Marbella Fishing and Sunset Combo Charter 2029: Day to Dusk Adventure",
+      "target_words": 1200,
+      "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2029",
+      "primary_keyword": "marbella photoshoot yacht sunset session",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2029: Golden Hour Shots",
+      "target_words": 1150,
       "consumed_at": "2026-07-03"
     }
   ],

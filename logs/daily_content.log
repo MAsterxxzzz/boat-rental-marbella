@@ -3044,3 +3044,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-03 09:54:53] queue under threshold (25 < 30) — auto-refilling…
 [2026-07-03 09:55:09] refill: +28 topics (queue now 53)
 [2026-07-03 09:55:09] running deploy.sh …
+[2026-07-03 09:55:15] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-03 14:43:17] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-03 14:43:17] [1/10] blog · blog/marbella-boat-rental-weather-may-2028-guide
+[2026-07-03 14:43:41]   ✓ saved content/blog_marbella-boat-rental-weather-may-2028-guide.json
+[2026-07-03 14:43:41]   ✓ added to keyword_map.blog
+[2026-07-03 14:43:41] [2/10] blog · blog/marbella-yacht-charter-ironman-2031-recovery-day
+[2026-07-03 14:44:05]   ✓ saved content/blog_marbella-yacht-charter-ironman-2031-recovery-day.json
+[2026-07-03 14:44:05]   ✓ added to keyword_map.blog
+[2026-07-03 14:44:05] [3/10] blog · blog/marbella-boat-rental-weather-october-2028-shoulder-season
+[2026-07-03 14:44:31]   ✓ saved content/blog_marbella-boat-rental-weather-october-2028-shoulder-season.json
+[2026-07-03 14:44:31]   ✓ added to keyword_map.blog
+[2026-07-03 14:44:31] [4/10] blog · blog/marbella-boat-rental-stag-weekend-itinerary-2027
+[2026-07-03 14:44:55]   ✓ saved content/blog_marbella-boat-rental-stag-weekend-itinerary-2027.json
+[2026-07-03 14:44:55]   ✓ added to keyword_map.blog
+[2026-07-03 14:44:55] [5/10] blog · blog/marbella-boat-rental-valentines-day-proposal-guide
+[2026-07-03 14:45:20]   ✓ saved content/blog_marbella-boat-rental-valentines-day-proposal-guide.json
+[2026-07-03 14:45:20]   ✓ added to keyword_map.blog
+[2026-07-03 14:45:20] [6/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2029
+[2026-07-03 14:45:44]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2029.json
+[2026-07-03 14:45:44]   ✓ added to keyword_map.spokes
+[2026-07-03 14:45:44] [7/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2029
+[2026-07-03 14:46:12]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2029.json
+[2026-07-03 14:46:12]   ✓ added to keyword_map.spokes
+[2026-07-03 14:46:12] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2029
+[2026-07-03 14:46:32]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2029.json
+[2026-07-03 14:46:32]   ✓ added to keyword_map.spokes
+[2026-07-03 14:46:32] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2029
+[2026-07-03 14:47:02]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2029.json
+[2026-07-03 14:47:02]   ✓ added to keyword_map.spokes
+[2026-07-03 14:47:02] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2029
+[2026-07-03 14:47:27]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2029.json
+[2026-07-03 14:47:27]   ✓ added to keyword_map.spokes
+[2026-07-03 14:47:27] queue: 43 remaining, 591 consumed total
+[2026-07-03 14:47:27] running deploy.sh …
