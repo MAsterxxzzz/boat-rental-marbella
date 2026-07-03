@@ -3013,3 +3013,34 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-02 17:31:58]   ✓ added to keyword_map.blog
 [2026-07-02 17:31:58] queue: 30 remaining, 576 consumed total
 [2026-07-02 17:31:58] running deploy.sh …
+[2026-07-02 17:32:02] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-03 09:52:52] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-03 09:52:52] [1/5] blog · blog/marbella-boat-rental-hen-party-budget-breakdown-2027
+[2026-07-03 09:52:54]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-03 09:52:57]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-03 09:53:24]   ✓ saved content/blog_marbella-boat-rental-hen-party-budget-breakdown-2027.json
+[2026-07-03 09:53:24]   ✓ added to keyword_map.blog
+[2026-07-03 09:53:24] [2/5] blog · blog/marbella-boat-rental-sotogrande-polo-final-2027
+[2026-07-03 09:53:47]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2027.json
+[2026-07-03 09:53:47]   ✓ added to keyword_map.blog
+[2026-07-03 09:53:47] [3/5] blog · blog/marbella-boat-rental-group-size-limits-2028
+[2026-07-03 09:54:12]   ✓ saved content/blog_marbella-boat-rental-group-size-limits-2028.json
+[2026-07-03 09:54:12]   ✓ added to keyword_map.blog
+[2026-07-03 09:54:12] [4/5] blog · blog/marbella-yacht-charter-starlite-2030-pre-concert-cruise
+[2026-07-03 09:54:33]   ✓ saved content/blog_marbella-yacht-charter-starlite-2030-pre-concert-cruise.json
+[2026-07-03 09:54:33]   ✓ added to keyword_map.blog
+[2026-07-03 09:54:33] [5/5] blog · blog/marbella-boat-rental-no-license-prices-2028
+[2026-07-03 09:54:53]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2028.json
+[2026-07-03 09:54:53]   ✓ added to keyword_map.blog
+[2026-07-03 09:54:53] queue: 25 remaining, 581 consumed total
+[2026-07-03 09:54:53] queue under threshold (25 < 30) — auto-refilling…
+[2026-07-03 09:55:09] refill: +28 topics (queue now 53)
+[2026-07-03 09:55:09] running deploy.sh …

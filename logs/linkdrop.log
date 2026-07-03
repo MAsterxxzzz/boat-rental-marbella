@@ -682,3 +682,12 @@
 [2026-07-02 07:42:51] === [rentry] done: 15/15 ===
 [2026-07-02 07:42:51] ALL DONE: 30 posts across 2 platform(s)
 
+[2026-07-03 09:52:52] === [telegraph] target 15 (today 0/15) · 267 all-time ===
+[2026-07-03 09:52:54]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-07-03 09:52:57]   DeepSeek attempt 2/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-07-03 09:53:20]   [1/15] ✓ https://telegra.ph/The-Perfect-Day-Plan-for-a-Yacht-Charter-on-the-Costa-del-Sol-07-03
+[2026-07-03 09:53:41]   [2/15] ✓ https://telegra.ph/Mangusta-80-in-shoulder-season-your-best-value-charter-window-07-03
+[2026-07-03 09:54:03]   [3/15] ✓ https://telegra.ph/5-secret-tips-for-a-perfect-Marbella-proposal-cruise-07-03
+[2026-07-03 09:54:23]   [4/15] ✓ https://telegra.ph/Why-Couples-Adore-a-Catamaran-Charter-in-Shoulder-Season-07-03
+[2026-07-03 09:54:43]   [5/15] ✓ https://telegra.ph/Why-Couples-Choose-the-Azimut-39-for-Group-Getaways-07-03
+[2026-07-03 09:55:06]   [6/15] ✓ https://telegra.ph/Astondoa-40-Family-Charter-Comfort-vs-Price-in-Marbella-07-03
