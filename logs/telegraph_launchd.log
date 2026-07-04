@@ -177,3 +177,24 @@
 [2026-07-03 12:31:03]   ✓ published https://telegra.ph/Planning-a-Multi-Generational-Family-Yacht-Charter-in-Marbella-07-03 (5 backlinks)
 [2026-07-03 12:31:03] === Done: 3/3 published. Ledger total: 50 ===
 
+[2026-07-04 13:13:32] === Telegraph run: target 3 article(s) · 50 previously published ===
+[2026-07-04 13:13:32]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-04 13:13:35]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-04 13:13:41]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-04 13:13:50]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-04 13:14:03]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-07-04 13:58:47] [1/3] Autumn Almond Harvest Cruise: Marbella to Ojén Coast Charter
+[2026-07-04 14:34:19]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-04 16:46:11]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-04 18:48:08]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-04 18:48:18]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-04 19:48:43]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-07-04 20:51:42]   ✓ published https://telegra.ph/Autumn-Almond-Harvest-Cruise-Marbella-to-Ojén-Coast-Charter-07-04 (5 backlinks)
+[2026-07-04 20:51:42] [2/3] Chartering a Trawler Yacht for Slow Marbella Coastal Cruising
+[2026-07-04 20:51:49]   attempt 1: JSON parse failed, retrying
+[2026-07-04 20:52:12]   ✓ published https://telegra.ph/Chartering-a-Trawler-Yacht-for-Slow-Marbella-Coastal-Cruising-07-04 (5 backlinks)
+[2026-07-04 20:52:12] [3/3] Boat Charter Etiquette: Tipping Crew in Puerto Banús Waters
+[2026-07-04 20:52:37]   attempt 1: JSON parse failed, retrying
+[2026-07-04 20:52:54]   ✓ published https://telegra.ph/Boat-Charter-Etiquette-Tipping-Crew-in-Puerto-Banús-Waters-07-04 (5 backlinks)
+[2026-07-04 20:52:54] === Done: 3/3 published. Ledger total: 53 ===
+
