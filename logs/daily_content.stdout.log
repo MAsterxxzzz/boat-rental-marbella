@@ -1035,3 +1035,21 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-04 09:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-04 09:00:00] [1/5] blog · blog/marbella-yacht-charter-hen-party-catering-ideas-2027
+[2026-07-04 09:00:37]   ✓ saved content/blog_marbella-yacht-charter-hen-party-catering-ideas-2027.json
+[2026-07-04 09:00:37]   ✓ added to keyword_map.blog
+[2026-07-04 09:00:37] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2029
+[2026-07-04 09:01:03]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2029.json
+[2026-07-04 09:01:03]   ✓ added to keyword_map.blog
+[2026-07-04 09:01:03] [3/5] blog · blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona
+[2026-07-04 09:01:38]   ✓ saved content/blog_marbella-snorkeling-spots-by-boat-cabopino-vs-estepona.json
+[2026-07-04 09:01:38]   ✓ added to keyword_map.blog
+[2026-07-04 09:01:38] [4/5] blog · blog/marbella-boat-rental-weather-may-2029-guide
+[2026-07-04 09:02:02]   ✓ saved content/blog_marbella-boat-rental-weather-may-2029-guide.json
+[2026-07-04 09:02:02]   ✓ added to keyword_map.blog
+[2026-07-04 09:02:02] [5/5] blog · blog/marbella-yacht-charter-ironman-2032-recovery-day
+[2026-07-04 09:02:39]   ✓ saved content/blog_marbella-yacht-charter-ironman-2032-recovery-day.json
+[2026-07-04 09:02:39]   ✓ added to keyword_map.blog
+[2026-07-04 09:02:39] queue: 30 remaining, 604 consumed total
+[2026-07-04 09:02:39] running deploy.sh …

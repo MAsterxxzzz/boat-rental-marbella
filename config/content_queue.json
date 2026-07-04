@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-hen-party-catering-ideas-2027",
-      "primary_keyword": "Marbella hen party yacht catering ideas 2027",
-      "title": "Marbella Hen Party Yacht Catering Ideas for 2027: Menus & Themes",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-prices-2029",
-      "primary_keyword": "Marbella boat rental no license prices 2029",
-      "title": "Marbella Boat Rental No License Prices 2029: What to Expect",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona",
-      "primary_keyword": "Marbella snorkeling spots by boat Cabopino vs Estepona",
-      "title": "Marbella Snorkeling Spots by Boat: Cabopino vs Estepona Compared",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-may-2029-guide",
-      "primary_keyword": "Marbella boat rental weather May 2029",
-      "title": "Marbella Boat Rental Weather May 2029: Spring Conditions & Charter Tips",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2032-recovery-day",
-      "primary_keyword": "Ironman 2032 Marbella yacht charter recovery",
-      "title": "Ironman 2032 Marbella: Post-Race Recovery Yacht Charter Guide",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2031-guide",
       "primary_keyword": "Marbella Feria San Bernabe 2031 boat rental",
       "title": "Marbella Feria San Bernabe 2031: Best Boat Rental & Party Tips",
@@ -5188,6 +5153,46 @@
       "title": "Marbella Boat Rental vs Estepona Charter 2028: Marina Comparison",
       "target_words": 1100,
       "consumed_at": "2026-07-03"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-hen-party-catering-ideas-2027",
+      "primary_keyword": "Marbella hen party yacht catering ideas 2027",
+      "title": "Marbella Hen Party Yacht Catering Ideas for 2027: Menus & Themes",
+      "target_words": 1300,
+      "consumed_at": "2026-07-04"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2029",
+      "primary_keyword": "Marbella boat rental no license prices 2029",
+      "title": "Marbella Boat Rental No License Prices 2029: What to Expect",
+      "target_words": 1100,
+      "consumed_at": "2026-07-04"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona",
+      "primary_keyword": "Marbella snorkeling spots by boat Cabopino vs Estepona",
+      "title": "Marbella Snorkeling Spots by Boat: Cabopino vs Estepona Compared",
+      "target_words": 1300,
+      "consumed_at": "2026-07-04"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2029-guide",
+      "primary_keyword": "Marbella boat rental weather May 2029",
+      "title": "Marbella Boat Rental Weather May 2029: Spring Conditions & Charter Tips",
+      "target_words": 1200,
+      "consumed_at": "2026-07-04"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2032-recovery-day",
+      "primary_keyword": "Ironman 2032 Marbella yacht charter recovery",
+      "title": "Ironman 2032 Marbella: Post-Race Recovery Yacht Charter Guide",
+      "target_words": 1300,
+      "consumed_at": "2026-07-04"
     }
   ],
   "refill_threshold": 30,
