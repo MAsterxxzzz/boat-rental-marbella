@@ -3178,3 +3178,47 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-04 20:57:26] queue under threshold (25 < 30) — auto-refilling…
 [2026-07-04 20:57:44] refill: +30 topics (queue now 55)
 [2026-07-04 20:57:44] running deploy.sh …
+[2026-07-04 20:57:54] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-05 09:11:05] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-05 09:11:05] [1/10] blog · blog/marbella-boat-rental-weather-october-2029-guide
+[2026-07-05 09:11:38]   ✓ saved content/blog_marbella-boat-rental-weather-october-2029-guide.json
+[2026-07-05 09:11:38]   ✓ added to keyword_map.blog
+[2026-07-05 09:11:38] [2/10] blog · blog/marbella-yacht-charter-new-years-eve-2031-fireworks
+[2026-07-05 10:12:17]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-05 12:12:30]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-05 12:13:07]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2031-fireworks.json
+[2026-07-05 12:13:07]   ✓ added to keyword_map.blog
+[2026-07-05 12:13:07] [3/10] blog · blog/marbella-yacht-charter-license-requirements-2028
+[2026-07-05 12:13:29]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2028.json
+[2026-07-05 12:13:29]   ✓ added to keyword_map.blog
+[2026-07-05 12:13:29] [4/10] blog · blog/marbella-boat-rental-group-size-limits-2029
+[2026-07-05 12:13:57]   ✓ saved content/blog_marbella-boat-rental-group-size-limits-2029.json
+[2026-07-05 12:13:57]   ✓ added to keyword_map.blog
+[2026-07-05 12:13:57] [5/10] blog · blog/marbella-yacht-charter-weather-july-2029-guide
+[2026-07-05 12:14:25]   ✓ saved content/blog_marbella-yacht-charter-weather-july-2029-guide.json
+[2026-07-05 12:14:25]   ✓ added to keyword_map.blog
+[2026-07-05 12:14:25] [6/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2030
+[2026-07-05 12:14:47]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2030.json
+[2026-07-05 12:14:47]   ✓ added to keyword_map.spokes
+[2026-07-05 12:14:47] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2030
+[2026-07-05 12:15:08]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2030.json
+[2026-07-05 12:15:08]   ✓ added to keyword_map.spokes
+[2026-07-05 12:15:08] [8/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2030
+[2026-07-05 12:15:34]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2030.json
+[2026-07-05 12:15:34]   ✓ added to keyword_map.spokes
+[2026-07-05 12:15:34] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2030
+[2026-07-05 12:16:02]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2030.json
+[2026-07-05 12:16:02]   ✓ added to keyword_map.spokes
+[2026-07-05 12:16:02] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2030
+[2026-07-05 12:16:27]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2030.json
+[2026-07-05 12:16:27]   ✓ added to keyword_map.spokes
+[2026-07-05 12:16:27] queue: 45 remaining, 619 consumed total
+[2026-07-05 12:16:27] running deploy.sh …
