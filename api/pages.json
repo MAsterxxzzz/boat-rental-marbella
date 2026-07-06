@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 726,
+  "count": 731,
   "kinds": [
     "blog",
     "boat",
@@ -1070,6 +1070,14 @@
       "excerpt": "An Estepona boat rental with snorkeling gear provided is the smartest way to explore the Costa del Sol’s clearest waters without packing a thing. Every charter from our Puerto Banús fleet includes masks, fins, and snorkels, plus a licensed skipper who knows exactly where the fish"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-f1-grand-prix-2033-guide/",
+      "title": "Marbella Boat Rental for F1 Grand Prix 2033: Race Weekend Charter",
+      "description": "Book a Marbella boat rental for F1 Grand Prix 2033. Watch the race from the sea with a private charter from Puerto Banús. Prices from €749 for 2 hours.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "The F1 Grand Prix 2033 in Marbella is set to be the most exhilarating race weekend on the Costa del Sol. Instead of battling crowds on land, experience the action from the Mediterranean with a private Marbella boat rental for F1 Grand Prix weekend. Charter a luxury yacht from Pue"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-family-day-cabopino/",
       "title": "Plan a Family Boat Day from Cabopino: Snorkeling, Beaches &amp; Tips",
       "description": "Plan a family boat day from Cabopino, Marbella. Snorkeling, beach stops &amp; tips for 2025. From €749 for 2h with skipper, drinks &amp; VAT included.",
@@ -1316,6 +1324,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Planning a stag weekend in Marbella? Boat rental is a highlight, and knowing the marbella boat rental stag weekend cost breakdown 2027 helps you budget without surprises. Our fleet in Puerto Banús offers everything from a quick 2-hour cruise to a full-day party. Here's exactly wh"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-stag-weekend-cost-breakdown-2029/",
+      "title": "Marbella Boat Rental Stag Weekend Cost Breakdown 2029: Budget Tips",
+      "description": "Marbella boat rental stag weekend cost breakdown for 2029: from €749/2h with drinks, skipper &amp; VAT. Budget tips for a seamless Puerto Banús charter.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a stag do in Marbella and wondering about the marbella boat rental stag weekend cost for 2029? You're in the right place. With prices starting at €749 for two hours on an Astondoa 40 – all inclusive – a private boat charter is often cheaper than a VIP club table and way "
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-stag-weekend-itinerary-2027/",
@@ -2502,6 +2518,14 @@
       "excerpt": "Planning a hen party in Marbella? A private yacht charter is the ultimate way to celebrate the bride-to-be with sun, sea, and style. Departing from glamorous Puerto Banús, our fleet offers everything from sleek speedboats to superyachts, all with a licensed skipper, drinks, and s"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-hen-party-budget-breakdown-2028/",
+      "title": "Marbella Yacht Charter Hen Party Budget Breakdown 2028: Per Person Costs",
+      "description": "Plan your marbella yacht charter hen party budget for 2028 with per-person costs from €83. Start at Puerto Banús with drinks, snacks &amp; skipper included.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a hen party in Marbella and wondering about the marbella yacht charter hen party budget for 2028? You're in the right place. We break down the per-person costs, boat options, and what's included so you can plan without surprises. All our charters depart from Puerto Banús"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-hen-party-catering/",
       "title": "Marbella Yacht Charter Hen Party Catering: Menu Ideas &amp; Dietary Options",
       "description": "Plan the perfect marbella yacht charter hen party catering with menu ideas, dietary options, and pricing from €749. Book your celebration today.",
@@ -2950,6 +2974,14 @@
       "excerpt": "Marbella Pride 2032 is set to be the biggest celebration on the Costa del Sol, and there's no better way to join the party than from the deck of a private yacht. Departing from iconic Puerto Banús, our fleet offers boats for groups of 5 to 12 guests, with everything included: ski"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-pride-2033-celebration/",
+      "title": "Marbella Yacht Charter for Pride 2033: Ultimate Celebration Guide",
+      "description": "Book a marbella yacht charter pride 2033 with our fleet of 18 boats from Puerto Banús. Prices from €749/2h. Celebrate Pride on the Costa del Sol.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Marbella's Pride 2033 is set to be the biggest celebration of LGBTQ+ life on the Costa del Sol, and there's no better way to experience it than from the deck of a private yacht. With our fleet of 18 boats departing from Puerto Banús, you can enjoy the freedom of the Mediterranean"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-pride-celebration/",
       "title": "Marbella Yacht Charter for Pride: Celebrate on the Water",
       "description": "Book a Marbella yacht charter for Pride 2025. Celebrate on the water from Puerto Banús with 12 boats, free drinks &amp; skipper from €749/2h.",
@@ -3252,6 +3284,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "April is a sweet spot for a Marbella yacht charter . The winter chill has passed, summer crowds haven't arrived, and the sea is calm enough for comfortable cruising. Air temperatures hover between 15°C and 21°C, sea water sits at 16–17°C, and you get around 8 hours of sunshine da"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-weather-april-2030-guide/",
+      "title": "Marbella Yacht Charter Weather April 2030: Spring Sailing Conditions",
+      "description": "Plan your Marbella yacht charter for April 2030 with real spring sailing conditions: 18-22°C, 8-15 knots, and 8-9 hours of sun. Book now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "April 2030 in Marbella delivers some of the most pleasant spring sailing conditions on the Costa del Sol. With daytime temperatures averaging 20-22°C, sea breezes of 8-15 knots, and 8-5-9 hours of daily sunshine, it is an excellent month for a yacht charter in Marbella . The wate"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-weather-conditions/",
@@ -5744,7 +5784,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 724 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 729 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
