@@ -3317,3 +3317,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-06 15:37:13] queue under threshold (26 < 30) — auto-refilling…
 [2026-07-06 15:37:33] refill: +30 topics (queue now 56)
 [2026-07-06 15:37:33] running deploy.sh …
+[2026-07-06 15:37:37] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-06 17:30:10] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-06 17:30:10] [1/10] blog · blog/marbella-yacht-charter-feria-san-bernabe-2033-boat-party
+[2026-07-06 17:30:38]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2033-boat-party.json
+[2026-07-06 17:30:38]   ✓ added to keyword_map.blog
+[2026-07-06 17:30:38] [2/10] blog · blog/marbella-boat-rental-weather-november-2028-guide
+[2026-07-06 17:31:05]   ✓ saved content/blog_marbella-boat-rental-weather-november-2028-guide.json
+[2026-07-06 17:31:05]   ✓ added to keyword_map.blog
+[2026-07-06 17:31:05] [3/10] blog · blog/marbella-yacht-charter-license-requirements-2029
+[2026-07-06 17:31:35]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2029.json
+[2026-07-06 17:31:35]   ✓ added to keyword_map.blog
+[2026-07-06 17:31:35] [4/10] blog · blog/marbella-boat-rental-weather-december-2028-guide
+[2026-07-06 17:32:06]   ✓ saved content/blog_marbella-boat-rental-weather-december-2028-guide.json
+[2026-07-06 17:32:06]   ✓ added to keyword_map.blog
+[2026-07-06 17:32:06] [5/10] blog · blog/marbella-yacht-charter-minimum-age-policy-2027
+[2026-07-06 17:32:29]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2027.json
+[2026-07-06 17:32:29]   ✓ added to keyword_map.blog
+[2026-07-06 17:32:29] [6/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2031
+[2026-07-06 17:32:52]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2031.json
+[2026-07-06 17:32:52]   ✓ added to keyword_map.spokes
+[2026-07-06 17:32:52] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2031
+[2026-07-06 17:33:22]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2031.json
+[2026-07-06 17:33:22]   ✓ added to keyword_map.spokes
+[2026-07-06 17:33:22] [8/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2031
+[2026-07-06 17:33:54]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2031.json
+[2026-07-06 17:33:54]   ✓ added to keyword_map.spokes
+[2026-07-06 17:33:54] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2031
+[2026-07-06 17:34:22]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2031.json
+[2026-07-06 17:34:22]   ✓ added to keyword_map.spokes
+[2026-07-06 17:34:22] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2031
+[2026-07-06 17:34:46]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2031.json
+[2026-07-06 17:34:46]   ✓ added to keyword_map.spokes
+[2026-07-06 17:34:46] queue: 46 remaining, 648 consumed total
+[2026-07-06 17:34:46] running deploy.sh …
