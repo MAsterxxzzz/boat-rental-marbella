@@ -3261,3 +3261,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-05 20:47:12]   ✓ added to keyword_map.spokes
 [2026-07-05 20:47:12] queue: 36 remaining, 628 consumed total
 [2026-07-05 20:47:12] running deploy.sh …
+[2026-07-05 20:47:16] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-06 09:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-06 09:00:00] [1/5] blog · blog/marbella-yacht-charter-pride-2033-celebration
+[2026-07-06 09:00:26]   ✓ saved content/blog_marbella-yacht-charter-pride-2033-celebration.json
+[2026-07-06 09:00:26]   ✓ added to keyword_map.blog
+[2026-07-06 09:00:26] [2/5] blog · blog/marbella-boat-rental-f1-grand-prix-2033-guide
+[2026-07-06 09:00:49]   ✓ saved content/blog_marbella-boat-rental-f1-grand-prix-2033-guide.json
+[2026-07-06 09:00:49]   ✓ added to keyword_map.blog
+[2026-07-06 09:00:49] [3/5] blog · blog/marbella-yacht-charter-weather-april-2030-guide
+[2026-07-06 09:01:16]   ✓ saved content/blog_marbella-yacht-charter-weather-april-2030-guide.json
+[2026-07-06 09:01:16]   ✓ added to keyword_map.blog
+[2026-07-06 09:01:16] [4/5] blog · blog/marbella-boat-rental-stag-weekend-cost-breakdown-2029
+[2026-07-06 09:01:47]   ✓ saved content/blog_marbella-boat-rental-stag-weekend-cost-breakdown-2029.json
+[2026-07-06 09:01:47]   ✓ added to keyword_map.blog
+[2026-07-06 09:01:47] [5/5] blog · blog/marbella-yacht-charter-hen-party-budget-breakdown-2028
+[2026-07-06 09:02:15]   ✓ saved content/blog_marbella-yacht-charter-hen-party-budget-breakdown-2028.json
+[2026-07-06 09:02:15]   ✓ added to keyword_map.blog
+[2026-07-06 09:02:15] queue: 31 remaining, 633 consumed total
+[2026-07-06 09:02:15] running deploy.sh …
