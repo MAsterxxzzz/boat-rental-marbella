@@ -239,3 +239,11 @@
 [2026-07-05 12:31:43]   ✓ published https://telegra.ph/Exploring-Marbellas-Sea-Caves-by-Small-Boat-at-Low-Tide-07-05 (5 backlinks)
 [2026-07-05 12:31:43] === Done: 2/3 published. Ledger total: 55 ===
 
+[2026-07-06 12:36:57] === Telegraph run: target 3 article(s) · 55 previously published ===
+[2026-07-06 12:36:57]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-06 12:37:00]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-06 12:37:06]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-06 12:37:18] [1/1] Chartering a Classic Riva for a Vintage Marbella Evening
+[2026-07-06 12:37:34]   ✓ published https://telegra.ph/Chartering-a-Classic-Riva-for-a-Vintage-Marbella-Evening-07-06 (5 backlinks)
+[2026-07-06 12:37:34] === Done: 1/1 published. Ledger total: 56 ===
+

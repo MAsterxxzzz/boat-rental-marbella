@@ -3288,3 +3288,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-06 09:02:15]   ✓ added to keyword_map.blog
 [2026-07-06 09:02:15] queue: 31 remaining, 633 consumed total
 [2026-07-06 09:02:15] running deploy.sh …
+[2026-07-06 09:02:19] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-06 15:34:50] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-06 15:34:50] [1/5] blog · blog/marbella-boat-rental-no-license-prices-2030
+[2026-07-06 15:35:17]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2030.json
+[2026-07-06 15:35:17]   ✓ added to keyword_map.blog
+[2026-07-06 15:35:17] [2/5] blog · blog/marbella-yacht-charter-group-size-limits-2030
+[2026-07-06 15:35:44]   ✓ saved content/blog_marbella-yacht-charter-group-size-limits-2030.json
+[2026-07-06 15:35:44]   ✓ added to keyword_map.blog
+[2026-07-06 15:35:44] [3/5] blog · blog/marbella-boat-rental-weather-may-2030-guide
+[2026-07-06 15:36:13]   ✓ saved content/blog_marbella-boat-rental-weather-may-2030-guide.json
+[2026-07-06 15:36:13]   ✓ added to keyword_map.blog
+[2026-07-06 15:36:13] [4/5] blog · blog/marbella-yacht-charter-starlite-2032-guide
+[2026-07-06 15:36:45]   ✓ saved content/blog_marbella-yacht-charter-starlite-2032-guide.json
+[2026-07-06 15:36:45]   ✓ added to keyword_map.blog
+[2026-07-06 15:36:45] [5/5] blog · blog/marbella-boat-rental-weather-october-2030-guide
+[2026-07-06 15:37:13]   ✓ saved content/blog_marbella-boat-rental-weather-october-2030-guide.json
+[2026-07-06 15:37:13]   ✓ added to keyword_map.blog
+[2026-07-06 15:37:13] queue: 26 remaining, 638 consumed total
+[2026-07-06 15:37:13] queue under threshold (26 < 30) — auto-refilling…
+[2026-07-06 15:37:33] refill: +30 topics (queue now 56)
+[2026-07-06 15:37:33] running deploy.sh …
