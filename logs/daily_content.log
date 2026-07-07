@@ -3359,3 +3359,44 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-06 17:34:46]   ✓ added to keyword_map.spokes
 [2026-07-06 17:34:46] queue: 46 remaining, 648 consumed total
 [2026-07-06 17:34:46] running deploy.sh …
+[2026-07-06 17:34:50] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-07 09:00:01] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-07 09:00:01] [1/10] blog · blog/marbella-boat-rental-new-years-eve-2032-fireworks-view
+[2026-07-07 09:00:24]   ✓ saved content/blog_marbella-boat-rental-new-years-eve-2032-fireworks-view.json
+[2026-07-07 09:00:24]   ✓ added to keyword_map.blog
+[2026-07-07 09:00:24] [2/10] blog · blog/marbella-yacht-charter-starlite-2033-pre-concert-cruise
+[2026-07-07 09:00:46]   ✓ saved content/blog_marbella-yacht-charter-starlite-2033-pre-concert-cruise.json
+[2026-07-07 09:00:46]   ✓ added to keyword_map.blog
+[2026-07-07 09:00:46] [3/10] blog · blog/marbella-boat-rental-feria-san-bernabe-2034-boat-party
+[2026-07-07 09:01:13]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2034-boat-party.json
+[2026-07-07 09:01:13]   ✓ added to keyword_map.blog
+[2026-07-07 09:01:13] [4/10] blog · blog/marbella-yacht-charter-pride-2034-celebration
+[2026-07-07 09:01:35]   ✓ saved content/blog_marbella-yacht-charter-pride-2034-celebration.json
+[2026-07-07 09:01:35]   ✓ added to keyword_map.blog
+[2026-07-07 09:01:35] [5/10] blog · blog/marbella-yacht-charter-ironman-2033-recovery-day
+[2026-07-07 09:02:00]   ✗ FAILED: JSONDecodeError: Expecting ',' delimiter: line 48 column 3631 (char 6897)
+[2026-07-07 09:02:00] [6/10] experience · experiences/marbella-sunset-cruise-romantic-proposal-2031
+[2026-07-07 09:02:27]   ✓ saved content/experiences_marbella-sunset-cruise-romantic-proposal-2031.json
+[2026-07-07 09:02:27]   ✓ added to keyword_map.spokes
+[2026-07-07 09:02:27] [7/10] spoke · marbella-boat-rental-group-size-limits-2033
+[2026-07-07 09:02:50]   ✓ saved content/marbella-boat-rental-group-size-limits-2033.json
+[2026-07-07 09:02:50]   ✓ added to keyword_map.spokes
+[2026-07-07 09:02:50] [8/10] spoke · marbella-yacht-charter-cancellation-policy-2030
+[2026-07-07 09:03:10]   ✓ saved content/marbella-yacht-charter-cancellation-policy-2030.json
+[2026-07-07 09:03:10]   ✓ added to keyword_map.spokes
+[2026-07-07 09:03:10] [9/10] spoke · marbella-yacht-charter-payment-methods-2030
+[2026-07-07 09:03:36]   ✓ saved content/marbella-yacht-charter-payment-methods-2030.json
+[2026-07-07 09:03:36]   ✓ added to keyword_map.spokes
+[2026-07-07 09:03:36] [10/10] spoke · marbella-yacht-charter-minimum-age-policy-2029
+[2026-07-07 09:03:57]   ✓ saved content/marbella-yacht-charter-minimum-age-policy-2029.json
+[2026-07-07 09:03:57]   ✓ added to keyword_map.spokes
+[2026-07-07 09:03:57] queue: 37 remaining, 657 consumed total
+[2026-07-07 09:03:57] running deploy.sh …
