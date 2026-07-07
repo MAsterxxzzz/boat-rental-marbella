@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2033-recovery-day",
-      "primary_keyword": "ironman marbella 2033 recovery yacht charter",
-      "title": "Ironman Marbella 2033: Post-Race Recovery Yacht Charter Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-june-2031-guide",
-      "primary_keyword": "marbella boat rental weather june 2031",
-      "title": "June 2031 Boat Rental Marbella: Weather, Sea Conditions & Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-weather-april-2031-easter-guide",
-      "primary_keyword": "marbella yacht charter weather april 2031 easter",
-      "title": "April 2031 Yacht Charter Marbella: Easter Weather & Availability",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-prices-2031",
-      "primary_keyword": "marbella boat rental no license prices 2031",
-      "title": "No License Boat Rental Marbella 2031: Prices & Best Deals",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-group-size-limits-2031",
-      "primary_keyword": "marbella yacht charter group size limits 2031",
-      "title": "Group Size Limits for Yacht Charter Marbella 2031: What You Need to Know",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2030",
       "primary_keyword": "marbella stag weekend yacht budget breakdown 2030",
       "title": "Stag Weekend Yacht Marbella 2030: Full Budget Breakdown & Tips",
@@ -5664,6 +5629,46 @@
       "slug": "marbella-yacht-charter-minimum-age-policy-2029",
       "primary_keyword": "Marbella yacht charter minimum age policy 2029",
       "title": "Marbella Yacht Charter Minimum Age Policy 2029: Updated Rules",
+      "target_words": 1100,
+      "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2033-recovery-day",
+      "primary_keyword": "ironman marbella 2033 recovery yacht charter",
+      "title": "Ironman Marbella 2033: Post-Race Recovery Yacht Charter Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2031-guide",
+      "primary_keyword": "marbella boat rental weather june 2031",
+      "title": "June 2031 Boat Rental Marbella: Weather, Sea Conditions & Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-weather-april-2031-easter-guide",
+      "primary_keyword": "marbella yacht charter weather april 2031 easter",
+      "title": "April 2031 Yacht Charter Marbella: Easter Weather & Availability",
+      "target_words": 1100,
+      "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2031",
+      "primary_keyword": "marbella boat rental no license prices 2031",
+      "title": "No License Boat Rental Marbella 2031: Prices & Best Deals",
+      "target_words": 1100,
+      "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-group-size-limits-2031",
+      "primary_keyword": "marbella yacht charter group size limits 2031",
+      "title": "Group Size Limits for Yacht Charter Marbella 2031: What You Need to Know",
       "target_words": 1100,
       "consumed_at": "2026-07-07"
     }
