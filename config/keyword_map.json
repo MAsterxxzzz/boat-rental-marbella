@@ -1319,6 +1319,27 @@
       "title": "Marbella Photoshoot Yacht Sunset Session 2032: Golden Hour",
       "intent": "transactional",
       "target_words": 1150
+    },
+    {
+      "slug": "estepona-boat-rental-no-license-2026",
+      "primary_keyword": "estepona boat rental no license 2026",
+      "title": "Estepona Boat Rental No License 2026: Best Options & Prices",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "sotogrande-boat-rental-no-license-2026",
+      "primary_keyword": "sotogrande boat rental no license 2026",
+      "title": "Sotogrande Boat Rental No License 2026: Complete Guide",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-group-size-limits-2035",
+      "primary_keyword": "marbella boat rental group size limits 2035",
+      "title": "Marbella Boat Rental Group Size Limits 2035: Updated Policy",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -4947,6 +4968,41 @@
       "title": "Gluten-Free Food for Marbella Boat Rental: What to Bring Checklist",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2027",
+      "primary_keyword": "marbella yacht charter vegan catering 2027",
+      "title": "Vegan Catering for Yacht Charter Marbella 2027: Dietary Restrictions Guide",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2028",
+      "primary_keyword": "marbella yacht charter minimum age policy 2028",
+      "title": "Minimum Age Policy for Yacht Charter Marbella 2028: Kids & Teens",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2035-guide",
+      "primary_keyword": "Feria San Bernabe 2035 Marbella boat rental",
+      "title": "Feria San Bernabe 2035: Best Marbella Boat Rental Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/puerto-banus-boat-rental-starlite-festival-2034",
+      "primary_keyword": "Puerto Banus boat rental Starlite Festival 2034",
+      "title": "Puerto Banus Boat Rental for Starlite Festival 2034: Complete Guide",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/estepona-boat-charter-ironman-2034-recovery-day",
+      "primary_keyword": "Estepona boat charter Ironman 2034 recovery",
+      "title": "Estepona Boat Charter for Ironman 2034 Recovery Day",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }
