@@ -3534,3 +3534,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-08 14:45:25]   ✓ added to keyword_map.spokes
 [2026-07-08 14:45:25] queue: 39 remaining, 685 consumed total
 [2026-07-08 14:45:25] running deploy.sh …
+[2026-07-08 14:45:29] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-08 17:30:10] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-08 17:30:10] [1/5] blog · blog/cabopino-boat-rental-nye-2033-fireworks-view
+[2026-07-08 17:30:35]   ✓ saved content/blog_cabopino-boat-rental-nye-2033-fireworks-view.json
+[2026-07-08 17:30:35]   ✓ added to keyword_map.blog
+[2026-07-08 17:30:35] [2/5] blog · blog/sotogrande-yacht-charter-polo-final-2034-guide
+[2026-07-08 17:31:00]   ✓ saved content/blog_sotogrande-yacht-charter-polo-final-2034-guide.json
+[2026-07-08 17:31:00]   ✓ added to keyword_map.blog
+[2026-07-08 17:31:00] [3/5] blog · blog/marbella-boat-rental-pride-2035-celebration
+[2026-07-08 17:31:24]   ✓ saved content/blog_marbella-boat-rental-pride-2035-celebration.json
+[2026-07-08 17:31:24]   ✓ added to keyword_map.blog
+[2026-07-08 17:31:24] [4/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2033-weekend
+[2026-07-08 17:31:41]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2033-weekend.json
+[2026-07-08 17:31:41]   ✓ added to keyword_map.blog
+[2026-07-08 17:31:41] [5/5] blog · blog/marbella-boat-rental-weather-november-2029-guide
+[2026-07-08 17:32:02]   ✓ saved content/blog_marbella-boat-rental-weather-november-2029-guide.json
+[2026-07-08 17:32:02]   ✓ added to keyword_map.blog
+[2026-07-08 17:32:02] queue: 34 remaining, 690 consumed total
+[2026-07-08 17:32:02] running deploy.sh …
