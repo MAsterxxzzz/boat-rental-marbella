@@ -3456,3 +3456,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-07 17:32:24] queue under threshold (27 < 30) — auto-refilling…
 [2026-07-07 17:32:40] refill: +30 topics (queue now 57)
 [2026-07-07 17:32:40] running deploy.sh …
+[2026-07-07 17:32:44] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-08 09:00:02] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-08 09:00:02] [1/10] blog · blog/marbella-yacht-charter-vs-puerto-banus-vs-marbella-marina
+[2026-07-08 09:00:34]   ✓ saved content/blog_marbella-yacht-charter-vs-puerto-banus-vs-marbella-marina.json
+[2026-07-08 09:00:34]   ✓ added to keyword_map.blog
+[2026-07-08 09:00:34] [2/10] blog · blog/marbella-yacht-charter-license-requirements-2030
+[2026-07-08 09:01:04]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2030.json
+[2026-07-08 09:01:04]   ✓ added to keyword_map.blog
+[2026-07-08 09:01:04] [3/10] blog · blog/marbella-yacht-charter-cancellation-policy-2029
+[2026-07-08 09:01:28]   ✓ saved content/blog_marbella-yacht-charter-cancellation-policy-2029.json
+[2026-07-08 09:01:28]   ✓ added to keyword_map.blog
+[2026-07-08 09:01:28] [4/10] blog · blog/marbella-yacht-charter-payment-methods-2028
+[2026-07-08 09:01:56]   ✓ saved content/blog_marbella-yacht-charter-payment-methods-2028.json
+[2026-07-08 09:01:56]   ✓ added to keyword_map.blog
+[2026-07-08 09:01:56] [5/10] blog · blog/marbella-boat-rental-what-to-bring-food-gluten-free-options
+[2026-07-08 09:02:31]   ✓ saved content/blog_marbella-boat-rental-what-to-bring-food-gluten-free-options.json
+[2026-07-08 09:02:31]   ✓ added to keyword_map.blog
+[2026-07-08 09:02:31] [6/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2032
+[2026-07-08 09:03:00]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2032.json
+[2026-07-08 09:03:00]   ✓ added to keyword_map.spokes
+[2026-07-08 09:03:00] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2032
+[2026-07-08 09:03:29]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2032.json
+[2026-07-08 09:03:29]   ✓ added to keyword_map.spokes
+[2026-07-08 09:03:29] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2032
+[2026-07-08 09:04:00]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2032.json
+[2026-07-08 09:04:00]   ✓ added to keyword_map.spokes
+[2026-07-08 09:04:00] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2032
+[2026-07-08 09:04:37]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2032.json
+[2026-07-08 09:04:37]   ✓ added to keyword_map.spokes
+[2026-07-08 09:04:37] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2032
+[2026-07-08 09:05:03]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2032.json
+[2026-07-08 09:05:03]   ✓ added to keyword_map.spokes
+[2026-07-08 09:05:03] queue: 47 remaining, 677 consumed total
+[2026-07-08 09:05:03] running deploy.sh …

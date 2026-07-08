@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-vs-puerto-banus-vs-marbella-marina",
-      "primary_keyword": "puerto banus vs marbella marina yacht charter",
-      "title": "Puerto Banús vs Marbella Marina: Best Yacht Charter Departure Point",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-license-requirements-2030",
-      "primary_keyword": "marbella yacht charter license requirements 2030",
-      "title": "Yacht Charter License Requirements Marbella 2030: Full Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-cancellation-policy-2029",
-      "primary_keyword": "marbella yacht charter cancellation policy 2029",
-      "title": "Cancellation Policy for Yacht Charter Marbella 2029: What to Know",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-payment-methods-2028",
-      "primary_keyword": "marbella yacht charter payment methods 2028",
-      "title": "Payment Methods for Yacht Charter Marbella 2028: Cards, Cash & Deposits",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-what-to-bring-food-gluten-free-options",
-      "primary_keyword": "marbella boat rental what to bring food gluten free",
-      "title": "Gluten-Free Food for Marbella Boat Rental: What to Bring Checklist",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2027",
       "primary_keyword": "marbella yacht charter vegan catering 2027",
       "title": "Vegan Catering for Yacht Charter Marbella 2027: Dietary Restrictions Guide",
@@ -337,41 +302,6 @@
       "primary_keyword": "marbella yacht charter vs malaga 2030",
       "title": "Marbella Yacht Charter vs Malaga 2030: Which is Better?",
       "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2032",
-      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo",
-      "title": "Marbella Family Boat Day: Jetski, Snorkel & Paddleboard Combo 2032",
-      "target_words": 1300
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2032",
-      "primary_keyword": "marbella sunset cruise champagne tapas 2032",
-      "title": "Marbella Sunset Cruise with Champagne & Tapas 2032: Evening Sail",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2032",
-      "primary_keyword": "marbella dolphin watching brunch cruise 2032",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2032: Morning Adventure",
-      "target_words": 1250
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2032",
-      "primary_keyword": "marbella fishing and sunset combo charter 2032",
-      "title": "Marbella Fishing & Sunset Combo Charter 2032: Day to Dusk",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2032",
-      "primary_keyword": "marbella photoshoot yacht sunset session 2032",
-      "title": "Marbella Photoshoot Yacht Sunset Session 2032: Golden Hour",
-      "target_words": 1150
     },
     {
       "kind": "spoke",
@@ -5886,6 +5816,86 @@
       "title": "Marbella vs Fuengirola Boat Rental 2029: Pros, Cons & Prices",
       "target_words": 1100,
       "consumed_at": "2026-07-07"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-vs-puerto-banus-vs-marbella-marina",
+      "primary_keyword": "puerto banus vs marbella marina yacht charter",
+      "title": "Puerto Banús vs Marbella Marina: Best Yacht Charter Departure Point",
+      "target_words": 1100,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2030",
+      "primary_keyword": "marbella yacht charter license requirements 2030",
+      "title": "Yacht Charter License Requirements Marbella 2030: Full Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-cancellation-policy-2029",
+      "primary_keyword": "marbella yacht charter cancellation policy 2029",
+      "title": "Cancellation Policy for Yacht Charter Marbella 2029: What to Know",
+      "target_words": 1100,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-payment-methods-2028",
+      "primary_keyword": "marbella yacht charter payment methods 2028",
+      "title": "Payment Methods for Yacht Charter Marbella 2028: Cards, Cash & Deposits",
+      "target_words": 1100,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-gluten-free-options",
+      "primary_keyword": "marbella boat rental what to bring food gluten free",
+      "title": "Gluten-Free Food for Marbella Boat Rental: What to Bring Checklist",
+      "target_words": 1100,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2032",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo",
+      "title": "Marbella Family Boat Day: Jetski, Snorkel & Paddleboard Combo 2032",
+      "target_words": 1300,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2032",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2032",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2032: Evening Sail",
+      "target_words": 1200,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2032",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2032",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2032: Morning Adventure",
+      "target_words": 1250,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2032",
+      "primary_keyword": "marbella fishing and sunset combo charter 2032",
+      "title": "Marbella Fishing & Sunset Combo Charter 2032: Day to Dusk",
+      "target_words": 1200,
+      "consumed_at": "2026-07-08"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2032",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2032",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2032: Golden Hour",
+      "target_words": 1150,
+      "consumed_at": "2026-07-08"
     }
   ],
   "refill_threshold": 30,
