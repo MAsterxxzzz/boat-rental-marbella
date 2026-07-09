@@ -3590,3 +3590,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-09 09:02:34] queue under threshold (29 < 30) — auto-refilling…
 [2026-07-09 09:02:54] refill: +30 topics (queue now 59)
 [2026-07-09 09:02:54] running deploy.sh …
+[2026-07-09 09:02:58] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-09 21:16:30] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-09 21:16:30] [1/10] blog · blog/marbella-boat-rental-weather-may-2031-guide
+[2026-07-09 21:16:57]   ✓ saved content/blog_marbella-boat-rental-weather-may-2031-guide.json
+[2026-07-09 21:16:57]   ✓ added to keyword_map.blog
+[2026-07-09 21:16:57] [2/10] blog · blog/marbella-yacht-charter-starlite-2034-pre-concert-cruise
+[2026-07-09 21:17:25]   ✓ saved content/blog_marbella-yacht-charter-starlite-2034-pre-concert-cruise.json
+[2026-07-09 21:17:25]   ✓ added to keyword_map.blog
+[2026-07-09 21:17:25] [3/10] blog · blog/marbella-boat-rental-nye-2033-fireworks-view
+[2026-07-09 21:17:57]   ✓ saved content/blog_marbella-boat-rental-nye-2033-fireworks-view.json
+[2026-07-09 21:17:57]   ✓ added to keyword_map.blog
+[2026-07-09 21:17:57] [4/10] blog · blog/marbella-yacht-charter-ironman-2035-recovery-day
+[2026-07-09 21:18:22]   ✓ saved content/blog_marbella-yacht-charter-ironman-2035-recovery-day.json
+[2026-07-09 21:18:22]   ✓ added to keyword_map.blog
+[2026-07-09 21:18:22] [5/10] blog · blog/astondoa-40-vs-azimut-39-fuel-cost-comparison-2026
+[2026-07-09 21:18:51]   ✓ saved content/blog_astondoa-40-vs-azimut-39-fuel-cost-comparison-2026.json
+[2026-07-09 21:18:51]   ✓ added to keyword_map.blog
+[2026-07-09 21:18:51] [6/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2033
+[2026-07-09 21:19:18]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2033.json
+[2026-07-09 21:19:18]   ✓ added to keyword_map.spokes
+[2026-07-09 21:19:18] [7/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2033
+[2026-07-09 21:19:45]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2033.json
+[2026-07-09 21:19:45]   ✓ added to keyword_map.spokes
+[2026-07-09 21:19:45] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2033
+[2026-07-09 21:20:07]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2033.json
+[2026-07-09 21:20:07]   ✓ added to keyword_map.spokes
+[2026-07-09 21:20:07] [9/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2033
+[2026-07-09 21:20:41]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2033.json
+[2026-07-09 21:20:41]   ✓ added to keyword_map.spokes
+[2026-07-09 21:20:41] [10/10] spoke · sotogrande-boat-rental-no-license-2032
+[2026-07-09 21:21:02]   ✓ saved content/sotogrande-boat-rental-no-license-2032.json
+[2026-07-09 21:21:02]   ✓ added to keyword_map.spokes
+[2026-07-09 21:21:02] queue: 49 remaining, 705 consumed total
+[2026-07-09 21:21:02] running deploy.sh …
