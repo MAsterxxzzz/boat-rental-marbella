@@ -3659,3 +3659,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-10 09:02:14]   ✓ added to keyword_map.blog
 [2026-07-10 09:02:14] queue: 44 remaining, 710 consumed total
 [2026-07-10 09:02:14] running deploy.sh …
+[2026-07-10 09:02:18] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-10 14:39:45] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-10 14:39:45] [1/5] blog · blog/marbella-boat-rental-sotogrande-polo-final-2035-guide
+[2026-07-10 14:40:16]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2035-guide.json
+[2026-07-10 14:40:16]   ✓ added to keyword_map.blog
+[2026-07-10 14:40:16] [2/5] blog · blog/marbella-yacht-charter-pride-2036-celebration
+[2026-07-10 14:40:45]   ✓ saved content/blog_marbella-yacht-charter-pride-2036-celebration.json
+[2026-07-10 14:40:45]   ✓ added to keyword_map.blog
+[2026-07-10 14:40:45] [3/5] blog · blog/marbella-boat-rental-ironman-2036-recovery-charter
+[2026-07-10 14:41:12]   ✓ saved content/blog_marbella-boat-rental-ironman-2036-recovery-charter.json
+[2026-07-10 14:41:12]   ✓ added to keyword_map.blog
+[2026-07-10 14:41:12] [4/5] blog · blog/marbella-yacht-charter-new-years-eve-2032-fireworks-view
+[2026-07-10 14:41:42]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2032-fireworks-view.json
+[2026-07-10 14:41:42]   ✓ added to keyword_map.blog
+[2026-07-10 14:41:42] [5/5] blog · blog/marbella-boat-rental-hen-party-budget-breakdown-2030
+[2026-07-10 14:42:15]   ✓ saved content/blog_marbella-boat-rental-hen-party-budget-breakdown-2030.json
+[2026-07-10 14:42:15]   ✓ added to keyword_map.blog
+[2026-07-10 14:42:15] queue: 39 remaining, 715 consumed total
+[2026-07-10 14:42:15] running deploy.sh …
