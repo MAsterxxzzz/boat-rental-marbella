@@ -3632,3 +3632,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-09 21:21:02]   ✓ added to keyword_map.spokes
 [2026-07-09 21:21:02] queue: 49 remaining, 705 consumed total
 [2026-07-09 21:21:02] running deploy.sh …
+[2026-07-09 21:21:06] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-10 09:00:01] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-10 09:00:01] [1/5] blog · blog/mangusta-80-vs-ferretti-94-marbella-comparison-2026
+[2026-07-10 09:00:25]   ✓ saved content/blog_mangusta-80-vs-ferretti-94-marbella-comparison-2026.json
+[2026-07-10 09:00:25]   ✓ added to keyword_map.blog
+[2026-07-10 09:00:25] [2/5] blog · blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison-2026
+[2026-07-10 09:00:48]   ✓ saved content/blog_pershing-46-vs-sunseeker-predator-55-marbella-comparison-2026.json
+[2026-07-10 09:00:48]   ✓ added to keyword_map.blog
+[2026-07-10 09:00:48] [3/5] blog · blog/marbella-yacht-charter-weather-april-2032-easter-guide
+[2026-07-10 09:01:16]   ✓ saved content/blog_marbella-yacht-charter-weather-april-2032-easter-guide.json
+[2026-07-10 09:01:16]   ✓ added to keyword_map.blog
+[2026-07-10 09:01:16] [4/5] blog · blog/marbella-boat-rental-starlite-festival-2035-pre-concert-cruise
+[2026-07-10 09:01:47]   ✓ saved content/blog_marbella-boat-rental-starlite-festival-2035-pre-concert-cruise.json
+[2026-07-10 09:01:47]   ✓ added to keyword_map.blog
+[2026-07-10 09:01:47] [5/5] blog · blog/marbella-yacht-charter-feria-san-bernabe-2036-boat-party
+[2026-07-10 09:02:14]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2036-boat-party.json
+[2026-07-10 09:02:14]   ✓ added to keyword_map.blog
+[2026-07-10 09:02:14] queue: 44 remaining, 710 consumed total
+[2026-07-10 09:02:14] running deploy.sh …
