@@ -3742,3 +3742,57 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-11 09:02:12] queue under threshold (29 < 30) — auto-refilling…
 [2026-07-11 09:02:29] refill: +30 topics (queue now 59)
 [2026-07-11 09:02:29] running deploy.sh …
+[2026-07-11 09:02:33] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-11 14:45:56] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-11 14:45:56] [1/10] blog · blog/estepona-boat-charter-sunset-cruise-romantic-dinner-2026
+[2026-07-11 14:45:56]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 14:45:59]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 14:46:05]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 14:46:14]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 14:46:26]   DeepSeek exhausted, falling back to cli
+[2026-07-11 16:48:31]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-11 16:48:31] [2/10] blog · blog/marbella-boat-rental-sotogrande-golf-transfers-2026
+[2026-07-11 16:48:31]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 16:48:34]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 16:48:40]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 17:49:02]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 17:49:14]   DeepSeek exhausted, falling back to cli
+[2026-07-11 20:46:46]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-11 20:46:46] [3/10] blog · blog/marbella-yacht-charter-vs-malaga-2030-comparison
+[2026-07-11 20:46:46]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 20:46:49]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 20:46:55]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 20:47:04]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-11 20:47:16]   DeepSeek exhausted, falling back to cli
+[2026-07-11 21:10:40]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-11 21:10:40] [4/10] blog · blog/marbella-yacht-charter-cancellation-policy-2031
+[2026-07-11 21:11:02]   ✓ saved content/blog_marbella-yacht-charter-cancellation-policy-2031.json
+[2026-07-11 21:11:02]   ✓ added to keyword_map.blog
+[2026-07-11 21:11:02] [5/10] blog · blog/marbella-yacht-charter-starlite-2036-pre-concert-cruise
+[2026-07-11 21:11:31]   ✓ saved content/blog_marbella-yacht-charter-starlite-2036-pre-concert-cruise.json
+[2026-07-11 21:11:31]   ✓ added to keyword_map.blog
+[2026-07-11 21:11:31] [6/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034
+[2026-07-11 21:12:00]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034.json
+[2026-07-11 21:12:00]   ✓ added to keyword_map.spokes
+[2026-07-11 21:12:00] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2034
+[2026-07-11 21:12:32]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2034.json
+[2026-07-11 21:12:32]   ✓ added to keyword_map.spokes
+[2026-07-11 21:12:32] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2034
+[2026-07-11 21:12:55]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2034.json
+[2026-07-11 21:12:55]   ✓ added to keyword_map.spokes
+[2026-07-11 21:12:55] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2033
+[2026-07-11 21:13:23]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2033.json
+[2026-07-11 21:13:23]   ✓ added to keyword_map.spokes
+[2026-07-11 21:13:23] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2034
+[2026-07-11 21:13:52]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2034.json
+[2026-07-11 21:13:52]   ✓ added to keyword_map.spokes
+[2026-07-11 21:13:52] queue: 52 remaining, 732 consumed total
+[2026-07-11 21:13:52] running deploy.sh …

@@ -1375,6 +1375,41 @@
       "title": "No License Boat Rental in Sotogrande 2032",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo 2034",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard Combo 2034",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2034",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2034",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2034",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2034",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2034",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2034: Morning Experience",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2033",
+      "primary_keyword": "marbella fishing and sunset combo charter 2033",
+      "title": "Marbella Fishing & Sunset Combo Charter 2033: Full Day on the Water",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2034",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2034",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2034: Golden Hour Tips",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -5281,6 +5316,20 @@
       "slug": "blog/marbella-boat-rental-cabopino-snorkeling-spots-map-2026",
       "primary_keyword": "cabopino snorkeling spots map marbella",
       "title": "Cabopino Snorkeling Spots Map: Best Locations by Boat from Marbella",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-cancellation-policy-2031",
+      "primary_keyword": "marbella yacht charter cancellation policy 2031",
+      "title": "Marbella Yacht Charter Cancellation Policy 2031: What You Need to Know",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-starlite-2036-pre-concert-cruise",
+      "primary_keyword": "starlite marbella yacht charter 2036",
+      "title": "Starlite 2036: Pre-Concert Yacht Charter Guide for Marbella",
       "intent": "informational",
       "target_words": 1200
     }

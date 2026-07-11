@@ -25,20 +25,6 @@
     },
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-cancellation-policy-2031",
-      "primary_keyword": "marbella yacht charter cancellation policy 2031",
-      "title": "Marbella Yacht Charter Cancellation Policy 2031: What You Need to Know",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-starlite-2036-pre-concert-cruise",
-      "primary_keyword": "starlite marbella yacht charter 2036",
-      "title": "Starlite 2036: Pre-Concert Yacht Charter Guide for Marbella",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2037-boat-party",
       "primary_keyword": "feria san bernabe boat party 2037",
       "title": "Feria San Bernabe 2037: Marbella Boat Party Guide",
@@ -351,41 +337,6 @@
       "primary_keyword": "marbella boat rental sotogrande polo final 2036",
       "title": "Marbella Boat Rental for Sotogrande Polo Final 2036: Spectator Guide",
       "target_words": 1150
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034",
-      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo 2034",
-      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard Combo 2034",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2034",
-      "primary_keyword": "marbella sunset cruise champagne tapas 2034",
-      "title": "Marbella Sunset Cruise with Champagne & Tapas 2034",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2034",
-      "primary_keyword": "marbella dolphin watching brunch cruise 2034",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2034: Morning Experience",
-      "target_words": 1150
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2033",
-      "primary_keyword": "marbella fishing and sunset combo charter 2033",
-      "title": "Marbella Fishing & Sunset Combo Charter 2033: Full Day on the Water",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2034",
-      "primary_keyword": "marbella photoshoot yacht sunset session 2034",
-      "title": "Marbella Photoshoot Yacht Sunset Session 2034: Golden Hour Tips",
-      "target_words": 1100
     },
     {
       "kind": "experience",
@@ -6363,6 +6314,62 @@
       "primary_keyword": "cabopino snorkeling spots map marbella",
       "title": "Cabopino Snorkeling Spots Map: Best Locations by Boat from Marbella",
       "target_words": 1200,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-cancellation-policy-2031",
+      "primary_keyword": "marbella yacht charter cancellation policy 2031",
+      "title": "Marbella Yacht Charter Cancellation Policy 2031: What You Need to Know",
+      "target_words": 1100,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2036-pre-concert-cruise",
+      "primary_keyword": "starlite marbella yacht charter 2036",
+      "title": "Starlite 2036: Pre-Concert Yacht Charter Guide for Marbella",
+      "target_words": 1200,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo 2034",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard Combo 2034",
+      "target_words": 1200,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2034",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2034",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2034",
+      "target_words": 1100,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2034",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2034",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2034: Morning Experience",
+      "target_words": 1150,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2033",
+      "primary_keyword": "marbella fishing and sunset combo charter 2033",
+      "title": "Marbella Fishing & Sunset Combo Charter 2033: Full Day on the Water",
+      "target_words": 1200,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2034",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2034",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2034: Golden Hour Tips",
+      "target_words": 1100,
       "consumed_at": "2026-07-11"
     }
   ],
