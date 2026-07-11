@@ -1272,3 +1272,23 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-11 09:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-11 09:00:00] [1/5] blog · blog/marbella-boat-rental-group-size-limits-2034
+[2026-07-11 09:00:26]   ✓ saved content/blog_marbella-boat-rental-group-size-limits-2034.json
+[2026-07-11 09:00:26]   ✓ added to keyword_map.blog
+[2026-07-11 09:00:26] [2/5] blog · blog/marbella-yacht-charter-license-requirements-2032
+[2026-07-11 09:00:52]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2032.json
+[2026-07-11 09:00:52]   ✓ added to keyword_map.blog
+[2026-07-11 09:00:52] [3/5] blog · blog/marbella-boat-rental-no-license-prices-2033
+[2026-07-11 09:01:16]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2033.json
+[2026-07-11 09:01:16]   ✓ added to keyword_map.blog
+[2026-07-11 09:01:16] [4/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2030
+[2026-07-11 09:01:46]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2030.json
+[2026-07-11 09:01:46]   ✓ added to keyword_map.blog
+[2026-07-11 09:01:46] [5/5] blog · blog/marbella-boat-rental-cabopino-snorkeling-spots-map-2026
+[2026-07-11 09:02:12]   ✓ saved content/blog_marbella-boat-rental-cabopino-snorkeling-spots-map-2026.json
+[2026-07-11 09:02:12]   ✓ added to keyword_map.blog
+[2026-07-11 09:02:12] queue: 29 remaining, 725 consumed total
+[2026-07-11 09:02:12] queue under threshold (29 < 30) — auto-refilling…
+[2026-07-11 09:02:29] refill: +30 topics (queue now 59)
+[2026-07-11 09:02:29] running deploy.sh …

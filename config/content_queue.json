@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-group-size-limits-2034",
-      "primary_keyword": "marbella boat rental group size limits 2034",
-      "title": "Marbella Boat Rental Group Size Limits 2034: Capacity Rules",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-license-requirements-2032",
-      "primary_keyword": "marbella yacht charter license requirements 2032",
-      "title": "Marbella Yacht Charter License Requirements 2032: Updated Rules",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-prices-2033",
-      "primary_keyword": "marbella boat rental no license prices 2033",
-      "title": "Marbella Boat Rental No License Prices 2033: Cost Overview",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2030",
-      "primary_keyword": "marbella yacht charter minimum age policy 2030",
-      "title": "Marbella Yacht Charter Minimum Age Policy 2030: Rules Explained",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-cabopino-snorkeling-spots-map-2026",
-      "primary_keyword": "cabopino snorkeling spots map marbella",
-      "title": "Cabopino Snorkeling Spots Map: Best Locations by Boat from Marbella",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
       "slug": "blog/estepona-boat-charter-sunset-cruise-romantic-dinner-2026",
       "primary_keyword": "estepona boat charter sunset cruise romantic dinner",
       "title": "Estepona Boat Charter Sunset Cruise with Romantic Dinner 2026",
@@ -238,6 +203,216 @@
       "slug": "blog/marbella-fishing-charter-tuna-season-2031",
       "primary_keyword": "tuna season marbella fishing charter 2031",
       "title": "Tuna Season 2031: Fishing Charter in Marbella",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/astondoa-40-vs-azimut-39-vs-mangusta-80-fuel-cost-comparison-marbella",
+      "primary_keyword": "astondoa 40 vs azimut 39 vs mangusta 80 fuel cost marbella",
+      "title": "Astondoa 40 vs Azimut 39 vs Mangusta 80: Fuel Cost Comparison in Marbella",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2032-guide",
+      "primary_keyword": "marbella boat rental weather september",
+      "title": "Marbella Boat Rental Weather in September: A Complete Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2038-boat-party",
+      "primary_keyword": "marbella yacht charter feria san bernabe 2038",
+      "title": "Marbella Yacht Charter for Feria San Bernabe 2038: Boat Party Guide",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2037-pre-concert-cruise",
+      "primary_keyword": "marbella yacht charter starlite 2037 pre-concert cruise",
+      "title": "Marbella Yacht Charter for Starlite 2037: Pre-Concert Cruise Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2035-fireworks-view",
+      "primary_keyword": "marbella boat rental new years eve 2035 fireworks",
+      "title": "Marbella Boat Rental for NYE 2035: Best Fireworks Views from the Sea",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2036-weekend",
+      "primary_keyword": "marbella yacht charter f1 grand prix 2036",
+      "title": "Marbella Yacht Charter for F1 Grand Prix 2036: Weekend Itinerary",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2038-recovery-charter",
+      "primary_keyword": "marbella boat rental ironman 2038 recovery",
+      "title": "Marbella Boat Rental for Ironman 2038: Post-Race Recovery Charter",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-pride-2038-celebration",
+      "primary_keyword": "marbella yacht charter pride 2038",
+      "title": "Marbella Yacht Charter for Pride 2038: Celebration on the Water",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2033",
+      "primary_keyword": "marbella boat rental stag weekend cost breakdown 2033",
+      "title": "Marbella Boat Rental Stag Weekend 2033: Full Cost Breakdown",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-hen-party-budget-breakdown-2034",
+      "primary_keyword": "marbella yacht charter hen party budget breakdown 2034",
+      "title": "Marbella Yacht Charter Hen Party 2034: Budget Breakdown",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2035",
+      "primary_keyword": "marbella boat rental no license prices 2035",
+      "title": "Marbella Boat Rental No License Prices 2035: What to Expect",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2033",
+      "primary_keyword": "marbella yacht charter license requirements 2033",
+      "title": "Marbella Yacht Charter License Requirements 2033: Updated Rules",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-group-size-limits-2037",
+      "primary_keyword": "marbella boat rental group size limits 2037",
+      "title": "Marbella Boat Rental Group Size Limits 2037: Maximum Capacity Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2034",
+      "primary_keyword": "marbella yacht charter minimum age policy 2034",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2034: What You Need to Know",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2031-guide",
+      "primary_keyword": "marbella boat rental weather october 2031",
+      "title": "Marbella Boat Rental Weather in October 2031: Shoulder Season Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-weather-may-2033-guide",
+      "primary_keyword": "marbella yacht charter weather may 2033",
+      "title": "Marbella Yacht Charter Weather in May 2033: Spring Sailing Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2034-easter-guide",
+      "primary_keyword": "marbella boat rental weather april 2034 easter",
+      "title": "Marbella Boat Rental Weather April 2034: Easter Weekend Guide",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2033",
+      "primary_keyword": "marbella yacht charter dietary restrictions vegan catering 2033",
+      "title": "Marbella Yacht Charter Vegan Catering 2033: Dietary Options Onboard",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-gluten-free-options-2034",
+      "primary_keyword": "marbella boat rental what to bring food gluten free options 2034",
+      "title": "Marbella Boat Rental: Gluten-Free Food Options to Bring in 2034",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-puerto-banus-dinner-cruise-2027",
+      "primary_keyword": "marbella yacht charter puerto banus dinner cruise 2027",
+      "title": "Marbella Yacht Charter Puerto Banus Dinner Cruise 2027: Evening Guide",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2036-guide",
+      "primary_keyword": "marbella boat rental sotogrande polo final 2036",
+      "title": "Marbella Boat Rental for Sotogrande Polo Final 2036: Spectator Guide",
+      "target_words": 1150
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2034",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard combo 2034",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard Combo 2034",
+      "target_words": 1200
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2034",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2034",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2034",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2034",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2034",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2034: Morning Experience",
+      "target_words": 1150
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2033",
+      "primary_keyword": "marbella fishing and sunset combo charter 2033",
+      "title": "Marbella Fishing & Sunset Combo Charter 2033: Full Day on the Water",
+      "target_words": 1200
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2034",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2034",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2034: Golden Hour Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-romantic-proposal-2032",
+      "primary_keyword": "marbella sunset cruise romantic proposal 2032",
+      "title": "Marbella Sunset Cruise Romantic Proposal 2032: Plan the Perfect Moment",
+      "target_words": 1150
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-no-license-prices-2036",
+      "primary_keyword": "marbella boat rental no license prices 2036",
+      "title": "Marbella Boat Rental No License Prices 2036: Quick Overview",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-yacht-charter-cancellation-policy-2033",
+      "primary_keyword": "marbella yacht charter cancellation policy 2033",
+      "title": "Marbella Yacht Charter Cancellation Policy 2033: Key Details",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-yacht-charter-payment-methods-2032",
+      "primary_keyword": "marbella yacht charter payment methods 2032",
+      "title": "Marbella Yacht Charter Payment Methods 2032: Accepted Options",
       "target_words": 1100
     }
   ],
@@ -6149,6 +6324,46 @@
       "title": "Marbella Yacht Charter Weather December 2029: Seasonal Tips",
       "target_words": 1100,
       "consumed_at": "2026-07-10"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-group-size-limits-2034",
+      "primary_keyword": "marbella boat rental group size limits 2034",
+      "title": "Marbella Boat Rental Group Size Limits 2034: Capacity Rules",
+      "target_words": 1100,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2032",
+      "primary_keyword": "marbella yacht charter license requirements 2032",
+      "title": "Marbella Yacht Charter License Requirements 2032: Updated Rules",
+      "target_words": 1150,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2033",
+      "primary_keyword": "marbella boat rental no license prices 2033",
+      "title": "Marbella Boat Rental No License Prices 2033: Cost Overview",
+      "target_words": 1200,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2030",
+      "primary_keyword": "marbella yacht charter minimum age policy 2030",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2030: Rules Explained",
+      "target_words": 1100,
+      "consumed_at": "2026-07-11"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-cabopino-snorkeling-spots-map-2026",
+      "primary_keyword": "cabopino snorkeling spots map marbella",
+      "title": "Cabopino Snorkeling Spots Map: Best Locations by Boat from Marbella",
+      "target_words": 1200,
+      "consumed_at": "2026-07-11"
     }
   ],
   "refill_threshold": 30,
