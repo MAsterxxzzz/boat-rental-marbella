@@ -4,34 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2033",
-      "primary_keyword": "minimum age yacht charter marbella 2033",
-      "title": "Minimum Age Policy for Yacht Charter in Marbella 2033",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-group-size-limits-2036",
-      "primary_keyword": "group size limits boat rental marbella 2036",
-      "title": "Group Size Limits for Boat Rental in Marbella 2036",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-prices-2034",
-      "primary_keyword": "no license boat rental prices marbella 2034",
-      "title": "No License Boat Rental Prices in Marbella 2034",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-cancellation-policy-2032",
-      "primary_keyword": "yacht charter cancellation policy marbella 2032",
-      "title": "Yacht Charter Cancellation Policy in Marbella 2032",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-april-2033-easter-guide",
       "primary_keyword": "marbella boat rental weather april 2033",
       "title": "April 2033 Weather for Boat Rental in Marbella: Easter Edition",
@@ -6384,6 +6356,38 @@
       "primary_keyword": "stag weekend yacht budget marbella 2032",
       "title": "Stag Weekend Yacht Cost in Marbella 2032: Full Breakdown",
       "target_words": 1200,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2033",
+      "primary_keyword": "minimum age yacht charter marbella 2033",
+      "title": "Minimum Age Policy for Yacht Charter in Marbella 2033",
+      "target_words": 1100,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-group-size-limits-2036",
+      "primary_keyword": "group size limits boat rental marbella 2036",
+      "title": "Group Size Limits for Boat Rental in Marbella 2036",
+      "target_words": 1100,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2034",
+      "primary_keyword": "no license boat rental prices marbella 2034",
+      "title": "No License Boat Rental Prices in Marbella 2034",
+      "target_words": 1150,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-cancellation-policy-2032",
+      "primary_keyword": "yacht charter cancellation policy marbella 2032",
+      "title": "Yacht Charter Cancellation Policy in Marbella 2032",
+      "target_words": 1100,
       "consumed_at": "2026-07-12"
     }
   ],

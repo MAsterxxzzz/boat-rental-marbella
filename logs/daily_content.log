@@ -3862,3 +3862,29 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-12 15:00:52]   ✓ added to keyword_map.blog
 [2026-07-12 15:00:52] queue: 38 remaining, 746 consumed total
 [2026-07-12 15:00:52] running deploy.sh …
+[2026-07-12 15:00:56] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-12 17:30:13] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-12 17:30:13] [1/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2033
+[2026-07-12 17:30:40]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2033.json
+[2026-07-12 17:30:40]   ✓ added to keyword_map.blog
+[2026-07-12 17:30:40] [2/5] blog · blog/marbella-yacht-charter-group-size-limits-2036
+[2026-07-12 17:31:16]   ✓ saved content/blog_marbella-yacht-charter-group-size-limits-2036.json
+[2026-07-12 17:31:16]   ✓ added to keyword_map.blog
+[2026-07-12 17:31:16] [3/5] blog · blog/marbella-boat-rental-no-license-prices-2034
+[2026-07-12 17:31:46]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2034.json
+[2026-07-12 17:31:46]   ✓ added to keyword_map.blog
+[2026-07-12 17:31:46] [4/5] blog · blog/marbella-yacht-charter-cancellation-policy-2032
+[2026-07-12 17:32:07]   ✓ saved content/blog_marbella-yacht-charter-cancellation-policy-2032.json
+[2026-07-12 17:32:07]   ✓ added to keyword_map.blog
+[2026-07-12 17:32:07] [5/5] blog · blog/marbella-boat-rental-weather-april-2033-easter-guide
+[2026-07-12 17:32:40]   ✗ FAILED: JSONDecodeError: Expecting ',' delimiter: line 28 column 5 (char 2332)
+[2026-07-12 17:32:40] queue: 34 remaining, 750 consumed total
+[2026-07-12 17:32:40] running deploy.sh …
