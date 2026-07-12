@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2035-weekend",
-      "primary_keyword": "f1 grand prix marbella yacht charter 2035",
-      "title": "F1 Grand Prix 2035: Yacht Charter in Marbella for Race Weekend",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-ironman-2037-recovery-charter",
-      "primary_keyword": "ironman marbella recovery boat charter 2037",
-      "title": "Ironman 2037 Recovery: Relaxing Boat Charter in Marbella",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-pride-2037-yacht-party-puerto-banus",
-      "primary_keyword": "marbella pride yacht party 2037",
-      "title": "Marbella Pride 2037: Yacht Party from Puerto Banús",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-hen-party-budget-breakdown-2033",
-      "primary_keyword": "hen party yacht budget marbella 2033",
-      "title": "Hen Party Yacht Budget Breakdown for Marbella 2033",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2032",
-      "primary_keyword": "stag weekend yacht budget marbella 2032",
-      "title": "Stag Weekend Yacht Cost in Marbella 2032: Full Breakdown",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-minimum-age-policy-2033",
       "primary_keyword": "minimum age yacht charter marbella 2033",
       "title": "Minimum Age Policy for Yacht Charter in Marbella 2033",
@@ -6379,6 +6344,46 @@
       "primary_keyword": "marbella yacht charter payment methods 2032",
       "title": "Marbella Yacht Charter Payment Methods 2032: Accepted Options",
       "target_words": 1100,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2035-weekend",
+      "primary_keyword": "f1 grand prix marbella yacht charter 2035",
+      "title": "F1 Grand Prix 2035: Yacht Charter in Marbella for Race Weekend",
+      "target_words": 1250,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2037-recovery-charter",
+      "primary_keyword": "ironman marbella recovery boat charter 2037",
+      "title": "Ironman 2037 Recovery: Relaxing Boat Charter in Marbella",
+      "target_words": 1150,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-pride-2037-yacht-party-puerto-banus",
+      "primary_keyword": "marbella pride yacht party 2037",
+      "title": "Marbella Pride 2037: Yacht Party from Puerto Banús",
+      "target_words": 1100,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-hen-party-budget-breakdown-2033",
+      "primary_keyword": "hen party yacht budget marbella 2033",
+      "title": "Hen Party Yacht Budget Breakdown for Marbella 2033",
+      "target_words": 1200,
+      "consumed_at": "2026-07-12"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2032",
+      "primary_keyword": "stag weekend yacht budget marbella 2032",
+      "title": "Stag Weekend Yacht Cost in Marbella 2032: Full Breakdown",
+      "target_words": 1200,
       "consumed_at": "2026-07-12"
     }
   ],

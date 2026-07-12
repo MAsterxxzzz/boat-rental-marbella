@@ -259,3 +259,15 @@
 [2026-07-11 12:31:03]   ✓ published https://telegra.ph/Marbellas-Best-Beach-Clubs-Accessible-Only-by-Private-Boat-07-11 (7 backlinks)
 [2026-07-11 12:31:03] === Done: 3/3 published. Ledger total: 68 ===
 
+[2026-07-12 14:21:06] === Telegraph run: target 3 article(s) · 68 previously published ===
+[2026-07-12 14:21:07]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-12 14:21:10]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-12 14:21:16] [1/3] A Gourmet RIB Run to Marbella's Inland Olive Oil Mills
+[2026-07-12 14:21:46]   attempt 1: JSON parse failed, retrying
+[2026-07-12 14:22:04]   ✓ published https://telegra.ph/A-Gourmet-RIB-Run-to-Marbellas-Inland-Olive-Oil-Mills-07-12 (5 backlinks)
+[2026-07-12 14:22:04] [2/3] Chartering a Trimaran for Stable Family Sailing from Puerto Banús
+[2026-07-12 14:22:20]   ✓ published https://telegra.ph/Chartering-a-Trimaran-for-Stable-Family-Sailing-from-Puerto-Banús-07-12 (5 backlinks)
+[2026-07-12 14:22:20] [3/3] Marbella to Málaga City: An Art and Architecture Day Charter
+[2026-07-12 14:22:46]   ✓ published https://telegra.ph/Marbella-to-Málaga-City-An-Art-and-Architecture-Day-Charter-07-12 (7 backlinks)
+[2026-07-12 14:22:46] === Done: 3/3 published. Ledger total: 71 ===
+

@@ -3835,3 +3835,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-12 09:03:31]   ✓ added to keyword_map.spokes
 [2026-07-12 09:03:31] queue: 43 remaining, 741 consumed total
 [2026-07-12 09:03:31] running deploy.sh …
+[2026-07-12 09:03:35] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-12 14:58:46] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-12 14:58:46] [1/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2035-weekend
+[2026-07-12 14:59:11]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2035-weekend.json
+[2026-07-12 14:59:11]   ✓ added to keyword_map.blog
+[2026-07-12 14:59:11] [2/5] blog · blog/marbella-boat-rental-ironman-2037-recovery-charter
+[2026-07-12 14:59:37]   ✓ saved content/blog_marbella-boat-rental-ironman-2037-recovery-charter.json
+[2026-07-12 14:59:37]   ✓ added to keyword_map.blog
+[2026-07-12 14:59:37] [3/5] blog · blog/marbella-pride-2037-yacht-party-puerto-banus
+[2026-07-12 15:00:00]   ✓ saved content/blog_marbella-pride-2037-yacht-party-puerto-banus.json
+[2026-07-12 15:00:00]   ✓ added to keyword_map.blog
+[2026-07-12 15:00:00] [4/5] blog · blog/marbella-yacht-charter-hen-party-budget-breakdown-2033
+[2026-07-12 15:00:27]   ✓ saved content/blog_marbella-yacht-charter-hen-party-budget-breakdown-2033.json
+[2026-07-12 15:00:27]   ✓ added to keyword_map.blog
+[2026-07-12 15:00:27] [5/5] blog · blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2032
+[2026-07-12 15:00:52]   ✓ saved content/blog_marbella-yacht-charter-stag-weekend-budget-breakdown-2032.json
+[2026-07-12 15:00:52]   ✓ added to keyword_map.blog
+[2026-07-12 15:00:52] queue: 38 remaining, 746 consumed total
+[2026-07-12 15:00:52] running deploy.sh …
