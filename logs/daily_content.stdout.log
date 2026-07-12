@@ -1301,3 +1301,33 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-12 09:00:00] === Daily content run (kind-balanced): 5 blog + 4 landing = 9 item(s) ===
+[2026-07-12 09:00:00] [1/9] blog · blog/estepona-boat-charter-sunset-cruise-romantic-dinner-2026
+[2026-07-12 09:00:26]   ✓ saved content/blog_estepona-boat-charter-sunset-cruise-romantic-dinner-2026.json
+[2026-07-12 09:00:26]   ✓ added to keyword_map.blog
+[2026-07-12 09:00:26] [2/9] blog · blog/marbella-boat-rental-sotogrande-golf-transfers-2026
+[2026-07-12 09:00:49]   ✓ saved content/blog_marbella-boat-rental-sotogrande-golf-transfers-2026.json
+[2026-07-12 09:00:49]   ✓ added to keyword_map.blog
+[2026-07-12 09:00:49] [3/9] blog · blog/marbella-yacht-charter-vs-malaga-2030-comparison
+[2026-07-12 09:01:13]   ✓ saved content/blog_marbella-yacht-charter-vs-malaga-2030-comparison.json
+[2026-07-12 09:01:13]   ✓ added to keyword_map.blog
+[2026-07-12 09:01:13] [4/9] blog · blog/marbella-boat-rental-feria-san-bernabe-2037-boat-party
+[2026-07-12 09:01:39]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2037-boat-party.json
+[2026-07-12 09:01:39]   ✓ added to keyword_map.blog
+[2026-07-12 09:01:39] [5/9] blog · blog/marbella-boat-rental-nye-2034-fireworks-view
+[2026-07-12 09:02:03]   ✓ saved content/blog_marbella-boat-rental-nye-2034-fireworks-view.json
+[2026-07-12 09:02:03]   ✓ added to keyword_map.blog
+[2026-07-12 09:02:03] [6/9] experience · experiences/marbella-sunset-cruise-romantic-proposal-2032
+[2026-07-12 09:02:28]   ✓ saved content/experiences_marbella-sunset-cruise-romantic-proposal-2032.json
+[2026-07-12 09:02:28]   ✓ added to keyword_map.spokes
+[2026-07-12 09:02:28] [7/9] spoke · marbella-boat-rental-no-license-prices-2036
+[2026-07-12 09:02:49]   ✓ saved content/marbella-boat-rental-no-license-prices-2036.json
+[2026-07-12 09:02:49]   ✓ added to keyword_map.spokes
+[2026-07-12 09:02:49] [8/9] spoke · marbella-yacht-charter-cancellation-policy-2033
+[2026-07-12 09:03:07]   ✓ saved content/marbella-yacht-charter-cancellation-policy-2033.json
+[2026-07-12 09:03:07]   ✓ added to keyword_map.spokes
+[2026-07-12 09:03:07] [9/9] spoke · marbella-yacht-charter-payment-methods-2032
+[2026-07-12 09:03:31]   ✓ saved content/marbella-yacht-charter-payment-methods-2032.json
+[2026-07-12 09:03:31]   ✓ added to keyword_map.spokes
+[2026-07-12 09:03:31] queue: 43 remaining, 741 consumed total
+[2026-07-12 09:03:31] running deploy.sh …
