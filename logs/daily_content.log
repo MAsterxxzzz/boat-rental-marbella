@@ -3917,3 +3917,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-13 09:09:26] queue under threshold (29 < 30) — auto-refilling…
 [2026-07-13 09:09:44] refill: +30 topics (queue now 59)
 [2026-07-13 09:09:44] running deploy.sh …
+[2026-07-13 09:10:00] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-13 14:30:01] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-13 14:30:01] [1/10] blog · blog/marbella-yacht-charter-payment-methods-2031
+[2026-07-13 14:30:21]   ✓ saved content/blog_marbella-yacht-charter-payment-methods-2031.json
+[2026-07-13 14:30:21]   ✓ added to keyword_map.blog
+[2026-07-13 14:30:21] [2/10] blog · blog/marbella-boat-rental-vs-estepona-2032-comparison
+[2026-07-13 14:30:50]   ✓ saved content/blog_marbella-boat-rental-vs-estepona-2032-comparison.json
+[2026-07-13 14:30:50]   ✓ added to keyword_map.blog
+[2026-07-13 14:30:50] [3/10] blog · blog/marbella-yacht-charter-vs-malaga-2031-comparison
+[2026-07-13 14:31:14]   ✓ saved content/blog_marbella-yacht-charter-vs-malaga-2031-comparison.json
+[2026-07-13 14:31:14]   ✓ added to keyword_map.blog
+[2026-07-13 14:31:14] [4/10] blog · blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2030
+[2026-07-13 14:31:39]   ✓ saved content/blog_astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2030.json
+[2026-07-13 14:31:39]   ✓ added to keyword_map.blog
+[2026-07-13 14:31:39] [5/10] blog · blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2031
+[2026-07-13 14:32:00]   ✓ saved content/blog_mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2031.json
+[2026-07-13 14:32:00]   ✓ added to keyword_map.blog
+[2026-07-13 14:32:00] [6/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2035
+[2026-07-13 14:32:26]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2035.json
+[2026-07-13 14:32:26]   ✓ added to keyword_map.spokes
+[2026-07-13 14:32:26] [7/10] spoke · cabopino-boat-rental-sunset-cruise-romantic-dinner-2027
+[2026-07-13 14:32:47]   ✓ saved content/cabopino-boat-rental-sunset-cruise-romantic-dinner-2027.json
+[2026-07-13 14:32:47]   ✓ added to keyword_map.spokes
+[2026-07-13 14:32:47] [8/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2035
+[2026-07-13 14:33:12]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2035.json
+[2026-07-13 14:33:12]   ✓ added to keyword_map.spokes
+[2026-07-13 14:33:12] [9/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2035
+[2026-07-13 14:33:34]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2035.json
+[2026-07-13 14:33:34]   ✓ added to keyword_map.spokes
+[2026-07-13 14:33:34] [10/10] spoke · estepona-boat-rental-no-license-2027
+[2026-07-13 14:33:56]   ✓ saved content/estepona-boat-rental-no-license-2027.json
+[2026-07-13 14:33:56]   ✓ added to keyword_map.spokes
+[2026-07-13 14:33:56] queue: 49 remaining, 765 consumed total
+[2026-07-13 14:33:56] running deploy.sh …

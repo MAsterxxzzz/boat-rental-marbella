@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-payment-methods-2031",
-      "primary_keyword": "yacht charter payment methods marbella 2031",
-      "title": "Payment Methods for Yacht Charter in Marbella 2031",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-vs-estepona-2032-comparison",
-      "primary_keyword": "marbella vs estepona boat rental 2032",
-      "title": "Marbella vs Estepona Boat Rental 2032: Which is Better?",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-vs-malaga-2031-comparison",
-      "primary_keyword": "marbella vs malaga yacht charter 2031",
-      "title": "Marbella vs Malaga Yacht Charter 2031: Key Differences",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2030",
-      "primary_keyword": "astondoa 40 vs azimut 39 vs pershing 46 marbella 2030",
-      "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Three-Way Marbella Comparison 2030",
-      "target_words": 1400
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2031",
-      "primary_keyword": "mangusta 80 vs sunseeker predator 74 marbella 2031",
-      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2031",
-      "target_words": 1350
-    },
-    {
-      "kind": "blog",
       "slug": "blog/pershing-46-vs-astondoa-40-marbella-comparison-2032",
       "primary_keyword": "pershing 46 vs astondoa 40 marbella 2032",
       "title": "Pershing 46 vs Astondoa 40: Marbella Comparison 2032",
@@ -234,13 +199,6 @@
       "target_words": 1200
     },
     {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2035",
-      "primary_keyword": "marbella sunset cruise champagne tapas",
-      "title": "Sunset Cruise with Champagne & Tapas in Marbella (2035)",
-      "target_words": 1100
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-september-2033-guide",
       "primary_keyword": "marbella boat rental weather september 2033",
@@ -255,13 +213,6 @@
       "target_words": 1400
     },
     {
-      "kind": "spoke",
-      "slug": "cabopino-boat-rental-sunset-cruise-romantic-dinner-2027",
-      "primary_keyword": "cabopino boat rental sunset romantic dinner",
-      "title": "Cabopino Boat Rental: Romantic Sunset Dinner Cruise 2027",
-      "target_words": 1100
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-boat-rental-group-size-limits-2038",
       "primary_keyword": "marbella boat rental group size limits 2038",
@@ -274,13 +225,6 @@
       "primary_keyword": "marbella hen party yacht budget 2035",
       "title": "Hen Party Yacht Charter Budget Breakdown Marbella 2035",
       "target_words": 1300
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2035",
-      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
-      "title": "Family Boat Day with Jet Ski, Snorkel & Paddleboard in Marbella 2035",
-      "target_words": 1200
     },
     {
       "kind": "blog",
@@ -318,13 +262,6 @@
       "target_words": 1100
     },
     {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2035",
-      "primary_keyword": "marbella dolphin watching brunch cruise 2035",
-      "title": "Dolphin Watching Brunch Cruise in Marbella 2035",
-      "target_words": 1100
-    },
-    {
       "kind": "blog",
       "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2034",
       "primary_keyword": "marbella stag weekend yacht budget 2034",
@@ -344,13 +281,6 @@
       "primary_keyword": "marbella pride yacht charter 2039",
       "title": "Marbella Pride 2039: Yacht Charter Celebration from Puerto Banús",
       "target_words": 1200
-    },
-    {
-      "kind": "spoke",
-      "slug": "estepona-boat-rental-no-license-2027",
-      "primary_keyword": "estepona boat rental no license 2027",
-      "title": "Estepona Boat Rental No License 2027: Prices & Rules",
-      "target_words": 1100
     },
     {
       "kind": "blog",
@@ -6602,6 +6532,86 @@
       "slug": "blog/marbella-boat-rental-what-to-bring-food-gluten-free-options-2033",
       "primary_keyword": "gluten free food boat rental marbella 2033",
       "title": "Gluten-Free Food Ideas for Boat Rental in Marbella 2033",
+      "target_words": 1100,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-payment-methods-2031",
+      "primary_keyword": "yacht charter payment methods marbella 2031",
+      "title": "Payment Methods for Yacht Charter in Marbella 2031",
+      "target_words": 1100,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-vs-estepona-2032-comparison",
+      "primary_keyword": "marbella vs estepona boat rental 2032",
+      "title": "Marbella vs Estepona Boat Rental 2032: Which is Better?",
+      "target_words": 1300,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-vs-malaga-2031-comparison",
+      "primary_keyword": "marbella vs malaga yacht charter 2031",
+      "title": "Marbella vs Malaga Yacht Charter 2031: Key Differences",
+      "target_words": 1250,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2030",
+      "primary_keyword": "astondoa 40 vs azimut 39 vs pershing 46 marbella 2030",
+      "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Three-Way Marbella Comparison 2030",
+      "target_words": 1400,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2031",
+      "primary_keyword": "mangusta 80 vs sunseeker predator 74 marbella 2031",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2031",
+      "target_words": 1350,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2035",
+      "primary_keyword": "marbella sunset cruise champagne tapas",
+      "title": "Sunset Cruise with Champagne & Tapas in Marbella (2035)",
+      "target_words": 1100,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "spoke",
+      "slug": "cabopino-boat-rental-sunset-cruise-romantic-dinner-2027",
+      "primary_keyword": "cabopino boat rental sunset romantic dinner",
+      "title": "Cabopino Boat Rental: Romantic Sunset Dinner Cruise 2027",
+      "target_words": 1100,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2035",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Family Boat Day with Jet Ski, Snorkel & Paddleboard in Marbella 2035",
+      "target_words": 1200,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2035",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2035",
+      "title": "Dolphin Watching Brunch Cruise in Marbella 2035",
+      "target_words": 1100,
+      "consumed_at": "2026-07-13"
+    },
+    {
+      "kind": "spoke",
+      "slug": "estepona-boat-rental-no-license-2027",
+      "primary_keyword": "estepona boat rental no license 2027",
+      "title": "Estepona Boat Rental No License 2027: Prices & Rules",
       "target_words": 1100,
       "consumed_at": "2026-07-13"
     }
