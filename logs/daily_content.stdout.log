@@ -1340,3 +1340,23 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-13 09:07:10] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-13 09:07:10] [1/5] blog · blog/marbella-boat-rental-weather-april-2033-easter-guide
+[2026-07-13 09:07:46]   ✓ saved content/blog_marbella-boat-rental-weather-april-2033-easter-guide.json
+[2026-07-13 09:07:46]   ✓ added to keyword_map.blog
+[2026-07-13 09:07:46] [2/5] blog · blog/marbella-yacht-charter-weather-may-2032-guide
+[2026-07-13 09:08:09]   ✓ saved content/blog_marbella-yacht-charter-weather-may-2032-guide.json
+[2026-07-13 09:08:09]   ✓ added to keyword_map.blog
+[2026-07-13 09:08:09] [3/5] blog · blog/marbella-boat-rental-weather-september-2031-guide
+[2026-07-13 09:08:33]   ✓ saved content/blog_marbella-boat-rental-weather-september-2031-guide.json
+[2026-07-13 09:08:33]   ✓ added to keyword_map.blog
+[2026-07-13 09:08:33] [4/5] blog · blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2032
+[2026-07-13 09:08:56]   ✓ saved content/blog_marbella-yacht-charter-dietary-restrictions-vegan-catering-2032.json
+[2026-07-13 09:08:56]   ✓ added to keyword_map.blog
+[2026-07-13 09:08:56] [5/5] blog · blog/marbella-boat-rental-what-to-bring-food-gluten-free-options-2033
+[2026-07-13 09:09:26]   ✓ saved content/blog_marbella-boat-rental-what-to-bring-food-gluten-free-options-2033.json
+[2026-07-13 09:09:26]   ✓ added to keyword_map.blog
+[2026-07-13 09:09:26] queue: 29 remaining, 755 consumed total
+[2026-07-13 09:09:26] queue under threshold (29 < 30) — auto-refilling…
+[2026-07-13 09:09:44] refill: +30 topics (queue now 59)
+[2026-07-13 09:09:44] running deploy.sh …
