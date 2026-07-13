@@ -1473,6 +1473,27 @@
       "title": "Estepona Boat Rental No License 2027: Prices & Rules",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2035",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2035",
+      "title": "Sunset Photoshoot Session on a Yacht in Marbella 2035",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "sotogrande-boat-rental-no-license-2027",
+      "primary_keyword": "sotogrande boat rental no license 2027",
+      "title": "Sotogrande Boat Rental No License 2027: Complete Guide",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2034",
+      "primary_keyword": "marbella fishing sunset combo charter 2034",
+      "title": "Fishing & Sunset Combo Charter in Marbella 2034",
+      "intent": "transactional",
+      "target_words": 1200
     }
   ],
   "blog": [
@@ -5563,6 +5584,41 @@
       "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2031",
       "intent": "informational",
       "target_words": 1350
+    },
+    {
+      "slug": "blog/pershing-46-vs-astondoa-40-marbella-comparison-2032",
+      "primary_keyword": "pershing 46 vs astondoa 40 marbella 2032",
+      "title": "Pershing 46 vs Astondoa 40: Marbella Comparison 2032",
+      "intent": "informational",
+      "target_words": 1300
+    },
+    {
+      "slug": "blog/marbella-dolphin-watching-best-time-of-year-2030",
+      "primary_keyword": "best time of year dolphin watching marbella 2030",
+      "title": "Best Time of Year for Dolphin Watching in Marbella 2030",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-fishing-charter-tuna-season-2031",
+      "primary_keyword": "tuna season marbella fishing charter 2031",
+      "title": "Tuna Season 2031: Fishing Charter in Marbella",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/astondoa-40-vs-azimut-39-vs-mangusta-80-fuel-cost-comparison-marbella",
+      "primary_keyword": "astondoa 40 vs azimut 39 vs mangusta 80 fuel cost marbella",
+      "title": "Astondoa 40 vs Azimut 39 vs Mangusta 80: Fuel Cost Comparison in Marbella",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-september-2032-guide",
+      "primary_keyword": "marbella boat rental weather september",
+      "title": "Marbella Boat Rental Weather in September: A Complete Guide",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }

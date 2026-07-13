@@ -3959,3 +3959,39 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-13 14:33:56]   ✓ added to keyword_map.spokes
 [2026-07-13 14:33:56] queue: 49 remaining, 765 consumed total
 [2026-07-13 14:33:56] running deploy.sh …
+[2026-07-13 14:34:00] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-13 17:30:06] === Daily content run (kind-balanced): 5 blog + 3 landing = 8 item(s) ===
+[2026-07-13 17:30:06] [1/8] blog · blog/pershing-46-vs-astondoa-40-marbella-comparison-2032
+[2026-07-13 17:30:26]   ✓ saved content/blog_pershing-46-vs-astondoa-40-marbella-comparison-2032.json
+[2026-07-13 17:30:26]   ✓ added to keyword_map.blog
+[2026-07-13 17:30:26] [2/8] blog · blog/marbella-dolphin-watching-best-time-of-year-2030
+[2026-07-13 17:30:52]   ✓ saved content/blog_marbella-dolphin-watching-best-time-of-year-2030.json
+[2026-07-13 17:30:52]   ✓ added to keyword_map.blog
+[2026-07-13 17:30:52] [3/8] blog · blog/marbella-fishing-charter-tuna-season-2031
+[2026-07-13 17:31:13]   ✓ saved content/blog_marbella-fishing-charter-tuna-season-2031.json
+[2026-07-13 17:31:13]   ✓ added to keyword_map.blog
+[2026-07-13 17:31:13] [4/8] blog · blog/astondoa-40-vs-azimut-39-vs-mangusta-80-fuel-cost-comparison-marbella
+[2026-07-13 17:31:40]   ✓ saved content/blog_astondoa-40-vs-azimut-39-vs-mangusta-80-fuel-cost-comparison-marbella.json
+[2026-07-13 17:31:40]   ✓ added to keyword_map.blog
+[2026-07-13 17:31:40] [5/8] blog · blog/marbella-boat-rental-weather-september-2032-guide
+[2026-07-13 17:32:12]   ✓ saved content/blog_marbella-boat-rental-weather-september-2032-guide.json
+[2026-07-13 17:32:12]   ✓ added to keyword_map.blog
+[2026-07-13 17:32:12] [6/8] experience · experiences/marbella-photoshoot-yacht-sunset-session-2035
+[2026-07-13 17:32:32]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2035.json
+[2026-07-13 17:32:32]   ✓ added to keyword_map.spokes
+[2026-07-13 17:32:32] [7/8] spoke · sotogrande-boat-rental-no-license-2027
+[2026-07-13 17:32:56]   ✓ saved content/sotogrande-boat-rental-no-license-2027.json
+[2026-07-13 17:32:56]   ✓ added to keyword_map.spokes
+[2026-07-13 17:32:56] [8/8] experience · experiences/marbella-fishing-and-sunset-combo-charter-2034
+[2026-07-13 17:33:21]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2034.json
+[2026-07-13 17:33:21]   ✓ added to keyword_map.spokes
+[2026-07-13 17:33:21] queue: 41 remaining, 773 consumed total
+[2026-07-13 17:33:21] running deploy.sh …
