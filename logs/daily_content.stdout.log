@@ -1369,3 +1369,24 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-14 09:10:29] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-14 09:10:29] [1/5] blog · blog/marbella-yacht-charter-feria-san-bernabe-2038-boat-party
+[2026-07-14 09:10:55]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2038-boat-party.json
+[2026-07-14 09:10:55]   ✓ added to keyword_map.blog
+[2026-07-14 09:10:55] [2/5] blog · blog/marbella-yacht-charter-starlite-2037-pre-concert-cruise
+[2026-07-14 09:11:20]   ✓ saved content/blog_marbella-yacht-charter-starlite-2037-pre-concert-cruise.json
+[2026-07-14 09:11:21]   ✓ added to keyword_map.blog
+[2026-07-14 09:11:21] [3/5] blog · blog/marbella-boat-rental-nye-2035-fireworks-view
+[2026-07-14 09:43:29]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-14 09:51:47]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-14 09:52:21]   ✓ saved content/blog_marbella-boat-rental-nye-2035-fireworks-view.json
+[2026-07-14 09:52:21]   ✓ added to keyword_map.blog
+[2026-07-14 09:52:21] [4/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2036-weekend
+[2026-07-14 10:42:20]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-14 10:42:47]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2036-weekend.json
+[2026-07-14 10:42:47]   ✓ added to keyword_map.blog
+[2026-07-14 10:42:47] [5/5] blog · blog/marbella-boat-rental-ironman-2038-recovery-charter
+[2026-07-14 10:43:05]   ✓ saved content/blog_marbella-boat-rental-ironman-2038-recovery-charter.json
+[2026-07-14 10:43:05]   ✓ added to keyword_map.blog
+[2026-07-14 10:43:05] queue: 36 remaining, 778 consumed total
+[2026-07-14 10:43:05] running deploy.sh …
