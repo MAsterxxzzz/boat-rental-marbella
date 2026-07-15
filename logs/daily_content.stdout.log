@@ -1399,3 +1399,36 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-15 09:00:00] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-15 09:00:00] [1/10] blog · blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2033
+[2026-07-15 09:00:21]   ✓ saved content/blog_marbella-yacht-charter-dietary-restrictions-vegan-catering-2033.json
+[2026-07-15 09:00:21]   ✓ added to keyword_map.blog
+[2026-07-15 09:00:21] [2/10] blog · blog/marbella-boat-rental-what-to-bring-food-gluten-free-options-2034
+[2026-07-15 09:00:49]   ✓ saved content/blog_marbella-boat-rental-what-to-bring-food-gluten-free-options-2034.json
+[2026-07-15 09:00:49]   ✓ added to keyword_map.blog
+[2026-07-15 09:00:49] [3/10] blog · blog/marbella-yacht-charter-puerto-banus-dinner-cruise-2027
+[2026-07-15 09:01:21]   ✓ saved content/blog_marbella-yacht-charter-puerto-banus-dinner-cruise-2027.json
+[2026-07-15 09:01:21]   ✓ added to keyword_map.blog
+[2026-07-15 09:01:21] [4/10] blog · blog/marbella-boat-rental-sotogrande-polo-final-2036-guide
+[2026-07-15 09:01:50]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2036-guide.json
+[2026-07-15 09:01:50]   ✓ added to keyword_map.blog
+[2026-07-15 09:01:50] [5/10] blog · blog/marbella-boat-rental-dolphin-watching-best-spots
+[2026-07-15 09:02:15]   ✓ saved content/blog_marbella-boat-rental-dolphin-watching-best-spots.json
+[2026-07-15 09:02:15]   ✓ added to keyword_map.blog
+[2026-07-15 09:02:15] [6/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2036
+[2026-07-15 09:02:39]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2036.json
+[2026-07-15 09:02:39]   ✓ added to keyword_map.spokes
+[2026-07-15 09:02:39] [7/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2036
+[2026-07-15 09:03:04]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2036.json
+[2026-07-15 09:03:04]   ✓ added to keyword_map.spokes
+[2026-07-15 09:03:04] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2036
+[2026-07-15 09:03:31]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2036.json
+[2026-07-15 09:03:31]   ✓ added to keyword_map.spokes
+[2026-07-15 09:03:31] [9/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2036
+[2026-07-15 09:03:54]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2036.json
+[2026-07-15 09:03:54]   ✓ added to keyword_map.spokes
+[2026-07-15 09:03:54] [10/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2035
+[2026-07-15 09:04:23]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2035.json
+[2026-07-15 09:04:23]   ✓ added to keyword_map.spokes
+[2026-07-15 09:04:23] queue: 46 remaining, 798 consumed total
+[2026-07-15 09:04:23] running deploy.sh …

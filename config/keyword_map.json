@@ -1494,6 +1494,41 @@
       "title": "Fishing & Sunset Combo Charter in Marbella 2034",
       "intent": "transactional",
       "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2036",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2036",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2036 – Book Now",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2036",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard 2036",
+      "title": "Marbella Family Boat Day 2036: Jetski, Snorkel & Paddleboard Combo",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2036",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2036",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2036 – Morning on the Sea",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2036",
+      "primary_keyword": "marbella photoshoot yacht sunset 2036",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2036 – Golden Hour Magic",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2035",
+      "primary_keyword": "marbella fishing sunset combo charter 2035",
+      "title": "Marbella Fishing & Sunset Combo Charter 2035 – Catch & Cruise",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -5724,6 +5759,41 @@
       "title": "Marbella Boat Rental Weather April 2034: Easter Weekend Guide",
       "intent": "informational",
       "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2033",
+      "primary_keyword": "marbella yacht charter dietary restrictions vegan catering 2033",
+      "title": "Marbella Yacht Charter Vegan Catering 2033: Dietary Options Onboard",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-gluten-free-options-2034",
+      "primary_keyword": "marbella boat rental what to bring food gluten free options 2034",
+      "title": "Marbella Boat Rental: Gluten-Free Food Options to Bring in 2034",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-puerto-banus-dinner-cruise-2027",
+      "primary_keyword": "marbella yacht charter puerto banus dinner cruise 2027",
+      "title": "Marbella Yacht Charter Puerto Banus Dinner Cruise 2027: Evening Guide",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2036-guide",
+      "primary_keyword": "marbella boat rental sotogrande polo final 2036",
+      "title": "Marbella Boat Rental for Sotogrande Polo Final 2036: Spectator Guide",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-dolphin-watching-best-spots",
+      "primary_keyword": "dolphin watching marbella best spots",
+      "title": "Best Spots for Dolphin Watching on a Marbella Boat Rental",
+      "intent": "informational",
+      "target_words": 1200
     }
   ]
 }
