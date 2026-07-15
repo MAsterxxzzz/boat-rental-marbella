@@ -4123,3 +4123,42 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-15 09:04:23]   ✓ added to keyword_map.spokes
 [2026-07-15 09:04:23] queue: 46 remaining, 798 consumed total
 [2026-07-15 09:04:23] running deploy.sh …
+[2026-07-15 09:04:29] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-15 17:03:55] === Daily content run (kind-balanced): 5 blog + 4 landing = 9 item(s) ===
+[2026-07-15 17:03:55] [1/9] blog · blog/marbella-yacht-charter-starlite-festival-2038-pre-concert-cruise
+[2026-07-15 17:04:18]   ✓ saved content/blog_marbella-yacht-charter-starlite-festival-2038-pre-concert-cruise.json
+[2026-07-15 17:04:18]   ✓ added to keyword_map.blog
+[2026-07-15 17:04:18] [2/9] blog · blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2031
+[2026-07-15 17:04:43]   ✓ saved content/blog_astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2031.json
+[2026-07-15 17:04:43]   ✓ added to keyword_map.blog
+[2026-07-15 17:04:43] [3/9] blog · blog/marbella-boat-rental-feria-san-bernabe-2039-boat-party
+[2026-07-15 17:05:07]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2039-boat-party.json
+[2026-07-15 17:05:07]   ✓ added to keyword_map.blog
+[2026-07-15 17:05:07] [4/9] blog · blog/marbella-boat-rental-weather-september-2033-guide
+[2026-07-15 17:05:31]   ✓ saved content/blog_marbella-boat-rental-weather-september-2033-guide.json
+[2026-07-15 17:05:31]   ✓ added to keyword_map.blog
+[2026-07-15 17:05:31] [5/9] blog · blog/marbella-yacht-charter-f1-grand-prix-2037-weekend
+[2026-07-15 17:06:02]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2037-weekend.json
+[2026-07-15 17:06:02]   ✓ added to keyword_map.blog
+[2026-07-15 17:06:02] [6/9] spoke · astondoa-40-vs-pershing-46-cost-comparison-marbella-2035
+[2026-07-15 17:06:22]   ✓ saved content/astondoa-40-vs-pershing-46-cost-comparison-marbella-2035.json
+[2026-07-15 17:06:22]   ✓ added to keyword_map.spokes
+[2026-07-15 17:06:22] [7/9] spoke · azimut-39-vs-mangusta-80-cost-comparison-marbella-2035
+[2026-07-15 17:06:39]   ✓ saved content/azimut-39-vs-mangusta-80-cost-comparison-marbella-2035.json
+[2026-07-15 17:06:39]   ✓ added to keyword_map.spokes
+[2026-07-15 17:06:39] [8/9] spoke · mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2035
+[2026-07-15 17:07:03]   ✓ saved content/mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2035.json
+[2026-07-15 17:07:03]   ✓ added to keyword_map.spokes
+[2026-07-15 17:07:03] [9/9] spoke · pershing-46-vs-astondoa-40-marbella-comparison-2035
+[2026-07-15 17:07:25]   ✓ saved content/pershing-46-vs-astondoa-40-marbella-comparison-2035.json
+[2026-07-15 17:07:25]   ✓ added to keyword_map.spokes
+[2026-07-15 17:07:25] queue: 37 remaining, 807 consumed total
+[2026-07-15 17:07:25] running deploy.sh …
