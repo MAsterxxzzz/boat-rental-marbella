@@ -1557,6 +1557,41 @@
       "title": "Pershing 46 vs Astondoa 40 in Marbella 2035 – Which to Charter?",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2037",
+      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2037",
+      "title": "Family Boat Day in Marbella 2037: Jetski, Snorkel & Paddleboard Combo",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2037",
+      "primary_keyword": "Marbella sunset cruise champagne tapas 2037",
+      "title": "Sunset Cruise in Marbella 2037: Champagne & Tapas on the Sea",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2037",
+      "primary_keyword": "Marbella dolphin watching brunch cruise 2037",
+      "title": "Dolphin Watching Brunch Cruise in Marbella 2037: Morning Delight",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2036",
+      "primary_keyword": "Marbella fishing and sunset combo charter 2036",
+      "title": "Fishing & Sunset Combo Charter in Marbella 2036: Best of Both",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2037",
+      "primary_keyword": "Marbella photoshoot yacht sunset session 2037",
+      "title": "Sunset Photoshoot on a Yacht in Marbella 2037: Golden Hour Tips",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -5927,6 +5962,41 @@
       "title": "Marbella Pride 2039: Yacht Charter Celebration from Puerto Banús",
       "intent": "informational",
       "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-weather-october-2032-guide",
+      "primary_keyword": "marbella yacht charter weather october 2032",
+      "title": "October 2032 Weather Guide for Marbella Yacht Charters",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-may-2034-guide",
+      "primary_keyword": "marbella boat rental weather may 2034",
+      "title": "May 2034 Weather Guide for Marbella Boat Rentals",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2035",
+      "primary_keyword": "marbella yacht charter minimum age 2035",
+      "title": "Minimum Age Policy for Marbella Yacht Charters in 2035",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-sotogrande-golf-transfers-2027",
+      "primary_keyword": "sotogrande golf transfers boat rental 2027",
+      "title": "Sotogrande Golf Transfers by Boat from Marbella 2027",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2034",
+      "primary_keyword": "marbella yacht charter vegan catering 2034",
+      "title": "Vegan Catering Options for Marbella Yacht Charters 2034",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }

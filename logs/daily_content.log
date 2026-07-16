@@ -4218,3 +4218,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-16 09:02:13] queue under threshold (27 < 30) — auto-refilling…
 [2026-07-16 09:02:29] refill: +29 topics (queue now 56)
 [2026-07-16 09:02:29] running deploy.sh …
+[2026-07-16 09:02:33] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-16 14:30:02] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-16 14:30:02] [1/10] blog · blog/marbella-yacht-charter-weather-october-2032-guide
+[2026-07-16 14:30:29]   ✓ saved content/blog_marbella-yacht-charter-weather-october-2032-guide.json
+[2026-07-16 14:30:29]   ✓ added to keyword_map.blog
+[2026-07-16 14:30:29] [2/10] blog · blog/marbella-boat-rental-weather-may-2034-guide
+[2026-07-16 14:30:54]   ✓ saved content/blog_marbella-boat-rental-weather-may-2034-guide.json
+[2026-07-16 14:30:54]   ✓ added to keyword_map.blog
+[2026-07-16 14:30:54] [3/10] blog · blog/marbella-yacht-charter-minimum-age-policy-2035
+[2026-07-16 14:31:21]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2035.json
+[2026-07-16 14:31:21]   ✓ added to keyword_map.blog
+[2026-07-16 14:31:21] [4/10] blog · blog/marbella-boat-rental-sotogrande-golf-transfers-2027
+[2026-07-16 14:31:50]   ✓ saved content/blog_marbella-boat-rental-sotogrande-golf-transfers-2027.json
+[2026-07-16 14:31:50]   ✓ added to keyword_map.blog
+[2026-07-16 14:31:50] [5/10] blog · blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2034
+[2026-07-16 14:32:14]   ✓ saved content/blog_marbella-yacht-charter-dietary-restrictions-vegan-catering-2034.json
+[2026-07-16 14:32:14]   ✓ added to keyword_map.blog
+[2026-07-16 14:32:14] [6/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2037
+[2026-07-16 14:32:41]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2037.json
+[2026-07-16 14:32:41]   ✓ added to keyword_map.spokes
+[2026-07-16 14:32:41] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2037
+[2026-07-16 14:33:11]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2037.json
+[2026-07-16 14:33:11]   ✓ added to keyword_map.spokes
+[2026-07-16 14:33:11] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2037
+[2026-07-16 14:33:36]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2037.json
+[2026-07-16 14:33:36]   ✓ added to keyword_map.spokes
+[2026-07-16 14:33:36] [9/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2036
+[2026-07-16 14:34:04]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2036.json
+[2026-07-16 14:34:04]   ✓ added to keyword_map.spokes
+[2026-07-16 14:34:04] [10/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2037
+[2026-07-16 14:34:38]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2037.json
+[2026-07-16 14:34:38]   ✓ added to keyword_map.spokes
+[2026-07-16 14:34:38] queue: 46 remaining, 827 consumed total
+[2026-07-16 14:34:38] running deploy.sh …
