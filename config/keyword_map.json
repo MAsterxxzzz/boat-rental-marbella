@@ -1592,6 +1592,13 @@
       "title": "Sunset Photoshoot on a Yacht in Marbella 2037: Golden Hour Tips",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "cabopino-boat-rental-no-license-2033",
+      "primary_keyword": "Cabopino boat rental no license 2033",
+      "title": "Cabopino Boat Rental No License 2033: Prices & Rules",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -5995,6 +6002,41 @@
       "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2034",
       "primary_keyword": "marbella yacht charter vegan catering 2034",
       "title": "Vegan Catering Options for Marbella Yacht Charters 2034",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-cancellation-policy-2034",
+      "primary_keyword": "marbella yacht charter cancellation policy 2034",
+      "title": "Cancellation Policy for Marbella Yacht Charters 2034",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-january-guide-2030",
+      "primary_keyword": "marbella boat rental weather january 2030",
+      "title": "Marbella Boat Rental in January 2030: Weather, Wind & Sea Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-february-weather-guide-2031",
+      "primary_keyword": "marbella yacht charter february 2031",
+      "title": "Marbella Yacht Charter in February 2031: What to Expect Weather-Wise",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/estepona-boat-rental-weather-march-2032-guide",
+      "primary_keyword": "estepona boat rental weather march 2032",
+      "title": "Estepona Boat Rental in March 2032: Weather, Wind & Charter Advice",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/puerto-banus-yacht-charter-weather-april-2035-easter",
+      "primary_keyword": "puerto banus yacht charter april 2035",
+      "title": "Puerto Banús Yacht Charter in April 2035: Easter Weather & Sea Tips",
       "intent": "informational",
       "target_words": 1100
     }
