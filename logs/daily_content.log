@@ -4189,3 +4189,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-15 17:32:27]   ✓ added to keyword_map.blog
 [2026-07-15 17:32:27] queue: 32 remaining, 812 consumed total
 [2026-07-15 17:32:27] running deploy.sh …
+[2026-07-15 17:32:31] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-16 09:00:03] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-16 09:00:03] [1/5] blog · blog/marbella-yacht-charter-ironman-2039-recovery-day
+[2026-07-16 09:00:29]   ✓ saved content/blog_marbella-yacht-charter-ironman-2039-recovery-day.json
+[2026-07-16 09:00:29]   ✓ added to keyword_map.blog
+[2026-07-16 09:00:29] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2037
+[2026-07-16 09:00:48]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2037.json
+[2026-07-16 09:00:48]   ✓ added to keyword_map.blog
+[2026-07-16 09:00:48] [3/5] blog · blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2034
+[2026-07-16 09:01:14]   ✓ saved content/blog_marbella-yacht-charter-stag-weekend-budget-breakdown-2034.json
+[2026-07-16 09:01:14]   ✓ added to keyword_map.blog
+[2026-07-16 09:01:14] [4/5] blog · blog/marbella-boat-rental-estepona-fishing-charter-tuna-season-2032
+[2026-07-16 09:01:41]   ✓ saved content/blog_marbella-boat-rental-estepona-fishing-charter-tuna-season-2032.json
+[2026-07-16 09:01:41]   ✓ added to keyword_map.blog
+[2026-07-16 09:01:41] [5/5] blog · blog/marbella-yacht-charter-pride-2039-celebration
+[2026-07-16 09:02:13]   ✓ saved content/blog_marbella-yacht-charter-pride-2039-celebration.json
+[2026-07-16 09:02:13]   ✓ added to keyword_map.blog
+[2026-07-16 09:02:13] queue: 27 remaining, 817 consumed total
+[2026-07-16 09:02:13] queue under threshold (27 < 30) — auto-refilling…
+[2026-07-16 09:02:29] refill: +29 topics (queue now 56)
+[2026-07-16 09:02:29] running deploy.sh …
