@@ -1470,3 +1470,21 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-17 09:00:03] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-17 09:00:03] [1/5] blog · blog/marbella-boat-rental-weather-may-2036-guide
+[2026-07-17 09:00:30]   ✓ saved content/blog_marbella-boat-rental-weather-may-2036-guide.json
+[2026-07-17 09:00:30]   ✓ added to keyword_map.blog
+[2026-07-17 09:00:30] [2/5] blog · blog/sotogrande-yacht-charter-weather-june-2037-guide
+[2026-07-17 09:00:58]   ✓ saved content/blog_sotogrande-yacht-charter-weather-june-2037-guide.json
+[2026-07-17 09:00:58]   ✓ added to keyword_map.blog
+[2026-07-17 09:00:58] [3/5] blog · blog/cabopino-boat-rental-weather-july-2038-heat-tips
+[2026-07-17 09:01:26]   ✓ saved content/blog_cabopino-boat-rental-weather-july-2038-heat-tips.json
+[2026-07-17 09:01:26]   ✓ added to keyword_map.blog
+[2026-07-17 09:01:26] [4/5] blog · blog/marbella-yacht-charter-weather-august-2039-peak-tips
+[2026-07-17 09:01:56]   ✓ saved content/blog_marbella-yacht-charter-weather-august-2039-peak-tips.json
+[2026-07-17 09:01:56]   ✓ added to keyword_map.blog
+[2026-07-17 09:01:56] [5/5] blog · blog/estepona-boat-charter-weather-september-2040-guide
+[2026-07-17 09:02:23]   ✓ saved content/blog_estepona-boat-charter-weather-september-2040-guide.json
+[2026-07-17 09:02:23]   ✓ added to keyword_map.blog
+[2026-07-17 09:02:23] queue: 35 remaining, 838 consumed total
+[2026-07-17 09:02:23] running deploy.sh …
