@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/puerto-banus-yacht-charter-nye-2042-fireworks-view",
-      "primary_keyword": "puerto banus new years eve 2042 yacht",
-      "title": "Puerto Banús NYE 2042: Best Yacht Spots for the Fireworks Display",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-f1-grand-prix-2043-weekend-guide",
-      "primary_keyword": "marbella f1 2043 yacht charter",
-      "title": "Marbella F1 Grand Prix 2043: Yacht Charter Weekend Itinerary",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2044-recovery-day",
-      "primary_keyword": "marbella ironman 2044 yacht recovery",
-      "title": "Marbella Ironman 2044: Post-Race Yacht Recovery Charter Ideas",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2045-celebration-puerto-banus",
-      "primary_keyword": "marbella pride 2045 yacht party",
-      "title": "Marbella Pride 2045: Yacht Party from Puerto Banús – Full Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/estepona-boat-charter-hen-party-budget-breakdown-2046",
-      "primary_keyword": "estepona hen party boat charter 2046",
-      "title": "Estepona Hen Party Boat Charter 2046: Budget Breakdown & Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/sotogrande-yacht-charter-stag-weekend-itinerary-2047",
       "primary_keyword": "sotogrande stag weekend yacht 2047",
       "title": "Sotogrande Stag Weekend 2047: Yacht Itinerary for 12 Guests",
@@ -210,6 +175,216 @@
       "slug": "blog/marbella-boat-rental-weather-december-2030-guide",
       "primary_keyword": "Marbella boat rental weather December 2030",
       "title": "December 2030 Boat Rental in Marbella: Weather & Festive Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2038-guide",
+      "primary_keyword": "Marbella boat rental weather May 2038",
+      "title": "Marbella Boat Rental Weather in May 2038 – What to Expect",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2042-pre-concert-cruise",
+      "primary_keyword": "Starlite 2042 pre-concert cruise Marbella",
+      "title": "Starlite 2042: Pre-Concert Cruise from Puerto Banús",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2040-fireworks-view",
+      "primary_keyword": "New Year's Eve boat rental Marbella 2040 fireworks",
+      "title": "NYE 2040 Fireworks from a Boat in Marbella – Best Views",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/cabopino-vs-puerto-banus-2029-boat-departure",
+      "primary_keyword": "Cabopino vs Puerto Banús boat departure 2029",
+      "title": "Cabopino vs Puerto Banús: Best Boat Departure in 2029",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027",
+      "primary_keyword": "Azimut 39 vs Fairline Targa 12m fuel cost Marbella",
+      "title": "Azimut 39 vs Fairline Targa 12m: Fuel Cost Comparison in Marbella",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2041-recovery-charter",
+      "primary_keyword": "Ironman Marbella 2041 recovery boat charter",
+      "title": "Ironman Marbella 2041: Recovery Day on a Boat Charter",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-pride-2042-celebration",
+      "primary_keyword": "Marbella Pride 2042 yacht party Puerto Banús",
+      "title": "Marbella Pride 2042: Celebrate on a Yacht from Puerto Banús",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2043-boat-party",
+      "primary_keyword": "Feria San Bernabé 2043 boat party Marbella",
+      "title": "Feria San Bernabé 2043: Boat Party Guide for Marbella",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/estepona-boat-charter-weather-june-2039-guide",
+      "primary_keyword": "Estepona boat charter weather June 2039",
+      "title": "Estepona Boat Charter in June 2039: Weather & Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-stag-weekend-budget-breakdown-2035",
+      "primary_keyword": "stag weekend yacht budget Marbella 2035",
+      "title": "Stag Weekend Yacht Budget Breakdown for Marbella 2035",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-vegan-2035",
+      "primary_keyword": "vegan food boat rental Marbella 2035",
+      "title": "Vegan Food for Your Boat Rental in Marbella – 2035 Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/sotogrande-yacht-charter-weather-july-2038-guide",
+      "primary_keyword": "Sotogrande yacht charter weather July 2038",
+      "title": "Sotogrande Yacht Charter in July 2038: Weather & Advice",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-group-size-limits-2040",
+      "primary_keyword": "boat rental group size limits Marbella 2040",
+      "title": "Group Size Limits for Boat Rentals in Marbella 2040",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2036",
+      "primary_keyword": "yacht charter license requirements Marbella 2036",
+      "title": "License Requirements for Yacht Charter in Marbella 2036",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2037-shoulder-season",
+      "primary_keyword": "Marbella boat rental October 2037 shoulder season",
+      "title": "Boat Rental in Marbella October 2037 – Shoulder Season Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2033",
+      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 Marbella 2033",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2033",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-dolphin-watching-best-time-of-year-2035",
+      "primary_keyword": "best time of year for dolphin watching Marbella 2035",
+      "title": "Best Time of Year for Dolphin Watching in Marbella 2035",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2039-weekend",
+      "primary_keyword": "F1 Grand Prix 2039 yacht charter Marbella",
+      "title": "F1 Grand Prix 2039: Yacht Charter Weekend in Marbella",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2036",
+      "primary_keyword": "hen party boat budget Marbella 2036",
+      "title": "Hen Party Boat Budget Breakdown for Marbella 2036",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-2038",
+      "primary_keyword": "Cabopino family boat day paddleboarding 2038",
+      "title": "Family Boat Day in Cabopino: Paddleboarding Fun 2038",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2035",
+      "primary_keyword": "vegan catering yacht charter Marbella 2035",
+      "title": "Vegan Catering for Yacht Charter in Marbella – 2035 Edition",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/estepona-boat-rental-snorkeling-gear-2039",
+      "primary_keyword": "Estepona boat rental snorkeling gear 2039",
+      "title": "Snorkeling Gear for Estepona Boat Rentals in 2039",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-andalusia-day-celebration-2038",
+      "primary_keyword": "Andalusia Day yacht charter Marbella 2038",
+      "title": "Andalusia Day 2038: Celebrate on a Yacht in Marbella",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-jet-ski-and-snorkel-combo-2030",
+      "primary_keyword": "jet ski and snorkel combo Marbella 2030",
+      "title": "Jet Ski & Snorkel Combo Experience in Marbella 2030",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2038",
+      "primary_keyword": "sunset cruise champagne tapas Marbella 2038",
+      "title": "Sunset Cruise with Champagne & Tapas in Marbella 2038",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2038",
+      "primary_keyword": "family boat day jet ski snorkel paddleboard Marbella 2038",
+      "title": "Family Boat Day: Jet Ski, Snorkel & Paddleboard Combo 2038",
+      "target_words": 1200
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2038",
+      "primary_keyword": "dolphin watching brunch cruise Marbella 2038",
+      "title": "Dolphin Watching & Brunch Cruise in Marbella 2038",
+      "target_words": 1100
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2037",
+      "primary_keyword": "fishing and sunset combo charter Marbella 2037",
+      "title": "Fishing & Sunset Combo Charter in Marbella 2037",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-no-license-prices-2038",
+      "primary_keyword": "no license boat rental prices Marbella 2038",
+      "title": "No License Boat Rental Prices in Marbella 2038",
+      "target_words": 1100
+    },
+    {
+      "kind": "spoke",
+      "slug": "puerto-banus-yacht-charter-cost-per-person-2028",
+      "primary_keyword": "Puerto Banús yacht charter cost per person 2028",
+      "title": "Puerto Banús Yacht Charter Cost Per Person in 2028",
       "target_words": 1100
     }
   ],
@@ -7103,6 +7278,46 @@
       "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2041-boat-party",
       "primary_keyword": "marbella feria san bernabe 2041 boat party",
       "title": "Marbella Feria San Bernabe 2041: Ultimate Boat Party Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/puerto-banus-yacht-charter-nye-2042-fireworks-view",
+      "primary_keyword": "puerto banus new years eve 2042 yacht",
+      "title": "Puerto Banús NYE 2042: Best Yacht Spots for the Fireworks Display",
+      "target_words": 1100,
+      "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-f1-grand-prix-2043-weekend-guide",
+      "primary_keyword": "marbella f1 2043 yacht charter",
+      "title": "Marbella F1 Grand Prix 2043: Yacht Charter Weekend Itinerary",
+      "target_words": 1100,
+      "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2044-recovery-day",
+      "primary_keyword": "marbella ironman 2044 yacht recovery",
+      "title": "Marbella Ironman 2044: Post-Race Yacht Recovery Charter Ideas",
+      "target_words": 1100,
+      "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2045-celebration-puerto-banus",
+      "primary_keyword": "marbella pride 2045 yacht party",
+      "title": "Marbella Pride 2045: Yacht Party from Puerto Banús – Full Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/estepona-boat-charter-hen-party-budget-breakdown-2046",
+      "primary_keyword": "estepona hen party boat charter 2046",
+      "title": "Estepona Hen Party Boat Charter 2046: Budget Breakdown & Tips",
       "target_words": 1100,
       "consumed_at": "2026-07-17"
     }

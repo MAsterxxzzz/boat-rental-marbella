@@ -4344,3 +4344,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-17 14:51:52]   ✓ added to keyword_map.blog
 [2026-07-17 14:51:52] queue: 30 remaining, 843 consumed total
 [2026-07-17 14:51:52] running deploy.sh …
+[2026-07-17 14:51:56] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-17 17:30:05] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-17 17:30:05] [1/5] blog · blog/puerto-banus-yacht-charter-nye-2042-fireworks-view
+[2026-07-17 17:30:28]   ✓ saved content/blog_puerto-banus-yacht-charter-nye-2042-fireworks-view.json
+[2026-07-17 17:30:28]   ✓ added to keyword_map.blog
+[2026-07-17 17:30:28] [2/5] blog · blog/marbella-boat-rental-f1-grand-prix-2043-weekend-guide
+[2026-07-17 17:30:55]   ✓ saved content/blog_marbella-boat-rental-f1-grand-prix-2043-weekend-guide.json
+[2026-07-17 17:30:55]   ✓ added to keyword_map.blog
+[2026-07-17 17:30:55] [3/5] blog · blog/marbella-yacht-charter-ironman-2044-recovery-day
+[2026-07-17 17:31:18]   ✓ saved content/blog_marbella-yacht-charter-ironman-2044-recovery-day.json
+[2026-07-17 17:31:18]   ✓ added to keyword_map.blog
+[2026-07-17 17:31:18] [4/5] blog · blog/marbella-boat-rental-pride-2045-celebration-puerto-banus
+[2026-07-17 17:31:44]   ✓ saved content/blog_marbella-boat-rental-pride-2045-celebration-puerto-banus.json
+[2026-07-17 17:31:44]   ✓ added to keyword_map.blog
+[2026-07-17 17:31:44] [5/5] blog · blog/estepona-boat-charter-hen-party-budget-breakdown-2046
+[2026-07-17 17:32:16]   ✓ saved content/blog_estepona-boat-charter-hen-party-budget-breakdown-2046.json
+[2026-07-17 17:32:16]   ✓ added to keyword_map.blog
+[2026-07-17 17:32:16] queue: 25 remaining, 848 consumed total
+[2026-07-17 17:32:16] queue under threshold (25 < 30) — auto-refilling…
+[2026-07-17 17:32:34] refill: +30 topics (queue now 55)
+[2026-07-17 17:32:34] running deploy.sh …
