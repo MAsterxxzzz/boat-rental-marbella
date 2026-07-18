@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/sotogrande-yacht-charter-stag-weekend-itinerary-2047",
-      "primary_keyword": "sotogrande stag weekend yacht 2047",
-      "title": "Sotogrande Stag Weekend 2047: Yacht Itinerary for 12 Guests",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-dolphin-watching-best-time-of-day-2048",
-      "primary_keyword": "marbella dolphin watching best time 2048",
-      "title": "Marbella Dolphin Watching 2048: Morning vs Afternoon Boat Tours",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-january-2031-guide",
-      "primary_keyword": "Marbella boat rental weather January",
-      "title": "Marbella Boat Rental Weather in January 2031: What to Expect",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/starlite-2041-pre-concert-cruise-puerto-banus",
-      "primary_keyword": "Starlite 2041 pre-concert cruise Puerto Banus",
-      "title": "Starlite 2041: Pre-Concert Cruise from Puerto Banus – VIP Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2036-fireworks-view",
-      "primary_keyword": "Marbella boat rental New Year's Eve 2036 fireworks",
-      "title": "NYE 2036 on a Boat in Marbella: Best Fireworks Views from the Sea",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2042-boat-party",
       "primary_keyword": "Feria San Bernabe 2042 boat party Marbella",
       "title": "Feria San Bernabe 2042: Ultimate Boat Party Guide in Marbella",
@@ -336,41 +301,6 @@
       "slug": "blog/marbella-yacht-charter-andalusia-day-celebration-2038",
       "primary_keyword": "Andalusia Day yacht charter Marbella 2038",
       "title": "Andalusia Day 2038: Celebrate on a Yacht in Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-jet-ski-and-snorkel-combo-2030",
-      "primary_keyword": "jet ski and snorkel combo Marbella 2030",
-      "title": "Jet Ski & Snorkel Combo Experience in Marbella 2030",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2038",
-      "primary_keyword": "sunset cruise champagne tapas Marbella 2038",
-      "title": "Sunset Cruise with Champagne & Tapas in Marbella 2038",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2038",
-      "primary_keyword": "family boat day jet ski snorkel paddleboard Marbella 2038",
-      "title": "Family Boat Day: Jet Ski, Snorkel & Paddleboard Combo 2038",
-      "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2038",
-      "primary_keyword": "dolphin watching brunch cruise Marbella 2038",
-      "title": "Dolphin Watching & Brunch Cruise in Marbella 2038",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2037",
-      "primary_keyword": "fishing and sunset combo charter Marbella 2037",
-      "title": "Fishing & Sunset Combo Charter in Marbella 2037",
       "target_words": 1100
     },
     {
@@ -7320,6 +7250,86 @@
       "title": "Estepona Hen Party Boat Charter 2046: Budget Breakdown & Tips",
       "target_words": 1100,
       "consumed_at": "2026-07-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/sotogrande-yacht-charter-stag-weekend-itinerary-2047",
+      "primary_keyword": "sotogrande stag weekend yacht 2047",
+      "title": "Sotogrande Stag Weekend 2047: Yacht Itinerary for 12 Guests",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-dolphin-watching-best-time-of-day-2048",
+      "primary_keyword": "marbella dolphin watching best time 2048",
+      "title": "Marbella Dolphin Watching 2048: Morning vs Afternoon Boat Tours",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-january-2031-guide",
+      "primary_keyword": "Marbella boat rental weather January",
+      "title": "Marbella Boat Rental Weather in January 2031: What to Expect",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/starlite-2041-pre-concert-cruise-puerto-banus",
+      "primary_keyword": "Starlite 2041 pre-concert cruise Puerto Banus",
+      "title": "Starlite 2041: Pre-Concert Cruise from Puerto Banus – VIP Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2036-fireworks-view",
+      "primary_keyword": "Marbella boat rental New Year's Eve 2036 fireworks",
+      "title": "NYE 2036 on a Boat in Marbella: Best Fireworks Views from the Sea",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-jet-ski-and-snorkel-combo-2030",
+      "primary_keyword": "jet ski and snorkel combo Marbella 2030",
+      "title": "Jet Ski & Snorkel Combo Experience in Marbella 2030",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2038",
+      "primary_keyword": "sunset cruise champagne tapas Marbella 2038",
+      "title": "Sunset Cruise with Champagne & Tapas in Marbella 2038",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2038",
+      "primary_keyword": "family boat day jet ski snorkel paddleboard Marbella 2038",
+      "title": "Family Boat Day: Jet Ski, Snorkel & Paddleboard Combo 2038",
+      "target_words": 1200,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2038",
+      "primary_keyword": "dolphin watching brunch cruise Marbella 2038",
+      "title": "Dolphin Watching & Brunch Cruise in Marbella 2038",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2037",
+      "primary_keyword": "fishing and sunset combo charter Marbella 2037",
+      "title": "Fishing & Sunset Combo Charter in Marbella 2037",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
     }
   ],
   "refill_threshold": 30,
