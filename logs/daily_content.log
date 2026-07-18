@@ -4415,3 +4415,35 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-18 09:04:23]   ✓ added to keyword_map.spokes
 [2026-07-18 09:04:23] queue: 45 remaining, 858 consumed total
 [2026-07-18 09:04:23] running deploy.sh …
+[2026-07-18 09:04:28] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-18 15:02:00] === Daily content run (kind-balanced): 5 blog + 2 landing = 7 item(s) ===
+[2026-07-18 15:02:00] [1/7] blog · blog/marbella-boat-rental-feria-san-bernabe-2042-boat-party
+[2026-07-18 15:02:27]   ✗ FAILED: JSONDecodeError: Invalid \escape: line 46 column 1822 (char 5050)
+[2026-07-18 15:02:27] [2/7] blog · blog/marbella-boat-rental-ironman-2040-recovery-charter
+[2026-07-18 15:02:55]   ✓ saved content/blog_marbella-boat-rental-ironman-2040-recovery-charter.json
+[2026-07-18 15:02:55]   ✓ added to keyword_map.blog
+[2026-07-18 15:02:55] [3/7] blog · blog/marbella-boat-rental-weather-february-2032-guide
+[2026-07-18 15:03:21]   ✓ saved content/blog_marbella-boat-rental-weather-february-2032-guide.json
+[2026-07-18 15:03:21]   ✓ added to keyword_map.blog
+[2026-07-18 15:03:21] [4/7] blog · blog/marbella-boat-rental-pride-2040-celebration-puerto-banus
+[2026-07-18 15:03:46]   ✓ saved content/blog_marbella-boat-rental-pride-2040-celebration-puerto-banus.json
+[2026-07-18 15:03:46]   ✓ added to keyword_map.blog
+[2026-07-18 15:03:46] [5/7] blog · blog/marbella-yacht-charter-starlite-2039-pre-concert-cruise
+[2026-07-18 15:04:14]   ✓ saved content/blog_marbella-yacht-charter-starlite-2039-pre-concert-cruise.json
+[2026-07-18 15:04:14]   ✓ added to keyword_map.blog
+[2026-07-18 15:04:14] [6/7] spoke · marbella-boat-rental-no-license-prices-2038
+[2026-07-18 15:04:39]   ✓ saved content/marbella-boat-rental-no-license-prices-2038.json
+[2026-07-18 15:04:39]   ✓ added to keyword_map.spokes
+[2026-07-18 15:04:39] [7/7] spoke · puerto-banus-yacht-charter-cost-per-person-2028
+[2026-07-18 15:05:03]   ✓ saved content/puerto-banus-yacht-charter-cost-per-person-2028.json
+[2026-07-18 15:05:03]   ✓ added to keyword_map.spokes
+[2026-07-18 15:05:03] queue: 39 remaining, 864 consumed total
+[2026-07-18 15:05:03] running deploy.sh …

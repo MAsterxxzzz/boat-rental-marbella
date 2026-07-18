@@ -11,34 +11,6 @@
     },
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-ironman-2040-recovery-charter",
-      "primary_keyword": "Ironman Marbella 2040 recovery charter",
-      "title": "Ironman Marbella 2040: Post-Race Recovery Boat Charter Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-february-2032-guide",
-      "primary_keyword": "Marbella boat rental weather February 2032",
-      "title": "Marbella Boat Rental in February 2032: Weather & Charter Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2040-celebration-puerto-banus",
-      "primary_keyword": "Marbella Pride 2040 boat party Puerto Banus",
-      "title": "Marbella Pride 2040: Best Boat Party in Puerto Banus",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-starlite-2039-pre-concert-cruise",
-      "primary_keyword": "Starlite 2039 pre-concert cruise Marbella",
-      "title": "Starlite 2039: Pre-Concert Yacht Charter from Marbella Marina",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-march-2033-easter-guide",
       "primary_keyword": "Marbella boat rental weather March 2033 Easter",
       "title": "Easter 2033 Boat Rental in Marbella: March Weather & Planning",
@@ -301,20 +273,6 @@
       "slug": "blog/marbella-yacht-charter-andalusia-day-celebration-2038",
       "primary_keyword": "Andalusia Day yacht charter Marbella 2038",
       "title": "Andalusia Day 2038: Celebrate on a Yacht in Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-boat-rental-no-license-prices-2038",
-      "primary_keyword": "no license boat rental prices Marbella 2038",
-      "title": "No License Boat Rental Prices in Marbella 2038",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "puerto-banus-yacht-charter-cost-per-person-2028",
-      "primary_keyword": "Puerto Banús yacht charter cost per person 2028",
-      "title": "Puerto Banús Yacht Charter Cost Per Person in 2028",
       "target_words": 1100
     }
   ],
@@ -7328,6 +7286,54 @@
       "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2037",
       "primary_keyword": "fishing and sunset combo charter Marbella 2037",
       "title": "Fishing & Sunset Combo Charter in Marbella 2037",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2040-recovery-charter",
+      "primary_keyword": "Ironman Marbella 2040 recovery charter",
+      "title": "Ironman Marbella 2040: Post-Race Recovery Boat Charter Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-february-2032-guide",
+      "primary_keyword": "Marbella boat rental weather February 2032",
+      "title": "Marbella Boat Rental in February 2032: Weather & Charter Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2040-celebration-puerto-banus",
+      "primary_keyword": "Marbella Pride 2040 boat party Puerto Banus",
+      "title": "Marbella Pride 2040: Best Boat Party in Puerto Banus",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2039-pre-concert-cruise",
+      "primary_keyword": "Starlite 2039 pre-concert cruise Marbella",
+      "title": "Starlite 2039: Pre-Concert Yacht Charter from Marbella Marina",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-no-license-prices-2038",
+      "primary_keyword": "no license boat rental prices Marbella 2038",
+      "title": "No License Boat Rental Prices in Marbella 2038",
+      "target_words": 1100,
+      "consumed_at": "2026-07-18"
+    },
+    {
+      "kind": "spoke",
+      "slug": "puerto-banus-yacht-charter-cost-per-person-2028",
+      "primary_keyword": "Puerto Banús yacht charter cost per person 2028",
+      "title": "Puerto Banús Yacht Charter Cost Per Person in 2028",
       "target_words": 1100,
       "consumed_at": "2026-07-18"
     }

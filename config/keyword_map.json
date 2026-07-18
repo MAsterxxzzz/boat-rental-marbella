@@ -1634,6 +1634,20 @@
       "title": "Fishing & Sunset Combo Charter in Marbella 2037",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-no-license-prices-2038",
+      "primary_keyword": "no license boat rental prices Marbella 2038",
+      "title": "No License Boat Rental Prices in Marbella 2038",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "puerto-banus-yacht-charter-cost-per-person-2028",
+      "primary_keyword": "Puerto Banús yacht charter cost per person 2028",
+      "title": "Puerto Banús Yacht Charter Cost Per Person in 2028",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -6212,6 +6226,34 @@
       "slug": "blog/marbella-boat-rental-nye-2036-fireworks-view",
       "primary_keyword": "Marbella boat rental New Year's Eve 2036 fireworks",
       "title": "NYE 2036 on a Boat in Marbella: Best Fireworks Views from the Sea",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-ironman-2040-recovery-charter",
+      "primary_keyword": "Ironman Marbella 2040 recovery charter",
+      "title": "Ironman Marbella 2040: Post-Race Recovery Boat Charter Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-february-2032-guide",
+      "primary_keyword": "Marbella boat rental weather February 2032",
+      "title": "Marbella Boat Rental in February 2032: Weather & Charter Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-pride-2040-celebration-puerto-banus",
+      "primary_keyword": "Marbella Pride 2040 boat party Puerto Banus",
+      "title": "Marbella Pride 2040: Best Boat Party in Puerto Banus",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-starlite-2039-pre-concert-cruise",
+      "primary_keyword": "Starlite 2039 pre-concert cruise Marbella",
+      "title": "Starlite 2039: Pre-Concert Yacht Charter from Marbella Marina",
       "intent": "informational",
       "target_words": 1100
     }
