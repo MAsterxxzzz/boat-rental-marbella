@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 962,
+  "count": 966,
   "kinds": [
     "blog",
     "boat",
@@ -460,6 +460,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Watching the New Year's Eve fireworks from a boat off Cabopino is one of the most memorable ways to welcome 2033. With no crowds, no traffic jams, and a front-row seat to the midnight sky, a private charter from Puerto Banús offers comfort and exclusivity. Our fleet includes ever"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/cabopino-boat-rental-nye-2037-fireworks-view/",
+      "title": "NYE 2037 from Cabopino: Best Boat Rental for Fireworks Views",
+      "description": "Book a Cabopino boat rental for NYE 2037 fireworks views from the sea. Prices from €749/2h, skipper &amp; drinks included. Secure your spot now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "New Year's Eve 2037 in Cabopino promises a spectacular fireworks display over the Mediterranean. The best seat in the house isn't on the beach — it's on the water. With a Cabopino boat rental New Year's Eve 2037 fireworks charter, you skip the crowds, enjoy unlimited drinks, and "
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/cabopino-boat-rental-snorkeling-tour/",
@@ -1894,6 +1902,14 @@
       "excerpt": "Planning a Marbella boat rental for April 2034? Easter weekend (2–5 April 2034) offers mild weather, light winds, and uncrowded waters – ideal for a day on the Mediterranean. This guide covers what to expect from the weather, which boats suit your group, and how to lock in the be"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-april-2035-easter-guide/",
+      "title": "Easter 2035 Boat Rental in Marbella: April Weather &amp; Tips",
+      "description": "Plan your Marbella boat rental for Easter 2035 in April. Check average temps, sea conditions &amp; insider tips for a smooth charter from Puerto Banús.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Easter 2035 lands on 1 April, making it one of the earliest Easters in recent years. If you're planning a Marbella boat rental weather April 2035 Easter trip, you'll want to know what conditions to expect and how to book smartly. This guide covers average temperatures, sea states"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-april-easter/",
       "title": "Marbella Boat Rental in April: Easter Weather, Sea Conditions &amp; Tips",
       "description": "Plan your Marbella boat rental in April with Easter weather data, sea conditions, and insider tips. Average 18°C, calm seas, and fewer crowds—book now.",
@@ -2092,6 +2108,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Marbella in March 2027: the winter crowds have gone, the almond trees are blooming, and the sun is warm enough to sit on deck without a coat. But is it warm enough for a Marbella boat rental ? The short answer: yes, if you pick the right boat and dress in layers. This guide gives"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-march-2033-easter-guide/",
+      "title": "Easter 2033 Boat Rental in Marbella: March Weather &amp; Planning",
+      "description": "Plan your Marbella boat rental weather March 2033 Easter trip. March averages 15°C, 7h sun, calm seas. Book early for Easter week departures from Puerto Banús.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a Marbella boat rental weather March 2033 Easter trip? March in Marbella offers mild temperatures, calm seas, and fewer crowds — ideal for an early-season charter. With Easter falling on 17 April 2033, the weeks before and after see peak demand. This guide covers March w"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-march-guide/",
@@ -3188,6 +3212,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "The F1 Grand Prix 2037 is set to be one of the most spectacular events on the Costa del Sol. And there’s no better way to experience it than from the deck of a private yacht, anchored just off the coast. Our boat rental Marbella service offers a fleet of luxury vessels departing "
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-f1-grand-prix-2038-weekend/",
+      "title": "F1 Grand Prix 2038 Weekend: Yacht Charter in Marbella Guide",
+      "description": "Book a Marbella yacht charter for the F1 Grand Prix 2038 weekend. Watch the race from your private boat in Puerto Banús. Prices from €749/2h.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "The F1 Grand Prix 2038 weekend in Marbella is set to be one of the most glamorous events on the Costa del Sol calendar. Whether you want to watch the race from the water, party at a beach club, or simply enjoy the buzz of Puerto Banús, a Marbella yacht charter F1 Grand Prix 2038 "
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-f1-grand-prix-weekend/",
@@ -7608,7 +7640,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 960 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 964 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
