@@ -4506,3 +4506,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-19 09:02:09]   ✓ added to keyword_map.blog
 [2026-07-19 09:02:09] queue: 30 remaining, 873 consumed total
 [2026-07-19 09:02:09] running deploy.sh …
+[2026-07-19 09:02:13] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-19 14:38:18] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-19 14:38:18] [1/5] blog · blog/marbella-boat-rental-weather-june-2038-guide
+[2026-07-19 14:38:46]   ✓ saved content/blog_marbella-boat-rental-weather-june-2038-guide.json
+[2026-07-19 14:38:46]   ✓ added to keyword_map.blog
+[2026-07-19 14:38:46] [2/5] blog · blog/marbella-boat-rental-weather-july-2039-guide
+[2026-07-19 14:39:11]   ✓ saved content/blog_marbella-boat-rental-weather-july-2039-guide.json
+[2026-07-19 14:39:11]   ✓ added to keyword_map.blog
+[2026-07-19 14:39:11] [3/5] blog · blog/marbella-boat-rental-weather-august-2040-peak-tips
+[2026-07-19 14:39:41]   ✓ saved content/blog_marbella-boat-rental-weather-august-2040-peak-tips.json
+[2026-07-19 14:39:41]   ✓ added to keyword_map.blog
+[2026-07-19 14:39:41] [4/5] blog · blog/marbella-boat-rental-weather-september-2035-guide
+[2026-07-19 14:40:07]   ✓ saved content/blog_marbella-boat-rental-weather-september-2035-guide.json
+[2026-07-19 14:40:07]   ✓ added to keyword_map.blog
+[2026-07-19 14:40:07] [5/5] blog · blog/marbella-boat-rental-weather-october-2036-shoulder-season
+[2026-07-19 14:40:30]   ✓ saved content/blog_marbella-boat-rental-weather-october-2036-shoulder-season.json
+[2026-07-19 14:40:30]   ✓ added to keyword_map.blog
+[2026-07-19 14:40:30] queue: 25 remaining, 878 consumed total
+[2026-07-19 14:40:30] queue under threshold (25 < 30) — auto-refilling…
+[2026-07-19 14:40:49] refill: +30 topics (queue now 55)
+[2026-07-19 14:40:49] running deploy.sh …
