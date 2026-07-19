@@ -1648,6 +1648,41 @@
       "title": "Puerto Banús Yacht Charter Cost Per Person in 2028",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2039",
+      "primary_keyword": "family boat day jetski snorkel paddleboard Marbella 2039",
+      "title": "Family Boat Day with Jetski, Snorkel & Paddleboard in Marbella 2039",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2039",
+      "primary_keyword": "sunset cruise champagne tapas Marbella 2039",
+      "title": "Sunset Cruise with Champagne & Tapas in Marbella 2039",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2038",
+      "primary_keyword": "sunset photoshoot yacht Marbella 2038",
+      "title": "Sunset Photoshoot Yacht Session in Marbella 2038",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2039",
+      "primary_keyword": "dolphin watching brunch cruise Marbella 2039",
+      "title": "Dolphin Watching Brunch Cruise in Marbella 2039",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2038",
+      "primary_keyword": "fishing and sunset combo charter Marbella 2038",
+      "title": "Fishing & Sunset Combo Charter in Marbella 2038",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -6354,6 +6389,41 @@
       "title": "October 2036 Boat Rental in Marbella: Shoulder Season Weather",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-november-2031-guide",
+      "primary_keyword": "Marbella boat rental weather November 2031",
+      "title": "November 2031 Boat Rental in Marbella: Weather & Charter Options",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-december-2030-guide",
+      "primary_keyword": "Marbella boat rental weather December 2030",
+      "title": "December 2030 Boat Rental in Marbella: Weather & Festive Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-may-2038-guide",
+      "primary_keyword": "Marbella boat rental weather May 2038",
+      "title": "Marbella Boat Rental Weather in May 2038 – What to Expect",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-starlite-2042-pre-concert-cruise",
+      "primary_keyword": "Starlite 2042 pre-concert cruise Marbella",
+      "title": "Starlite 2042: Pre-Concert Cruise from Puerto Banús",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-nye-2040-fireworks-view",
+      "primary_keyword": "New Year's Eve boat rental Marbella 2040 fireworks",
+      "title": "NYE 2040 Fireworks from a Boat in Marbella – Best Views",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }

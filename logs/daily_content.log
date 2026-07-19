@@ -4535,3 +4535,45 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-19 14:40:30] queue under threshold (25 < 30) — auto-refilling…
 [2026-07-19 14:40:49] refill: +30 topics (queue now 55)
 [2026-07-19 14:40:49] running deploy.sh …
+[2026-07-19 14:40:54] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-19 17:30:10] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-19 17:30:10] [1/10] blog · blog/marbella-boat-rental-weather-november-2031-guide
+[2026-07-19 17:30:40]   ✓ saved content/blog_marbella-boat-rental-weather-november-2031-guide.json
+[2026-07-19 17:30:40]   ✓ added to keyword_map.blog
+[2026-07-19 17:30:40] [2/10] blog · blog/marbella-boat-rental-weather-december-2030-guide
+[2026-07-19 17:31:08]   ✓ saved content/blog_marbella-boat-rental-weather-december-2030-guide.json
+[2026-07-19 17:31:08]   ✓ added to keyword_map.blog
+[2026-07-19 17:31:08] [3/10] blog · blog/marbella-boat-rental-weather-may-2038-guide
+[2026-07-19 17:31:38]   ✓ saved content/blog_marbella-boat-rental-weather-may-2038-guide.json
+[2026-07-19 17:31:38]   ✓ added to keyword_map.blog
+[2026-07-19 17:31:38] [4/10] blog · blog/marbella-yacht-charter-starlite-2042-pre-concert-cruise
+[2026-07-19 17:32:07]   ✓ saved content/blog_marbella-yacht-charter-starlite-2042-pre-concert-cruise.json
+[2026-07-19 17:32:07]   ✓ added to keyword_map.blog
+[2026-07-19 17:32:07] [5/10] blog · blog/marbella-boat-rental-nye-2040-fireworks-view
+[2026-07-19 17:32:37]   ✓ saved content/blog_marbella-boat-rental-nye-2040-fireworks-view.json
+[2026-07-19 17:32:37]   ✓ added to keyword_map.blog
+[2026-07-19 17:32:37] [6/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2039
+[2026-07-19 17:32:58]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2039.json
+[2026-07-19 17:32:58]   ✓ added to keyword_map.spokes
+[2026-07-19 17:32:58] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2039
+[2026-07-19 17:33:26]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2039.json
+[2026-07-19 17:33:26]   ✓ added to keyword_map.spokes
+[2026-07-19 17:33:26] [8/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2038
+[2026-07-19 17:33:50]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2038.json
+[2026-07-19 17:33:50]   ✓ added to keyword_map.spokes
+[2026-07-19 17:33:50] [9/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2039
+[2026-07-19 17:34:16]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2039.json
+[2026-07-19 17:34:16]   ✓ added to keyword_map.spokes
+[2026-07-19 17:34:16] [10/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2038
+[2026-07-19 17:34:37]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2038.json
+[2026-07-19 17:34:37]   ✓ added to keyword_map.spokes
+[2026-07-19 17:34:38] queue: 45 remaining, 888 consumed total
+[2026-07-19 17:34:38] running deploy.sh …
