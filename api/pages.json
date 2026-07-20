@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 999,
+  "count": 1003,
   "kinds": [
     "blog",
     "boat",
@@ -1100,6 +1100,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "Choosing between the Mangusta 80 and the Sunseeker Predator 74 for your Marbella yacht charter is a matter of style and purpose. Both are exceptional vessels that turn heads in Puerto Banús, but they cater to different experiences. This comparison breaks down the specs, pricing, "
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2033/",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2033",
+      "description": "Mangusta 80 vs Sunseeker Predator 74 in Marbella 2033: compare size, speed, capacity &amp; price. Book your Mangusta 80 charter from Puerto Banús today.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "If you’re comparing the Mangusta 80 vs Sunseeker Predator 74 for a Marbella charter in 2033, you’re looking at two of the most impressive yachts on the Costa del Sol. Both depart from Puerto Banús, carry up to 12 guests, and offer a premium experience — but they differ in layout,"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-art-fair-yacht-charter/",
@@ -2414,6 +2422,14 @@
       "excerpt": "October 2036 is one of the best months for a Marbella boat rental . The shoulder season brings warm sea temperatures of 22°C, calm winds, and fewer crowds — all at lower rates than summer. Whether you want a 2-hour sunset cruise or an 8-hour coastal exploration, our fleet departs"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-october-2037-shoulder-season/",
+      "title": "Boat Rental in Marbella October 2037 – Shoulder Season Guide",
+      "description": "Plan your Marbella boat rental October 2037 shoulder season. 22°C sea, 9h sun, low crowds. Book Astondoa 40 from €749/2h. Secure your charter now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "October 2037 in Marbella offers a rare combination: warm 22°C seas, 9 hours of daily sun, and a fraction of the summer crowds. This shoulder-season window is ideal for a relaxed boat charter without the July–August rush. Whether you're eyeing the Astondoa 40 from €749/2h or the M"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-boat-rental-weather-october-guide/",
       "title": "Marbella Boat Rental Weather in October: Shoulder Season Guide",
       "description": "Plan your Marbella boat rental in October with our shoulder season guide. Average 22°C, 8 hours sun, and calm seas for a perfect charter.",
@@ -2604,6 +2620,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "If you're planning a trip to the Costa del Sol and want to see wild dolphins in their natural habitat, timing is everything. The best time of year for dolphin watching in Marbella 2030 runs from June to September, when sea temperatures hit 26°C and sighting success rates climb ab"
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-dolphin-watching-best-time-of-year-2035/",
+      "title": "Best Time of Year for Dolphin Watching in Marbella 2035",
+      "description": "Discover the best time of year for dolphin watching in Marbella 2035. Peak sightings from May to September with 90% success rates. Book your charter now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a dolphin watching trip in Marbella for 2035? The best time of year for dolphin watching in Marbella 2035 is between May and September, when sighting success rates consistently hit 90% or higher. During these months, warm Mediterranean waters (22-26°C) and calm seas brin"
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-easter-week-yacht-availability/",
@@ -3372,6 +3396,14 @@
       "kind": "blog",
       "locale": "en",
       "excerpt": "The F1 Grand Prix 2038 weekend in Marbella is set to be one of the most glamorous events on the Costa del Sol calendar. Whether you want to watch the race from the water, party at a beach club, or simply enjoy the buzz of Puerto Banús, a Marbella yacht charter F1 Grand Prix 2038 "
+    },
+    {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-f1-grand-prix-2039-weekend/",
+      "title": "F1 Grand Prix 2039: Yacht Charter Weekend in Marbella",
+      "description": "Experience the F1 Grand Prix 2039 with a yacht charter in Marbella. Watch from Puerto Banús, enjoy onboard luxury, and sail the Costa del Sol. Book now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Get ready for the most anticipated motorsport event on the Costa del Sol. The F1 Grand Prix 2039 yacht charter Marbella weekend combines high-octane racing with the luxury of a private boat. Depart from Puerto Banús, anchor near the action, and enjoy world-class service onboard. "
     },
     {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-f1-grand-prix-weekend/",
@@ -7904,7 +7936,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 997 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 1001 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
