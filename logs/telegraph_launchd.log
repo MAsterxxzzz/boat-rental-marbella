@@ -315,3 +315,12 @@
 [2026-07-19 12:31:08]   ✓ published https://telegra.ph/Marbella-to-Nerja-A-Cultural-Day-Charter-by-Fast-Boat-07-19 (4 backlinks)
 [2026-07-19 12:31:08] === Done: 3/3 published. Ledger total: 81 ===
 
+[2026-07-20 12:57:07] === Telegraph run: target 3 article(s) · 81 previously published ===
+[2026-07-20 12:57:07]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 12:57:10]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 12:57:16]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 12:57:27] [1/1] A Local's Guide to Anchoring Etiquette in Marbella's Coves
+[2026-07-20 12:57:44]   attempt 1: JSON parse failed, retrying
+[2026-07-20 12:58:00]   ✓ published https://telegra.ph/A-Locals-Guide-to-Anchoring-Etiquette-in-Marbellas-Coves-07-20 (1 backlinks)
+[2026-07-20 12:58:00] === Done: 1/1 published. Ledger total: 82 ===
+
