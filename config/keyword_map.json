@@ -1683,6 +1683,27 @@
       "title": "Fishing & Sunset Combo Charter in Marbella 2038",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-vs-benalmadena-cost-comparison-2039",
+      "primary_keyword": "Marbella vs Benalmadena boat rental cost 2039",
+      "title": "Marbella vs Benalmadena: Boat Rental Cost Comparison 2039",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-yacht-charter-vs-malaga-2032-comparison",
+      "primary_keyword": "Marbella vs Malaga yacht charter 2032",
+      "title": "Marbella vs Malaga: Yacht Charter Comparison for 2032",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "puerto-banus-vs-estepona-marina-yacht-departure-2039",
+      "primary_keyword": "Puerto Banús vs Estepona marina departure 2039",
+      "title": "Puerto Banús vs Estepona Marina: Best Departure for 2039 Charter",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -6424,6 +6445,41 @@
       "title": "NYE 2040 Fireworks from a Boat in Marbella – Best Views",
       "intent": "informational",
       "target_words": 1150
+    },
+    {
+      "slug": "blog/cabopino-vs-puerto-banus-2029-boat-departure",
+      "primary_keyword": "Cabopino vs Puerto Banús boat departure 2029",
+      "title": "Cabopino vs Puerto Banús: Best Boat Departure in 2029",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027",
+      "primary_keyword": "Azimut 39 vs Fairline Targa 12m fuel cost Marbella",
+      "title": "Azimut 39 vs Fairline Targa 12m: Fuel Cost Comparison in Marbella",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-ironman-2041-recovery-charter",
+      "primary_keyword": "Ironman Marbella 2041 recovery boat charter",
+      "title": "Ironman Marbella 2041: Recovery Day on a Boat Charter",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-pride-2042-celebration",
+      "primary_keyword": "Marbella Pride 2042 yacht party Puerto Banús",
+      "title": "Marbella Pride 2042: Celebrate on a Yacht from Puerto Banús",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2043-boat-party",
+      "primary_keyword": "Feria San Bernabé 2043 boat party Marbella",
+      "title": "Feria San Bernabé 2043: Boat Party Guide for Marbella",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }

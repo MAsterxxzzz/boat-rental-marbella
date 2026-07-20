@@ -1566,3 +1566,30 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-20 09:00:04] === Daily content run (kind-balanced): 5 blog + 3 landing = 8 item(s) ===
+[2026-07-20 09:00:04] [1/8] blog · blog/cabopino-vs-puerto-banus-2029-boat-departure
+[2026-07-20 09:00:26]   ✓ saved content/blog_cabopino-vs-puerto-banus-2029-boat-departure.json
+[2026-07-20 09:00:26]   ✓ added to keyword_map.blog
+[2026-07-20 09:00:26] [2/8] blog · blog/azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027
+[2026-07-20 09:00:53]   ✓ saved content/blog_azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027.json
+[2026-07-20 09:00:53]   ✓ added to keyword_map.blog
+[2026-07-20 09:00:53] [3/8] blog · blog/marbella-boat-rental-ironman-2041-recovery-charter
+[2026-07-20 09:01:20]   ✓ saved content/blog_marbella-boat-rental-ironman-2041-recovery-charter.json
+[2026-07-20 09:01:20]   ✓ added to keyword_map.blog
+[2026-07-20 09:01:20] [4/8] blog · blog/marbella-yacht-charter-pride-2042-celebration
+[2026-07-20 09:01:43]   ✓ saved content/blog_marbella-yacht-charter-pride-2042-celebration.json
+[2026-07-20 09:01:43]   ✓ added to keyword_map.blog
+[2026-07-20 09:01:43] [5/8] blog · blog/marbella-boat-rental-feria-san-bernabe-2043-boat-party
+[2026-07-20 09:02:11]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2043-boat-party.json
+[2026-07-20 09:02:11]   ✓ added to keyword_map.blog
+[2026-07-20 09:02:11] [6/8] spoke · marbella-boat-rental-vs-benalmadena-cost-comparison-2039
+[2026-07-20 09:02:34]   ✓ saved content/marbella-boat-rental-vs-benalmadena-cost-comparison-2039.json
+[2026-07-20 09:02:35]   ✓ added to keyword_map.spokes
+[2026-07-20 09:02:35] [7/8] spoke · marbella-yacht-charter-vs-malaga-2032-comparison
+[2026-07-20 09:02:57]   ✓ saved content/marbella-yacht-charter-vs-malaga-2032-comparison.json
+[2026-07-20 09:02:57]   ✓ added to keyword_map.spokes
+[2026-07-20 09:02:57] [8/8] spoke · puerto-banus-vs-estepona-marina-yacht-departure-2039
+[2026-07-20 09:03:21]   ✓ saved content/puerto-banus-vs-estepona-marina-yacht-departure-2039.json
+[2026-07-20 09:03:21]   ✓ added to keyword_map.spokes
+[2026-07-20 09:03:21] queue: 37 remaining, 896 consumed total
+[2026-07-20 09:03:21] running deploy.sh …

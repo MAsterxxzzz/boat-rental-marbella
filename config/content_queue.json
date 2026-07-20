@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/cabopino-vs-puerto-banus-2029-boat-departure",
-      "primary_keyword": "Cabopino vs Puerto Banús boat departure 2029",
-      "title": "Cabopino vs Puerto Banús: Best Boat Departure in 2029",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027",
-      "primary_keyword": "Azimut 39 vs Fairline Targa 12m fuel cost Marbella",
-      "title": "Azimut 39 vs Fairline Targa 12m: Fuel Cost Comparison in Marbella",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-ironman-2041-recovery-charter",
-      "primary_keyword": "Ironman Marbella 2041 recovery boat charter",
-      "title": "Ironman Marbella 2041: Recovery Day on a Boat Charter",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-pride-2042-celebration",
-      "primary_keyword": "Marbella Pride 2042 yacht party Puerto Banús",
-      "title": "Marbella Pride 2042: Celebrate on a Yacht from Puerto Banús",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2043-boat-party",
-      "primary_keyword": "Feria San Bernabé 2043 boat party Marbella",
-      "title": "Feria San Bernabé 2043: Boat Party Guide for Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/estepona-boat-charter-weather-june-2039-guide",
       "primary_keyword": "Estepona boat charter weather June 2039",
       "title": "Estepona Boat Charter in June 2039: Weather & Tips",
@@ -294,27 +259,6 @@
       "slug": "blog/marbella-yacht-charter-andalusia-day-celebration-2039",
       "primary_keyword": "Andalusia Day yacht charter Marbella 2039",
       "title": "Andalusia Day 2039: Celebrate with a Yacht Charter in Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-boat-rental-vs-benalmadena-cost-comparison-2039",
-      "primary_keyword": "Marbella vs Benalmadena boat rental cost 2039",
-      "title": "Marbella vs Benalmadena: Boat Rental Cost Comparison 2039",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-yacht-charter-vs-malaga-2032-comparison",
-      "primary_keyword": "Marbella vs Malaga yacht charter 2032",
-      "title": "Marbella vs Malaga: Yacht Charter Comparison for 2032",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "puerto-banus-vs-estepona-marina-yacht-departure-2039",
-      "primary_keyword": "Puerto Banús vs Estepona marina departure 2039",
-      "title": "Puerto Banús vs Estepona Marina: Best Departure for 2039 Charter",
       "target_words": 1100
     }
   ],
@@ -7570,6 +7514,70 @@
       "title": "Fishing & Sunset Combo Charter in Marbella 2038",
       "target_words": 1100,
       "consumed_at": "2026-07-19"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/cabopino-vs-puerto-banus-2029-boat-departure",
+      "primary_keyword": "Cabopino vs Puerto Banús boat departure 2029",
+      "title": "Cabopino vs Puerto Banús: Best Boat Departure in 2029",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-39-vs-fairline-targa-12m-fuel-cost-marbella-2027",
+      "primary_keyword": "Azimut 39 vs Fairline Targa 12m fuel cost Marbella",
+      "title": "Azimut 39 vs Fairline Targa 12m: Fuel Cost Comparison in Marbella",
+      "target_words": 1200,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2041-recovery-charter",
+      "primary_keyword": "Ironman Marbella 2041 recovery boat charter",
+      "title": "Ironman Marbella 2041: Recovery Day on a Boat Charter",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-pride-2042-celebration",
+      "primary_keyword": "Marbella Pride 2042 yacht party Puerto Banús",
+      "title": "Marbella Pride 2042: Celebrate on a Yacht from Puerto Banús",
+      "target_words": 1150,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2043-boat-party",
+      "primary_keyword": "Feria San Bernabé 2043 boat party Marbella",
+      "title": "Feria San Bernabé 2043: Boat Party Guide for Marbella",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-vs-benalmadena-cost-comparison-2039",
+      "primary_keyword": "Marbella vs Benalmadena boat rental cost 2039",
+      "title": "Marbella vs Benalmadena: Boat Rental Cost Comparison 2039",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-yacht-charter-vs-malaga-2032-comparison",
+      "primary_keyword": "Marbella vs Malaga yacht charter 2032",
+      "title": "Marbella vs Malaga: Yacht Charter Comparison for 2032",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "spoke",
+      "slug": "puerto-banus-vs-estepona-marina-yacht-departure-2039",
+      "primary_keyword": "Puerto Banús vs Estepona marina departure 2039",
+      "title": "Puerto Banús vs Estepona Marina: Best Departure for 2039 Charter",
+      "target_words": 1100,
+      "consumed_at": "2026-07-20"
     }
   ],
   "refill_threshold": 30,
