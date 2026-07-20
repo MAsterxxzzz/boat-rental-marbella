@@ -4640,3 +4640,36 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-20 14:32:00]   ✓ added to keyword_map.blog
 [2026-07-20 14:32:00] queue: 32 remaining, 901 consumed total
 [2026-07-20 14:32:00] running deploy.sh …
+[2026-07-20 14:32:05] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-20 18:08:24] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-20 18:08:24] [1/5] blog · blog/marbella-yacht-charter-license-requirements-2036
+[2026-07-20 18:08:24]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 18:08:28]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 18:08:34]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 18:08:43]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-20 18:08:55]   DeepSeek exhausted, falling back to cli
+[2026-07-20 18:19:33]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-20 18:19:33] [2/5] blog · blog/marbella-boat-rental-weather-october-2037-shoulder-season
+[2026-07-20 18:19:59]   ✓ saved content/blog_marbella-boat-rental-weather-october-2037-shoulder-season.json
+[2026-07-20 18:19:59]   ✓ added to keyword_map.blog
+[2026-07-20 18:19:59] [3/5] blog · blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2033
+[2026-07-20 18:20:51]   ✓ saved content/blog_mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2033.json
+[2026-07-20 18:20:51]   ✓ added to keyword_map.blog
+[2026-07-20 18:20:51] [4/5] blog · blog/marbella-dolphin-watching-best-time-of-year-2035
+[2026-07-20 18:21:15]   ✓ saved content/blog_marbella-dolphin-watching-best-time-of-year-2035.json
+[2026-07-20 18:21:15]   ✓ added to keyword_map.blog
+[2026-07-20 18:21:15] [5/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2039-weekend
+[2026-07-20 18:21:37]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2039-weekend.json
+[2026-07-20 18:21:37]   ✓ added to keyword_map.blog
+[2026-07-20 18:21:37] queue: 28 remaining, 905 consumed total
+[2026-07-20 18:21:37] queue under threshold (28 < 30) — auto-refilling…
+[2026-07-20 18:21:56] refill: +30 topics (queue now 58)
+[2026-07-20 18:21:56] running deploy.sh …
