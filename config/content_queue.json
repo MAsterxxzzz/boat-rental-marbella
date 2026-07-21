@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-license-requirements-2036",
-      "primary_keyword": "yacht charter license requirements Marbella 2036",
-      "title": "License Requirements for Yacht Charter in Marbella 2036",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2036",
-      "primary_keyword": "hen party boat budget Marbella 2036",
-      "title": "Hen Party Boat Budget Breakdown for Marbella 2036",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-2038",
-      "primary_keyword": "Cabopino family boat day paddleboarding 2038",
-      "title": "Family Boat Day in Cabopino: Paddleboarding Fun 2038",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2035",
-      "primary_keyword": "vegan catering yacht charter Marbella 2035",
-      "title": "Vegan Catering for Yacht Charter in Marbella – 2035 Edition",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/estepona-boat-rental-snorkeling-gear-2039",
-      "primary_keyword": "Estepona boat rental snorkeling gear 2039",
-      "title": "Snorkeling Gear for Estepona Boat Rentals in 2039",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-andalusia-day-celebration-2038",
       "primary_keyword": "Andalusia Day yacht charter Marbella 2038",
       "title": "Andalusia Day 2038: Celebrate on a Yacht in Marbella",
@@ -372,41 +337,6 @@
       "primary_keyword": "Marbella boat rental stag weekend cost breakdown 2035",
       "title": "Marbella Stag Weekend Boat Rental Cost Breakdown 2035: Budget Guide",
       "target_words": 1200
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2040",
-      "primary_keyword": "Marbella dolphin watching brunch cruise 2040",
-      "title": "Marbella Dolphin Watching Brunch Cruise 2040: Morning Delight",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2040",
-      "primary_keyword": "Marbella sunset cruise champagne tapas 2040",
-      "title": "Marbella Sunset Cruise with Champagne & Tapas 2040: Evening Elegance",
-      "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2040",
-      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2040",
-      "title": "Family Boat Day: Jetski, Snorkel & Paddleboard Combo Marbella 2040",
-      "target_words": 1150
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2039",
-      "primary_keyword": "Marbella photoshoot yacht sunset session 2039",
-      "title": "Marbella Photoshoot Yacht Sunset Session 2039: Capture the Moment",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "marbella-boat-rental-group-size-limits-2041",
-      "primary_keyword": "Marbella boat rental group size limits 2041",
-      "title": "Marbella Boat Rental Group Size Limits 2041: What You Need to Know",
-      "target_words": 1100
     }
   ],
   "consumed": [
@@ -7797,6 +7727,86 @@
       "title": "F1 Grand Prix 2039: Yacht Charter Weekend in Marbella",
       "target_words": 1150,
       "consumed_at": "2026-07-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2036",
+      "primary_keyword": "yacht charter license requirements Marbella 2036",
+      "title": "License Requirements for Yacht Charter in Marbella 2036",
+      "target_words": 1150,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2036",
+      "primary_keyword": "hen party boat budget Marbella 2036",
+      "title": "Hen Party Boat Budget Breakdown for Marbella 2036",
+      "target_words": 1200,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-2038",
+      "primary_keyword": "Cabopino family boat day paddleboarding 2038",
+      "title": "Family Boat Day in Cabopino: Paddleboarding Fun 2038",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2035",
+      "primary_keyword": "vegan catering yacht charter Marbella 2035",
+      "title": "Vegan Catering for Yacht Charter in Marbella – 2035 Edition",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/estepona-boat-rental-snorkeling-gear-2039",
+      "primary_keyword": "Estepona boat rental snorkeling gear 2039",
+      "title": "Snorkeling Gear for Estepona Boat Rentals in 2039",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2040",
+      "primary_keyword": "Marbella dolphin watching brunch cruise 2040",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2040: Morning Delight",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2040",
+      "primary_keyword": "Marbella sunset cruise champagne tapas 2040",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2040: Evening Elegance",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2040",
+      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2040",
+      "title": "Family Boat Day: Jetski, Snorkel & Paddleboard Combo Marbella 2040",
+      "target_words": 1150,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2039",
+      "primary_keyword": "Marbella photoshoot yacht sunset session 2039",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2039: Capture the Moment",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
+    },
+    {
+      "kind": "spoke",
+      "slug": "marbella-boat-rental-group-size-limits-2041",
+      "primary_keyword": "Marbella boat rental group size limits 2041",
+      "title": "Marbella Boat Rental Group Size Limits 2041: What You Need to Know",
+      "target_words": 1100,
+      "consumed_at": "2026-07-21"
     }
   ],
   "refill_threshold": 30,

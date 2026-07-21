@@ -1704,6 +1704,41 @@
       "title": "Puerto Banús vs Estepona Marina: Best Departure for 2039 Charter",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2040",
+      "primary_keyword": "Marbella dolphin watching brunch cruise 2040",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2040: Morning Delight",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2040",
+      "primary_keyword": "Marbella sunset cruise champagne tapas 2040",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2040: Evening Elegance",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2040",
+      "primary_keyword": "Marbella family boat day jetski snorkel paddleboard combo 2040",
+      "title": "Family Boat Day: Jetski, Snorkel & Paddleboard Combo Marbella 2040",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2039",
+      "primary_keyword": "Marbella photoshoot yacht sunset session 2039",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2039: Capture the Moment",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-group-size-limits-2041",
+      "primary_keyword": "Marbella boat rental group size limits 2041",
+      "title": "Marbella Boat Rental Group Size Limits 2041: What You Need to Know",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -6543,6 +6578,41 @@
       "title": "F1 Grand Prix 2039: Yacht Charter Weekend in Marbella",
       "intent": "informational",
       "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-license-requirements-2036",
+      "primary_keyword": "yacht charter license requirements Marbella 2036",
+      "title": "License Requirements for Yacht Charter in Marbella 2036",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2036",
+      "primary_keyword": "hen party boat budget Marbella 2036",
+      "title": "Hen Party Boat Budget Breakdown for Marbella 2036",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-2038",
+      "primary_keyword": "Cabopino family boat day paddleboarding 2038",
+      "title": "Family Boat Day in Cabopino: Paddleboarding Fun 2038",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2035",
+      "primary_keyword": "vegan catering yacht charter Marbella 2035",
+      "title": "Vegan Catering for Yacht Charter in Marbella – 2035 Edition",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/estepona-boat-rental-snorkeling-gear-2039",
+      "primary_keyword": "Estepona boat rental snorkeling gear 2039",
+      "title": "Snorkeling Gear for Estepona Boat Rentals in 2039",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }
