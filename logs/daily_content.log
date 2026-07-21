@@ -4715,3 +4715,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-21 09:04:27]   ✓ added to keyword_map.spokes
 [2026-07-21 09:04:27] queue: 48 remaining, 915 consumed total
 [2026-07-21 09:04:27] running deploy.sh …
+[2026-07-21 09:04:32] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-21 14:38:41] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-21 14:38:41] [1/5] blog · blog/marbella-yacht-charter-andalusia-day-celebration-2038
+[2026-07-21 14:39:07]   ✓ saved content/blog_marbella-yacht-charter-andalusia-day-celebration-2038.json
+[2026-07-21 14:39:07]   ✓ added to keyword_map.blog
+[2026-07-21 14:39:07] [2/5] blog · blog/marbella-yacht-charter-starlite-2045-pre-concert-cruise
+[2026-07-21 14:39:35]   ✓ saved content/blog_marbella-yacht-charter-starlite-2045-pre-concert-cruise.json
+[2026-07-21 14:39:35]   ✓ added to keyword_map.blog
+[2026-07-21 14:39:35] [3/5] blog · blog/marbella-boat-rental-feria-san-bernabe-2044-guide
+[2026-07-21 14:40:00]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2044-guide.json
+[2026-07-21 14:40:00]   ✓ added to keyword_map.blog
+[2026-07-21 14:40:00] [4/5] blog · blog/marbella-yacht-charter-nye-2041-fireworks-view
+[2026-07-21 14:40:31]   ✓ saved content/blog_marbella-yacht-charter-nye-2041-fireworks-view.json
+[2026-07-21 14:40:31]   ✓ added to keyword_map.blog
+[2026-07-21 14:40:31] [5/5] blog · blog/marbella-yacht-charter-ironman-2045-recovery-day
+[2026-07-21 14:41:01]   ✓ saved content/blog_marbella-yacht-charter-ironman-2045-recovery-day.json
+[2026-07-21 14:41:01]   ✓ added to keyword_map.blog
+[2026-07-21 14:41:01] queue: 43 remaining, 920 consumed total
+[2026-07-21 14:41:01] running deploy.sh …
