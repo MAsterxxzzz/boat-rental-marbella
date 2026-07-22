@@ -1644,3 +1644,21 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-22 10:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-22 10:00:00] [1/5] blog · blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2041
+[2026-07-22 10:00:23]   ✓ saved content/blog_marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2041.json
+[2026-07-22 10:00:23]   ✓ added to keyword_map.blog
+[2026-07-22 10:00:23] [2/5] blog · blog/marbella-fishing-charter-tuna-season-2042
+[2026-07-22 10:00:46]   ✓ saved content/blog_marbella-fishing-charter-tuna-season-2042.json
+[2026-07-22 10:00:46]   ✓ added to keyword_map.blog
+[2026-07-22 10:00:46] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2037
+[2026-07-22 10:01:13]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2037.json
+[2026-07-22 10:01:13]   ✓ added to keyword_map.blog
+[2026-07-22 10:01:13] [4/5] blog · blog/marbella-yacht-charter-group-size-limits-2041
+[2026-07-22 10:01:36]   ✓ saved content/blog_marbella-yacht-charter-group-size-limits-2041.json
+[2026-07-22 10:01:36]   ✓ added to keyword_map.blog
+[2026-07-22 10:01:36] [5/5] blog · blog/marbella-boat-rental-no-license-prices-2039
+[2026-07-22 10:02:02]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2039.json
+[2026-07-22 10:02:02]   ✓ added to keyword_map.blog
+[2026-07-22 10:02:02] queue: 33 remaining, 930 consumed total
+[2026-07-22 10:02:02] running deploy.sh …
