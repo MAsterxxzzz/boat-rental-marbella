@@ -4796,3 +4796,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-22 10:02:02]   ✓ added to keyword_map.blog
 [2026-07-22 10:02:02] queue: 33 remaining, 930 consumed total
 [2026-07-22 10:02:02] running deploy.sh …
+[2026-07-22 10:02:08] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-22 15:30:08] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-22 15:30:08] [1/5] blog · blog/marbella-boat-rental-weather-august-2041-peak-tips
+[2026-07-22 15:30:40]   ✓ saved content/blog_marbella-boat-rental-weather-august-2041-peak-tips.json
+[2026-07-22 15:30:40]   ✓ added to keyword_map.blog
+[2026-07-22 15:30:40] [2/5] blog · blog/marbella-yacht-charter-weather-october-2043-shoulder-season
+[2026-07-22 15:30:59]   ✓ saved content/blog_marbella-yacht-charter-weather-october-2043-shoulder-season.json
+[2026-07-22 15:30:59]   ✓ added to keyword_map.blog
+[2026-07-22 15:30:59] [3/5] blog · blog/marbella-yacht-charter-what-to-bring-checklist-2038
+[2026-07-22 15:31:31]   ✓ saved content/blog_marbella-yacht-charter-what-to-bring-checklist-2038.json
+[2026-07-22 15:31:31]   ✓ added to keyword_map.blog
+[2026-07-22 15:31:31] [4/5] blog · blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2036
+[2026-07-22 15:31:59]   ✓ saved content/blog_marbella-yacht-charter-dietary-restrictions-vegan-catering-2036.json
+[2026-07-22 15:31:59]   ✓ added to keyword_map.blog
+[2026-07-22 15:31:59] [5/5] blog · blog/marbella-yacht-charter-hen-party-budget-breakdown-2037
+[2026-07-22 15:32:26]   ✓ saved content/blog_marbella-yacht-charter-hen-party-budget-breakdown-2037.json
+[2026-07-22 15:32:26]   ✓ added to keyword_map.blog
+[2026-07-22 15:32:26] queue: 28 remaining, 935 consumed total
+[2026-07-22 15:32:26] queue under threshold (28 < 30) — auto-refilling…
+[2026-07-22 15:32:45] refill: +30 topics (queue now 58)
+[2026-07-22 15:32:45] running deploy.sh …
