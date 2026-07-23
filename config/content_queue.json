@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2045-boat-party",
-      "primary_keyword": "Marbella yacht charter Feria San Bernabe 2045 boat party",
-      "title": "Marbella Yacht Charter for Feria San Bernabe 2045: Boat Party Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2043-fireworks-view",
-      "primary_keyword": "Marbella boat rental NYE 2043 fireworks view",
-      "title": "Marbella Boat Rental for NYE 2043: Best Fireworks View from the Sea",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2041-weekend",
-      "primary_keyword": "Marbella yacht charter F1 Grand Prix 2041 weekend",
-      "title": "Marbella Yacht Charter for F1 Grand Prix 2041 Weekend: Ultimate Guide",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2047-celebration-puerto-banus",
-      "primary_keyword": "Marbella boat rental Pride 2047 celebration Puerto Banus",
-      "title": "Marbella Boat Rental for Pride 2047: Celebrate in Puerto Banús Style",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2046-recovery-day",
-      "primary_keyword": "Marbella yacht charter Ironman 2046 recovery day",
-      "title": "Marbella Yacht Charter for Ironman 2046 Recovery: Post-Race Relaxation",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-andalusia-day-2040-celebration",
       "primary_keyword": "Marbella boat rental Andalusia Day 2040 celebration",
       "title": "Marbella Boat Rental for Andalusia Day 2040: Celebrate from the Sea",
@@ -309,13 +274,6 @@
       "primary_keyword": "minimum age yacht charter Marbella 2039",
       "title": "Minimum Age Policy for Yacht Charter in Marbella: 2039 Guide",
       "target_words": 1100
-    },
-    {
-      "kind": "experience",
-      "slug": "experiences/marbella-sunset-cruise-romantic-proposal-2039",
-      "primary_keyword": "romantic proposal sunset cruise Marbella 2039",
-      "title": "Marbella Romantic Sunset Cruise Proposal: 2039 Experience",
-      "target_words": 1150
     },
     {
       "kind": "blog",
@@ -8047,6 +8005,54 @@
       "title": "Marbella Fishing and Sunset Combo Charter: 2039 Experience",
       "target_words": 1200,
       "consumed_at": "2026-07-22"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2045-boat-party",
+      "primary_keyword": "Marbella yacht charter Feria San Bernabe 2045 boat party",
+      "title": "Marbella Yacht Charter for Feria San Bernabe 2045: Boat Party Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-23"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2043-fireworks-view",
+      "primary_keyword": "Marbella boat rental NYE 2043 fireworks view",
+      "title": "Marbella Boat Rental for NYE 2043: Best Fireworks View from the Sea",
+      "target_words": 1100,
+      "consumed_at": "2026-07-23"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2041-weekend",
+      "primary_keyword": "Marbella yacht charter F1 Grand Prix 2041 weekend",
+      "title": "Marbella Yacht Charter for F1 Grand Prix 2041 Weekend: Ultimate Guide",
+      "target_words": 1200,
+      "consumed_at": "2026-07-23"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2047-celebration-puerto-banus",
+      "primary_keyword": "Marbella boat rental Pride 2047 celebration Puerto Banus",
+      "title": "Marbella Boat Rental for Pride 2047: Celebrate in Puerto Banús Style",
+      "target_words": 1100,
+      "consumed_at": "2026-07-23"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2046-recovery-day",
+      "primary_keyword": "Marbella yacht charter Ironman 2046 recovery day",
+      "title": "Marbella Yacht Charter for Ironman 2046 Recovery: Post-Race Relaxation",
+      "target_words": 1150,
+      "consumed_at": "2026-07-23"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-romantic-proposal-2039",
+      "primary_keyword": "romantic proposal sunset cruise Marbella 2039",
+      "title": "Marbella Romantic Sunset Cruise Proposal: 2039 Experience",
+      "target_words": 1150,
+      "consumed_at": "2026-07-23"
     }
   ],
   "refill_threshold": 30,

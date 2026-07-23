@@ -1671,3 +1671,24 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-23 10:00:02] === Daily content run (kind-balanced): 5 blog + 1 landing = 6 item(s) ===
+[2026-07-23 10:00:02] [1/6] blog · blog/marbella-yacht-charter-feria-san-bernabe-2045-boat-party
+[2026-07-23 10:00:25]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2045-boat-party.json
+[2026-07-23 10:00:25]   ✓ added to keyword_map.blog
+[2026-07-23 10:00:25] [2/6] blog · blog/marbella-boat-rental-nye-2043-fireworks-view
+[2026-07-23 10:00:46]   ✓ saved content/blog_marbella-boat-rental-nye-2043-fireworks-view.json
+[2026-07-23 10:00:46]   ✓ added to keyword_map.blog
+[2026-07-23 10:00:46] [3/6] blog · blog/marbella-yacht-charter-f1-grand-prix-2041-weekend
+[2026-07-23 10:01:10]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2041-weekend.json
+[2026-07-23 10:01:10]   ✓ added to keyword_map.blog
+[2026-07-23 10:01:10] [4/6] blog · blog/marbella-boat-rental-pride-2047-celebration-puerto-banus
+[2026-07-23 10:01:37]   ✓ saved content/blog_marbella-boat-rental-pride-2047-celebration-puerto-banus.json
+[2026-07-23 10:01:37]   ✓ added to keyword_map.blog
+[2026-07-23 10:01:37] [5/6] blog · blog/marbella-yacht-charter-ironman-2046-recovery-day
+[2026-07-23 10:02:01]   ✓ saved content/blog_marbella-yacht-charter-ironman-2046-recovery-day.json
+[2026-07-23 10:02:01]   ✓ added to keyword_map.blog
+[2026-07-23 10:02:01] [6/6] experience · experiences/marbella-sunset-cruise-romantic-proposal-2039
+[2026-07-23 10:02:26]   ✓ saved content/experiences_marbella-sunset-cruise-romantic-proposal-2039.json
+[2026-07-23 10:02:26]   ✓ added to keyword_map.spokes
+[2026-07-23 10:02:26] queue: 42 remaining, 951 consumed total
+[2026-07-23 10:02:26] running deploy.sh …
