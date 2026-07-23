@@ -4924,3 +4924,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-23 15:32:19]   ✓ added to keyword_map.blog
 [2026-07-23 15:32:19] queue: 37 remaining, 956 consumed total
 [2026-07-23 15:32:19] running deploy.sh …
+[2026-07-23 15:32:24] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-23 18:30:06] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-23 18:30:06] [1/5] blog · blog/marbella-boat-rental-cabopino-dolphin-watching-season-2049
+[2026-07-23 18:30:32]   ✓ saved content/blog_marbella-boat-rental-cabopino-dolphin-watching-season-2049.json
+[2026-07-23 18:30:32]   ✓ added to keyword_map.blog
+[2026-07-23 18:30:32] [2/5] blog · blog/marbella-yacht-charter-sunset-cruise-romantic-dinner-menu-ideas-2045
+[2026-07-23 18:31:05]   ✓ saved content/blog_marbella-yacht-charter-sunset-cruise-romantic-dinner-menu-ideas-2045.json
+[2026-07-23 18:31:05]   ✓ added to keyword_map.blog
+[2026-07-23 18:31:05] [3/5] blog · blog/marbella-boat-rental-snorkeling-spots-by-boat-cabopino-vs-estepona-2043
+[2026-07-23 18:31:34]   ✓ saved content/blog_marbella-boat-rental-snorkeling-spots-by-boat-cabopino-vs-estepona-2043.json
+[2026-07-23 18:31:34]   ✓ added to keyword_map.blog
+[2026-07-23 18:31:34] [4/5] blog · blog/marbella-fishing-charter-tuna-season-2044
+[2026-07-23 18:31:58]   ✓ saved content/blog_marbella-fishing-charter-tuna-season-2044.json
+[2026-07-23 18:31:58]   ✓ added to keyword_map.blog
+[2026-07-23 18:31:58] [5/5] blog · blog/marbella-boat-rental-weather-august-2042-peak-tips
+[2026-07-23 18:32:30]   ✓ saved content/blog_marbella-boat-rental-weather-august-2042-peak-tips.json
+[2026-07-23 18:32:30]   ✓ added to keyword_map.blog
+[2026-07-23 18:32:30] queue: 32 remaining, 961 consumed total
+[2026-07-23 18:32:30] running deploy.sh …
