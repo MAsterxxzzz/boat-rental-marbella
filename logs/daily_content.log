@@ -4897,3 +4897,30 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-23 10:02:26]   ✓ added to keyword_map.spokes
 [2026-07-23 10:02:26] queue: 42 remaining, 951 consumed total
 [2026-07-23 10:02:26] running deploy.sh …
+[2026-07-23 10:02:30] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-23 15:30:04] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-23 15:30:04] [1/5] blog · blog/marbella-boat-rental-andalusia-day-2040-celebration
+[2026-07-23 15:30:37]   ✓ saved content/blog_marbella-boat-rental-andalusia-day-2040-celebration.json
+[2026-07-23 15:30:37]   ✓ added to keyword_map.blog
+[2026-07-23 15:30:37] [2/5] blog · blog/astondoa-40-vs-fairline-targa-12m-marbella-comparison-2039
+[2026-07-23 15:31:02]   ✓ saved content/blog_astondoa-40-vs-fairline-targa-12m-marbella-comparison-2039.json
+[2026-07-23 15:31:02]   ✓ added to keyword_map.blog
+[2026-07-23 15:31:02] [3/5] blog · blog/mangusta-80-vs-azimut-58-marbella-comparison-2040
+[2026-07-23 15:31:28]   ✓ saved content/blog_mangusta-80-vs-azimut-58-marbella-comparison-2040.json
+[2026-07-23 15:31:29]   ✓ added to keyword_map.blog
+[2026-07-23 15:31:29] [4/5] blog · blog/azimut-39-vs-pershing-46-marbella-comparison-2041
+[2026-07-23 15:31:54]   ✓ saved content/blog_azimut-39-vs-pershing-46-marbella-comparison-2041.json
+[2026-07-23 15:31:54]   ✓ added to keyword_map.blog
+[2026-07-23 15:31:54] [5/5] blog · blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison-2042
+[2026-07-23 15:32:19]   ✓ saved content/blog_pershing-46-vs-sunseeker-predator-55-marbella-comparison-2042.json
+[2026-07-23 15:32:19]   ✓ added to keyword_map.blog
+[2026-07-23 15:32:19] queue: 37 remaining, 956 consumed total
+[2026-07-23 15:32:19] running deploy.sh …

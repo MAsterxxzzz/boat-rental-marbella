@@ -6865,6 +6865,41 @@
       "title": "Marbella Yacht Charter for Ironman 2046 Recovery: Post-Race Relaxation",
       "intent": "informational",
       "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-andalusia-day-2040-celebration",
+      "primary_keyword": "Marbella boat rental Andalusia Day 2040 celebration",
+      "title": "Marbella Boat Rental for Andalusia Day 2040: Celebrate from the Sea",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/astondoa-40-vs-fairline-targa-12m-marbella-comparison-2039",
+      "primary_keyword": "Astondoa 40 vs Fairline Targa 12m Marbella comparison",
+      "title": "Astondoa 40 vs Fairline Targa 12m: Detailed Marbella Comparison",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/mangusta-80-vs-azimut-58-marbella-comparison-2040",
+      "primary_keyword": "Mangusta 80 vs Azimut 58 Marbella comparison",
+      "title": "Mangusta 80 vs Azimut 58: Which Yacht Wins in Marbella?",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/azimut-39-vs-pershing-46-marbella-comparison-2041",
+      "primary_keyword": "Azimut 39 vs Pershing 46 Marbella comparison",
+      "title": "Azimut 39 vs Pershing 46: Side-by-Side Marbella Yacht Comparison",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison-2042",
+      "primary_keyword": "Pershing 46 vs Sunseeker Predator 55 Marbella comparison",
+      "title": "Pershing 46 vs Sunseeker Predator 55: Marbella Yacht Showdown",
+      "intent": "informational",
+      "target_words": 1250
     }
   ]
 }
