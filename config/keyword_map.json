@@ -1781,6 +1781,41 @@
       "title": "Marbella Romantic Sunset Cruise Proposal: 2039 Experience",
       "intent": "transactional",
       "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2042",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2042",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2042: Morning on the Med",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2042",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard 2042",
+      "title": "Marbella Family Boat Day 2042: Jetski, Snorkel & Paddleboard Combo",
+      "intent": "transactional",
+      "target_words": 1300
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2042",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2042",
+      "title": "Marbella Sunset Cruise 2042: Champagne & Tapas on the Water",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2040",
+      "primary_keyword": "marbella fishing and sunset combo charter 2040",
+      "title": "Marbella Fishing and Sunset Combo Charter 2040: Catch the Sunset",
+      "intent": "transactional",
+      "target_words": 1200
+    },
+    {
+      "slug": "cabopino-boat-rental-no-license-2034",
+      "primary_keyword": "cabopino boat rental no license 2034",
+      "title": "Cabopino Boat Rental No License 2034: Affordable Options",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -6970,6 +7005,41 @@
       "title": "Marbella Yacht Charter Minimum Age Policy 2037: What You Need",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-what-to-bring-food-vegan-2036",
+      "primary_keyword": "Marbella boat rental what to bring food vegan 2036",
+      "title": "Vegan Food Checklist for Marbella Boat Rentals 2036: What to Bring",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2037",
+      "primary_keyword": "Marbella yacht charter dietary restrictions vegan catering 2037",
+      "title": "Vegan Catering for Marbella Yacht Charters 2037: Dietary Guide",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2035",
+      "primary_keyword": "Marbella boat rental stag weekend cost breakdown 2035",
+      "title": "Marbella Stag Weekend Boat Rental Cost Breakdown 2035: Budget Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2046-guide",
+      "primary_keyword": "Feria San Bernabé boat rental Marbella 2046",
+      "title": "Marbella Boat Rental for Feria San Bernabé 2046: Your Complete Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-starlite-2046-pre-concert-cruise",
+      "primary_keyword": "Starlite 2046 pre-concert cruise Marbella",
+      "title": "Starlite 2046 in Marbella: Book a Pre-Concert Yacht Charter Cruise",
+      "intent": "informational",
+      "target_words": 1300
     }
   ]
 }
