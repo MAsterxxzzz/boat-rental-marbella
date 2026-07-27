@@ -1701,3 +1701,137 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-24 10:31:38] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-24 10:31:38] [1/5] blog · blog/marbella-yacht-charter-weather-december-2044-guide
+[2026-07-24 10:31:40]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 10:31:43]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 10:31:49]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 10:31:58]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 10:32:10]   DeepSeek exhausted, falling back to cli
+[2026-07-24 12:19:28]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-24 12:19:28] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2040
+[2026-07-24 12:19:28]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 12:19:31]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 13:19:50]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 13:19:59]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 13:20:11]   DeepSeek exhausted, falling back to cli
+[2026-07-24 15:21:50]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-24 15:21:50] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2038
+[2026-07-24 15:21:51]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 15:21:54]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 15:22:00]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 15:22:09]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 15:22:21]   DeepSeek exhausted, falling back to cli
+[2026-07-24 16:28:39]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-24 16:28:39] [4/5] blog · blog/marbella-boat-rental-group-size-limits-2042
+[2026-07-24 16:28:39]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 16:28:42]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 16:28:48]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 16:29:50]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 16:30:02]   DeepSeek exhausted, falling back to cli
+[2026-07-24 18:24:51]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-24 18:24:51] [5/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2037
+[2026-07-24 18:24:51]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 18:24:54]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 18:25:00]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 18:25:09]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-24 18:25:21]   DeepSeek exhausted, falling back to cli
+[2026-07-24 20:27:30]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-24 20:27:30] === Done: 0 succeeded, 5 failed ===
+
+[2026-07-25 09:00:03] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-25 09:00:03] [1/5] blog · blog/marbella-yacht-charter-weather-december-2044-guide
+[2026-07-25 09:00:03]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:06]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:13]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:22]   DeepSeek attempt 4/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:34]   DeepSeek exhausted, falling back to cli
+[2026-07-25 09:00:37]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-25 09:00:37] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2040
+[2026-07-25 09:00:38]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:41]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:48]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:00:57]   DeepSeek attempt 4/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:09]   DeepSeek exhausted, falling back to cli
+[2026-07-25 09:01:11]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-25 09:01:11] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2038
+[2026-07-25 09:01:12]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:15]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:22]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:31]   DeepSeek attempt 4/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:43]   DeepSeek exhausted, falling back to cli
+[2026-07-25 09:01:46]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-25 09:01:46] [4/5] blog · blog/marbella-boat-rental-group-size-limits-2042
+[2026-07-25 09:01:47]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:50]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:01:57]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:06]   DeepSeek attempt 4/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:18]   DeepSeek exhausted, falling back to cli
+[2026-07-25 09:02:21]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-25 09:02:21] [5/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2037
+[2026-07-25 09:02:22]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:25]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:32]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:41]   DeepSeek attempt 4/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-25 09:02:53]   DeepSeek exhausted, falling back to cli
+[2026-07-25 09:02:56]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-25 09:02:56] === Done: 0 succeeded, 5 failed ===
+
+[2026-07-26 10:24:50] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-26 10:24:50] [1/5] blog · blog/marbella-yacht-charter-weather-december-2044-guide
+[2026-07-26 10:24:52]   DeepSeek attempt 1/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-26 10:24:56]   DeepSeek attempt 2/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-26 10:25:04]   DeepSeek attempt 3/4 failed (HTTPError: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions)
+[2026-07-26 10:25:43]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 10:25:55]   DeepSeek exhausted, falling back to cli
+[2026-07-26 10:35:55]   ✗ FAILED: TimeoutExpired: Command '['claude', '-p', 'You are an SEO copywriter producing pages for Boat Rental Marbella, an affiliate-style guide to chartering boats in Marbella, Spain.\n\nOUR FLEET (use these for fleet-specif
+[2026-07-26 10:35:55] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2040
+[2026-07-26 10:36:25]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 10:36:58]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 10:37:34]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 10:38:13]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 10:38:25]   DeepSeek exhausted, falling back to cli
+[2026-07-26 13:57:51]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-26 13:57:51] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2038
+[2026-07-26 13:57:51]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 13:57:54]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 14:16:06]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 14:16:15]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 14:16:27]   DeepSeek exhausted, falling back to cli
+[2026-07-26 17:19:05]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-26 17:19:05] [4/5] blog · blog/marbella-boat-rental-group-size-limits-2042
+[2026-07-26 17:19:05]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 17:19:09]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 17:19:15]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 17:19:24]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 17:19:36]   DeepSeek exhausted, falling back to cli
+[2026-07-26 20:22:38]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-26 20:22:38] [5/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2037
+[2026-07-26 20:22:38]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 20:22:42]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 20:22:48]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 20:52:58]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-26 20:53:10]   DeepSeek exhausted, falling back to cli
+[2026-07-26 22:48:06]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-26 22:48:06] === Done: 0 succeeded, 5 failed ===
+
+[2026-07-27 10:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-27 10:00:00] [1/5] blog · blog/marbella-yacht-charter-weather-december-2044-guide
+[2026-07-27 10:00:25]   ✓ saved content/blog_marbella-yacht-charter-weather-december-2044-guide.json
+[2026-07-27 10:00:25]   ✓ added to keyword_map.blog
+[2026-07-27 10:00:25] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2040
+[2026-07-27 10:00:46]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2040.json
+[2026-07-27 10:00:46]   ✓ added to keyword_map.blog
+[2026-07-27 10:00:46] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2038
+[2026-07-27 10:01:14]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2038.json
+[2026-07-27 10:01:14]   ✓ added to keyword_map.blog
+[2026-07-27 10:01:14] [4/5] blog · blog/marbella-boat-rental-group-size-limits-2042
+[2026-07-27 10:01:38]   ✓ saved content/blog_marbella-boat-rental-group-size-limits-2042.json
+[2026-07-27 10:01:38]   ✓ added to keyword_map.blog
+[2026-07-27 10:01:38] [5/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2037
+[2026-07-27 10:01:59]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2037.json
+[2026-07-27 10:01:59]   ✓ added to keyword_map.blog
+[2026-07-27 10:01:59] queue: 27 remaining, 966 consumed total
+[2026-07-27 10:01:59] queue under threshold (27 < 30) — auto-refilling…
+[2026-07-27 10:02:17] refill: +29 topics (queue now 56)
+[2026-07-27 10:02:17] running deploy.sh …

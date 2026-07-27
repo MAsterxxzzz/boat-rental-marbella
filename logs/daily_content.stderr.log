@@ -1334,3 +1334,154 @@ Traceback (most recent call last):
     obj, end = self.scan_once(s, idx)
                ~~~~~~~~~~~~~~^^^^^^^^
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 48 column 3631 (char 6897)
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 60, in _call_cli
+    proc = subprocess.run(
+        ["claude", "-p", full, "--output-format", "text"],
+        capture_output=True, text=True, timeout=timeout_s,
+    )
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2154, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1268, in _check_timeout
+    raise TimeoutExpired(
+    ...<2 lines>...
+            stderr=b''.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command '['claude', '-p', 'You are an SEO copywriter producing pages for Boat Rental Marbella, an affiliate-style guide to chartering boats in Marbella, Spain.\n\nOUR FLEET (use these for fleet-specific claims; never invent specs):\n- Astondoa 40 (12.5m, 9 pax, departs Puerto Banús)\n- Azimut 39 (12.5m, 11 pax, departs Puerto Banús)\n- Mangusta 80 (24m, 12 pax, departs Puerto Banús)\n- Azimut 58 Flybridge (17.6m, 12 pax, departs Puerto Banús)\n- Bandido (11.5m, 8 pax, departs Puerto Banús)\n- Canados 86 (26m, 12 pax, departs Puerto Banús)\n- Dubhe (8m, 5 pax, departs Puerto Banús)\n- Fairline Targa 12m (12m, 10 pax, departs Puerto Banús)\n- Ferretti 94 (29m, 12 pax, departs Puerto Banús)\n- K80 (24m, 12 pax, departs Puerto Banús)\n- Lagoon 380 (11.6m, 10 pax, departs Puerto Banús)\n- Mangusta 80 (Grey) (24m, 12 pax, departs Puerto Banús)\n- Mariah SX21 (6.4m, 5 pax, departs Puerto Banús)\n- Pershing 46 (14m, 10 pax, departs Puerto Banús)\n- Red Tide (11m, 6 pax, departs Puerto Banús)\n- Speedboat (7m, 6 pax, departs Puerto Banús)\n- Maiora 26m (26m, 12 pax, departs Puerto Banús)\n\nPRICING REFERENCE — use only these numbers for our boats:\n- Tier A (Astondoa 40, Azimut 39): €749/2h → €2,299/8h (skipper + drinks + VAT included)\n- Tier B (Mangusta 80 incl. white/grey variants): €4,719 minimum 4h (jet ski included free)\n- Other boats: pricing on request via WhatsApp (do not invent hourly rates)\n\nINCLUSIONS on every charter: licensed skipper, fuel, water + soft drinks + beer + white wine + cava, light snacks, insurance, safety equipment, Spanish IVA (21%).\n\nWRITING STYLE\n- Answer-first paragraphs; British English; honest, no fluff.\n- Concrete numbers (€, NM, m, kts, °C) — never vague "lots of" or "huge".\n- Local colour: Puerto Banús, Marbella Marina, Cabopino, Estepona, Sotogrande, La Concha, Río Verde, Cala del Faro, Cala Cortés, Golden Mile.\n- No fabricated testimonials, no made-up reviews.\n- Internal links via markdown [anchor](/slug/) — link 4-7 times per piece. Always include one inline link to /  (the hub).\n- Do not promote operators other than us. We are not affiliates: our boats are the offering.\n\nOUTPUT — STRICT JSON, no prose, no code fences:\n{\n  "meta_description": "<150-160 chars, includes primary keyword + 1 number + a CTA verb>",\n  "summary": "<2 sentences for internal-link-graph use>",\n  "key_facts": ["<5-8 short bullets, each ≤120 chars>"],\n  "faq": [{"q":"...","a":"..."}, ... 5-8 Q&A pairs, answers 30-80 words each],\n  "body_html": "<full <section>/<h2>/<p>/<ul>/<table>/<details> markup, target word count provided in the user message. Start with an intro <p>, then 5-9 H2 sections, then a \'Frequently asked questions\' H2 with <details><summary>question</summary><p>answer</p></details> blocks mirroring the faq array. Never include <h1>, <html>, <head>, <body>, inline CSS, or <script>.>"\n}\n\n\n---\n\nUSER REQUEST:\n\nProduce the page for:\n\nTITLE: Marbella Yacht Charter Weather December 2044: What to Expect\nPRIMARY KEYWORD: Marbella yacht charter weather December 2044 guide\nSLUG: /blog/marbella-yacht-charter-weather-december-2044-guide/ (kind: blog)\nTARGET WORD COUNT: 1100\n\nReturn only the JSON object specified in the system message.\n\nReturn the JSON object only — no prose before or after, no markdown fences.', '--output-format', 'text']' timed out after 600 seconds
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
+Traceback (most recent call last):
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 338, in main
+    data = generate(item)
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 168, in generate
+    raw = _call_cli(system, user) if BACKEND == "cli" else _call_api(system, user)
+          ~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/mardosoo/aiangels-blog/.claude/worktrees/heuristic-goldberg-51d681/seo_sites/boat_rental_marbella/scripts/daily_content.py", line 65, in _call_cli
+    raise RuntimeError(f"claude CLI exit {proc.returncode}: {proc.stderr[-300:]}")
+RuntimeError: claude CLI exit 1: 
