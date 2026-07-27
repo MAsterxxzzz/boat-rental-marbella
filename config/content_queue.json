@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2044-fireworks-view",
-      "primary_keyword": "NYE 2044 boat rental Marbella fireworks",
-      "title": "New Year's Eve 2044 in Marbella: Best Boat Rentals for Fireworks Views",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2042-weekend",
-      "primary_keyword": "F1 Grand Prix 2042 yacht charter Marbella",
-      "title": "Marbella Yacht Charter for the 2042 F1 Grand Prix Weekend",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2048-celebration-puerto-banus",
-      "primary_keyword": "Pride 2048 boat rental Puerto Banús",
-      "title": "Marbella Pride 2048: Celebrate with a Boat Rental from Puerto Banús",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2047-recovery-day",
-      "primary_keyword": "Ironman 2047 recovery yacht charter Marbella",
-      "title": "Post-Race Recovery: Ironman 2047 Yacht Charter in Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2042",
-      "primary_keyword": "Astondoa 40 vs Azimut 39 vs Pershing 46 Marbella 2042",
-      "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Three-Way Comparison in Marbella 2042",
-      "target_words": 1400
-    },
-    {
-      "kind": "blog",
       "slug": "blog/mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2043",
       "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 cost comparison Marbella 2043",
       "title": "Mangusta 80 vs Sunseeker Predator 74: 2043 Cost Comparison in Marbella",
@@ -8280,6 +8245,46 @@
       "primary_keyword": "cabopino boat rental no license 2034",
       "title": "Cabopino Boat Rental No License 2034: Affordable Options",
       "target_words": 1100,
+      "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2044-fireworks-view",
+      "primary_keyword": "NYE 2044 boat rental Marbella fireworks",
+      "title": "New Year's Eve 2044 in Marbella: Best Boat Rentals for Fireworks Views",
+      "target_words": 1100,
+      "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-f1-grand-prix-2042-weekend",
+      "primary_keyword": "F1 Grand Prix 2042 yacht charter Marbella",
+      "title": "Marbella Yacht Charter for the 2042 F1 Grand Prix Weekend",
+      "target_words": 1250,
+      "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2048-celebration-puerto-banus",
+      "primary_keyword": "Pride 2048 boat rental Puerto Banús",
+      "title": "Marbella Pride 2048: Celebrate with a Boat Rental from Puerto Banús",
+      "target_words": 1150,
+      "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2047-recovery-day",
+      "primary_keyword": "Ironman 2047 recovery yacht charter Marbella",
+      "title": "Post-Race Recovery: Ironman 2047 Yacht Charter in Marbella",
+      "target_words": 1100,
+      "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/astondoa-40-vs-azimut-39-vs-pershing-46-marbella-three-way-comparison-2042",
+      "primary_keyword": "Astondoa 40 vs Azimut 39 vs Pershing 46 Marbella 2042",
+      "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Three-Way Comparison in Marbella 2042",
+      "target_words": 1400,
       "consumed_at": "2026-07-27"
     }
   ],
