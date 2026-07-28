@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2043",
-      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 cost comparison Marbella 2043",
-      "title": "Mangusta 80 vs Sunseeker Predator 74: 2043 Cost Comparison in Marbella",
-      "target_words": 1300
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/azimut-39-vs-fairline-targa-12m-marbella-comparison-2045",
-      "primary_keyword": "Azimut 39 vs Fairline Targa 12m Marbella 2045",
-      "title": "Azimut 39 vs Fairline Targa 12m: Which Boat to Rent in Marbella in 2045?",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-dolphin-watching-best-time-of-year-2050",
-      "primary_keyword": "best time of year for dolphin watching Marbella 2050",
-      "title": "Best Time of Year for Dolphin Watching in Marbella: 2050 Season Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2045",
-      "primary_keyword": "snorkeling spots by boat Cabopino vs Estepona 2045",
-      "title": "Snorkeling Spots by Boat: Cabopino vs Estepona in Marbella (2045 Update)",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-fishing-charter-tuna-season-2046",
-      "primary_keyword": "tuna fishing season Marbella 2046",
-      "title": "Tuna Fishing Season in Marbella: 2046 Charter Guide",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2040-guide",
       "primary_keyword": "Sotogrande polo final boat rental 2040",
       "title": "Sotogrande Polo Final 2040: How to Combine with a Marbella Boat Rental",
@@ -8286,6 +8251,46 @@
       "title": "Astondoa 40 vs Azimut 39 vs Pershing 46: Three-Way Comparison in Marbella 2042",
       "target_words": 1400,
       "consumed_at": "2026-07-27"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2043",
+      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 cost comparison Marbella 2043",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: 2043 Cost Comparison in Marbella",
+      "target_words": 1300,
+      "consumed_at": "2026-07-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/azimut-39-vs-fairline-targa-12m-marbella-comparison-2045",
+      "primary_keyword": "Azimut 39 vs Fairline Targa 12m Marbella 2045",
+      "title": "Azimut 39 vs Fairline Targa 12m: Which Boat to Rent in Marbella in 2045?",
+      "target_words": 1200,
+      "consumed_at": "2026-07-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-dolphin-watching-best-time-of-year-2050",
+      "primary_keyword": "best time of year for dolphin watching Marbella 2050",
+      "title": "Best Time of Year for Dolphin Watching in Marbella: 2050 Season Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2045",
+      "primary_keyword": "snorkeling spots by boat Cabopino vs Estepona 2045",
+      "title": "Snorkeling Spots by Boat: Cabopino vs Estepona in Marbella (2045 Update)",
+      "target_words": 1250,
+      "consumed_at": "2026-07-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-fishing-charter-tuna-season-2046",
+      "primary_keyword": "tuna fishing season Marbella 2046",
+      "title": "Tuna Fishing Season in Marbella: 2046 Charter Guide",
+      "target_words": 1150,
+      "consumed_at": "2026-07-28"
     }
   ],
   "refill_threshold": 30,

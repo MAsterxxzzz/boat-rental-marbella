@@ -1844,3 +1844,23 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-28 10:56:27] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-28 10:56:27] [1/5] blog · blog/mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2043
+[2026-07-28 10:56:27]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-28 10:56:50]   ✓ saved content/blog_mangusta-80-vs-sunseeker-predator-74-cost-comparison-marbella-2043.json
+[2026-07-28 10:56:50]   ✓ added to keyword_map.blog
+[2026-07-28 10:56:50] [2/5] blog · blog/azimut-39-vs-fairline-targa-12m-marbella-comparison-2045
+[2026-07-28 10:57:06]   ✓ saved content/blog_azimut-39-vs-fairline-targa-12m-marbella-comparison-2045.json
+[2026-07-28 10:57:06]   ✓ added to keyword_map.blog
+[2026-07-28 10:57:06] [3/5] blog · blog/marbella-dolphin-watching-best-time-of-year-2050
+[2026-07-28 11:03:35]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-28 11:03:58]   ✓ saved content/blog_marbella-dolphin-watching-best-time-of-year-2050.json
+[2026-07-28 11:03:58]   ✓ added to keyword_map.blog
+[2026-07-28 11:03:58] [4/5] blog · blog/marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2045
+[2026-07-28 11:04:19]   ✓ saved content/blog_marbella-snorkeling-spots-by-boat-cabopino-vs-estepona-2045.json
+[2026-07-28 11:04:19]   ✓ added to keyword_map.blog
+[2026-07-28 11:04:19] [5/5] blog · blog/marbella-fishing-charter-tuna-season-2046
+[2026-07-28 11:04:39]   ✓ saved content/blog_marbella-fishing-charter-tuna-season-2046.json
+[2026-07-28 11:04:39]   ✓ added to keyword_map.blog
+[2026-07-28 11:04:39] queue: 36 remaining, 986 consumed total
+[2026-07-28 11:04:39] running deploy.sh …

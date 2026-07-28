@@ -1769,3 +1769,17 @@
 [2026-07-27 08:41:36] === [rentry] done: 15/15 ===
 [2026-07-27 08:41:36] ALL DONE: 30 posts across 2 platform(s)
 
+[2026-07-28 08:54:26] === [telegraph] target 15 (today 0/15) · 612 all-time ===
+[2026-07-28 08:54:27]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-07-28 08:54:43]   [1/15] ✓ https://telegra.ph/Licence-Free-Boat-Day-Near-Estepona-The-Real-Prices-07-28
+[2026-07-28 08:55:05]   [2/15] ✓ https://telegra.ph/Jet-Ski-Rental-Prices-This-Summer-in-Marbella--Puerto-Banús-07-28
+[2026-07-28 09:55:27]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-07-28 09:55:41]   [3/15] ✓ https://telegra.ph/What-to-Expect-on-a-Hen-Party-Boat-Day-in-Sotogrande-07-28
+[2026-07-28 09:56:00]   [4/15] ✓ https://telegra.ph/The-Best-Season-for-a-Private-Charter-on-the-Costa-del-Sol-07-28
+[2026-07-28 10:56:40]   DeepSeek attempt 1/4 failed (("Connection broken: ConnectionResetError(54, 'Connection reset by peer')", Conn)
+[2026-07-28 10:56:54]   [5/15] ✓ https://telegra.ph/Puerto-Banús-Shoulder-Season-Charter-Luxury-vs-Licence-Free-Options-07-28
+[2026-07-28 11:03:33]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-28 11:03:44]   [6/15] ✓ https://telegra.ph/The-Best-Season-for-a-Jet-Ski-Rental-from-Puerto-Banús-07-28
+[2026-07-28 11:04:02]   [7/15] ✓ https://telegra.ph/A-Locals-Best-Kept-Tips-for-a-Puerto-Banús-Charter-Near-Estepona-07-28
+[2026-07-28 11:04:21]   [8/15] ✓ https://telegra.ph/Why-Couples-Choose-a-Luxury-Yacht-for-a-Romantic-Celebration-07-28
+[2026-07-28 11:04:38]   [9/15] ✓ https://telegra.ph/Celebrating-with-Style-What-a-Yacht-Charter-Really-Includes-07-28
