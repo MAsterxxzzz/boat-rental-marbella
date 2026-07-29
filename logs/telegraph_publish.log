@@ -406,3 +406,10 @@
 [2026-07-27 13:31:54]   ✗ FAILED: RuntimeError: article JSON unparseable after 3 attempts
 [2026-07-27 13:31:54] === Done: 2/3 published. Ledger total: 89 ===
 
+[2026-07-28 13:38:08] === Telegraph run: target 3 article(s) · 89 previously published ===
+[2026-07-28 13:38:09]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-28 13:38:12]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-28 13:38:18]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-28 13:38:27]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-28 13:38:39]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-07-28 15:23:54] topic generation failed: claude CLI exit 1: 

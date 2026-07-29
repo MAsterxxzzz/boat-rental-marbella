@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2040-guide",
-      "primary_keyword": "Sotogrande polo final boat rental 2040",
-      "title": "Sotogrande Polo Final 2040: How to Combine with a Marbella Boat Rental",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-weather-may-2040-guide",
-      "primary_keyword": "May weather yacht charter Marbella 2040",
-      "title": "May Weather in Marbella for Yacht Charter: 2040 Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-june-2042-guide",
-      "primary_keyword": "June weather boat rental Marbella 2042",
-      "title": "June Weather in Marbella for Boat Rental: 2042 Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-august-2044-peak-tips",
-      "primary_keyword": "August boat rental Marbella 2044 peak tips",
-      "title": "August 2044 in Marbella: Peak Season Boat Rental Tips",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2045-shoulder-season",
-      "primary_keyword": "October boat rental Marbella 2045 shoulder season",
-      "title": "October 2045 in Marbella: Shoulder Season Boat Rental Guide",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-december-2046-guide",
       "primary_keyword": "December boat rental Marbella 2046 weather",
       "title": "December 2046 in Marbella: Weather and Boat Rental Guide",
@@ -8291,6 +8256,46 @@
       "title": "Tuna Fishing Season in Marbella: 2046 Charter Guide",
       "target_words": 1150,
       "consumed_at": "2026-07-28"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2040-guide",
+      "primary_keyword": "Sotogrande polo final boat rental 2040",
+      "title": "Sotogrande Polo Final 2040: How to Combine with a Marbella Boat Rental",
+      "target_words": 1200,
+      "consumed_at": "2026-07-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-weather-may-2040-guide",
+      "primary_keyword": "May weather yacht charter Marbella 2040",
+      "title": "May Weather in Marbella for Yacht Charter: 2040 Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2042-guide",
+      "primary_keyword": "June weather boat rental Marbella 2042",
+      "title": "June Weather in Marbella for Boat Rental: 2042 Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2044-peak-tips",
+      "primary_keyword": "August boat rental Marbella 2044 peak tips",
+      "title": "August 2044 in Marbella: Peak Season Boat Rental Tips",
+      "target_words": 1200,
+      "consumed_at": "2026-07-29"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2045-shoulder-season",
+      "primary_keyword": "October boat rental Marbella 2045 shoulder season",
+      "title": "October 2045 in Marbella: Shoulder Season Boat Rental Guide",
+      "target_words": 1150,
+      "consumed_at": "2026-07-29"
     }
   ],
   "refill_threshold": 30,

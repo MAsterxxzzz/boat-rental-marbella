@@ -1864,3 +1864,32 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-28 11:04:39]   ✓ added to keyword_map.blog
 [2026-07-28 11:04:39] queue: 36 remaining, 986 consumed total
 [2026-07-28 11:04:39] running deploy.sh …
+[2026-07-28 11:04:44] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-29 10:11:22] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-29 10:11:22] [1/5] blog · blog/marbella-boat-rental-sotogrande-polo-final-2040-guide
+[2026-07-29 10:11:23]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-29 10:12:03]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2040-guide.json
+[2026-07-29 10:12:03]   ✓ added to keyword_map.blog
+[2026-07-29 10:12:03] [2/5] blog · blog/marbella-yacht-charter-weather-may-2040-guide
+[2026-07-29 10:12:39]   ✓ saved content/blog_marbella-yacht-charter-weather-may-2040-guide.json
+[2026-07-29 10:12:39]   ✓ added to keyword_map.blog
+[2026-07-29 10:12:39] [3/5] blog · blog/marbella-boat-rental-weather-june-2042-guide
+[2026-07-29 10:13:21]   ✓ saved content/blog_marbella-boat-rental-weather-june-2042-guide.json
+[2026-07-29 10:13:21]   ✓ added to keyword_map.blog
+[2026-07-29 10:13:21] [4/5] blog · blog/marbella-boat-rental-weather-august-2044-peak-tips
+[2026-07-29 10:13:44]   ✓ saved content/blog_marbella-boat-rental-weather-august-2044-peak-tips.json
+[2026-07-29 10:13:44]   ✓ added to keyword_map.blog
+[2026-07-29 10:13:44] [5/5] blog · blog/marbella-boat-rental-weather-october-2045-shoulder-season
+[2026-07-29 10:22:07]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-29 10:22:34]   ✓ saved content/blog_marbella-boat-rental-weather-october-2045-shoulder-season.json
+[2026-07-29 10:22:34]   ✓ added to keyword_map.blog
+[2026-07-29 10:22:34] queue: 31 remaining, 991 consumed total
+[2026-07-29 10:22:34] running deploy.sh …
