@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2040",
-      "primary_keyword": "marbella boat rental hen party budget 2040",
-      "title": "Marbella Boat Rental for Hen Party 2040: Full Budget Breakdown",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2040",
-      "primary_keyword": "marbella boat rental stag weekend cost 2040",
-      "title": "Marbella Boat Rental for Stag Weekend 2040: Complete Cost Breakdown",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2041-guide",
-      "primary_keyword": "marbella boat rental sotogrande polo final 2041",
-      "title": "Marbella Boat Rental for Sotogrande Polo Final 2041: Complete Guide",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-andalusia-day-2041-celebration",
-      "primary_keyword": "marbella boat rental andalusia day 2041",
-      "title": "Marbella Boat Rental for Andalusia Day 2041: Celebrate on the Water",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-valentines-day-2029-proposal-guide",
-      "primary_keyword": "marbella yacht charter valentines day 2029 proposal",
-      "title": "Marbella Yacht Charter for Valentine's Day 2029: Proposal Planning Guide",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-group-size-limits-2044",
       "primary_keyword": "marbella boat rental group size limits 2044",
       "title": "Marbella Boat Rental Group Size Limits 2044: Maximum Passengers by Boat",
@@ -8527,6 +8492,46 @@
       "primary_keyword": "what to bring Marbella boat rental checklist 2040",
       "title": "What to Bring on a Marbella Boat Rental: 2040 Checklist",
       "target_words": 1100,
+      "consumed_at": "2026-07-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2040",
+      "primary_keyword": "marbella boat rental hen party budget 2040",
+      "title": "Marbella Boat Rental for Hen Party 2040: Full Budget Breakdown",
+      "target_words": 1200,
+      "consumed_at": "2026-07-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-cost-breakdown-2040",
+      "primary_keyword": "marbella boat rental stag weekend cost 2040",
+      "title": "Marbella Boat Rental for Stag Weekend 2040: Complete Cost Breakdown",
+      "target_words": 1200,
+      "consumed_at": "2026-07-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2041-guide",
+      "primary_keyword": "marbella boat rental sotogrande polo final 2041",
+      "title": "Marbella Boat Rental for Sotogrande Polo Final 2041: Complete Guide",
+      "target_words": 1150,
+      "consumed_at": "2026-07-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-andalusia-day-2041-celebration",
+      "primary_keyword": "marbella boat rental andalusia day 2041",
+      "title": "Marbella Boat Rental for Andalusia Day 2041: Celebrate on the Water",
+      "target_words": 1100,
+      "consumed_at": "2026-07-30"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-valentines-day-2029-proposal-guide",
+      "primary_keyword": "marbella yacht charter valentines day 2029 proposal",
+      "title": "Marbella Yacht Charter for Valentine's Day 2029: Proposal Planning Guide",
+      "target_words": 1200,
       "consumed_at": "2026-07-30"
     }
   ],
