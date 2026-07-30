@@ -5414,3 +5414,36 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-30 10:32:12]   ✓ added to keyword_map.spokes
 [2026-07-30 10:32:12] queue: 46 remaining, 1006 consumed total
 [2026-07-30 10:32:12] running deploy.sh …
+[2026-07-30 10:32:18] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-30 13:17:33] === Daily content run (kind-balanced): 5 blog + 2 landing = 7 item(s) ===
+[2026-07-30 13:17:33] [1/7] blog · blog/marbella-yacht-charter-feria-san-bernabe-2047-boat-party
+[2026-07-30 13:17:59]   ✓ saved content/blog_marbella-yacht-charter-feria-san-bernabe-2047-boat-party.json
+[2026-07-30 13:17:59]   ✓ added to keyword_map.blog
+[2026-07-30 13:17:59] [2/7] blog · blog/marbella-boat-rental-nye-2045-fireworks-view
+[2026-07-30 13:18:20]   ✓ saved content/blog_marbella-boat-rental-nye-2045-fireworks-view.json
+[2026-07-30 13:18:20]   ✓ added to keyword_map.blog
+[2026-07-30 13:18:20] [3/7] blog · blog/marbella-boat-rental-f1-grand-prix-2044-weekend-guide
+[2026-07-30 13:18:44]   ✓ saved content/blog_marbella-boat-rental-f1-grand-prix-2044-weekend-guide.json
+[2026-07-30 13:18:44]   ✓ added to keyword_map.blog
+[2026-07-30 13:18:44] [4/7] blog · blog/marbella-yacht-charter-ironman-2048-recovery-day
+[2026-07-30 13:19:06]   ✓ saved content/blog_marbella-yacht-charter-ironman-2048-recovery-day.json
+[2026-07-30 13:19:06]   ✓ added to keyword_map.blog
+[2026-07-30 13:19:06] [5/7] blog · blog/marbella-boat-rental-pride-2049-celebration-puerto-banus
+[2026-07-30 13:19:27]   ✓ saved content/blog_marbella-boat-rental-pride-2049-celebration-puerto-banus.json
+[2026-07-30 13:19:27]   ✓ added to keyword_map.blog
+[2026-07-30 13:19:27] [6/7] spoke · marbella-boat-rental-weather-may-2041-guide
+[2026-07-30 13:19:54]   ✓ saved content/marbella-boat-rental-weather-may-2041-guide.json
+[2026-07-30 13:19:54]   ✓ added to keyword_map.spokes
+[2026-07-30 13:19:54] [7/7] spoke · marbella-boat-rental-what-to-bring-checklist-2040
+[2026-07-30 13:20:20]   ✓ saved content/marbella-boat-rental-what-to-bring-checklist-2040.json
+[2026-07-30 13:20:20]   ✓ added to keyword_map.spokes
+[2026-07-30 13:20:20] queue: 39 remaining, 1013 consumed total
+[2026-07-30 13:20:20] running deploy.sh …

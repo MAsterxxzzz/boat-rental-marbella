@@ -1851,6 +1851,20 @@
       "title": "Marbella Fishing and Sunset Combo Charter 2041",
       "intent": "transactional",
       "target_words": 1200
+    },
+    {
+      "slug": "marbella-boat-rental-weather-may-2041-guide",
+      "primary_keyword": "Marbella boat rental weather May 2041",
+      "title": "Marbella Boat Rental Weather May 2041 Guide",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "marbella-boat-rental-what-to-bring-checklist-2040",
+      "primary_keyword": "what to bring Marbella boat rental checklist 2040",
+      "title": "What to Bring on a Marbella Boat Rental: 2040 Checklist",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -7250,6 +7264,41 @@
       "title": "Marbella Boat Rental for Starlite Festival 2029: Pre-Concert Cruise Guide",
       "intent": "informational",
       "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-feria-san-bernabe-2047-boat-party",
+      "primary_keyword": "marbella yacht charter feria san bernabe 2047",
+      "title": "Marbella Yacht Charter for Feria San Bernabe 2047: Ultimate Boat Party Guide",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-nye-2045-fireworks-view",
+      "primary_keyword": "marbella boat rental new years eve 2045 fireworks",
+      "title": "Marbella Boat Rental for NYE 2045: Best Fireworks Views from the Sea",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-f1-grand-prix-2044-weekend-guide",
+      "primary_keyword": "marbella boat rental f1 grand prix 2044",
+      "title": "Marbella Boat Rental for F1 Grand Prix 2044: Weekend Charter Guide",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-ironman-2048-recovery-day",
+      "primary_keyword": "marbella yacht charter ironman 2048 recovery",
+      "title": "Marbella Yacht Charter for Ironman 2048: Post-Race Recovery Day on the Water",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-pride-2049-celebration-puerto-banus",
+      "primary_keyword": "marbella boat rental pride 2049 puerto banus",
+      "title": "Marbella Boat Rental for Pride 2049: Celebrate in Puerto Banús",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }
