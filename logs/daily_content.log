@@ -2301,3 +2301,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-20 18:57:00] rejected 3 queued topic(s) — archived under queue.rejected
 [2026-07-20 18:57:00] queue: 43 remaining, 420 consumed total
 [2026-07-20 18:57:00] running deploy.sh …
+[2026-07-20 18:58:17] deploy.sh OK
+[2026-07-20 18:58:17] === Done: 2 succeeded, 0 failed ===
+

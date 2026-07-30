@@ -62,7 +62,8 @@ for p in pitches:
     req = urllib.request.Request(
         "https://api.resend.com/emails",
         data=body,
-        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json",
+                 "User-Agent": "BoatRentalMarbella-Outreach/1.0", "Accept": "application/json"},
     )
     try:
         with urllib.request.urlopen(req) as r:
