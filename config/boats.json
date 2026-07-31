@@ -191,6 +191,23 @@
         "Paddleboard & snorkel gear"
       ],
       "extended_note": "Prices shown are for October–March (low season), VAT included. April–September (high season) is approximately 20% higher (from €3,207/4h). Catering is extra — ask for lunch menus — and mooring fees in marinas other than Puerto Banús are not included."
+    },
+    "tier_ferretti680": {
+      "label": "Ferretti 680 flybridge — 10 guests",
+      "min_hours": 4,
+      "prices": {
+        "4h": 4500,
+        "6h": 6500,
+        "8h": 7500
+      },
+      "currency": "EUR",
+      "extra_inclusions": [
+        "Jet ski (weather permitting)",
+        "Seabob, paddleboard, donut & snorkel gear",
+        "Fresh fruit, sandwiches & ice cream",
+        "WiFi & Spotify on board"
+      ],
+      "extended_note": "Jet ski runs when sea conditions allow; seabob, paddleboard, snorkel gear and the towable donut are available on every charter regardless of conditions."
     }
   },
   "boats": [
@@ -2508,6 +2525,131 @@
           ],
           "alt": "Sea-Doo GTX Jet Ski — Marbella charter"
         }
+      ]
+    },
+    {
+      "slug": "ferretti-680",
+      "name": "Ferretti 680",
+      "tagline": "23 m Ferretti flybridge motor yacht — Italian craftsmanship for up to 10 guests from Puerto Banús",
+      "model_year": null,
+      "builder": "Ferretti Yachts",
+      "type": "Motor yacht",
+      "length_m": 23,
+      "capacity_pax": 10,
+      "departure_port": "Puerto Banús",
+      "tier": "tier_ferretti680",
+      "highlights": [
+        "23 m Ferretti flybridge with full-beam saloon and four cabins",
+        "Jet ski, seabob, paddleboard, donut and snorkel gear included",
+        "Captain, crew, drinks, snacks and VAT included",
+        "WiFi and Spotify on board",
+        "Wraparound bow sundeck for the whole group"
+      ],
+      "hero_local": "/img/boats/ferretti-680/hero-1600.jpg",
+      "hero_local_srcset": [
+        [
+          "/img/boats/ferretti-680/hero-600.jpg",
+          600
+        ],
+        [
+          "/img/boats/ferretti-680/hero-900.jpg",
+          900
+        ],
+        [
+          "/img/boats/ferretti-680/hero-1200.jpg",
+          1200
+        ],
+        [
+          "/img/boats/ferretti-680/hero-1600.jpg",
+          1600
+        ]
+      ],
+      "hero_local_alt": "Ferretti 680 motor yacht underway off the Costa del Sol",
+      "gallery_local": [
+        {
+          "src": "/img/boats/ferretti-680/aerial-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/ferretti-680/aerial-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/ferretti-680/aerial-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/ferretti-680/aerial-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Aerial view of the Ferretti 680 underway, twin wake trailing behind"
+        },
+        {
+          "src": "/img/boats/ferretti-680/interior-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/ferretti-680/interior-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/ferretti-680/interior-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/ferretti-680/interior-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Ferretti 680 saloon with wood finish and wraparound seating"
+        },
+        {
+          "src": "/img/boats/ferretti-680/cabin-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/ferretti-680/cabin-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/ferretti-680/cabin-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/ferretti-680/cabin-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Ferretti 680 master cabin with ensuite"
+        },
+        {
+          "src": "/img/boats/ferretti-680/lifestyle-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/ferretti-680/lifestyle-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/ferretti-680/lifestyle-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/ferretti-680/lifestyle-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Guests relaxing on the bow of the Ferretti 680 off Marbella"
+        }
+      ],
+      "video_local": {
+        "src": "/video/ferretti-680-cruising.mp4",
+        "poster": "/video/ferretti-680-cruising.jpg",
+        "alt": "Walk-through tour of the Ferretti 680",
+        "caption": "Step aboard the Ferretti 680"
+      },
+      "summary": "The Ferretti 680 brings Italian shipyard craftsmanship to a 10-guest day charter — 23 metres of flybridge motor yacht with a full-beam saloon, four cabins, and departure straight from Puerto Banús. Jet ski, seabob, paddleboard and snorkel gear are included, and skipper, fuel, drinks and VAT come standard on every charter.",
+      "intent_keywords": [
+        "Ferretti 680 Marbella",
+        "23m yacht charter Puerto Banús",
+        "10 guest luxury yacht Marbella"
       ]
     }
   ]

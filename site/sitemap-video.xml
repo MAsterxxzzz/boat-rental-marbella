@@ -206,6 +206,19 @@
     </video:video>
   </url>
   <url>
+    <loc>https://boatrentalinmarbella.com/boats/ferretti-680/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://boatrentalinmarbella.com/video/ferretti-680-cruising.jpg</video:thumbnail_loc>
+      <video:title>Ferretti 680 Cruising</video:title>
+      <video:description>Ferretti 680 Cruising</video:description>
+      <video:content_loc>https://boatrentalinmarbella.com/video/ferretti-680-cruising.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+      <video:publication_date>2026-07-31</video:publication_date>
+    </video:video>
+  </url>
+  <url>
     <loc>https://boatrentalinmarbella.com/boats/mangusta-80/</loc>
     <video:video>
       <video:thumbnail_loc>https://boatrentalinmarbella.com/video/mangusta-fruit-platter.jpg</video:thumbnail_loc>
