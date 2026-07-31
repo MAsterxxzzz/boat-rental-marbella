@@ -42,8 +42,8 @@
 <body>
 
 <header class="site-header">
-  <a class="header-crypto-bar" href="https://wa.me/{{WHATSAPP_E164_NOPLUS}}?text=Hi%2C%20I%27d%20like%20to%20book%20a%20boat%20in%20Marbella%20and%20pay%20with%20crypto%20for%20the%205%25%20discount" target="_blank" rel="nofollow noopener">
-    <span class="header-crypto-ico">₿</span> <strong>Now accepting crypto</strong> — BTC · ETH · USDT <span class="header-crypto-sep">·</span> pay this way for 5% off →
+  <a class="header-crypto-bar" href="https://wa.me/{{WHATSAPP_E164_NOPLUS}}?text=Hi%2C%20I%27d%20like%20to%20book%20a%20boat%20in%20Marbella%20and%20pay%20with%20crypto" target="_blank" rel="nofollow noopener">
+    <span class="header-crypto-ico">₿</span> <strong>WE NOW ACCEPT CRYPTO</strong> <span class="header-crypto-sep">·</span> BTC · ETH · USDT <span class="header-crypto-sep">·</span> pay with crypto →
   </a>
   <div class="container header-row">
     <a class="brand" href="/">

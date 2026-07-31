@@ -491,17 +491,24 @@ details p{margin:.6em 0 0;color:var(--c-ink-soft)}
 @media (prefers-reduced-motion:reduce){.hc-track{animation:none;overflow-x:auto;scroll-snap-type:x mandatory}.hc-card{scroll-snap-align:start}}
 @media (max-width:680px){.hc-card{width:168px}}
 
-/* ─── Header crypto ribbon (sticky, always visible) ───── */
+/* ─── Header crypto ribbon (sticky, always visible, stands out) ───── */
 .header-crypto-bar{
-  display:block;width:100%;text-align:center;
-  padding:6px 14px;font-size:.78rem;font-weight:600;letter-spacing:.01em;
-  background:linear-gradient(90deg,#1a1208 0%,#2a1c0a 50%,#1a1208 100%);
-  color:#fbbf24;text-decoration:none;
-  white-space:nowrap;overflow-x:auto;scrollbar-width:none;
+  display:block;width:100%;text-align:center;position:relative;overflow:hidden;
+  padding:8px 14px;font-size:.85rem;font-weight:700;letter-spacing:.02em;
+  background:linear-gradient(90deg,#3d2a05 0%,#6b4a0a 50%,#3d2a05 100%);
+  border-bottom:1px solid rgba(251,191,36,.5);
+  color:#fde68a;text-decoration:none;
+  white-space:nowrap;
 }
-.header-crypto-bar::-webkit-scrollbar{display:none}
-.header-crypto-bar:hover{text-decoration:none;color:#fde68a}
-.header-crypto-bar strong{color:#fde68a;font-weight:800}
-.header-crypto-ico{color:#fbbf24}
-.header-crypto-sep{opacity:.5;margin:0 2px}
-@media (max-width:520px){.header-crypto-bar{font-size:.7rem;padding:5px 10px}}
+.header-crypto-bar::before{
+  content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);
+  animation:crypto-shimmer 3.2s ease-in-out infinite;
+}
+@keyframes crypto-shimmer{0%{left:-60%}55%,100%{left:130%}}
+.header-crypto-bar:hover{text-decoration:none;color:#fff8e1}
+.header-crypto-bar strong{color:#fff8e1;font-weight:900;letter-spacing:.03em;text-shadow:0 0 14px rgba(251,191,36,.6)}
+.header-crypto-ico{color:#fde68a;font-size:1.1em}
+.header-crypto-sep{opacity:.55;margin:0 4px}
+@media (max-width:520px){.header-crypto-bar{font-size:.74rem;padding:6px 10px;overflow-x:auto;scrollbar-width:none}.header-crypto-bar::-webkit-scrollbar{display:none}}
+@media (prefers-reduced-motion:reduce){.header-crypto-bar::before{animation:none;display:none}}
