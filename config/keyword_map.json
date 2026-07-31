@@ -1865,6 +1865,41 @@
       "title": "What to Bring on a Marbella Boat Rental: 2040 Checklist",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2044",
+      "primary_keyword": "marbella sunset cruise champagne tapas",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas (2044)",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2044",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2044",
+      "primary_keyword": "marbella dolphin watching brunch cruise",
+      "title": "Marbella Dolphin Watching Brunch Cruise (2044)",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "sotogrande-yacht-charter-weather-july-2044-guide",
+      "primary_keyword": "sotogrande yacht charter weather july",
+      "title": "Sotogrande Yacht Charter in July: Weather & Sea Guide",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "estepona-boat-charter-weather-october-2042-shoulder-season",
+      "primary_keyword": "estepona boat charter weather october",
+      "title": "Estepona Boat Charter in October: Shoulder Season Seas",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -7369,6 +7404,41 @@
       "title": "Marbella Boat Rental Weather May 2039: Best Days for Charter",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-september-2036-guide",
+      "primary_keyword": "marbella boat rental weather september 2036",
+      "title": "Marbella Boat Rental Weather September 2036: Shoulder Season Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-october-2038-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october 2038",
+      "title": "Marbella Boat Rental Weather October 2038: Enjoying the Shoulder Season",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-november-2032-guide",
+      "primary_keyword": "marbella boat rental weather november 2032",
+      "title": "Marbella Boat Rental Weather November 2032: What to Know Before Booking",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-december-2031-guide",
+      "primary_keyword": "marbella boat rental weather december 2031",
+      "title": "Marbella Boat Rental Weather December 2031: Winter Charter Guide",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2038",
+      "primary_keyword": "marbella yacht charter vegan catering 2038",
+      "title": "Marbella Yacht Charter Vegan Catering 2038: Delicious Plant-Based Menus",
+      "intent": "informational",
+      "target_words": 1150
     }
   ]
 }

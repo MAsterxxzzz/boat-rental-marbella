@@ -5503,3 +5503,47 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-31 10:02:30] queue under threshold (29 < 30) — auto-refilling…
 [2026-07-31 10:03:17] refill failed: RuntimeError: refill: no JSON array in response
 [2026-07-31 10:03:17] running deploy.sh …
+[2026-07-31 10:03:22] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-31 17:06:25] queue at 29 (< 30) — pre-run refill…
+[2026-07-31 17:06:41] refill: +30 topics (queue now 59)
+[2026-07-31 17:06:41] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-07-31 17:06:41] [1/10] blog · blog/marbella-boat-rental-weather-september-2036-guide
+[2026-07-31 17:07:14]   ✓ saved content/blog_marbella-boat-rental-weather-september-2036-guide.json
+[2026-07-31 17:07:14]   ✓ added to keyword_map.blog
+[2026-07-31 17:07:14] [2/10] blog · blog/marbella-boat-rental-weather-october-2038-shoulder-season
+[2026-07-31 17:07:40]   ✓ saved content/blog_marbella-boat-rental-weather-october-2038-shoulder-season.json
+[2026-07-31 17:07:40]   ✓ added to keyword_map.blog
+[2026-07-31 17:07:40] [3/10] blog · blog/marbella-boat-rental-weather-november-2032-guide
+[2026-07-31 17:08:12]   ✓ saved content/blog_marbella-boat-rental-weather-november-2032-guide.json
+[2026-07-31 17:08:12]   ✓ added to keyword_map.blog
+[2026-07-31 17:08:12] [4/10] blog · blog/marbella-boat-rental-weather-december-2031-guide
+[2026-07-31 17:08:42]   ✓ saved content/blog_marbella-boat-rental-weather-december-2031-guide.json
+[2026-07-31 17:08:42]   ✓ added to keyword_map.blog
+[2026-07-31 17:08:42] [5/10] blog · blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2038
+[2026-07-31 17:09:03]   ✓ saved content/blog_marbella-yacht-charter-dietary-restrictions-vegan-catering-2038.json
+[2026-07-31 17:09:03]   ✓ added to keyword_map.blog
+[2026-07-31 17:09:03] [6/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2044
+[2026-07-31 17:09:32]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2044.json
+[2026-07-31 17:09:32]   ✓ added to keyword_map.spokes
+[2026-07-31 17:09:32] [7/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2044
+[2026-07-31 17:09:57]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2044.json
+[2026-07-31 17:09:57]   ✓ added to keyword_map.spokes
+[2026-07-31 17:09:57] [8/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2044
+[2026-07-31 17:10:22]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2044.json
+[2026-07-31 17:10:22]   ✓ added to keyword_map.spokes
+[2026-07-31 17:10:22] [9/10] spoke · sotogrande-yacht-charter-weather-july-2044-guide
+[2026-07-31 17:10:52]   ✓ saved content/sotogrande-yacht-charter-weather-july-2044-guide.json
+[2026-07-31 17:10:52]   ✓ added to keyword_map.spokes
+[2026-07-31 17:10:52] [10/10] spoke · estepona-boat-charter-weather-october-2042-shoulder-season
+[2026-07-31 17:11:22]   ✓ saved content/estepona-boat-charter-weather-october-2042-shoulder-season.json
+[2026-07-31 17:11:22]   ✓ added to keyword_map.spokes
+[2026-07-31 17:11:22] queue: 49 remaining, 1033 consumed total
+[2026-07-31 17:11:22] running deploy.sh …

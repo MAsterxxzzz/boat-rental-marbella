@@ -422,3 +422,16 @@
 [2026-07-29 15:56:04] topic generation failed: claude CLI exit 1: 
 [2026-07-30 13:30:00] === Telegraph run: target 3 article(s) · 89 previously published ===
 [2026-07-30 13:30:01] no fresh topics produced — aborting
+[2026-07-31 13:53:17] === Telegraph run: target 3 article(s) · 89 previously published ===
+[2026-07-31 13:53:18]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-31 13:53:21]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-31 13:53:27]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-07-31 13:53:41] [1/3] A Captain's Guide to Reading Tides and Currents Near Marbella
+[2026-07-31 13:54:01]   ✓ published https://telegra.ph/A-Captains-Guide-to-Reading-Tides-and-Currents-Near-Marbella-07-31 (5 backlinks)
+[2026-07-31 13:54:01] [2/3] Chartering a Tender to Explore Puerto Banús's Back-Alley Marinas
+[2026-07-31 14:47:35]   DeepSeek attempt 1/4 failed (ChunkedEncodingError: ("Connection broken: ConnectionResetError(54, 'Connection reset by peer')", ConnectionRese)
+[2026-07-31 14:48:08]   ✓ published https://telegra.ph/Chartering-a-Tender-to-Explore-Puerto-Banúss-Back-Alley-Marinas-07-31 (5 backlinks)
+[2026-07-31 14:48:08] [3/3] The Case for a Crewed Catamaran on a Marbella Family Holiday
+[2026-07-31 14:50:26]   ✓ published https://telegra.ph/The-Case-for-a-Crewed-Catamaran-on-a-Marbella-Family-Holiday-07-31 (1 backlinks)
+[2026-07-31 14:50:26] === Done: 3/3 published. Ledger total: 92 ===
+

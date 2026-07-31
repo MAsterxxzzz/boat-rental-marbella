@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-september-2036-guide",
-      "primary_keyword": "marbella boat rental weather september 2036",
-      "title": "Marbella Boat Rental Weather September 2036: Shoulder Season Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2038-shoulder-season",
-      "primary_keyword": "marbella boat rental weather october 2038",
-      "title": "Marbella Boat Rental Weather October 2038: Enjoying the Shoulder Season",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-november-2032-guide",
-      "primary_keyword": "marbella boat rental weather november 2032",
-      "title": "Marbella Boat Rental Weather November 2032: What to Know Before Booking",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-december-2031-guide",
-      "primary_keyword": "marbella boat rental weather december 2031",
-      "title": "Marbella Boat Rental Weather December 2031: Winter Charter Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2038",
-      "primary_keyword": "marbella yacht charter vegan catering 2038",
-      "title": "Marbella Yacht Charter Vegan Catering 2038: Delicious Plant-Based Menus",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-yacht-charter-minimum-age-policy-2038",
       "primary_keyword": "marbella yacht charter minimum age 2038",
       "title": "Marbella Yacht Charter Minimum Age Policy 2038: Rules for Kids and Teens",
@@ -204,6 +169,181 @@
       "primary_keyword": "Pershing 46 vs Sunseeker Predator 55 Marbella comparison 2043",
       "title": "Pershing 46 vs Sunseeker Predator 55: Marbella Comparison 2043",
       "target_words": 1400
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-estepona-vs-sotogrande-2049-comparison",
+      "primary_keyword": "marbella boat rental estepona vs sotogrande",
+      "title": "Marbella Boat Rental: Estepona vs Sotogrande Departures",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-january-2049-guide",
+      "primary_keyword": "marbella boat rental weather january",
+      "title": "Marbella Boat Rental in January: Weather, Sea & Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-february-2048-guide",
+      "primary_keyword": "marbella boat rental weather february",
+      "title": "Marbella Boat Rental in February: What to Expect",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-starlite-2047-pre-concert-cruise",
+      "primary_keyword": "starlite marbella pre concert cruise",
+      "title": "Starlite 2047: Pre-Concert Yacht Cruise from Puerto Banús",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-march-2049-guide",
+      "primary_keyword": "marbella boat rental weather march",
+      "title": "Marbella Boat Rental in March: Wind, Waves & Warmth",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2047-easter-guide",
+      "primary_keyword": "marbella boat rental easter weather",
+      "title": "Easter Boat Rental in Marbella: April Weather & Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2042-guide",
+      "primary_keyword": "marbella boat rental weather may",
+      "title": "Marbella Boat Rental in May: Sea Conditions & Advice",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2043-guide",
+      "primary_keyword": "marbella boat rental weather june",
+      "title": "June Boat Rental in Marbella: Heat, Wind & Water",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-july-2041-guide",
+      "primary_keyword": "marbella boat rental weather july",
+      "title": "July Boat Rental in Marbella: Peak Season Sea Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2043-peak-tips",
+      "primary_keyword": "marbella boat rental weather august",
+      "title": "August Boat Rental in Marbella: Beat the Heat at Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2038-guide",
+      "primary_keyword": "marbella boat rental weather september",
+      "title": "September Boat Rental in Marbella: Shoulder Season Seas",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2039-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october",
+      "title": "October Boat Rental in Marbella: Autumn Sea Conditions",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2033-guide",
+      "primary_keyword": "marbella boat rental weather november",
+      "title": "November Boat Rental in Marbella: Wind & Rain Tips",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-december-2047-guide",
+      "primary_keyword": "marbella boat rental weather december",
+      "title": "December Boat Rental in Marbella: Winter Sea Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2049-boat-party",
+      "primary_keyword": "marbella feria san bernabe boat party",
+      "title": "Feria San Bernabé 2049: Boat Party from Puerto Banús",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2047-fireworks-view",
+      "primary_keyword": "marbella new years eve boat fireworks",
+      "title": "NYE 2047: Best Boat Views of Marbella Fireworks",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2051-celebration-puerto-banus",
+      "primary_keyword": "marbella pride boat party puerto banus",
+      "title": "Marbella Pride 2051: Yacht Party from Puerto Banús",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2050-recovery-charter",
+      "primary_keyword": "marbella ironman recovery boat charter",
+      "title": "Ironman Marbella 2050: Post-Race Recovery Yacht Day",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-f1-grand-prix-2046-weekend-guide",
+      "primary_keyword": "marbella f1 grand prix boat rental",
+      "title": "F1 Grand Prix 2046: Boat Rental in Marbella Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2041",
+      "primary_keyword": "marbella stag weekend boat itinerary",
+      "title": "Stag Weekend in Marbella: 3-Day Boat Itinerary (2041)",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-budget-breakdown-2041",
+      "primary_keyword": "marbella hen party boat budget",
+      "title": "Hen Party Boat in Marbella: 2041 Budget Breakdown",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2043-guide",
+      "primary_keyword": "sotogrande polo final boat rental",
+      "title": "Sotogrande Polo Final 2043: Boat Charter Guide",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-snorkeling-spots-by-boat-cabopino-vs-estepona-2047",
+      "primary_keyword": "marbella snorkeling spots cabopino estepona",
+      "title": "Snorkeling by Boat: Cabopino vs Estepona (2047)",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-dolphin-watching-best-time-of-day-2051",
+      "primary_keyword": "marbella dolphin watching best time of day",
+      "title": "Best Time of Day for Dolphin Watching in Marbella",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-dolphin-watching-season-2052",
+      "primary_keyword": "marbella dolphin watching season",
+      "title": "Dolphin Watching Season in Marbella: Month by Month",
+      "target_words": 1100
     }
   ],
   "consumed": [
@@ -8536,6 +8676,86 @@
       "slug": "blog/marbella-boat-rental-weather-may-2039-guide",
       "primary_keyword": "marbella boat rental weather may 2039",
       "title": "Marbella Boat Rental Weather May 2039: Best Days for Charter",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2036-guide",
+      "primary_keyword": "marbella boat rental weather september 2036",
+      "title": "Marbella Boat Rental Weather September 2036: Shoulder Season Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2038-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october 2038",
+      "title": "Marbella Boat Rental Weather October 2038: Enjoying the Shoulder Season",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2032-guide",
+      "primary_keyword": "marbella boat rental weather november 2032",
+      "title": "Marbella Boat Rental Weather November 2032: What to Know Before Booking",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-december-2031-guide",
+      "primary_keyword": "marbella boat rental weather december 2031",
+      "title": "Marbella Boat Rental Weather December 2031: Winter Charter Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-dietary-restrictions-vegan-catering-2038",
+      "primary_keyword": "marbella yacht charter vegan catering 2038",
+      "title": "Marbella Yacht Charter Vegan Catering 2038: Delicious Plant-Based Menus",
+      "target_words": 1150,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2044",
+      "primary_keyword": "marbella sunset cruise champagne tapas",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas (2044)",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2044",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard",
+      "title": "Marbella Family Boat Day with Jetski, Snorkel & Paddleboard",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "experience",
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2044",
+      "primary_keyword": "marbella dolphin watching brunch cruise",
+      "title": "Marbella Dolphin Watching Brunch Cruise (2044)",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "spoke",
+      "slug": "sotogrande-yacht-charter-weather-july-2044-guide",
+      "primary_keyword": "sotogrande yacht charter weather july",
+      "title": "Sotogrande Yacht Charter in July: Weather & Sea Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "spoke",
+      "slug": "estepona-boat-charter-weather-october-2042-shoulder-season",
+      "primary_keyword": "estepona boat charter weather october",
+      "title": "Estepona Boat Charter in October: Shoulder Season Seas",
       "target_words": 1100,
       "consumed_at": "2026-07-31"
     }
