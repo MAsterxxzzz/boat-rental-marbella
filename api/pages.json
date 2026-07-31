@@ -1,7 +1,7 @@
 {
   "@context": "https://boatrentalinmarbella.com/api/pages.json",
   "source": "https://boatrentalinmarbella.com",
-  "count": 1131,
+  "count": 1132,
   "kinds": [
     "blog",
     "boat",
@@ -4718,6 +4718,14 @@
       "excerpt": "Planning a yacht charter in Marbella in 2037? The minimum age rules are straightforward: you must be 18 to charter a boat without a skipper, and 16 to skipper with a licence. Children of any age are welcome as passengers, though those under 12 must wear life jackets. This guide c"
     },
     {
+      "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-minimum-age-policy-2038/",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2038: Rules for Kids and Teens",
+      "description": "Marbella yacht charter minimum age 2038: rules for kids &amp; teens on our fleet. No age limit for infants, but safety rules apply. Check age policies &amp; book now.",
+      "kind": "blog",
+      "locale": "en",
+      "excerpt": "Planning a family yacht charter in Marbella for 2038? The good news: there’s no minimum age for kids or teens on any of our boats. From newborns to 17-year-olds, everyone is welcome aboard. But there are a few rules to know – especially around life jackets, jet skis, and which bo"
+    },
+    {
       "url": "https://boatrentalinmarbella.com/blog/marbella-yacht-charter-minimum-age-policy-2039/",
       "title": "Minimum Age Policy for Yacht Charter in Marbella: 2039 Guide",
       "description": "Minimum age yacht charter Marbella 2039: 18+ to rent, 0+ to ride. No licence needed for skippered charters. Book your family day out today.",
@@ -8952,7 +8960,7 @@
     {
       "url": "https://boatrentalinmarbella.com/site-map/",
       "title": "Site Map — every page on Boat Rental Marbella",
-      "description": "Full directory of all 1129 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
+      "description": "Full directory of all 1130 pages on Boat Rental Marbella — charter types, fleet, experiences, guides, languages and policies.",
       "kind": "spoke",
       "locale": "en",
       "excerpt": "Every page on Boat Rental Marbella, grouped by section. Looking for something specific? Message us on WhatsApp and ask."
