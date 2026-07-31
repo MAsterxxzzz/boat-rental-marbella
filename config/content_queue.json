@@ -4,13 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2038",
-      "primary_keyword": "marbella yacht charter minimum age 2038",
-      "title": "Marbella Yacht Charter Minimum Age Policy 2038: Rules for Kids and Teens",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-fishing-license-rules-2035",
       "primary_keyword": "fishing license rules Marbella boat rental 2035",
       "title": "Fishing License Rules for Marbella Boat Rental in 2035",
@@ -8756,6 +8749,14 @@
       "slug": "estepona-boat-charter-weather-october-2042-shoulder-season",
       "primary_keyword": "estepona boat charter weather october",
       "title": "Estepona Boat Charter in October: Shoulder Season Seas",
+      "target_words": 1100,
+      "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-minimum-age-policy-2038",
+      "primary_keyword": "marbella yacht charter minimum age 2038",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2038: Rules for Kids and Teens",
       "target_words": 1100,
       "consumed_at": "2026-07-31"
     }

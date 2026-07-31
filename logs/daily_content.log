@@ -5547,3 +5547,46 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-31 17:11:22]   ✓ added to keyword_map.spokes
 [2026-07-31 17:11:22] queue: 49 remaining, 1033 consumed total
 [2026-07-31 17:11:22] running deploy.sh …
+[2026-07-31 17:11:28] deploy.sh exited 1: boat-rental-marbella.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/mardo89/boat-rental-marbella.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+[2026-07-31 18:47:48] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-31 18:47:48] [1/5] blog · blog/marbella-yacht-charter-minimum-age-policy-2038
+[2026-07-31 18:48:20]   ✓ saved content/blog_marbella-yacht-charter-minimum-age-policy-2038.json
+[2026-07-31 18:48:20]   ✓ added to keyword_map.blog
+[2026-07-31 18:48:20] [2/5] blog · blog/marbella-boat-rental-fishing-license-rules-2035
+[2026-07-31 21:17:47]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-07-31 21:17:50]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:17:57]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:18:07]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:24:26]   DeepSeek exhausted, falling back to cli
+[2026-07-31 21:24:30]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-31 21:24:30] [3/5] blog · blog/cabopino-boat-rental-family-day-paddleboarding-snorkeling-2045
+[2026-07-31 21:24:30]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:24:34]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:24:41]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:24:51]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 21:25:03]   DeepSeek exhausted, falling back to cli
+[2026-07-31 21:25:06]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-31 21:25:06] [4/5] blog · blog/estepona-boat-charter-sunset-cruise-romantic-dinner-2028
+[2026-07-31 22:13:45]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:13:48]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:13:55]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:05]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:17]   DeepSeek exhausted, falling back to cli
+[2026-07-31 22:14:21]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-31 22:14:21] [5/5] blog · blog/marbella-yacht-charter-weather-august-2045-peak-tips
+[2026-07-31 22:14:21]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:25]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:32]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:42]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-07-31 22:14:54]   DeepSeek exhausted, falling back to cli
+[2026-07-31 22:14:58]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-07-31 22:14:58] queue: 48 remaining, 1034 consumed total
+[2026-07-31 22:14:58] running deploy.sh …
