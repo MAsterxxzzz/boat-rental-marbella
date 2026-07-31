@@ -1945,3 +1945,23 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+[2026-07-31 10:00:04] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-07-31 10:00:04] [1/5] blog · blog/marbella-boat-rental-group-size-limits-2044
+[2026-07-31 10:00:28]   ✓ saved content/blog_marbella-boat-rental-group-size-limits-2044.json
+[2026-07-31 10:00:28]   ✓ added to keyword_map.blog
+[2026-07-31 10:00:28] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2042
+[2026-07-31 10:00:57]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2042.json
+[2026-07-31 10:00:57]   ✓ added to keyword_map.blog
+[2026-07-31 10:00:57] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2041
+[2026-07-31 10:01:23]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2041.json
+[2026-07-31 10:01:23]   ✓ added to keyword_map.blog
+[2026-07-31 10:01:23] [4/5] blog · blog/marbella-boat-rental-weather-april-2036-easter-guide
+[2026-07-31 10:01:56]   ✓ saved content/blog_marbella-boat-rental-weather-april-2036-easter-guide.json
+[2026-07-31 10:01:56]   ✓ added to keyword_map.blog
+[2026-07-31 10:01:56] [5/5] blog · blog/marbella-boat-rental-weather-may-2039-guide
+[2026-07-31 10:02:30]   ✓ saved content/blog_marbella-boat-rental-weather-may-2039-guide.json
+[2026-07-31 10:02:30]   ✓ added to keyword_map.blog
+[2026-07-31 10:02:30] queue: 29 remaining, 1023 consumed total
+[2026-07-31 10:02:30] queue under threshold (29 < 30) — auto-refilling…
+[2026-07-31 10:03:17] refill failed: RuntimeError: refill: no JSON array in response
+[2026-07-31 10:03:17] running deploy.sh …
