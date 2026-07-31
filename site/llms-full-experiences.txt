@@ -1,5 +1,5 @@
 # Boat Rental Marbella — llms-full-experiences.txt
-# Generated 2026-07-30 · 71 pages
+# Generated 2026-07-31 · 71 pages
 # Canonical site: https://boatrentalinmarbella.com · index: https://boatrentalinmarbella.com/llms.txt
 # Records are separated by '---' and the canonical URL.
 ---
