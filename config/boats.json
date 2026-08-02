@@ -552,7 +552,13 @@
         "motor yacht charter Marbella",
         "Astondoa 40 Marbella",
         "12 metre yacht hire Puerto Banús"
-      ]
+      ],
+      "video_local": {
+        "src": "/video/astondoa-40-clip.mp4",
+        "poster": "/video/astondoa-40-clip.jpg",
+        "alt": "Puerto Banús marina view from the Astondoa 40",
+        "caption": "Departing Puerto Banús on the Astondoa 40"
+      }
     },
     {
       "slug": "azimut-39",
@@ -623,7 +629,13 @@
         "Azimut 39 Marbella",
         "Italian motor yacht charter Marbella",
         "flybridge yacht hire Puerto Banús"
-      ]
+      ],
+      "video_local": {
+        "src": "/video/azimut-39-clip.mp4",
+        "poster": "/video/azimut-39-clip.jpg",
+        "alt": "Azimut 39 cruising along the Marbella coastline",
+        "caption": "The Azimut 39 underway off Marbella"
+      }
     },
     {
       "slug": "mangusta-80",
@@ -761,6 +773,42 @@
             ]
           ],
           "alt": "Chef-grade galley on the Mangusta 80 — full kitchen for catered lunches on board"
+        },
+        {
+          "src": "/img/boats/mangusta-80/deck-topdown-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/mangusta-80/deck-topdown-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/mangusta-80/deck-topdown-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/mangusta-80/deck-topdown-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Top-down aerial view of the Mangusta 80 full deck layout underway"
+        },
+        {
+          "src": "/img/boats/mangusta-80/aerial-cruising-1200.jpg",
+          "srcset": [
+            [
+              "/img/boats/mangusta-80/aerial-cruising-600.jpg",
+              600
+            ],
+            [
+              "/img/boats/mangusta-80/aerial-cruising-900.jpg",
+              900
+            ],
+            [
+              "/img/boats/mangusta-80/aerial-cruising-1200.jpg",
+              1200
+            ]
+          ],
+          "alt": "Aerial view of the Mangusta 80 cruising at speed off Marbella"
         }
       ],
       "summary": "The Mangusta 80 — known on the dock as \"Nina\" — is the Marbella flagship: a 24-metre Italian sport yacht by Overmarine, in our charter fleet since 2020, and the largest boat available for day charter from Puerto Banús. Twelve guests in genuine luxury, a Sea-Doo jet ski waiting on the swim platform, and the unmistakable Mangusta open-style superstructure that put the brand on the global map. From €4,719 for a 4-hour charter, fully crewed.",
@@ -770,7 +818,13 @@
         "luxury superyacht hire Puerto Banús",
         "yacht with jet ski Marbella",
         "Nina yacht Marbella"
-      ]
+      ],
+      "video_local": {
+        "src": "/video/mangusta-80-clip.mp4",
+        "poster": "/video/mangusta-80-clip.jpg",
+        "alt": "Mangusta 80 underway off the Marbella coast",
+        "caption": "The Mangusta 80 \"Nina\" underway off Marbella"
+      }
     },
     {
       "slug": "azimut-58",
@@ -2650,7 +2704,13 @@
           ],
           "alt": "Sea-Doo GTX Jet Ski — Marbella charter"
         }
-      ]
+      ],
+      "video_local": {
+        "src": "/video/sea-doo-gtx-jet-ski-clip.mp4",
+        "poster": "/video/sea-doo-gtx-jet-ski-clip.jpg",
+        "alt": "POV ride on a Sea-Doo GTX jet ski departing Puerto Banús",
+        "caption": "Self-drive Sea-Doo GTX departing Puerto Banús"
+      }
     }
   ]
 }
