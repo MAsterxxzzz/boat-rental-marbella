@@ -1490,7 +1490,13 @@
    ],
    "hero_local_alt": "Red Tide — Dedicated sport-fishing boat for Marbella offshore charters",
    "gallery_local": [],
-   "model_year": null
+   "model_year": null,
+   "video_local": {
+    "src": "/video/red-tide-fishing-boat-clip.mp4",
+    "poster": "/video/red-tide-fishing-boat-clip.jpg",
+    "alt": "Rods out trolling aboard the Red Tide sport-fishing boat off Marbella",
+    "caption": "Deep-sea trolling aboard the Red Tide"
+   }
   },
   {
    "slug": "speedboat",
