@@ -545,6 +545,78 @@
       ]
      ],
      "alt": "Guests relaxing on the bow of the Astondoa 40 at Puerto Banús marina"
+    },
+    {
+     "src": "/img/boats/astondoa-40/anchored-guests-1200.jpg",
+     "srcset": [
+      [
+       "/img/boats/astondoa-40/anchored-guests-600.jpg",
+       600
+      ],
+      [
+       "/img/boats/astondoa-40/anchored-guests-900.jpg",
+       900
+      ],
+      [
+       "/img/boats/astondoa-40/anchored-guests-1200.jpg",
+       1200
+      ]
+     ],
+     "alt": "Astondoa 40 \"Fufi\" anchored with guests aboard off the Marbella coast"
+    },
+    {
+     "src": "/img/boats/astondoa-40/towable-fun-1200.jpg",
+     "srcset": [
+      [
+       "/img/boats/astondoa-40/towable-fun-600.jpg",
+       600
+      ],
+      [
+       "/img/boats/astondoa-40/towable-fun-900.jpg",
+       900
+      ],
+      [
+       "/img/boats/astondoa-40/towable-fun-1200.jpg",
+       1200
+      ]
+     ],
+     "alt": "Guests on the towable float behind the Astondoa 40 \"Fufi\""
+    },
+    {
+     "src": "/img/boats/astondoa-40/side-profile-group-1200.jpg",
+     "srcset": [
+      [
+       "/img/boats/astondoa-40/side-profile-group-600.jpg",
+       600
+      ],
+      [
+       "/img/boats/astondoa-40/side-profile-group-900.jpg",
+       900
+      ],
+      [
+       "/img/boats/astondoa-40/side-profile-group-1200.jpg",
+       1200
+      ]
+     ],
+     "alt": "Side profile of the Astondoa 40 \"Fufi\" with guests on the flybridge"
+    },
+    {
+     "src": "/img/boats/astondoa-40/flybridge-group-1200.jpg",
+     "srcset": [
+      [
+       "/img/boats/astondoa-40/flybridge-group-600.jpg",
+       600
+      ],
+      [
+       "/img/boats/astondoa-40/flybridge-group-900.jpg",
+       900
+      ],
+      [
+       "/img/boats/astondoa-40/flybridge-group-1200.jpg",
+       1200
+      ]
+     ],
+     "alt": "Group of guests enjoying the flybridge of the Astondoa 40 \"Fufi\""
     }
    ],
    "summary": "Astondoa 40 — known as \"Fufi\" — is the Spanish equivalent of the classic Mediterranean motor yacht. Built in Cádiz by Astondoa, fitted out in teak and cream leather, and at home anchoring off the Golden Mile for a long lunch. 12.5 metres, 9 guests, skipper and fuel included.",
@@ -556,8 +628,8 @@
    "video_local": {
     "src": "/video/astondoa-40-clip.mp4",
     "poster": "/video/astondoa-40-clip.jpg",
-    "alt": "Puerto Banús marina view from the Astondoa 40",
-    "caption": "Departing Puerto Banús on the Astondoa 40"
+    "alt": "Aerial drone shot of the Astondoa 40 \"Fufi\" cruising at speed off Marbella",
+    "caption": "The Astondoa 40 \"Fufi\" underway off Marbella"
    }
   },
   {
@@ -1365,7 +1437,13 @@
    ],
    "hero_local_alt": "Pershing 46 — 14 m Italian sport yacht — Pershing speed + design, 10 guests",
    "gallery_local": [],
-   "model_year": null
+   "model_year": null,
+   "video_local": {
+    "src": "/video/pershing-46-clip.mp4",
+    "poster": "/video/pershing-46-clip.jpg",
+    "alt": "Walk-through tour of the Pershing 46",
+    "caption": "Step aboard the Pershing 46"
+   }
   },
   {
    "slug": "red-tide-fishing-boat",
