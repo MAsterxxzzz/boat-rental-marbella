@@ -406,3 +406,95 @@
 [2026-07-31 14:50:26]   ✓ published https://telegra.ph/The-Case-for-a-Crewed-Catamaran-on-a-Marbella-Family-Holiday-07-31 (1 backlinks)
 [2026-07-31 14:50:26] === Done: 3/3 published. Ledger total: 92 ===
 
+[2026-08-01 13:30:03] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-01 13:30:03]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-01 13:30:07]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-01 13:30:14]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-01 13:30:24]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-01 13:30:36]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-01 13:30:41] topic generation failed: claude CLI exit 1: 
+[2026-08-02 13:30:00] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-02 13:30:00]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-02 14:25:33]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-02 14:25:39]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-02 14:25:48]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-02 14:26:00]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-02 17:18:24] topic generation failed: claude CLI exit 1: 
+[2026-08-03 14:30:02] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-03 14:30:03]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-03 14:30:06]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-03 14:30:13]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-03 14:30:23]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-03 14:30:35]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-03 14:30:40] topic generation failed: claude CLI exit 1: 
+[2026-08-04 14:30:04] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-04 14:30:04]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-04 14:30:08]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-04 14:30:15]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-04 14:30:25]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-04 14:30:37]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-04 14:30:42] topic generation failed: claude CLI exit 1: 
+[2026-08-05 14:48:51] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-05 14:48:51]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-05 14:48:54]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-05 14:49:02]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-05 14:49:12]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-05 14:49:24]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-05 14:49:29] topic generation failed: claude CLI exit 1: 
+[2026-08-06 14:30:00] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-06 14:30:02]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-06 14:30:05]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-06 14:30:12]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-06 14:30:22]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-06 14:30:34]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-06 14:30:40] topic generation failed: claude CLI exit 1: 
+[2026-08-07 14:30:00] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-07 14:30:00]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-07 14:30:04]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-07 14:30:11]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-07 14:30:21]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-07 14:30:33]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-07 14:30:38] topic generation failed: claude CLI exit 1: 
+[2026-08-08 14:30:00] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-08 14:30:00]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-08 14:30:04]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-08 14:30:11]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-08 14:30:21]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-08 14:30:33]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-08 14:30:39] topic generation failed: claude CLI exit 1: 
+[2026-08-09 14:54:00] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-09 14:54:00]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-09 14:54:03]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-09 14:54:09]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-09 14:54:19]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-09 14:54:31]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-09 16:13:42] topic generation failed: claude CLI exit 1: 
+[2026-08-10 14:52:28] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-10 14:52:28]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-10 14:52:31]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-10 14:52:37]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-10 14:52:47]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-10 14:52:59]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-10 16:38:43] topic generation failed: claude CLI exit 1: 
+[2026-08-11 14:30:03] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-11 14:30:04]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-11 14:30:07]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-11 14:30:14]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-11 14:30:24]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-11 14:30:36]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-11 14:30:41] topic generation failed: claude CLI exit 1: 
+[2026-08-12 14:30:05] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-12 14:30:06]   DeepSeek attempt 1/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-12 14:30:09]   DeepSeek attempt 2/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-12 14:30:16]   DeepSeek attempt 3/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-12 14:30:26]   DeepSeek attempt 4/4 failed (HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/chat/completions)
+[2026-08-12 14:30:38]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-12 14:30:44] topic generation failed: claude CLI exit 1: 
+[2026-08-13 15:06:11] === Telegraph run: target 3 article(s) · 92 previously published ===
+[2026-08-13 15:06:12]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-13 15:06:15]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-13 15:06:28] [1/3] A Weekday Charter in Puerto Banús: Avoiding the Crowds
+[2026-08-13 15:06:49]   ✓ published https://telegra.ph/A-Weekday-Charter-in-Puerto-Banús-Avoiding-the-Crowds-08-13 (5 backlinks)
+[2026-08-13 15:06:49] [2/3] Low-Season Weather Window: Sailing Marbella to Málaga in February
+[2026-08-13 15:07:07]   ✓ published https://telegra.ph/Low-Season-Weather-Window-Sailing-Marbella-to-Málaga-in-February-08-13 (5 backlinks)
+[2026-08-13 15:07:07] [3/3] A Bareboat Skipper's Checklist for Marbella's Nautical Charts

@@ -11,13 +11,6 @@
     },
     {
       "kind": "blog",
-      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-snorkeling-2045",
-      "primary_keyword": "Cabopino boat rental family day paddleboarding snorkeling",
-      "title": "Cabopino Boat Rental Family Day: Paddleboarding and Snorkeling in 2045",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/estepona-boat-charter-sunset-cruise-romantic-dinner-2028",
       "primary_keyword": "Estepona boat charter sunset cruise romantic dinner",
       "title": "Estepona Boat Charter Sunset Cruise with Romantic Dinner in 2028",
@@ -29,13 +22,6 @@
       "primary_keyword": "Marbella yacht charter weather August 2045",
       "title": "Marbella Yacht Charter Weather August 2045: Peak Season Tips",
       "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2047",
-      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 Marbella comparison",
-      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2047",
-      "target_words": 1400
     },
     {
       "kind": "blog",
@@ -8759,6 +8745,22 @@
       "title": "Marbella Yacht Charter Minimum Age Policy 2038: Rules for Kids and Teens",
       "target_words": 1100,
       "consumed_at": "2026-07-31"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/cabopino-boat-rental-family-day-paddleboarding-snorkeling-2045",
+      "primary_keyword": "Cabopino boat rental family day paddleboarding snorkeling",
+      "title": "Cabopino Boat Rental Family Day: Paddleboarding and Snorkeling in 2045",
+      "target_words": 1100,
+      "consumed_at": "2026-08-13"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/mangusta-80-vs-sunseeker-predator-74-marbella-comparison-2047",
+      "primary_keyword": "Mangusta 80 vs Sunseeker Predator 74 Marbella comparison",
+      "title": "Mangusta 80 vs Sunseeker Predator 74: Marbella Comparison 2047",
+      "target_words": 1400,
+      "consumed_at": "2026-08-13"
     }
   ],
   "refill_threshold": 30,
