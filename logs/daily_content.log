@@ -7019,3 +7019,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-13 15:49:13]   ✓ added to keyword_map.blog
 [2026-08-13 15:49:13] queue: 41 remaining, 1041 consumed total
 [2026-08-13 15:49:13] running deploy.sh …
+[2026-08-13 15:49:18] deploy.sh exited 128: remote: Repository not found.
+fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not found
+
+[2026-08-13 16:41:11] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-13 16:41:11] [1/5] blog · blog/marbella-boat-rental-pride-2050-celebration-puerto-banus
+[2026-08-13 16:41:35]   ✓ saved content/blog_marbella-boat-rental-pride-2050-celebration-puerto-banus.json
+[2026-08-13 16:41:35]   ✓ added to keyword_map.blog
+[2026-08-13 16:41:35] [2/5] blog · blog/marbella-yacht-charter-ironman-2049-recovery-day
+[2026-08-13 16:42:00]   ✓ saved content/blog_marbella-yacht-charter-ironman-2049-recovery-day.json
+[2026-08-13 16:42:00]   ✓ added to keyword_map.blog
+[2026-08-13 16:42:00] [3/5] blog · blog/marbella-boat-rental-feria-san-bernabe-2048-boat-party
+[2026-08-13 16:42:26]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2048-boat-party.json
+[2026-08-13 16:42:26]   ✓ added to keyword_map.blog
+[2026-08-13 16:42:26] [4/5] blog · blog/marbella-boat-rental-sotogrande-polo-final-2042-guide
+[2026-08-13 16:42:50]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2042-guide.json
+[2026-08-13 16:42:50]   ✓ added to keyword_map.blog
+[2026-08-13 16:42:50] [5/5] blog · blog/marbella-boat-rental-f1-grand-prix-2045-weekend-guide
+[2026-08-13 16:43:19]   ✓ saved content/blog_marbella-boat-rental-f1-grand-prix-2045-weekend-guide.json
+[2026-08-13 16:43:19]   ✓ added to keyword_map.blog
+[2026-08-13 16:43:19] queue: 36 remaining, 1046 consumed total
+[2026-08-13 16:43:19] running deploy.sh …
