@@ -2461,3 +2461,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-08-13 15:07:15]   ✓ added to keyword_map.blog
 [2026-08-13 15:07:15] queue: 46 remaining, 1036 consumed total
 [2026-08-13 15:07:15] running deploy.sh …
+[2026-08-13 15:07:21] deploy.sh exited 128: remote: Repository not found.
+fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not found
+
