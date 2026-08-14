@@ -7084,3 +7084,39 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-14 16:32:42] queue under threshold (26 < 30) — auto-refilling…
 [2026-08-14 16:33:01] refill: +35 topics (queue now 61)
 [2026-08-14 16:33:01] running deploy.sh …
+[2026-08-14 16:33:06] deploy.sh exited 128: remote: Repository not found.
+fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not found
+
+[2026-08-14 19:30:36] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-08-14 19:30:36] [1/10] blog · blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison-2043
+[2026-08-14 19:31:02]   ✓ saved content/blog_pershing-46-vs-sunseeker-predator-55-marbella-comparison-2043.json
+[2026-08-14 19:31:02]   ✓ added to keyword_map.blog
+[2026-08-14 19:31:02] [2/10] blog · blog/marbella-boat-rental-estepona-vs-sotogrande-2049-comparison
+[2026-08-14 19:31:22]   ✓ saved content/blog_marbella-boat-rental-estepona-vs-sotogrande-2049-comparison.json
+[2026-08-14 19:31:22]   ✓ added to keyword_map.blog
+[2026-08-14 19:31:22] [3/10] blog · blog/marbella-boat-rental-weather-january-2049-guide
+[2026-08-14 19:31:43]   ✓ saved content/blog_marbella-boat-rental-weather-january-2049-guide.json
+[2026-08-14 19:31:43]   ✓ added to keyword_map.blog
+[2026-08-14 19:31:43] [4/10] blog · blog/marbella-boat-rental-weather-february-2048-guide
+[2026-08-14 19:32:13]   ✓ saved content/blog_marbella-boat-rental-weather-february-2048-guide.json
+[2026-08-14 19:32:13]   ✓ added to keyword_map.blog
+[2026-08-14 19:32:13] [5/10] blog · blog/marbella-yacht-charter-starlite-2047-pre-concert-cruise
+[2026-08-14 19:32:38]   ✓ saved content/blog_marbella-yacht-charter-starlite-2047-pre-concert-cruise.json
+[2026-08-14 19:32:38]   ✓ added to keyword_map.blog
+[2026-08-14 19:32:38] [6/10] experience · experiences/marbella-family-boat-day-seabob-combo
+[2026-08-14 19:33:01]   ✓ saved content/experiences_marbella-family-boat-day-seabob-combo.json
+[2026-08-14 19:33:01]   ✓ added to keyword_map.spokes
+[2026-08-14 19:33:01] [7/10] experience · experiences/marbella-sunset-yoga-cruise
+[2026-08-14 19:33:23]   ✓ saved content/experiences_marbella-sunset-yoga-cruise.json
+[2026-08-14 19:33:23]   ✓ added to keyword_map.spokes
+[2026-08-14 19:33:23] [8/10] experience · experiences/marbella-tapas-and-flamenco-boat-cruise
+[2026-08-14 19:33:46]   ✓ saved content/experiences_marbella-tapas-and-flamenco-boat-cruise.json
+[2026-08-14 19:33:46]   ✓ added to keyword_map.spokes
+[2026-08-14 19:33:46] [9/10] experience · experiences/marbella-dolphin-watching-snorkeling-combo
+[2026-08-14 19:34:05]   ✓ saved content/experiences_marbella-dolphin-watching-snorkeling-combo.json
+[2026-08-14 19:34:05]   ✓ added to keyword_map.spokes
+[2026-08-14 19:34:05] [10/10] experience · experiences/marbella-jet-ski-guided-tour
+[2026-08-14 19:34:33]   ✓ saved content/experiences_marbella-jet-ski-guided-tour.json
+[2026-08-14 19:34:33]   ✓ added to keyword_map.spokes
+[2026-08-14 19:34:33] queue: 51 remaining, 1066 consumed total
+[2026-08-14 19:34:33] running deploy.sh …

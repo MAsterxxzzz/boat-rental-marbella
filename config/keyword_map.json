@@ -1900,6 +1900,41 @@
       "title": "Estepona Boat Charter in October: Shoulder Season Seas",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-seabob-combo",
+      "primary_keyword": "family boat day seabob marbella",
+      "title": "Family Boat Day with Seabob in Marbella: A Unique Combo Experience",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-yoga-cruise",
+      "primary_keyword": "sunset yoga cruise marbella",
+      "title": "Sunset Yoga Cruise in Marbella: Stretch, Breathe, and Sail",
+      "intent": "transactional",
+      "target_words": 1150
+    },
+    {
+      "slug": "experiences/marbella-tapas-and-flamenco-boat-cruise",
+      "primary_keyword": "tapas flamenco boat cruise marbella",
+      "title": "Tapas & Flamenco Boat Cruise in Marbella: An Evening to Remember",
+      "intent": "transactional",
+      "target_words": 1180
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-snorkeling-combo",
+      "primary_keyword": "dolphin watching snorkeling combo marbella",
+      "title": "Dolphin Watching & Snorkeling Combo in Marbella: Best of Both",
+      "intent": "transactional",
+      "target_words": 1120
+    },
+    {
+      "slug": "experiences/marbella-jet-ski-guided-tour",
+      "primary_keyword": "guided jet ski tour marbella",
+      "title": "Guided Jet Ski Tour in Marbella: Explore the Coast at Speed",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -7598,6 +7633,41 @@
       "slug": "blog/marbella-boat-rental-andalusia-day-2042-celebration",
       "primary_keyword": "Andalusia Day 2042 boat rental Marbella",
       "title": "Marbella Boat Rental for Andalusia Day 2042 Celebration",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/pershing-46-vs-sunseeker-predator-55-marbella-comparison-2043",
+      "primary_keyword": "Pershing 46 vs Sunseeker Predator 55 Marbella comparison 2043",
+      "title": "Pershing 46 vs Sunseeker Predator 55: Marbella Comparison 2043",
+      "intent": "informational",
+      "target_words": 1400
+    },
+    {
+      "slug": "blog/marbella-boat-rental-estepona-vs-sotogrande-2049-comparison",
+      "primary_keyword": "marbella boat rental estepona vs sotogrande",
+      "title": "Marbella Boat Rental: Estepona vs Sotogrande Departures",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-january-2049-guide",
+      "primary_keyword": "marbella boat rental weather january",
+      "title": "Marbella Boat Rental in January: Weather, Sea & Tips",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-weather-february-2048-guide",
+      "primary_keyword": "marbella boat rental weather february",
+      "title": "Marbella Boat Rental in February: What to Expect",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-yacht-charter-starlite-2047-pre-concert-cruise",
+      "primary_keyword": "starlite marbella pre concert cruise",
+      "title": "Starlite 2047: Pre-Concert Yacht Cruise from Puerto Banús",
       "intent": "informational",
       "target_words": 1100
     }
