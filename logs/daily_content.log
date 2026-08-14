@@ -7061,3 +7061,26 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-14 11:01:58]   ✓ added to keyword_map.blog
 [2026-08-14 11:01:58] queue: 31 remaining, 1051 consumed total
 [2026-08-14 11:01:58] running deploy.sh …
+[2026-08-14 11:02:03] deploy.sh exited 128: remote: Repository not found.
+fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not found
+
+[2026-08-14 16:30:37] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-14 16:30:37] [1/5] blog · blog/marbella-yacht-charter-license-requirements-2042
+[2026-08-14 16:31:02]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2042.json
+[2026-08-14 16:31:02]   ✓ added to keyword_map.blog
+[2026-08-14 16:31:02] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2043
+[2026-08-14 16:31:27]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2043.json
+[2026-08-14 16:31:27]   ✓ added to keyword_map.blog
+[2026-08-14 16:31:27] [3/5] blog · blog/marbella-boat-rental-vs-malaga-2041-comparison
+[2026-08-14 16:31:53]   ✓ saved content/blog_marbella-boat-rental-vs-malaga-2041-comparison.json
+[2026-08-14 16:31:53]   ✓ added to keyword_map.blog
+[2026-08-14 16:31:53] [4/5] blog · blog/azimut-39-vs-fairline-targa-12m-marbella-comparison-2046
+[2026-08-14 16:32:16]   ✓ saved content/blog_azimut-39-vs-fairline-targa-12m-marbella-comparison-2046.json
+[2026-08-14 16:32:16]   ✓ added to keyword_map.blog
+[2026-08-14 16:32:16] [5/5] blog · blog/marbella-boat-rental-andalusia-day-2042-celebration
+[2026-08-14 16:32:42]   ✓ saved content/blog_marbella-boat-rental-andalusia-day-2042-celebration.json
+[2026-08-14 16:32:42]   ✓ added to keyword_map.blog
+[2026-08-14 16:32:42] queue: 26 remaining, 1056 consumed total
+[2026-08-14 16:32:42] queue under threshold (26 < 30) — auto-refilling…
+[2026-08-14 16:33:01] refill: +35 topics (queue now 61)
+[2026-08-14 16:33:01] running deploy.sh …
