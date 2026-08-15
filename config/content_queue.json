@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2049-boat-party",
-      "primary_keyword": "marbella feria san bernabe boat party",
-      "title": "Feria San Bernabé 2049: Boat Party from Puerto Banús",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2047-fireworks-view",
-      "primary_keyword": "marbella new years eve boat fireworks",
-      "title": "NYE 2047: Best Boat Views of Marbella Fireworks",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2051-celebration-puerto-banus",
-      "primary_keyword": "marbella pride boat party puerto banus",
-      "title": "Marbella Pride 2051: Yacht Party from Puerto Banús",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-ironman-2050-recovery-charter",
-      "primary_keyword": "marbella ironman recovery boat charter",
-      "title": "Ironman Marbella 2050: Post-Race Recovery Yacht Day",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-f1-grand-prix-2046-weekend-guide",
-      "primary_keyword": "marbella f1 grand prix boat rental",
-      "title": "F1 Grand Prix 2046: Boat Rental in Marbella Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2041",
       "primary_keyword": "marbella stag weekend boat itinerary",
       "title": "Stag Weekend in Marbella: 3-Day Boat Itinerary (2041)",
@@ -9047,6 +9012,46 @@
       "slug": "blog/marbella-boat-rental-weather-december-2047-guide",
       "primary_keyword": "marbella boat rental weather december",
       "title": "December Boat Rental in Marbella: Winter Sea Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2049-boat-party",
+      "primary_keyword": "marbella feria san bernabe boat party",
+      "title": "Feria San Bernabé 2049: Boat Party from Puerto Banús",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2047-fireworks-view",
+      "primary_keyword": "marbella new years eve boat fireworks",
+      "title": "NYE 2047: Best Boat Views of Marbella Fireworks",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2051-celebration-puerto-banus",
+      "primary_keyword": "marbella pride boat party puerto banus",
+      "title": "Marbella Pride 2051: Yacht Party from Puerto Banús",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2050-recovery-charter",
+      "primary_keyword": "marbella ironman recovery boat charter",
+      "title": "Ironman Marbella 2050: Post-Race Recovery Yacht Day",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-f1-grand-prix-2046-weekend-guide",
+      "primary_keyword": "marbella f1 grand prix boat rental",
+      "title": "F1 Grand Prix 2046: Boat Rental in Marbella Guide",
       "target_words": 1100,
       "consumed_at": "2026-08-15"
     }

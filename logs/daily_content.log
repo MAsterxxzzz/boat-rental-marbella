@@ -7171,3 +7171,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-15 16:27:18]   ✓ added to keyword_map.blog
 [2026-08-15 16:27:18] queue: 38 remaining, 1079 consumed total
 [2026-08-15 16:27:18] running deploy.sh …
+[2026-08-15 16:28:24] deploy.sh OK
+[2026-08-15 16:28:24] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-15 16:30:44] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-15 16:30:44] [1/5] blog · blog/marbella-boat-rental-feria-san-bernabe-2049-boat-party
+[2026-08-15 16:31:15]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2049-boat-party.json
+[2026-08-15 16:31:15]   ✓ added to keyword_map.blog
+[2026-08-15 16:31:15] [2/5] blog · blog/marbella-boat-rental-nye-2047-fireworks-view
+[2026-08-15 16:31:38]   ✓ saved content/blog_marbella-boat-rental-nye-2047-fireworks-view.json
+[2026-08-15 16:31:39]   ✓ added to keyword_map.blog
+[2026-08-15 16:31:39] [3/5] blog · blog/marbella-boat-rental-pride-2051-celebration-puerto-banus
+[2026-08-15 16:32:03]   ✓ saved content/blog_marbella-boat-rental-pride-2051-celebration-puerto-banus.json
+[2026-08-15 16:32:03]   ✓ added to keyword_map.blog
+[2026-08-15 16:32:03] [4/5] blog · blog/marbella-boat-rental-ironman-2050-recovery-charter
+[2026-08-15 16:32:28]   ✓ saved content/blog_marbella-boat-rental-ironman-2050-recovery-charter.json
+[2026-08-15 16:32:28]   ✓ added to keyword_map.blog
+[2026-08-15 16:32:28] [5/5] blog · blog/marbella-boat-rental-f1-grand-prix-2046-weekend-guide
+[2026-08-15 16:32:55]   ✓ saved content/blog_marbella-boat-rental-f1-grand-prix-2046-weekend-guide.json
+[2026-08-15 16:32:55]   ✓ added to keyword_map.blog
+[2026-08-15 16:32:55] queue: 33 remaining, 1084 consumed total
+[2026-08-15 16:32:55] running deploy.sh …
