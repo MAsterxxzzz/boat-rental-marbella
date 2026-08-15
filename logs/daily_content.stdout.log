@@ -2485,3 +2485,30 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-14 11:02:03] deploy.sh exited 128: remote: Repository not found.
 fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not found
 
+[2026-08-15 11:00:04] === Daily content run (kind-balanced): 5 blog + 3 landing = 8 item(s) ===
+[2026-08-15 11:00:04] [1/8] blog · blog/marbella-boat-rental-weather-march-2049-guide
+[2026-08-15 11:00:32]   ✓ saved content/blog_marbella-boat-rental-weather-march-2049-guide.json
+[2026-08-15 11:00:32]   ✓ added to keyword_map.blog
+[2026-08-15 11:00:32] [2/8] blog · blog/marbella-boat-rental-weather-april-2047-easter-guide
+[2026-08-15 11:01:08]   ✓ saved content/blog_marbella-boat-rental-weather-april-2047-easter-guide.json
+[2026-08-15 11:01:08]   ✓ added to keyword_map.blog
+[2026-08-15 11:01:08] [3/8] blog · blog/marbella-boat-rental-weather-may-2042-guide
+[2026-08-15 11:01:38]   ✓ saved content/blog_marbella-boat-rental-weather-may-2042-guide.json
+[2026-08-15 11:01:38]   ✓ added to keyword_map.blog
+[2026-08-15 11:01:38] [4/8] blog · blog/marbella-boat-rental-weather-june-2043-guide
+[2026-08-15 11:02:02]   ✓ saved content/blog_marbella-boat-rental-weather-june-2043-guide.json
+[2026-08-15 11:02:02]   ✓ added to keyword_map.blog
+[2026-08-15 11:02:02] [5/8] blog · blog/marbella-boat-rental-weather-july-2041-guide
+[2026-08-15 11:02:30]   ✓ saved content/blog_marbella-boat-rental-weather-july-2041-guide.json
+[2026-08-15 11:02:30]   ✓ added to keyword_map.blog
+[2026-08-15 11:02:30] [6/8] spoke · marbella-boat-rental-starlite-2025
+[2026-08-15 11:03:00]   ✓ saved content/marbella-boat-rental-starlite-2025.json
+[2026-08-15 11:03:00]   ✓ added to keyword_map.spokes
+[2026-08-15 11:03:00] [7/8] spoke · marbella-boat-rental-feria-san-bernabe-2025
+[2026-08-15 11:03:28]   ✓ saved content/marbella-boat-rental-feria-san-bernabe-2025.json
+[2026-08-15 11:03:28]   ✓ added to keyword_map.spokes
+[2026-08-15 11:03:28] [8/8] spoke · marbella-boat-rental-nye-2025
+[2026-08-15 11:03:55]   ✓ saved content/marbella-boat-rental-nye-2025.json
+[2026-08-15 11:03:55]   ✓ added to keyword_map.spokes
+[2026-08-15 11:03:55] queue: 43 remaining, 1074 consumed total
+[2026-08-15 11:03:55] running deploy.sh …
