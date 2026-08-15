@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-august-2043-peak-tips",
-      "primary_keyword": "marbella boat rental weather august",
-      "title": "August Boat Rental in Marbella: Beat the Heat at Sea",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-september-2038-guide",
-      "primary_keyword": "marbella boat rental weather september",
-      "title": "September Boat Rental in Marbella: Shoulder Season Seas",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2039-shoulder-season",
-      "primary_keyword": "marbella boat rental weather october",
-      "title": "October Boat Rental in Marbella: Autumn Sea Conditions",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-november-2033-guide",
-      "primary_keyword": "marbella boat rental weather november",
-      "title": "November Boat Rental in Marbella: Wind & Rain Tips",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-december-2047-guide",
-      "primary_keyword": "marbella boat rental weather december",
-      "title": "December Boat Rental in Marbella: Winter Sea Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2049-boat-party",
       "primary_keyword": "marbella feria san bernabe boat party",
       "title": "Feria San Bernabé 2049: Boat Party from Puerto Banús",
@@ -9042,6 +9007,46 @@
       "slug": "marbella-boat-rental-nye-2025",
       "primary_keyword": "marbella boat rental new year's eve 2025",
       "title": "Marbella Boat Rental for NYE 2025: Fireworks from the Water",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2043-peak-tips",
+      "primary_keyword": "marbella boat rental weather august",
+      "title": "August Boat Rental in Marbella: Beat the Heat at Sea",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2038-guide",
+      "primary_keyword": "marbella boat rental weather september",
+      "title": "September Boat Rental in Marbella: Shoulder Season Seas",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2039-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october",
+      "title": "October Boat Rental in Marbella: Autumn Sea Conditions",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2033-guide",
+      "primary_keyword": "marbella boat rental weather november",
+      "title": "November Boat Rental in Marbella: Wind & Rain Tips",
+      "target_words": 1100,
+      "consumed_at": "2026-08-15"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-december-2047-guide",
+      "primary_keyword": "marbella boat rental weather december",
+      "title": "December Boat Rental in Marbella: Winter Sea Guide",
       "target_words": 1100,
       "consumed_at": "2026-08-15"
     }
