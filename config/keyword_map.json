@@ -1991,6 +1991,27 @@
       "title": "Marbella Fishing & Sunset Combo Charter 2049",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "spoke/marbella-boat-rental-group-size-limits-2050",
+      "primary_keyword": "marbella boat rental group size limits 2050",
+      "title": "Marbella Boat Rental Group Size Limits 2050",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "spoke/marbella-yacht-charter-minimum-age-policy-2051",
+      "primary_keyword": "marbella yacht charter minimum age policy 2051",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2051",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "spoke/marbella-yacht-charter-cancellation-policy-2052",
+      "primary_keyword": "marbella yacht charter cancellation policy 2052",
+      "title": "Marbella Yacht Charter Cancellation Policy 2052",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -7901,6 +7922,41 @@
       "title": "Feria San Bernabé 2025: Boat Party Guide from Marbella Marina",
       "intent": "informational",
       "target_words": 1120
+    },
+    {
+      "slug": "blog/marbella-boat-rental-nye-2025-fireworks-viewing-spots",
+      "primary_keyword": "new year's eve boat fireworks marbella",
+      "title": "NYE 2025 in Marbella: Best Boat Spots for the Fireworks Display",
+      "intent": "informational",
+      "target_words": 1250
+    },
+    {
+      "slug": "blog/marbella-boat-rental-f1-weekend-2025-guide",
+      "primary_keyword": "f1 weekend boat rental marbella",
+      "title": "F1 Weekend in Marbella 2025: Boat Rental Guide for the Race",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-ironman-2025-recovery-cruise",
+      "primary_keyword": "ironman marbella recovery boat cruise",
+      "title": "Ironman Marbella 2025: Recovery Cruise Ideas for Athletes & Fans",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-pride-2025-puerto-banus",
+      "primary_keyword": "pride boat party puerto banus marbella",
+      "title": "Marbella Pride 2025: Boat Party Departing from Puerto Banús",
+      "intent": "informational",
+      "target_words": 1120
+    },
+    {
+      "slug": "blog/marbella-boat-rental-andalusia-day-2025-celebration",
+      "primary_keyword": "andalusia day boat rental marbella",
+      "title": "Andalusia Day 2025: Celebrate with a Boat Rental in Marbella",
+      "intent": "informational",
+      "target_words": 1100
     }
   ]
 }

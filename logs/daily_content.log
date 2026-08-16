@@ -7251,3 +7251,33 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-16 16:35:09]   ✓ added to keyword_map.spokes
 [2026-08-16 16:35:09] queue: 51 remaining, 1099 consumed total
 [2026-08-16 16:35:09] running deploy.sh …
+[2026-08-16 16:36:36] deploy.sh OK
+[2026-08-16 16:36:36] === Done: 10 succeeded, 0 failed ===
+
+[2026-08-16 19:31:05] === Daily content run (kind-balanced): 5 blog + 3 landing = 8 item(s) ===
+[2026-08-16 19:31:05] [1/8] blog · blog/marbella-boat-rental-nye-2025-fireworks-viewing-spots
+[2026-08-16 19:31:32]   ✓ saved content/blog_marbella-boat-rental-nye-2025-fireworks-viewing-spots.json
+[2026-08-16 19:31:32]   ✓ added to keyword_map.blog
+[2026-08-16 19:31:32] [2/8] blog · blog/marbella-boat-rental-f1-weekend-2025-guide
+[2026-08-16 19:31:56]   ✓ saved content/blog_marbella-boat-rental-f1-weekend-2025-guide.json
+[2026-08-16 19:31:56]   ✓ added to keyword_map.blog
+[2026-08-16 19:31:56] [3/8] blog · blog/marbella-boat-rental-ironman-2025-recovery-cruise
+[2026-08-16 19:32:27]   ✓ saved content/blog_marbella-boat-rental-ironman-2025-recovery-cruise.json
+[2026-08-16 19:32:27]   ✓ added to keyword_map.blog
+[2026-08-16 19:32:27] [4/8] blog · blog/marbella-boat-rental-pride-2025-puerto-banus
+[2026-08-16 19:32:49]   ✓ saved content/blog_marbella-boat-rental-pride-2025-puerto-banus.json
+[2026-08-16 19:32:49]   ✓ added to keyword_map.blog
+[2026-08-16 19:32:49] [5/8] blog · blog/marbella-boat-rental-andalusia-day-2025-celebration
+[2026-08-16 19:33:14]   ✓ saved content/blog_marbella-boat-rental-andalusia-day-2025-celebration.json
+[2026-08-16 19:33:14]   ✓ added to keyword_map.blog
+[2026-08-16 19:33:14] [6/8] spoke · spoke/marbella-boat-rental-group-size-limits-2050
+[2026-08-16 19:33:35]   ✓ saved content/spoke_marbella-boat-rental-group-size-limits-2050.json
+[2026-08-16 19:33:35]   ✓ added to keyword_map.spokes
+[2026-08-16 19:33:35] [7/8] spoke · spoke/marbella-yacht-charter-minimum-age-policy-2051
+[2026-08-16 19:33:59]   ✓ saved content/spoke_marbella-yacht-charter-minimum-age-policy-2051.json
+[2026-08-16 19:33:59]   ✓ added to keyword_map.spokes
+[2026-08-16 19:33:59] [8/8] spoke · spoke/marbella-yacht-charter-cancellation-policy-2052
+[2026-08-16 19:34:20]   ✓ saved content/spoke_marbella-yacht-charter-cancellation-policy-2052.json
+[2026-08-16 19:34:20]   ✓ added to keyword_map.spokes
+[2026-08-16 19:34:20] queue: 43 remaining, 1107 consumed total
+[2026-08-16 19:34:20] running deploy.sh …

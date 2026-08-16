@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2025-fireworks-viewing-spots",
-      "primary_keyword": "new year's eve boat fireworks marbella",
-      "title": "NYE 2025 in Marbella: Best Boat Spots for the Fireworks Display",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-f1-weekend-2025-guide",
-      "primary_keyword": "f1 weekend boat rental marbella",
-      "title": "F1 Weekend in Marbella 2025: Boat Rental Guide for the Race",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-ironman-2025-recovery-cruise",
-      "primary_keyword": "ironman marbella recovery boat cruise",
-      "title": "Ironman Marbella 2025: Recovery Cruise Ideas for Athletes & Fans",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-pride-2025-puerto-banus",
-      "primary_keyword": "pride boat party puerto banus marbella",
-      "title": "Marbella Pride 2025: Boat Party Departing from Puerto Banús",
-      "target_words": 1120
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-andalusia-day-2025-celebration",
-      "primary_keyword": "andalusia day boat rental marbella",
-      "title": "Andalusia Day 2025: Celebrate with a Boat Rental in Marbella",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-vs-sotogrande-departure",
       "primary_keyword": "marbella vs sotogrande boat rental departure",
       "title": "Marbella vs Sotogrande Boat Rental: Which Departure Point Wins?",
@@ -336,27 +301,6 @@
       "slug": "blog/marbella-boat-rental-weather-june-2054-guide",
       "primary_keyword": "marbella boat rental weather june 2054",
       "title": "Marbella Boat Rental Weather June 2054: Summer Start",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "spoke/marbella-boat-rental-group-size-limits-2050",
-      "primary_keyword": "marbella boat rental group size limits 2050",
-      "title": "Marbella Boat Rental Group Size Limits 2050",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "spoke/marbella-yacht-charter-minimum-age-policy-2051",
-      "primary_keyword": "marbella yacht charter minimum age policy 2051",
-      "title": "Marbella Yacht Charter Minimum Age Policy 2051",
-      "target_words": 1100
-    },
-    {
-      "kind": "spoke",
-      "slug": "spoke/marbella-yacht-charter-cancellation-policy-2052",
-      "primary_keyword": "marbella yacht charter cancellation policy 2052",
-      "title": "Marbella Yacht Charter Cancellation Policy 2052",
       "target_words": 1100
     }
   ],
@@ -9298,6 +9242,70 @@
       "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2049",
       "primary_keyword": "marbella fishing and sunset combo charter 2049",
       "title": "Marbella Fishing & Sunset Combo Charter 2049",
+      "target_words": 1100,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2025-fireworks-viewing-spots",
+      "primary_keyword": "new year's eve boat fireworks marbella",
+      "title": "NYE 2025 in Marbella: Best Boat Spots for the Fireworks Display",
+      "target_words": 1250,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-f1-weekend-2025-guide",
+      "primary_keyword": "f1 weekend boat rental marbella",
+      "title": "F1 Weekend in Marbella 2025: Boat Rental Guide for the Race",
+      "target_words": 1150,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-ironman-2025-recovery-cruise",
+      "primary_keyword": "ironman marbella recovery boat cruise",
+      "title": "Ironman Marbella 2025: Recovery Cruise Ideas for Athletes & Fans",
+      "target_words": 1100,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-pride-2025-puerto-banus",
+      "primary_keyword": "pride boat party puerto banus marbella",
+      "title": "Marbella Pride 2025: Boat Party Departing from Puerto Banús",
+      "target_words": 1120,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-andalusia-day-2025-celebration",
+      "primary_keyword": "andalusia day boat rental marbella",
+      "title": "Andalusia Day 2025: Celebrate with a Boat Rental in Marbella",
+      "target_words": 1100,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "spoke",
+      "slug": "spoke/marbella-boat-rental-group-size-limits-2050",
+      "primary_keyword": "marbella boat rental group size limits 2050",
+      "title": "Marbella Boat Rental Group Size Limits 2050",
+      "target_words": 1100,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "spoke",
+      "slug": "spoke/marbella-yacht-charter-minimum-age-policy-2051",
+      "primary_keyword": "marbella yacht charter minimum age policy 2051",
+      "title": "Marbella Yacht Charter Minimum Age Policy 2051",
+      "target_words": 1100,
+      "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "spoke",
+      "slug": "spoke/marbella-yacht-charter-cancellation-policy-2052",
+      "primary_keyword": "marbella yacht charter cancellation policy 2052",
+      "title": "Marbella Yacht Charter Cancellation Policy 2052",
       "target_words": 1100,
       "consumed_at": "2026-08-16"
     }
