@@ -7215,3 +7215,39 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-16 11:02:21] queue under threshold (28 < 30) — auto-refilling…
 [2026-08-16 11:02:40] refill: +33 topics (queue now 61)
 [2026-08-16 11:02:40] running deploy.sh …
+[2026-08-16 11:03:10] deploy.sh OK
+[2026-08-16 11:03:10] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-16 16:31:05] === Daily content run (kind-balanced): 5 blog + 5 landing = 10 item(s) ===
+[2026-08-16 16:31:05] [1/10] blog · blog/marbella-boat-rental-dolphin-watching-season-2052
+[2026-08-16 16:31:29]   ✓ saved content/blog_marbella-boat-rental-dolphin-watching-season-2052.json
+[2026-08-16 16:31:29]   ✓ added to keyword_map.blog
+[2026-08-16 16:31:29] [2/10] blog · blog/marbella-boat-rental-dolphin-watching-with-children
+[2026-08-16 16:31:55]   ✓ saved content/blog_marbella-boat-rental-dolphin-watching-with-children.json
+[2026-08-16 16:31:55]   ✓ added to keyword_map.blog
+[2026-08-16 16:31:55] [3/10] blog · blog/marbella-boat-rental-sunset-cruise-best-route
+[2026-08-16 16:32:19]   ✓ saved content/blog_marbella-boat-rental-sunset-cruise-best-route.json
+[2026-08-16 16:32:19]   ✓ added to keyword_map.blog
+[2026-08-16 16:32:19] [4/10] blog · blog/marbella-boat-rental-starlite-2025-pre-concert-dinner-cruise
+[2026-08-16 16:32:42]   ✓ saved content/blog_marbella-boat-rental-starlite-2025-pre-concert-dinner-cruise.json
+[2026-08-16 16:32:42]   ✓ added to keyword_map.blog
+[2026-08-16 16:32:42] [5/10] blog · blog/marbella-boat-rental-feria-san-bernabe-2025-boat-party-guide
+[2026-08-16 16:33:07]   ✓ saved content/blog_marbella-boat-rental-feria-san-bernabe-2025-boat-party-guide.json
+[2026-08-16 16:33:07]   ✓ added to keyword_map.blog
+[2026-08-16 16:33:07] [6/10] experience · experiences/marbella-dolphin-watching-brunch-cruise-2045
+[2026-08-16 16:33:35]   ✓ saved content/experiences_marbella-dolphin-watching-brunch-cruise-2045.json
+[2026-08-16 16:33:35]   ✓ added to keyword_map.spokes
+[2026-08-16 16:33:35] [7/10] experience · experiences/marbella-sunset-cruise-champagne-tapas-2046
+[2026-08-16 16:33:57]   ✓ saved content/experiences_marbella-sunset-cruise-champagne-tapas-2046.json
+[2026-08-16 16:33:57]   ✓ added to keyword_map.spokes
+[2026-08-16 16:33:57] [8/10] experience · experiences/marbella-photoshoot-yacht-sunset-session-2047
+[2026-08-16 16:34:20]   ✓ saved content/experiences_marbella-photoshoot-yacht-sunset-session-2047.json
+[2026-08-16 16:34:20]   ✓ added to keyword_map.spokes
+[2026-08-16 16:34:20] [9/10] experience · experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2048
+[2026-08-16 16:34:48]   ✓ saved content/experiences_marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2048.json
+[2026-08-16 16:34:48]   ✓ added to keyword_map.spokes
+[2026-08-16 16:34:48] [10/10] experience · experiences/marbella-fishing-and-sunset-combo-charter-2049
+[2026-08-16 16:35:09]   ✓ saved content/experiences_marbella-fishing-and-sunset-combo-charter-2049.json
+[2026-08-16 16:35:09]   ✓ added to keyword_map.spokes
+[2026-08-16 16:35:09] queue: 51 remaining, 1099 consumed total
+[2026-08-16 16:35:09] running deploy.sh …

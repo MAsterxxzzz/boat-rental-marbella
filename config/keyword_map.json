@@ -1956,6 +1956,41 @@
       "title": "Marbella Boat Rental for NYE 2025: Fireworks from the Water",
       "intent": "transactional",
       "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-dolphin-watching-brunch-cruise-2045",
+      "primary_keyword": "marbella dolphin watching brunch cruise 2045",
+      "title": "Marbella Dolphin Watching Brunch Cruise 2045",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-sunset-cruise-champagne-tapas-2046",
+      "primary_keyword": "marbella sunset cruise champagne tapas 2046",
+      "title": "Marbella Sunset Cruise with Champagne & Tapas 2046",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-photoshoot-yacht-sunset-session-2047",
+      "primary_keyword": "marbella photoshoot yacht sunset session 2047",
+      "title": "Marbella Photoshoot Yacht Sunset Session 2047",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-family-boat-day-jetski-snorkel-paddleboard-combo-2048",
+      "primary_keyword": "marbella family boat day jetski snorkel paddleboard 2048",
+      "title": "Marbella Family Boat Day: Jetski, Snorkel & Paddleboard 2048",
+      "intent": "transactional",
+      "target_words": 1100
+    },
+    {
+      "slug": "experiences/marbella-fishing-and-sunset-combo-charter-2049",
+      "primary_keyword": "marbella fishing and sunset combo charter 2049",
+      "title": "Marbella Fishing & Sunset Combo Charter 2049",
+      "intent": "transactional",
+      "target_words": 1100
     }
   ],
   "blog": [
@@ -7831,6 +7866,41 @@
       "title": "Best Time of Day for Dolphin Watching in Marbella",
       "intent": "informational",
       "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-dolphin-watching-season-2052",
+      "primary_keyword": "marbella dolphin watching season",
+      "title": "Dolphin Watching Season in Marbella: Month by Month",
+      "intent": "informational",
+      "target_words": 1100
+    },
+    {
+      "slug": "blog/marbella-boat-rental-dolphin-watching-with-children",
+      "primary_keyword": "dolphin watching boat trip marbella with kids",
+      "title": "Dolphin Watching Boat Trip in Marbella With Kids: What to Know",
+      "intent": "informational",
+      "target_words": 1150
+    },
+    {
+      "slug": "blog/marbella-boat-rental-sunset-cruise-best-route",
+      "primary_keyword": "best sunset cruise route marbella",
+      "title": "Best Sunset Cruise Route in Marbella: From Puerto Banús to Cabopino",
+      "intent": "informational",
+      "target_words": 1200
+    },
+    {
+      "slug": "blog/marbella-boat-rental-starlite-2025-pre-concert-dinner-cruise",
+      "primary_keyword": "starlite marbella pre-concert dinner cruise",
+      "title": "Starlite Marbella 2025: Pre-Concert Dinner Cruise from Puerto Banús",
+      "intent": "informational",
+      "target_words": 1180
+    },
+    {
+      "slug": "blog/marbella-boat-rental-feria-san-bernabe-2025-boat-party-guide",
+      "primary_keyword": "feria san bernabe boat party marbella",
+      "title": "Feria San Bernabé 2025: Boat Party Guide from Marbella Marina",
+      "intent": "informational",
+      "target_words": 1120
     }
   ]
 }

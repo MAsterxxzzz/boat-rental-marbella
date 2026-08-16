@@ -517,3 +517,5 @@
 [2026-08-15 14:39:36]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
 [2026-08-15 14:39:48]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
 [2026-08-15 16:01:26] topic generation failed: claude CLI exit 1: 
+[2026-08-16 14:30:04] === Telegraph run: target 3 article(s) · 98 previously published ===
+[2026-08-16 14:30:06] no fresh topics produced — aborting
