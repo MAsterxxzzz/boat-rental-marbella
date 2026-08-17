@@ -18,27 +18,6 @@
     },
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-puerto-banus-vs-marbella-marina",
-      "primary_keyword": "puerto banus vs marbella marina boat rental",
-      "title": "Puerto Banús vs Marbella Marina: Which Boat Rental Base Is Better?",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-october-2025-shoulder-season",
-      "primary_keyword": "marbella boat rental weather october",
-      "title": "Marbella Boat Rental in October 2025: Weather & Shoulder-Season Tips",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-september-2025-guide",
-      "primary_keyword": "marbella boat rental weather september",
-      "title": "Marbella Boat Rental in September 2025: Sea Conditions & What to Expect",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-august-2025-heat-tips",
       "primary_keyword": "marbella boat rental august heat",
       "title": "Marbella Boat Rental in August 2025: Beating the Heat on the Water",
@@ -9308,6 +9287,30 @@
       "title": "Marbella Yacht Charter Cancellation Policy 2052",
       "target_words": 1100,
       "consumed_at": "2026-08-16"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-puerto-banus-vs-marbella-marina",
+      "primary_keyword": "puerto banus vs marbella marina boat rental",
+      "title": "Puerto Banús vs Marbella Marina: Which Boat Rental Base Is Better?",
+      "target_words": 1150,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2025-shoulder-season",
+      "primary_keyword": "marbella boat rental weather october",
+      "title": "Marbella Boat Rental in October 2025: Weather & Shoulder-Season Tips",
+      "target_words": 1200,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2025-guide",
+      "primary_keyword": "marbella boat rental weather september",
+      "title": "Marbella Boat Rental in September 2025: Sea Conditions & What to Expect",
+      "target_words": 1150,
+      "consumed_at": "2026-08-17"
     }
   ],
   "refill_threshold": 30,

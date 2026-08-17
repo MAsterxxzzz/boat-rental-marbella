@@ -4281,3 +4281,15 @@
 [2026-08-16 09:40:57] === [rentry] done: 15/15 ===
 [2026-08-16 09:40:57] ALL DONE: 30 posts across 2 platform(s)
 
+[2026-08-17 10:06:56] === [telegraph] target 15 (today 0/15) · 732 all-time ===
+[2026-08-17 10:06:58]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 10:07:01]   DeepSeek attempt 2/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 10:07:08]   DeepSeek attempt 3/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 10:07:17]   DeepSeek attempt 4/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 10:07:29]   DeepSeek exhausted, trying CLI
+[2026-08-17 13:19:56]   [1] ✗ RuntimeError: claude CLI exit 1
+[2026-08-17 13:19:58]   DeepSeek attempt 1/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 13:20:01]   DeepSeek attempt 2/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 14:20:20]   DeepSeek attempt 3/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 14:20:30]   DeepSeek attempt 4/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
+[2026-08-17 14:20:42]   DeepSeek exhausted, trying CLI

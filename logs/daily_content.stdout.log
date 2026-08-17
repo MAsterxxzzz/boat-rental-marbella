@@ -2538,3 +2538,29 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-16 11:03:10] deploy.sh OK
 [2026-08-16 11:03:10] === Done: 5 succeeded, 0 failed ===
 
+[2026-08-17 11:17:18] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-17 11:17:18] [1/5] blog · blog/marbella-boat-rental-vs-sotogrande-departure
+[2026-08-17 11:17:19]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 11:17:22]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 11:17:28]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 11:17:37]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 11:17:49]   DeepSeek exhausted, falling back to cli
+[2026-08-17 14:20:51]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-08-17 14:20:51] [2/5] blog · blog/marbella-boat-rental-estepona-vs-cabopino-snorkeling
+[2026-08-17 14:20:51]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 14:20:54]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 14:21:00]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 14:32:00]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-17 14:32:12]   DeepSeek exhausted, falling back to cli
+[2026-08-17 13:32:35]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-08-17 13:32:36] [3/5] blog · blog/marbella-boat-rental-puerto-banus-vs-marbella-marina
+[2026-08-17 13:33:02]   ✓ saved content/blog_marbella-boat-rental-puerto-banus-vs-marbella-marina.json
+[2026-08-17 13:33:02]   ✓ added to keyword_map.blog
+[2026-08-17 13:33:02] [4/5] blog · blog/marbella-boat-rental-weather-october-2025-shoulder-season
+[2026-08-17 13:33:26]   ✓ saved content/blog_marbella-boat-rental-weather-october-2025-shoulder-season.json
+[2026-08-17 13:33:26]   ✓ added to keyword_map.blog
+[2026-08-17 13:33:26] [5/5] blog · blog/marbella-boat-rental-weather-september-2025-guide
+[2026-08-17 13:33:50]   ✓ saved content/blog_marbella-boat-rental-weather-september-2025-guide.json
+[2026-08-17 13:33:50]   ✓ added to keyword_map.blog
+[2026-08-17 13:33:50] queue: 40 remaining, 1110 consumed total
+[2026-08-17 13:33:50] running deploy.sh …
