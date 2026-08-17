@@ -4293,3 +4293,37 @@
 [2026-08-17 14:20:20]   DeepSeek attempt 3/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
 [2026-08-17 14:20:30]   DeepSeek attempt 4/4 failed (HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded wit)
 [2026-08-17 14:20:42]   DeepSeek exhausted, trying CLI
+[2026-08-17 13:34:29]   [2] ✗ RuntimeError: claude CLI exit 1
+[2026-08-17 13:34:45]   [3/15] ✓ https://telegra.ph/A-Licence-Free-Boat-Day-in-Marbella-The-Real-Price-for-Celebrations-08-17
+[2026-08-17 13:35:06]   [4/15] ✓ https://telegra.ph/Azimut-39-vs-the-Rest-Best-Charters-Near-Estepona-08-17
+[2026-08-17 13:35:33]   [5/15] ✓ https://telegra.ph/Puerto-Banús-vs-Sotogrande-Which-Charter-Really-Delivers-08-17
+[2026-08-17 13:35:58]   [6/15] ✓ https://telegra.ph/The-Hangover-Proof-Hen-Party-5-Boat-Day-Truths-from-Puerto-Banús-08-17
+[2026-08-17 13:36:20]   [7/15] ✓ https://telegra.ph/No-Licence-No-Problem-Your-First-Boat-Day-from-Puerto-Banús-08-17
+[2026-08-17 13:36:41]   [8/15] ✓ https://telegra.ph/Sunset-Cruise-Near-Estepona-5-Local-Tips-Before-You-Book-08-17
+[2026-08-17 13:37:04]   [9/15] ✓ https://telegra.ph/A-Proposal-Cruise-in-Marbella-Compare-Yachts-Prices--Vibes-08-17
+[2026-08-17 13:37:28]   [10/15] ✓ https://telegra.ph/Licence-Free-Boat-Day-in-Estepona-The-Ultimate-Group-Guide-08-17
+[2026-08-17 13:37:53]   [11/15] ✓ https://telegra.ph/Azimut-39-in-Marbella-Your-10-Step-Planning-Checklist-08-17
+[2026-08-17 13:38:16]   [12/15] ✓ https://telegra.ph/A-First-Timers-Family-Boat-Day-on-the-Costa-del-Sol-What-to-Know-08-17
+[2026-08-17 13:38:38]   [13/15] ✓ https://telegra.ph/Why-Late-Spring-Is-the-Best-Season-for-a-Costa-del-Sol-Catamaran-Charter-08-17
+[2026-08-17 13:39:01]   [14/15] ✓ https://telegra.ph/Marbella-Locals-Couples-Guide-to-the-Azimut-39-08-17
+[2026-08-17 13:39:24]   [15/15] ✓ https://telegra.ph/Marbella-Hen-Party-Boat-Days-Compare-These-4-Top-Charters-08-17
+[2026-08-17 13:39:33] === [telegraph] done: 13/15 ===
+[2026-08-17 13:39:33] === [rentry] target 15 (today 0/15) · 736 all-time ===
+[2026-08-17 13:39:46]   [1/15] ✓ https://rentry.co/grytp32e
+[2026-08-17 13:40:09]   [2/15] ✓ https://rentry.co/ot9kmnd5
+[2026-08-17 13:40:33]   [3/15] ✓ https://rentry.co/mcb7aodw
+[2026-08-17 13:40:56]   [4/15] ✓ https://rentry.co/96o86cma
+[2026-08-17 13:41:19]   [5/15] ✓ https://rentry.co/ktbkyn3x
+[2026-08-17 13:41:43]   [6/15] ✓ https://rentry.co/8vqytx9w
+[2026-08-17 13:42:07]   [7/15] ✓ https://rentry.co/tnqfwh3z
+[2026-08-17 13:42:30]   [8/15] ✓ https://rentry.co/sg4p9nfx
+[2026-08-17 13:42:54]   [9/15] ✓ https://rentry.co/gmk3unc6
+[2026-08-17 13:43:17]   [10/15] ✓ https://rentry.co/52bwva7i
+[2026-08-17 13:43:39]   [11/15] ✓ https://rentry.co/m3umsgae
+[2026-08-17 13:44:01]   [12/15] ✓ https://rentry.co/x4f5owko
+[2026-08-17 13:44:26]   [13/15] ✓ https://rentry.co/atvpqk6u
+[2026-08-17 13:44:48]   [14/15] ✓ https://rentry.co/7ne6594m
+[2026-08-17 13:45:10]   [15/15] ✓ https://rentry.co/u98z2d8q
+[2026-08-17 13:45:20] === [rentry] done: 15/15 ===
+[2026-08-17 13:45:20] ALL DONE: 28 posts across 2 platform(s)
+

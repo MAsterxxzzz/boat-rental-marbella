@@ -7310,3 +7310,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-17 13:33:50]   ✓ added to keyword_map.blog
 [2026-08-17 13:33:50] queue: 40 remaining, 1110 consumed total
 [2026-08-17 13:33:50] running deploy.sh …
+[2026-08-17 13:34:31] deploy.sh OK
+[2026-08-17 13:34:31] === Done: 3 succeeded, 2 failed ===
+
+[2026-08-17 22:31:30] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-17 22:31:30] [1/5] blog · blog/marbella-boat-rental-vs-sotogrande-departure
+[2026-08-17 22:32:00]   ✓ saved content/blog_marbella-boat-rental-vs-sotogrande-departure.json
+[2026-08-17 22:32:00]   ✓ added to keyword_map.blog
+[2026-08-17 22:32:00] [2/5] blog · blog/marbella-boat-rental-estepona-vs-cabopino-snorkeling
+[2026-08-17 22:32:25]   ✓ saved content/blog_marbella-boat-rental-estepona-vs-cabopino-snorkeling.json
+[2026-08-17 22:32:25]   ✓ added to keyword_map.blog
+[2026-08-17 22:32:25] [3/5] blog · blog/marbella-boat-rental-weather-august-2025-heat-tips
+[2026-08-17 22:32:52]   ✓ saved content/blog_marbella-boat-rental-weather-august-2025-heat-tips.json
+[2026-08-17 22:32:52]   ✓ added to keyword_map.blog
+[2026-08-17 22:32:52] [4/5] blog · blog/marbella-boat-rental-weather-july-2025-guide
+[2026-08-17 22:33:17]   ✓ saved content/blog_marbella-boat-rental-weather-july-2025-guide.json
+[2026-08-17 22:33:17]   ✓ added to keyword_map.blog
+[2026-08-17 22:33:17] [5/5] blog · blog/marbella-boat-rental-weather-june-2025-guide
+[2026-08-17 22:33:42]   ✓ saved content/blog_marbella-boat-rental-weather-june-2025-guide.json
+[2026-08-17 22:33:42]   ✓ added to keyword_map.blog
+[2026-08-17 22:33:42] queue: 35 remaining, 1115 consumed total
+[2026-08-17 22:33:42] running deploy.sh …

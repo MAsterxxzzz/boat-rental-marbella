@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-vs-sotogrande-departure",
-      "primary_keyword": "marbella vs sotogrande boat rental departure",
-      "title": "Marbella vs Sotogrande Boat Rental: Which Departure Point Wins?",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-estepona-vs-cabopino-snorkeling",
-      "primary_keyword": "estepona vs cabopino snorkeling boat marbella",
-      "title": "Estepona vs Cabopino: Best Snorkeling Spots by Boat from Marbella",
-      "target_words": 1180
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-august-2025-heat-tips",
-      "primary_keyword": "marbella boat rental august heat",
-      "title": "Marbella Boat Rental in August 2025: Beating the Heat on the Water",
-      "target_words": 1120
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-july-2025-guide",
-      "primary_keyword": "marbella boat rental july weather",
-      "title": "Marbella Boat Rental in July 2025: Peak Season Weather & Wind Guide",
-      "target_words": 1180
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-june-2025-guide",
-      "primary_keyword": "marbella boat rental june weather",
-      "title": "Marbella Boat Rental in June 2025: Perfect Conditions for Chartering",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-may-2025-guide",
       "primary_keyword": "marbella boat rental may weather",
       "title": "Marbella Boat Rental in May 2025: Spring Sea Conditions Explained",
@@ -9309,6 +9274,46 @@
       "slug": "blog/marbella-boat-rental-weather-september-2025-guide",
       "primary_keyword": "marbella boat rental weather september",
       "title": "Marbella Boat Rental in September 2025: Sea Conditions & What to Expect",
+      "target_words": 1150,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-vs-sotogrande-departure",
+      "primary_keyword": "marbella vs sotogrande boat rental departure",
+      "title": "Marbella vs Sotogrande Boat Rental: Which Departure Point Wins?",
+      "target_words": 1200,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-estepona-vs-cabopino-snorkeling",
+      "primary_keyword": "estepona vs cabopino snorkeling boat marbella",
+      "title": "Estepona vs Cabopino: Best Snorkeling Spots by Boat from Marbella",
+      "target_words": 1180,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2025-heat-tips",
+      "primary_keyword": "marbella boat rental august heat",
+      "title": "Marbella Boat Rental in August 2025: Beating the Heat on the Water",
+      "target_words": 1120,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-july-2025-guide",
+      "primary_keyword": "marbella boat rental july weather",
+      "title": "Marbella Boat Rental in July 2025: Peak Season Weather & Wind Guide",
+      "target_words": 1180,
+      "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2025-guide",
+      "primary_keyword": "marbella boat rental june weather",
+      "title": "Marbella Boat Rental in June 2025: Perfect Conditions for Chartering",
       "target_words": 1150,
       "consumed_at": "2026-08-17"
     }

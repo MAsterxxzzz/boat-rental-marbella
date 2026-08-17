@@ -2564,3 +2564,6 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-17 13:33:50]   ✓ added to keyword_map.blog
 [2026-08-17 13:33:50] queue: 40 remaining, 1110 consumed total
 [2026-08-17 13:33:50] running deploy.sh …
+[2026-08-17 13:34:31] deploy.sh OK
+[2026-08-17 13:34:31] === Done: 3 succeeded, 2 failed ===
+
