@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-may-2025-guide",
-      "primary_keyword": "marbella boat rental may weather",
-      "title": "Marbella Boat Rental in May 2025: Spring Sea Conditions Explained",
-      "target_words": 1120
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-april-2025-easter-guide",
-      "primary_keyword": "marbella boat rental easter weather april",
-      "title": "Marbella Boat Rental at Easter 2025: April Weather & Charter Tips",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-2025-guide",
-      "primary_keyword": "marbella boat rental no license 2025",
-      "title": "Marbella Boat Rental Without a License in 2025: Your Full Guide",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-cost-per-person-2025",
-      "primary_keyword": "marbella boat rental cost per person 2025",
-      "title": "Marbella Boat Rental Cost per Person in 2025: Budget Breakdown",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-license-requirements-2025",
-      "primary_keyword": "marbella boat rental license requirements",
-      "title": "Marbella Boat Rental License Requirements in 2025: What You Need",
-      "target_words": 1180
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-what-to-wear-guide",
       "primary_keyword": "what to wear on a boat trip marbella",
       "title": "What to Wear on a Boat Trip in Marbella: Seasonal Packing Guide",
@@ -9316,6 +9281,46 @@
       "title": "Marbella Boat Rental in June 2025: Perfect Conditions for Chartering",
       "target_words": 1150,
       "consumed_at": "2026-08-17"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2025-guide",
+      "primary_keyword": "marbella boat rental may weather",
+      "title": "Marbella Boat Rental in May 2025: Spring Sea Conditions Explained",
+      "target_words": 1120,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2025-easter-guide",
+      "primary_keyword": "marbella boat rental easter weather april",
+      "title": "Marbella Boat Rental at Easter 2025: April Weather & Charter Tips",
+      "target_words": 1200,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-2025-guide",
+      "primary_keyword": "marbella boat rental no license 2025",
+      "title": "Marbella Boat Rental Without a License in 2025: Your Full Guide",
+      "target_words": 1250,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-cost-per-person-2025",
+      "primary_keyword": "marbella boat rental cost per person 2025",
+      "title": "Marbella Boat Rental Cost per Person in 2025: Budget Breakdown",
+      "target_words": 1200,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-license-requirements-2025",
+      "primary_keyword": "marbella boat rental license requirements",
+      "title": "Marbella Boat Rental License Requirements in 2025: What You Need",
+      "target_words": 1180,
+      "consumed_at": "2026-08-18"
     }
   ],
   "refill_threshold": 30,

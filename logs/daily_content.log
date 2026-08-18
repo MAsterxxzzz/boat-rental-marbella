@@ -7331,3 +7331,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-17 22:33:42]   ✓ added to keyword_map.blog
 [2026-08-17 22:33:42] queue: 35 remaining, 1115 consumed total
 [2026-08-17 22:33:42] running deploy.sh …
+[2026-08-17 22:34:54] deploy.sh OK
+[2026-08-17 22:34:54] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-18 10:00:00] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-18 10:00:00] [1/5] blog · blog/marbella-boat-rental-weather-may-2025-guide
+[2026-08-18 10:00:22]   ✓ saved content/blog_marbella-boat-rental-weather-may-2025-guide.json
+[2026-08-18 10:00:22]   ✓ added to keyword_map.blog
+[2026-08-18 10:00:22] [2/5] blog · blog/marbella-boat-rental-weather-april-2025-easter-guide
+[2026-08-18 10:00:44]   ✓ saved content/blog_marbella-boat-rental-weather-april-2025-easter-guide.json
+[2026-08-18 10:00:44]   ✓ added to keyword_map.blog
+[2026-08-18 10:00:44] [3/5] blog · blog/marbella-boat-rental-no-license-2025-guide
+[2026-08-18 10:01:05]   ✓ saved content/blog_marbella-boat-rental-no-license-2025-guide.json
+[2026-08-18 10:01:05]   ✓ added to keyword_map.blog
+[2026-08-18 10:01:05] [4/5] blog · blog/marbella-boat-rental-cost-per-person-2025
+[2026-08-18 10:01:37]   ✓ saved content/blog_marbella-boat-rental-cost-per-person-2025.json
+[2026-08-18 10:01:37]   ✓ added to keyword_map.blog
+[2026-08-18 10:01:37] [5/5] blog · blog/marbella-boat-rental-license-requirements-2025
+[2026-08-18 10:02:03]   ✓ saved content/blog_marbella-boat-rental-license-requirements-2025.json
+[2026-08-18 10:02:03]   ✓ added to keyword_map.blog
+[2026-08-18 10:02:03] queue: 30 remaining, 1120 consumed total
+[2026-08-18 10:02:03] running deploy.sh …
