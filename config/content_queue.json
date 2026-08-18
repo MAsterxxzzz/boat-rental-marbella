@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-boat-rental-what-to-wear-guide",
-      "primary_keyword": "what to wear on a boat trip marbella",
-      "title": "What to Wear on a Boat Trip in Marbella: Seasonal Packing Guide",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-catering-options-guide",
-      "primary_keyword": "marbella boat rental catering options",
-      "title": "Marbella Boat Rental Catering Options: From Tapas to Full BBQ",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-conditions-forecast",
-      "primary_keyword": "marbella sea conditions forecast boat",
-      "title": "Marbella Sea Conditions Forecast: How to Plan Your Boat Rental",
-      "target_words": 1150
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-hen-party-activities-2025",
-      "primary_keyword": "hen party boat activities marbella",
-      "title": "Hen Party Boat Activities in Marbella 2025: Top Ideas & Itineraries",
-      "target_words": 1250
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2025",
-      "primary_keyword": "stag weekend boat itinerary marbella",
-      "title": "Stag Weekend Boat Itinerary in Marbella 2025: Day-by-Day Plan",
-      "target_words": 1200
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2044-guide",
       "primary_keyword": "marbella boat rental sotogrande polo final 2044",
       "title": "Marbella Boat Rental for Sotogrande Polo Final 2044",
@@ -210,6 +175,216 @@
       "slug": "blog/marbella-boat-rental-weather-june-2054-guide",
       "primary_keyword": "marbella boat rental weather june 2054",
       "title": "Marbella Boat Rental Weather June 2054: Summer Start",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-fishing-charter-big-game-tuna-2040",
+      "primary_keyword": "marbella big game tuna fishing charter",
+      "title": "Marbella Big Game Tuna Fishing Charter: Season, Costs & Boats",
+      "target_words": 1300
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2045-sea-conditions",
+      "primary_keyword": "marbella boat rental weather june sea conditions",
+      "title": "Marbella Boat Rental in June: Sea Conditions & What to Expect",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-sotogrande-polo-final-2046-guide",
+      "primary_keyword": "sotogrande polo final boat charter 2046",
+      "title": "Sotogrande Polo Final 2046: Best Boat Charter Arrival Guide",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2044-guide",
+      "primary_keyword": "marbella boat rental weather september 2044",
+      "title": "Marbella Boat Rental in September: Weather, Sea & Crowds Guide",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-f1-grand-prix-2048-weekend-guide",
+      "primary_keyword": "marbella boat rental f1 weekend 2048",
+      "title": "Marbella Boat Rental for F1 Weekend 2048: Viewing & Party Guide",
+      "target_words": 1250
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2046-peak-tips",
+      "primary_keyword": "marbella boat rental august heat tips",
+      "title": "Marbella Boat Rental in August 2046: Beat the Heat on the Water",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2045-guide",
+      "primary_keyword": "marbella boat rental weather may 2045",
+      "title": "Marbella Boat Rental in May 2045: Ideal Conditions & What to Pack",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2047-shoulder-season",
+      "primary_keyword": "marbella boat rental october shoulder season",
+      "title": "Marbella Boat Rental in October 2047: Shoulder Season Advantages",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2045-guide",
+      "primary_keyword": "marbella boat rental weather november 2045",
+      "title": "Marbella Boat Rental in November: Quiet Seas & Off-Peak Rates",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-december-2048-guide",
+      "primary_keyword": "marbella boat rental weather december 2048",
+      "title": "Marbella Boat Rental in December 2048: Winter Charter Conditions",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-january-2050-guide",
+      "primary_keyword": "marbella boat rental weather january 2050",
+      "title": "Marbella Boat Rental in January 2050: Weather & Winter Charters",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-february-2050-guide",
+      "primary_keyword": "marbella boat rental weather february 2050",
+      "title": "Marbella Boat Rental in February 2050: What to Expect on the Sea",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-march-2051-easter-guide",
+      "primary_keyword": "marbella boat rental weather march easter 2051",
+      "title": "Marbella Boat Rental in March 2051: Easter Week & Sea Conditions",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2050-easter-guide",
+      "primary_keyword": "marbella boat rental weather april easter 2050",
+      "title": "Marbella Boat Rental in April 2050: Easter Holidays on the Water",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-july-2046-guide",
+      "primary_keyword": "marbella boat rental weather july 2046",
+      "title": "Marbella Boat Rental in July 2046: Peak Season Weather & Tips",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-june-2044-guide",
+      "primary_keyword": "marbella boat rental weather june 2044",
+      "title": "Marbella Boat Rental in June 2044: Perfect Summer Kickoff",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2046-guide",
+      "primary_keyword": "marbella boat rental weather may 2046",
+      "title": "Marbella Boat Rental in May 2046: Warm Seas & Fewer Crowds",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2046-guide",
+      "primary_keyword": "marbella boat rental weather september 2046",
+      "title": "Marbella Boat Rental in September 2046: Post-Summer Calm",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2048-shoulder-season",
+      "primary_keyword": "marbella boat rental october 2048",
+      "title": "Marbella Boat Rental in October 2048: Warm Days, Quiet Marinas",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2046-guide",
+      "primary_keyword": "marbella boat rental november 2046",
+      "title": "Marbella Boat Rental in November 2046: Off-Peak Sea Conditions",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-december-2049-christmas",
+      "primary_keyword": "marbella boat rental december christmas 2049",
+      "title": "Marbella Boat Rental at Christmas 2049: Festive Sea Views",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-january-2051-guide",
+      "primary_keyword": "marbella boat rental january 2051",
+      "title": "Marbella Boat Rental in January 2051: Winter Charter Planning",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-february-2051-guide",
+      "primary_keyword": "marbella boat rental february 2051",
+      "title": "Marbella Boat Rental in February 2051: Early Spring Hints",
+      "target_words": 1100
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-march-2052-easter-guide",
+      "primary_keyword": "marbella boat rental march easter 2052",
+      "title": "Marbella Boat Rental in March 2052: Easter & Sea Conditions",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-april-2051-easter-guide",
+      "primary_keyword": "marbella boat rental april 2051",
+      "title": "Marbella Boat Rental in April 2051: Easter Week on the Coast",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-july-2047-guide",
+      "primary_keyword": "marbella boat rental july 2047",
+      "title": "Marbella Boat Rental in July 2047: Peak Season Sea Guide",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-august-2047-peak-tips",
+      "primary_keyword": "marbella boat rental august 2047",
+      "title": "Marbella Boat Rental in August 2047: Top Tips for Peak Heat",
+      "target_words": 1200
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-september-2047-guide",
+      "primary_keyword": "marbella boat rental september 2047",
+      "title": "Marbella Boat Rental in September 2047: Golden Month on the Sea",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-october-2049-shoulder-season",
+      "primary_keyword": "marbella boat rental october 2049",
+      "title": "Marbella Boat Rental in October 2049: Shoulder Season Secrets",
+      "target_words": 1150
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2047-guide",
+      "primary_keyword": "marbella boat rental november 2047",
+      "title": "Marbella Boat Rental in November 2047: Off-Peak Charters",
       "target_words": 1100
     }
   ],
@@ -9320,6 +9495,46 @@
       "primary_keyword": "marbella boat rental license requirements",
       "title": "Marbella Boat Rental License Requirements in 2025: What You Need",
       "target_words": 1180,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-what-to-wear-guide",
+      "primary_keyword": "what to wear on a boat trip marbella",
+      "title": "What to Wear on a Boat Trip in Marbella: Seasonal Packing Guide",
+      "target_words": 1150,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-catering-options-guide",
+      "primary_keyword": "marbella boat rental catering options",
+      "title": "Marbella Boat Rental Catering Options: From Tapas to Full BBQ",
+      "target_words": 1200,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-conditions-forecast",
+      "primary_keyword": "marbella sea conditions forecast boat",
+      "title": "Marbella Sea Conditions Forecast: How to Plan Your Boat Rental",
+      "target_words": 1150,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-hen-party-activities-2025",
+      "primary_keyword": "hen party boat activities marbella",
+      "title": "Hen Party Boat Activities in Marbella 2025: Top Ideas & Itineraries",
+      "target_words": 1250,
+      "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-stag-weekend-itinerary-2025",
+      "primary_keyword": "stag weekend boat itinerary marbella",
+      "title": "Stag Weekend Boat Itinerary in Marbella 2025: Day-by-Day Plan",
+      "target_words": 1200,
       "consumed_at": "2026-08-18"
     }
   ],

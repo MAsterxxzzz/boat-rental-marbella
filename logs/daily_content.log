@@ -7352,3 +7352,26 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-18 10:02:03]   ✓ added to keyword_map.blog
 [2026-08-18 10:02:03] queue: 30 remaining, 1120 consumed total
 [2026-08-18 10:02:03] running deploy.sh …
+[2026-08-18 10:02:35] deploy.sh OK
+[2026-08-18 10:02:35] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-18 15:30:38] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-18 15:30:38] [1/5] blog · blog/marbella-boat-rental-what-to-wear-guide
+[2026-08-18 15:31:14]   ✓ saved content/blog_marbella-boat-rental-what-to-wear-guide.json
+[2026-08-18 15:31:14]   ✓ added to keyword_map.blog
+[2026-08-18 15:31:14] [2/5] blog · blog/marbella-boat-rental-catering-options-guide
+[2026-08-18 15:31:43]   ✓ saved content/blog_marbella-boat-rental-catering-options-guide.json
+[2026-08-18 15:31:43]   ✓ added to keyword_map.blog
+[2026-08-18 15:31:43] [3/5] blog · blog/marbella-boat-rental-weather-conditions-forecast
+[2026-08-18 15:32:14]   ✓ saved content/blog_marbella-boat-rental-weather-conditions-forecast.json
+[2026-08-18 15:32:14]   ✓ added to keyword_map.blog
+[2026-08-18 15:32:14] [4/5] blog · blog/marbella-boat-rental-hen-party-activities-2025
+[2026-08-18 15:32:39]   ✓ saved content/blog_marbella-boat-rental-hen-party-activities-2025.json
+[2026-08-18 15:32:39]   ✓ added to keyword_map.blog
+[2026-08-18 15:32:39] [5/5] blog · blog/marbella-boat-rental-stag-weekend-itinerary-2025
+[2026-08-18 15:33:14]   ✓ saved content/blog_marbella-boat-rental-stag-weekend-itinerary-2025.json
+[2026-08-18 15:33:14]   ✓ added to keyword_map.blog
+[2026-08-18 15:33:14] queue: 25 remaining, 1125 consumed total
+[2026-08-18 15:33:14] queue under threshold (25 < 30) — auto-refilling…
+[2026-08-18 15:33:30] refill: +30 topics (queue now 55)
+[2026-08-18 15:33:30] running deploy.sh …
