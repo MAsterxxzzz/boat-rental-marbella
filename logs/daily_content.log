@@ -7375,3 +7375,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-18 15:33:14] queue under threshold (25 < 30) — auto-refilling…
 [2026-08-18 15:33:30] refill: +30 topics (queue now 55)
 [2026-08-18 15:33:30] running deploy.sh …
+[2026-08-18 15:33:58] deploy.sh OK
+[2026-08-18 15:33:58] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-18 18:31:01] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-18 18:31:01] [1/5] blog · blog/marbella-boat-rental-sotogrande-polo-final-2044-guide
+[2026-08-18 18:31:27]   ✓ saved content/blog_marbella-boat-rental-sotogrande-polo-final-2044-guide.json
+[2026-08-18 18:31:27]   ✓ added to keyword_map.blog
+[2026-08-18 18:31:27] [2/5] blog · blog/marbella-yacht-charter-starlite-2048-pre-concert-cruise
+[2026-08-18 18:31:57]   ✓ saved content/blog_marbella-yacht-charter-starlite-2048-pre-concert-cruise.json
+[2026-08-18 18:31:57]   ✓ added to keyword_map.blog
+[2026-08-18 18:31:57] [3/5] blog · blog/marbella-boat-rental-weather-april-2037-easter-guide
+[2026-08-18 18:32:20]   ✓ saved content/blog_marbella-boat-rental-weather-april-2037-easter-guide.json
+[2026-08-18 18:32:20]   ✓ added to keyword_map.blog
+[2026-08-18 18:32:20] [4/5] blog · blog/marbella-yacht-charter-f1-grand-prix-2047-weekend
+[2026-08-18 18:32:43]   ✓ saved content/blog_marbella-yacht-charter-f1-grand-prix-2047-weekend.json
+[2026-08-18 18:32:43]   ✓ added to keyword_map.blog
+[2026-08-18 18:32:43] [5/5] blog · blog/marbella-boat-rental-pride-2052-celebration-puerto-banus
+[2026-08-18 18:33:04]   ✓ saved content/blog_marbella-boat-rental-pride-2052-celebration-puerto-banus.json
+[2026-08-18 18:33:04]   ✓ added to keyword_map.blog
+[2026-08-18 18:33:04] queue: 50 remaining, 1130 consumed total
+[2026-08-18 18:33:04] running deploy.sh …
