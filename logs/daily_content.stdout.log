@@ -2588,3 +2588,21 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-18 10:02:35] deploy.sh OK
 [2026-08-18 10:02:35] === Done: 5 succeeded, 0 failed ===
 
+[2026-08-19 10:00:01] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-19 10:00:01] [1/5] blog · blog/marbella-yacht-charter-ironman-2051-recovery-day
+[2026-08-19 10:00:22]   ✓ saved content/blog_marbella-yacht-charter-ironman-2051-recovery-day.json
+[2026-08-19 10:00:22]   ✓ added to keyword_map.blog
+[2026-08-19 10:00:22] [2/5] blog · blog/marbella-boat-rental-no-license-prices-2044
+[2026-08-19 10:00:44]   ✓ saved content/blog_marbella-boat-rental-no-license-prices-2044.json
+[2026-08-19 10:00:44]   ✓ added to keyword_map.blog
+[2026-08-19 10:00:44] [3/5] blog · blog/marbella-yacht-charter-license-requirements-2043
+[2026-08-19 10:01:04]   ✓ saved content/blog_marbella-yacht-charter-license-requirements-2043.json
+[2026-08-19 10:01:04]   ✓ added to keyword_map.blog
+[2026-08-19 10:01:04] [4/5] blog · blog/marbella-boat-rental-nye-2048-fireworks-view
+[2026-08-19 10:01:26]   ✓ saved content/blog_marbella-boat-rental-nye-2048-fireworks-view.json
+[2026-08-19 10:01:26]   ✓ added to keyword_map.blog
+[2026-08-19 10:01:26] [5/5] blog · blog/marbella-yacht-charter-new-years-eve-2049-fireworks-view
+[2026-08-19 10:01:49]   ✓ saved content/blog_marbella-yacht-charter-new-years-eve-2049-fireworks-view.json
+[2026-08-19 10:01:49]   ✓ added to keyword_map.blog
+[2026-08-19 10:01:49] queue: 45 remaining, 1135 consumed total
+[2026-08-19 10:01:49] running deploy.sh …

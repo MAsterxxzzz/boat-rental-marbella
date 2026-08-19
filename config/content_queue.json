@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2051-recovery-day",
-      "primary_keyword": "marbella yacht charter ironman 2051 recovery",
-      "title": "Marbella Yacht Charter for Ironman 2051 Recovery Day",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-no-license-prices-2044",
-      "primary_keyword": "marbella boat rental no license prices 2044",
-      "title": "Marbella Boat Rental No License Prices 2044: Full Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-license-requirements-2043",
-      "primary_keyword": "marbella yacht charter license requirements 2043",
-      "title": "Marbella Yacht Charter License Requirements 2043",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-nye-2048-fireworks-view",
-      "primary_keyword": "marbella boat rental nye 2048 fireworks",
-      "title": "Marbella Boat Rental for NYE 2048 Fireworks View",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-new-years-eve-2049-fireworks-view",
-      "primary_keyword": "marbella yacht charter new years eve 2049 fireworks",
-      "title": "Marbella Yacht Charter for New Year's Eve 2049",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-feria-san-bernabe-2050-boat-party",
       "primary_keyword": "marbella boat rental feria san bernabe 2050",
       "title": "Marbella Boat Rental for Feria San Bernabé 2050 Party",
@@ -9541,6 +9506,46 @@
       "title": "Marbella Boat Rental for Pride 2052 in Puerto Banús",
       "target_words": 1100,
       "consumed_at": "2026-08-18"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2051-recovery-day",
+      "primary_keyword": "marbella yacht charter ironman 2051 recovery",
+      "title": "Marbella Yacht Charter for Ironman 2051 Recovery Day",
+      "target_words": 1100,
+      "consumed_at": "2026-08-19"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-no-license-prices-2044",
+      "primary_keyword": "marbella boat rental no license prices 2044",
+      "title": "Marbella Boat Rental No License Prices 2044: Full Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-08-19"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-license-requirements-2043",
+      "primary_keyword": "marbella yacht charter license requirements 2043",
+      "title": "Marbella Yacht Charter License Requirements 2043",
+      "target_words": 1100,
+      "consumed_at": "2026-08-19"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-nye-2048-fireworks-view",
+      "primary_keyword": "marbella boat rental nye 2048 fireworks",
+      "title": "Marbella Boat Rental for NYE 2048 Fireworks View",
+      "target_words": 1100,
+      "consumed_at": "2026-08-19"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-new-years-eve-2049-fireworks-view",
+      "primary_keyword": "marbella yacht charter new years eve 2049 fireworks",
+      "title": "Marbella Yacht Charter for New Year's Eve 2049",
+      "target_words": 1100,
+      "consumed_at": "2026-08-19"
     }
   ],
   "refill_threshold": 30,
