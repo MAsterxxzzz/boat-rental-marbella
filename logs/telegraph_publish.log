@@ -564,3 +564,18 @@
 [2026-08-18 13:31:06]   ✓ published https://telegra.ph/Chartering-a-Sailboat-to-Marbellas-Sunday-Rastro-Flea-Market-08-18 (5 backlinks)
 [2026-08-18 13:31:06] === Done: 3/3 published. Ledger total: 101 ===
 
+[2026-08-19 13:30:06] === Telegraph run: target 3 article(s) · 101 previously published ===
+[2026-08-19 13:30:08] [1/3] A Morning RIB Run to Marbella's Fishermen's Market
+[2026-08-19 13:30:28]   ✓ published https://telegra.ph/A-Morning-RIB-Run-to-Marbellas-Fishermens-Market-08-19 (4 backlinks)
+[2026-08-19 13:30:28] [2/3] Chartering a Solar-Powered Pontoon for a Quiet Day on Marbella Bay
+[2026-08-19 13:54:30]   DeepSeek attempt 1/4 failed (ChunkedEncodingError: ("Connection broken: ConnectionResetError(54, 'Connection reset by peer')", ConnectionRese)
+[2026-08-19 13:54:56]   ✓ published https://telegra.ph/Chartering-a-Solar-Powered-Pontoon-for-a-Quiet-Day-on-Marbella-Bay-08-19 (5 backlinks)
+[2026-08-19 13:54:56] [3/3] How to Plan a Multi-Boat Day: Sail, RIB, and Jetski in One Trip
+[2026-08-19 14:23:49]   DeepSeek attempt 1/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.)
+[2026-08-19 14:23:52]   DeepSeek attempt 2/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-19 14:23:58]   DeepSeek attempt 3/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-19 14:24:07]   DeepSeek attempt 4/4 failed (ConnectionError: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /ch)
+[2026-08-19 14:24:19]   DeepSeek exhausted, trying claude CLI (often fails under launchd)
+[2026-08-19 14:27:21]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
+[2026-08-19 14:27:21] === Done: 2/3 published. Ledger total: 103 ===
+
