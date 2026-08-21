@@ -31,7 +31,9 @@
     "geo_lat": 36.5108,
     "geo_lng": -4.885,
     "founded_year": 2025,
-    "editorial_team": "Boat Rental Marbella Editorial Team"
+    "editorial_team": "Boat Rental Marbella Editorial Team",
+    "youtube_url": "https://www.youtube.com/@BoatRentalInMarbella",
+    "x_url": "https://x.com/BoatRentalMarbs"
   },
   "hub": {
     "slug": "",
