@@ -14,6 +14,10 @@ CONFIG = json.loads((ROOT / "config" / "keyword_map.json").read_text())
 BOATS_CFG = json.loads((ROOT / "config" / "boats.json").read_text())
 SITE = CONFIG["site"]
 SITE_DIR = ROOT / "site"
+_FLEET_LOWS = [min(t["prices"].values())
+               for t in (BOATS_CFG["hourly_price_tiers"][b["tier"]] for b in BOATS_CFG["boats"])
+               if t["prices"]]
+FLEET_PRICE_RANGE = f"€{min(_FLEET_LOWS)}–€{max(_FLEET_LOWS)}"
 
 _VID_PATH = ROOT / "config" / "videos.json"
 VIDEOS_CFG = json.loads(_VID_PATH.read_text()) if _VID_PATH.exists() else {"videos": []}
@@ -98,23 +102,6 @@ def guests_jsonld_blocks(photos, page_url):
         ],
     }]
 
-def video_jsonld_blocks(videos, page_url):
-    return [
-        {
-            "@context": "https://schema.org",
-            "@type": "VideoObject",
-            "name": v["title"],
-            "description": v["description"],
-            "thumbnailUrl": SITE['base_url'] + f"/video/{v['slug']}.jpg",
-            "contentUrl": SITE['base_url'] + f"/video/{v['slug']}.mp4",
-            "uploadDate": "2026-05-17",
-            "publisher": {"@id": SITE['base_url'] + "/#org"},
-            "isPartOf": page_url,
-            "keywords": ", ".join(v.get("tags", [])),
-            "inLanguage": "en",
-        } for v in videos
-    ]
-
 # ---------- helpers ----------
 def pexels(id_, w=1600):
     return f"https://images.pexels.com/photos/{id_}/pexels-photo-{id_}.jpeg?auto=compress&cs=tinysrgb&w={w}"
@@ -171,19 +158,24 @@ def entry_duration(boat):
     return f"{keys[0]}h"
 
 def all_inclusions(boat):
-    """Return shared + boat-tier extra inclusions list."""
+    """Return shared + boat-tier extra inclusions list (minus fuel when the
+    boat is fuel-excluded, e.g. Dubhe)."""
     extras = boat_price_tier(boat).get("extra_inclusions", [])
-    return BOATS_CFG["shared_inclusions"] + extras
+    shared = BOATS_CFG["shared_inclusions"]
+    if boat.get("fuel_included") is False:
+        shared = [i for i in shared if i.lower() != "fuel"]
+    return shared + extras
 
 def jsonld_org():
     return {
         "@context":"https://schema.org","@type":["LocalBusiness","Organization"],
         "@id":SITE['base_url']+"/#org","name":SITE['name'],
+        "alternateName":["Boat Rental In Marbella","boatrentalinmarbella.com"],
         "url":SITE['base_url']+"/","logo": SITE['base_url'] + "/img/logo-480.png",
         "telephone":SITE['phone_e164'],"email":SITE['email'],
         "areaServed":SITE['departure_ports'],
-        "sameAs":[u for u in [SITE.get('instagram_url'), SITE.get('facebook_url')] if u],
-        "priceRange":f"€{SITE['price_anchor_low_2h']}–€{SITE['price_anchor_fullday_8h']}",
+        "sameAs":[u for u in [SITE.get('instagram_url'), SITE.get('facebook_url'), SITE.get('youtube_url'), SITE.get('x_url')] if u],
+        "priceRange":FLEET_PRICE_RANGE,
         "address":{"@type":"PostalAddress","addressLocality":"Marbella","addressRegion":"Andalucía","postalCode":"29602","addressCountry":"ES"},
         "geo":{"@type":"GeoCoordinates","latitude":SITE['geo_lat'],"longitude":SITE['geo_lng']},
         "foundingDate":str(SITE.get('founded_year',2025)),
@@ -264,7 +256,8 @@ def render_index():
     ]
 
     hero_src, hero_srcset, _ = boat_hero(boats[0])
-    jsonld += video_jsonld_blocks(videos_for_url("/boats/"), SITE['base_url']+"/boats/")
+    # VideoObject JSON-LD is emitted by build_video_sitemap.py only (it scans
+    # rendered <video> tags) — emitting it here too created duplicate blocks.
     write_page(
         slug="boats",
         title="Our Marbella Boat Charter Fleet — Yachts &amp; Catamarans",
@@ -301,18 +294,31 @@ def render_boat(boat):
     # Gallery thumbnails — prefer local
     gallery_html = ""
     gallery_local = boat.get("gallery_local") or []
+    video_local = boat.get("video_local")
+    video_html = ""
+    if video_local:
+        video_html = (
+            f'<figure class="inline-video" style="max-width:420px;margin:24px auto">'
+            f'<video controls playsinline preload="none" poster="{video_local["poster"]}" '
+            f'style="width:100%;border-radius:12px;display:block" aria-label="{html.escape(video_local.get("alt", name))}">'
+            f'<source src="{video_local["src"]}" type="video/mp4"></video>'
+            f'<figcaption style="text-align:center;font-size:.85rem;color:var(--c-muted,#6b7280);margin-top:8px">'
+            f'{html.escape(video_local.get("caption", f"{name} on the water"))}</figcaption></figure>\n'
+        )
     if gallery_local:
         thumbs = "".join(
             f'<figure class="inline-img"><img src="{g["src"]}" srcset="{", ".join(f"{p[0]} {p[1]}w" for p in g["srcset"])}" sizes="(max-width: 880px) 100vw, 720px" alt="{html.escape(g.get("alt", name))}" loading="lazy" width="1200" height="800"></figure>'
             for g in gallery_local
         )
-        gallery_html = f'<h2>Gallery</h2>\n{thumbs}'
+        gallery_html = f'<h2>Gallery</h2>\n{video_html}{thumbs}'
     elif gallery:
         thumbs = "".join(
             f'<figure class="inline-img"><img src="{pexels(gid, 1200)}" srcset="{pexels_srcset(gid, (480,768,1200))}" sizes="(max-width: 880px) 100vw, 720px" alt="{html.escape(name)} — Marbella" loading="lazy" width="1200" height="800"></figure>'
             for gid in gallery[1:]  # skip the hero (already rendered above the fold)
         )
-        gallery_html = f'<h2>Gallery</h2>\n{thumbs}'
+        gallery_html = f'<h2>Gallery</h2>\n{video_html}{thumbs}'
+    elif video_html:
+        gallery_html = f'<h2>Gallery</h2>\n{video_html}'
 
     # Highlights as list
     highlights_html = "<ul>" + "".join(f"<li>{html.escape(h)}</li>" for h in boat["highlights"]) + "</ul>"
@@ -345,17 +351,18 @@ def render_boat(boat):
   </div>
 </section>'''
 
-    body = f'''<p class="byline"><strong>{boat["builder"]} {boat["length_m"]} m motor yacht</strong> · {boat["capacity_pax"]} guests · departs {html.escape(boat["departure_port"])}</p>
+    type_label = (boat.get("type") or "Motor yacht").lower()
+    body = f'''<p class="byline"><strong>{boat["builder"]} {boat["length_m"]} m {type_label}</strong> · {boat["capacity_pax"]} guests · departs {html.escape(boat["departure_port"])}</p>
 
 <p>{html.escape(boat["summary"])}</p>
 
 {('<div class="callout"><strong>Quick specs:</strong> ' + str(boat["length_m"]) + ' m · ' + str(boat["capacity_pax"]) + ' pax · skipper included · departs ' + html.escape(boat["departure_port"]) + '.<br><strong>Quote on WhatsApp</strong> — give us your date and group size for a same-day price, no commitment.</div>'
   if is_on_request(boat) else
-  '<div class="callout"><strong>Quick specs:</strong> ' + str(boat["length_m"]) + ' m · ' + str(boat["capacity_pax"]) + ' pax · skipper included' + ((' · in fleet since ' + str(boat["model_year"])) if boat.get("model_year") else '') + ' · departs ' + html.escape(boat["departure_port"]) + '.<br><strong>From €' + f"{lowest_price(boat):,}" + ' for ' + entry_duration(boat) + '.</strong> Drinks, fuel, insurance &amp; VAT included.' + ((" Plus jet ski free for the day." if "Jet ski" in " ".join(tier_extras) else "")) + '</div>')}
+  '<div class="callout"><strong>Quick specs:</strong> ' + str(boat["length_m"]) + ' m · ' + str(boat["capacity_pax"]) + ' pax · skipper included' + ((' · in fleet since ' + str(boat["model_year"])) if boat.get("model_year") else '') + ' · departs ' + html.escape(boat["departure_port"]) + '.<br><strong>From €' + f"{lowest_price(boat):,}" + ' for ' + entry_duration(boat) + ('.</strong> Drinks, fuel, insurance &amp; VAT included.' if boat.get('fuel_included') is not False else '.</strong> Drinks, insurance &amp; VAT included; fuel billed separately.') + ((" Plus jet ski free for the day." if "Jet ski" in " ".join(tier_extras) else "")) + '</div>')}
 
 {('<h2>Pricing</h2><p>This boat is quoted to order — send your date and group size on WhatsApp for an instant rate. Charters always include licensed skipper, fuel, insurance and VAT (Spanish IVA 21%).</p>'
   if is_on_request(boat) else
-  '<h2>' + ("Pricing" if len(prices) == 1 else "Hourly pricing") + '</h2><p>' + ("Minimum charter on the " + name + " is " + entry_duration(boat) + " — the rate below is all-in. Longer durations on request." if len(prices) == 1 else "Same boat, same crew — price scales with duration. Pick the length that fits your day:") + '</p><table><thead><tr><th>Duration</th><th>Price (EUR)</th></tr></thead><tbody>' + price_rows + '</tbody></table><p><em>All prices include: ' + ", ".join(inclusions).lower() + '. No hidden marina fees, no fuel surcharge for the standard coastal route.' + ((" " + extended_note) if extended_note else "") + '</em></p>')}
+  '<h2>' + ("Pricing" if len(prices) == 1 else "Hourly pricing") + '</h2><p>' + ("Minimum charter on the " + name + " is " + entry_duration(boat) + " — the rate below is all-in. Longer durations on request." if len(prices) == 1 else "Same boat, same crew — price scales with duration. Pick the length that fits your day:") + '</p><table><thead><tr><th>Duration</th><th>Price (EUR)</th></tr></thead><tbody>' + price_rows + '</tbody></table><p><em>All prices include: ' + ", ".join(inclusions).lower() + ('. No hidden marina fees, no fuel surcharge for the standard coastal route.' if boat.get('fuel_included') is not False else '. No hidden marina fees; fuel is metered and billed separately after the trip.') + ((" " + extended_note) if extended_note else "") + '</em></p>')}
 
 <h2>What makes this boat work</h2>
 {highlights_html}
@@ -395,9 +402,9 @@ def render_boat(boat):
 {related_html}
 
 <h2>Frequently asked questions</h2>
-<details><summary>How many guests can the {name} carry?</summary><p>{boat["capacity_pax"]} guests for day charter. Overnight capacity is lower — typically 4–6 in cabins on a {boat["length_m"]} m yacht.</p></details>
+<details><summary>How many guests can the {name} carry?</summary><p>{boat["capacity_pax"]} guests for day charter.{(" Overnight capacity is lower — typically 4–6 in cabins on a " + str(boat["length_m"]) + " m yacht.") if type_label != "jet ski" else ""}</p></details>
 <details><summary>Is the skipper included?</summary><p>Yes — every charter on the {name} comes with a licensed Spanish skipper. The captain handles navigation, anchoring and route planning. You and your group are guests for the day.</p></details>
-<details><summary>What's included in the price?</summary><p>Skipper, fuel for the standard coastal route, drinks (water and soft drinks), Spanish IVA (VAT) and insurance. Catered lunch and alcohol are extras you can add when booking.</p></details>
+<details><summary>What's included in the price?</summary><p>{"Skipper, fuel for the standard coastal route, drinks (water and soft drinks), Spanish IVA (VAT) and insurance." if boat.get("fuel_included") is not False else "Skipper, drinks (water and soft drinks), Spanish IVA (VAT) and insurance — fuel is metered and billed separately after the trip."} Catered lunch and alcohol are extras you can add when booking.</p></details>
 <details><summary>Can we go further than the standard route?</summary><p>Yes — longer or further itineraries (Gibraltar day trip, Estepona-Sotogrande loop) are bookable. A fuel surcharge applies for itineraries beyond the standard 12–15 NM coastal cruise. We will quote it before you commit.</p></details>
 <details><summary>What happens if the weather is bad?</summary><p>Skipper calls the night before. If forecast wind exceeds Force 4–5 or sea state makes the trip unsafe, you rebook or get a full refund. Light rain alone is not a cancellation reason on the Costa del Sol.</p></details>
 '''
@@ -437,7 +444,7 @@ def render_boat(boat):
             "@type":"Offer",
             "priceCurrency":"EUR",
             "availability":"https://schema.org/InStock",
-            "url": boat_url if False else (SITE['base_url']+f"/boats/{boat['slug']}/"),
+            "url": SITE['base_url']+f"/boats/{boat['slug']}/",
             "price": "0",  # zero is a JSON-LD-valid placeholder; quote on contact
         }
     jsonld = [
@@ -460,16 +467,15 @@ def render_boat(boat):
         },
     ]
 
-    # Attach VideoObject schema for any videos placed on this boat URL
-    boat_url = SITE['base_url']+f"/boats/{boat['slug']}/"
-    jsonld += video_jsonld_blocks(videos_for_url(f"/boats/{boat['slug']}/"), boat_url)
+    # VideoObject JSON-LD is emitted by build_video_sitemap.py only (it scans
+    # rendered <video> tags) — emitting it here too created duplicate blocks.
 
     write_page(
         slug=f"boats/{boat['slug']}",
-        title=f"{name} — {boat['builder']} {boat['length_m']}m Charter from Puerto Banús",
+        title=(f"{name} — {boat['length_m']}m Charter from Puerto Banús" if boat["builder"] == name else f"{name} — {boat['builder']} {boat['length_m']}m Charter from Puerto Banús"),
         meta=(f"Charter the {name} from Puerto Banús — {boat['length_m']} m, {boat['capacity_pax']} guests, skipper + drinks + VAT included. Quote on WhatsApp."
               if is_on_request(boat) else
-              f"Charter the {name} from Puerto Banús — {boat['length_m']} m, {boat['capacity_pax']} guests, skipper & fuel included. From €{lowest_price(boat):,} for {entry_duration(boat)}."),
+              f"Charter the {name} from Puerto Banús — {boat['length_m']} m, {boat['capacity_pax']} guests, {'skipper & fuel included' if boat.get('fuel_included') is not False else 'skipper included (fuel billed separately)'}. From €{lowest_price(boat):,} for {entry_duration(boat)}."),
         h1=name,
         sub=html.unescape(boat["tagline"]),
         eyebrow=f"{boat['builder']} · {boat['length_m']}m · {boat['capacity_pax']} pax",
@@ -509,7 +515,7 @@ def write_page(slug, title, meta, h1, sub, eyebrow, hero_img, hero_srcset, hero_
         "{{JSONLD}}": json.dumps(jsonld, ensure_ascii=False),
         "{{PRICE_LOW}}": (f"{price_low:,}" if price_low else str(SITE['price_anchor_low_2h'])),
         "{{PRICE_LABEL}}": (price_label or "2h skippered charter"),
-        "{{BOOK_PITCH}}": (html.escape(book_pitch) if book_pitch else "Instant quotes from local operators across Puerto Banús, Marbella Marina, Cabopino, Estepona &amp; Sotogrande."),
+        "{{BOOK_PITCH}}": (html.escape(book_pitch) if book_pitch else "Direct quotes from our own Puerto Banús fleet — same boats, same skippers, no third-party hand-off."),
         "{{BOAT_GRID}}": "",
         "{{BREADCRUMBS}}": breadcrumbs,
         "{{BODY_HTML}}": body_html,

@@ -13,16 +13,22 @@ TEMPLATE = (ROOT / "templates" / "page.html.template").read_text()
 CONFIG = json.loads((ROOT / "config" / "keyword_map.json").read_text())
 SITE = CONFIG["site"]
 SITE_DIR = ROOT / "site"
+BOATS_CFG = json.loads((ROOT / "config" / "boats.json").read_text())
+_FLEET_LOWS = [min(t["prices"].values())
+               for t in (BOATS_CFG["hourly_price_tiers"][b["tier"]] for b in BOATS_CFG["boats"])
+               if t["prices"]]
+FLEET_PRICE_RANGE = f"€{min(_FLEET_LOWS)}–€{max(_FLEET_LOWS)}"
 
 def jsonld_org():
     return {
         "@context":"https://schema.org","@type":["LocalBusiness","Organization"],
         "@id":SITE['base_url']+"/#org","name":SITE['name'],
+        "alternateName":["Boat Rental In Marbella","boatrentalinmarbella.com"],
         "url":SITE['base_url']+"/","logo":SITE['base_url']+"/og-image.jpg",
         "telephone":SITE['phone_e164'],"email":SITE['email'],
         "areaServed":SITE['departure_ports'],
-        "sameAs":[u for u in [SITE.get('instagram_url'), SITE.get('facebook_url')] if u],
-        "priceRange":f"€{SITE['price_anchor_low_2h']}–€{SITE['price_anchor_fullday_8h']}",
+        "sameAs":[u for u in [SITE.get('instagram_url'), SITE.get('facebook_url'), SITE.get('youtube_url'), SITE.get('x_url')] if u],
+        "priceRange":FLEET_PRICE_RANGE,
         "address":{"@type":"PostalAddress","addressLocality":"Marbella","addressRegion":"Andalucía","postalCode":"29602","addressCountry":"ES"},
         "geo":{"@type":"GeoCoordinates","latitude":SITE['geo_lat'],"longitude":SITE['geo_lng']},
         "foundingDate":str(SITE.get('founded_year',2025)),
@@ -94,7 +100,7 @@ def write_page(slug, *, title, meta, h1, sub, eyebrow, body_html_str, jsonld, br
         "{{JSONLD}}": json.dumps(jsonld, ensure_ascii=False),
         "{{PRICE_LOW}}": str(SITE['price_anchor_low_2h']),
         "{{PRICE_LABEL}}": "2h skippered charter",
-        "{{BOOK_PITCH}}": "Instant quotes from local operators across Puerto Banús, Marbella Marina, Cabopino, Estepona &amp; Sotogrande.",
+        "{{BOOK_PITCH}}": "Direct quotes from our own Puerto Banús fleet — same boats, same skippers, no third-party hand-off.",
         "{{BOAT_GRID}}": "",
         "{{BREADCRUMBS}}": breadcrumbs,
         "{{BODY_HTML}}": body_html_str,
@@ -138,7 +144,7 @@ def render_hub():
   <li><strong>Group 6–8:</strong> <a href="/boats/astondoa-40/">Astondoa 40 "Fufi"</a> day charter from €1,299 / 4 h.</li>
   <li><strong>Group 9–11 (stag/hen):</strong> <a href="/boats/azimut-39/">Azimut 39</a> flybridge, BYO welcomed, DJ add-on.</li>
   <li><strong>Group 10–12 in luxury:</strong> <a href="/boats/mangusta-80/">Mangusta 80</a> superyacht with Sea-Doo jet ski free — €4,719 / 4 h.</li>
-  <li><strong>Adrenaline / solo:</strong> <a href="/jet-ski-rental-marbella/">Sea-Doo jet ski</a> at €200 / h.</li>
+  <li><strong>Adrenaline / solo:</strong> <a href="/jet-ski-rental-marbella/">Sea-Doo jet ski</a> at €250 for the first hour.</li>
   <li><strong>Content creators / brands:</strong> <a href="/experiences/photoshoot-yacht-marbella/">Photoshoot day</a> — La Concha backdrop, sun-pad-ready angles.</li>
 </ul>
 
@@ -198,7 +204,7 @@ def render_hub():
 def render_family():
     body = f'''<p>A family boat day in Marbella is its own type of charter — different boat choice, different itinerary, different pace from a stag-party flybridge or a sunset cruise for two. This page is the practical playbook: which of our boats works best for kids, what we pre-load on board, and where to anchor for the calmest snorkel of the day.</p>
 
-<figure class="inline-img"><img src="/img/customers/h06-1200.jpg" srcset="/img/customers/h06-600.jpg 600w, /img/customers/h06-900.jpg 900w, /img/customers/h06-1200.jpg 1200w" sizes="(max-width: 880px) 100vw, 720px" alt="Family on board a Marbella charter yacht with kids" loading="lazy" width="1200" height="800"></figure>
+<figure class="inline-img"><img src="/img/customers/h06-900.jpg" srcset="/img/customers/h06-600.jpg 600w, /img/customers/h06-900.jpg 900w" sizes="(max-width: 880px) 100vw, 720px" alt="Family on board a Marbella charter yacht with kids" loading="lazy" width="1200" height="800"></figure>
 
 <h2>Which boat for a family day?</h2>
 <table>
@@ -309,7 +315,7 @@ def render_family():
 def render_photoshoot():
     body = f'''<p>A yacht photoshoot in Marbella is its own kind of charter — different goals from a sunset cruise or a stag party. Models or photographers want light angles, deck space, backdrop options. This page is the practical guide: which boat shoots best, what time of day works, where to anchor for the iconic La Concha shot, and how to coordinate hair / makeup / outfit changes on board.</p>
 
-<figure class="inline-img"><img src="/img/customers/h04-1200.jpg" srcset="/img/customers/h04-600.jpg 600w, /img/customers/h04-900.jpg 900w" sizes="(max-width: 880px) 100vw, 720px" alt="Photoshoot on a Marbella yacht — guest at the helm in a white dress" loading="lazy" width="1200" height="800"></figure>
+<figure class="inline-img"><img src="/img/customers/h04-900.jpg" srcset="/img/customers/h04-600.jpg 600w, /img/customers/h04-900.jpg 900w" sizes="(max-width: 880px) 100vw, 720px" alt="Photoshoot on a Marbella yacht — guest at the helm in a white dress" loading="lazy" width="1200" height="800"></figure>
 
 <h2>Best boat for a photoshoot</h2>
 <table>
