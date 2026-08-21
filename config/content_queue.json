@@ -4,41 +4,6 @@
   "queue": [
     {
       "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-ironman-2052-recovery-day",
-      "primary_keyword": "marbella yacht charter ironman 2052",
-      "title": "Marbella Yacht Charter for Ironman 2052 Recovery",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-may-2043-guide",
-      "primary_keyword": "marbella boat rental weather may 2043",
-      "title": "Marbella Boat Rental Weather May 2043: What to Expect",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-weather-october-2046-shoulder-season",
-      "primary_keyword": "marbella yacht charter weather october 2046",
-      "title": "Marbella Yacht Charter Weather October 2046: Shoulder Season",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-boat-rental-weather-november-2044-guide",
-      "primary_keyword": "marbella boat rental weather november 2044",
-      "title": "Marbella Boat Rental Weather November 2044 Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
-      "slug": "blog/marbella-yacht-charter-weather-february-2049-guide",
-      "primary_keyword": "marbella yacht charter weather february 2049",
-      "title": "Marbella Yacht Charter Weather February 2049 Guide",
-      "target_words": 1100
-    },
-    {
-      "kind": "blog",
       "slug": "blog/marbella-boat-rental-weather-december-2050-guide",
       "primary_keyword": "marbella boat rental weather december 2050",
       "title": "Marbella Boat Rental Weather December 2050 Guide",
@@ -9551,6 +9516,46 @@
       "title": "Marbella Boat Rental for Sotogrande Polo Final 2045",
       "target_words": 1100,
       "consumed_at": "2026-08-20"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-ironman-2052-recovery-day",
+      "primary_keyword": "marbella yacht charter ironman 2052",
+      "title": "Marbella Yacht Charter for Ironman 2052 Recovery",
+      "target_words": 1100,
+      "consumed_at": "2026-08-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-may-2043-guide",
+      "primary_keyword": "marbella boat rental weather may 2043",
+      "title": "Marbella Boat Rental Weather May 2043: What to Expect",
+      "target_words": 1100,
+      "consumed_at": "2026-08-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-weather-october-2046-shoulder-season",
+      "primary_keyword": "marbella yacht charter weather october 2046",
+      "title": "Marbella Yacht Charter Weather October 2046: Shoulder Season",
+      "target_words": 1100,
+      "consumed_at": "2026-08-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-boat-rental-weather-november-2044-guide",
+      "primary_keyword": "marbella boat rental weather november 2044",
+      "title": "Marbella Boat Rental Weather November 2044 Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-08-21"
+    },
+    {
+      "kind": "blog",
+      "slug": "blog/marbella-yacht-charter-weather-february-2049-guide",
+      "primary_keyword": "marbella yacht charter weather february 2049",
+      "title": "Marbella Yacht Charter Weather February 2049 Guide",
+      "target_words": 1100,
+      "consumed_at": "2026-08-21"
     }
   ],
   "refill_threshold": 30,

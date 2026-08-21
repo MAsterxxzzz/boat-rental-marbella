@@ -7448,3 +7448,24 @@ fatal: repository 'https://github.com/mardo89/boat-rental-marbella.git/' not fou
 [2026-08-20 10:02:05]   ✓ added to keyword_map.blog
 [2026-08-20 10:02:05] queue: 40 remaining, 1140 consumed total
 [2026-08-20 10:02:05] running deploy.sh …
+[2026-08-20 10:02:57] deploy.sh OK
+[2026-08-20 10:02:57] === Done: 5 succeeded, 0 failed ===
+
+[2026-08-21 10:00:02] === Daily content run (kind-balanced): 5 blog + 0 landing = 5 item(s) ===
+[2026-08-21 10:00:02] [1/5] blog · blog/marbella-yacht-charter-ironman-2052-recovery-day
+[2026-08-21 10:00:28]   ✓ saved content/blog_marbella-yacht-charter-ironman-2052-recovery-day.json
+[2026-08-21 10:00:28]   ✓ added to keyword_map.blog
+[2026-08-21 10:00:28] [2/5] blog · blog/marbella-boat-rental-weather-may-2043-guide
+[2026-08-21 10:00:54]   ✓ saved content/blog_marbella-boat-rental-weather-may-2043-guide.json
+[2026-08-21 10:00:54]   ✓ added to keyword_map.blog
+[2026-08-21 10:00:54] [3/5] blog · blog/marbella-yacht-charter-weather-october-2046-shoulder-season
+[2026-08-21 10:01:19]   ✓ saved content/blog_marbella-yacht-charter-weather-october-2046-shoulder-season.json
+[2026-08-21 10:01:19]   ✓ added to keyword_map.blog
+[2026-08-21 10:01:19] [4/5] blog · blog/marbella-boat-rental-weather-november-2044-guide
+[2026-08-21 10:01:42]   ✓ saved content/blog_marbella-boat-rental-weather-november-2044-guide.json
+[2026-08-21 10:01:42]   ✓ added to keyword_map.blog
+[2026-08-21 10:01:42] [5/5] blog · blog/marbella-yacht-charter-weather-february-2049-guide
+[2026-08-21 10:02:07]   ✓ saved content/blog_marbella-yacht-charter-weather-february-2049-guide.json
+[2026-08-21 10:02:07]   ✓ added to keyword_map.blog
+[2026-08-21 10:02:07] queue: 35 remaining, 1145 consumed total
+[2026-08-21 10:02:07] running deploy.sh …

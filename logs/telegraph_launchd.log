@@ -550,3 +550,12 @@
 [2026-08-19 14:27:21]   ✗ FAILED: RuntimeError: claude CLI exit 1: 
 [2026-08-19 14:27:21] === Done: 2/3 published. Ledger total: 103 ===
 
+[2026-08-20 13:30:01] === Telegraph run: target 3 article(s) · 103 previously published ===
+[2026-08-20 13:30:04] [1/3] A Winter Whale-Watching Charter from Marbella’s Coast
+[2026-08-20 13:30:24]   ✓ published https://telegra.ph/A-Winter-Whale-Watching-Charter-from-Marbellas-Coast-08-20 (5 backlinks)
+[2026-08-20 13:30:24] [2/3] A Foodie’s Guide to Marbella’s Onboard Chiringuito Crawl
+[2026-08-20 13:30:47]   ✓ published https://telegra.ph/A-Foodies-Guide-to-Marbellas-Onboard-Chiringuito-Crawl-08-20 (5 backlinks)
+[2026-08-20 13:30:47] [3/3] Chartering a Classic Tender for a Puente Romano Lunch Run
+[2026-08-20 13:31:12]   ✓ published https://telegra.ph/Chartering-a-Classic-Tender-for-a-Puente-Romano-Lunch-Run-08-20 (5 backlinks)
+[2026-08-20 13:31:12] === Done: 3/3 published. Ledger total: 106 ===
+
