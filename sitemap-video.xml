@@ -193,7 +193,7 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -222,7 +222,7 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -235,7 +235,7 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -264,7 +264,7 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -277,7 +277,33 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://boatrentalinmarbella.com/boats/pershing-46/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://boatrentalinmarbella.com/video/pershing-46-clip.jpg</video:thumbnail_loc>
+      <video:title>Pershing 46 Clip</video:title>
+      <video:description>Pershing 46 Clip</video:description>
+      <video:content_loc>https://boatrentalinmarbella.com/video/pershing-46-clip.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+      <video:publication_date>2026-08-21</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://boatrentalinmarbella.com/boats/red-tide-fishing-boat/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://boatrentalinmarbella.com/video/red-tide-fishing-boat-clip.jpg</video:thumbnail_loc>
+      <video:title>Red Tide Fishing Boat Clip</video:title>
+      <video:description>Red Tide Fishing Boat Clip</video:description>
+      <video:content_loc>https://boatrentalinmarbella.com/video/red-tide-fishing-boat-clip.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -290,7 +316,7 @@
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-02</video:publication_date>
+      <video:publication_date>2026-08-21</video:publication_date>
     </video:video>
   </url>
   <url>
