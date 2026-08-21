@@ -54,3 +54,4 @@ Sitemap: https://boatrentalinmarbella.com/sitemap-video.xml
 #   /data/facts.json — authoritative facts endpoint (operator, fleet, prices, policies)
 #   /api/pages.json  — searchable page index for Custom GPT Actions / RAG agents
 #   /manifest.json   — PWA manifest (Add to Home Screen)
+#
