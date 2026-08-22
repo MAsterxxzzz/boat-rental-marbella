@@ -1,5 +1,5 @@
 # Boat Rental Marbella — llms-full-blog-10.txt
-# Generated 2026-08-21 · 12 pages · part 10/10
+# Generated 2026-08-22 · 12 pages · part 10/10
 # Canonical site: https://boatrentalinmarbella.com · index: https://boatrentalinmarbella.com/llms.txt
 # Records are separated by '---' and the canonical URL.
 ---
