@@ -190,10 +190,11 @@
       <video:title>Astondoa 40 Clip</video:title>
       <video:description>Astondoa 40 Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/astondoa-40-clip.mp4</video:content_loc>
+      <video:duration>10</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -219,10 +220,30 @@
       <video:title>Azimut 39 Clip</video:title>
       <video:description>Azimut 39 Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/azimut-39-clip.mp4</video:content_loc>
+      <video:duration>12</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://boatrentalinmarbella.com/boats/azimut-58/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://boatrentalinmarbella.com/video/azimut-39-cruising.jpg</video:thumbnail_loc>
+      <video:title>Azimut 39 cruising the Marbella coast</video:title>
+      <video:description>Drone tracking shot of the Azimut 39 motor yacht cruising at speed along the Marbella coastline with the Sierra Blanca mountains behind.</video:description>
+      <video:content_loc>https://boatrentalinmarbella.com/video/azimut-39-cruising.mp4</video:content_loc>
+      <video:duration>12</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+      <video:publication_date>2026-05-17</video:publication_date>
+      <video:tag>Azimut 39</video:tag>
+      <video:tag>cruising</video:tag>
+      <video:tag>aerial</video:tag>
+      <video:tag>Marbella</video:tag>
+      <video:tag>drone</video:tag>
     </video:video>
   </url>
   <url>
@@ -232,10 +253,25 @@
       <video:title>Ferretti 680 Cruising</video:title>
       <video:description>Ferretti 680 Cruising</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/ferretti-680-cruising.mp4</video:content_loc>
+      <video:duration>31</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://boatrentalinmarbella.com/boats/mangusta-80-grey/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://boatrentalinmarbella.com/video/mangusta-80-clip.jpg</video:thumbnail_loc>
+      <video:title>Mangusta 80 Clip</video:title>
+      <video:description>Mangusta 80 Clip</video:description>
+      <video:content_loc>https://boatrentalinmarbella.com/video/mangusta-80-clip.mp4</video:content_loc>
+      <video:duration>22</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -261,10 +297,11 @@
       <video:title>Mangusta 80 Clip</video:title>
       <video:description>Mangusta 80 Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/mangusta-80-clip.mp4</video:content_loc>
+      <video:duration>22</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -274,10 +311,11 @@
       <video:title>Nuvar 64 Cruising</video:title>
       <video:description>Nuvar 64 Cruising</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/nuvar-64-cruising.mp4</video:content_loc>
+      <video:duration>75</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -287,10 +325,11 @@
       <video:title>Pershing 46 Clip</video:title>
       <video:description>Pershing 46 Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/pershing-46-clip.mp4</video:content_loc>
+      <video:duration>44</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -300,10 +339,11 @@
       <video:title>Red Tide Fishing Boat Clip</video:title>
       <video:description>Red Tide Fishing Boat Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/red-tide-fishing-boat-clip.mp4</video:content_loc>
+      <video:duration>27</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -313,10 +353,11 @@
       <video:title>Sea Doo Gtx Jet Ski Clip</video:title>
       <video:description>Sea Doo Gtx Jet Ski Clip</video:description>
       <video:content_loc>https://boatrentalinmarbella.com/video/sea-doo-gtx-jet-ski-clip.mp4</video:content_loc>
+      <video:duration>9</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
-      <video:publication_date>2026-08-22</video:publication_date>
+      <video:publication_date>2026-08-25</video:publication_date>
     </video:video>
   </url>
   <url>
