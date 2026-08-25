@@ -998,7 +998,13 @@
           "alt": "Azimut 58 Flybridge helm and dining area"
         }
       ],
-      "model_year": null
+      "model_year": null,
+      "video_local": {
+        "src": "/video/azimut-39-cruising.mp4",
+        "poster": "/video/azimut-39-cruising.jpg",
+        "alt": "Azimut 58 Flybridge video tour",
+        "caption": "Azimut 58 Flybridge — video walkthrough"
+      }
     },
     {
       "slug": "bandido",
@@ -1801,7 +1807,13 @@
           "alt": "Mangusta 80 Grey anchored off a pristine beach"
         }
       ],
-      "model_year": null
+      "model_year": null,
+      "video_local": {
+        "src": "/video/mangusta-80-clip.mp4",
+        "poster": "/video/mangusta-80-clip.jpg",
+        "alt": "Mangusta 80 (Grey) video tour",
+        "caption": "Mangusta 80 (Grey) — video walkthrough"
+      }
     },
     {
       "slug": "mariah-sx21",
