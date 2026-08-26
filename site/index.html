@@ -1039,5 +1039,163 @@
 })();
 </script>
 
+<!-- Discount Popup Modal -->
+<div id="discountPopup" class="discount-popup" aria-label="Limited offer popup" role="dialog">
+  <button class="popup-close" aria-label="Close popup" onclick="closeDiscountPopup()">×</button>
+  <div class="popup-content">
+    <span class="popup-label">LIMITED OFFER</span>
+    <h3 class="popup-title">Renting a Boat in Marbella?</h3>
+    <p class="popup-offer">Pay Cash, Get 5% Off!</p>
+    <p class="popup-desc">Booking a boat in Marbella? Save the most fares — pay your skipper directly in cash and we'll knock 5% off your charter.</p>
+    <div class="popup-actions">
+      <a href="https://wa.me/358400406194?text=Hi,%20I%27d%20like%20to%20claim%20the%205%25%20cash%20discount" class="btn-claim" rel="nofollow noopener">Claim discount</a>
+      <button class="btn-later" onclick="closeDiscountPopup()">Later</button>
+    </div>
+  </div>
+</div>
+
+<style>
+.discount-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 280px;
+  background: #1a1a2e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.discount-popup.show {
+  display: flex;
+}
+
+.popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+
+.popup-close:hover {
+  color: #fff;
+}
+
+.popup-label {
+  display: inline-block;
+  background: #fbbf24;
+  color: #1a1a2e;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  width: fit-content;
+}
+
+.popup-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.popup-offer {
+  margin: 8px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fbbf24;
+}
+
+.popup-desc {
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 1.4;
+}
+
+.popup-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.btn-claim {
+  display: block;
+  padding: 10px 16px;
+  background: #10b981;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-claim:hover {
+  background: #059669;
+}
+
+.btn-later {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+}
+
+.btn-later:hover {
+  color: #aaa;
+}
+
+@media (max-width: 640px) {
+  .discount-popup {
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    max-width: none;
+  }
+}
+</style>
+
+<script>
+function showDiscountPopup() {
+  const popup = document.getElementById('discountPopup');
+  if (popup) popup.classList.add('show');
+}
+
+function closeDiscountPopup() {
+  const popup = document.getElementById('discountPopup');
+  if (popup) {
+    popup.classList.remove('show');
+    localStorage.setItem('discountPopupDismissed', 'true');
+  }
+}
+
+// Show popup after 3 seconds if not dismissed before
+document.addEventListener('DOMContentLoaded', function() {
+  if (!localStorage.getItem('discountPopupDismissed')) {
+    setTimeout(showDiscountPopup, 3000);
+  }
+});
+</script>
+
 </body>
 </html>
