@@ -83,7 +83,7 @@
 </header>
 
 <section class="hero">
-  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="/video/azimut-39-cruising.jpg" aria-label="Azimut 39 cruising in Marbella waters">
+  <video id="heroVideo" class="hero-video" autoplay muted loop playsinline preload="metadata" poster="/video/azimut-39-cruising.jpg" aria-label="Azimut 39 cruising in Marbella waters">
     <source src="/video/azimut-39-cruising.mp4" type="video/mp4">
     <img
       src="/img/boats/mangusta-80/hero-1600.jpg"
@@ -93,6 +93,12 @@
       width="1600" height="800"
       loading="eager" fetchpriority="high">
   </video>
+  <button class="hero-play-btn" id="heroPlayBtn" aria-label="Play Azimut 39 video" onclick="document.getElementById('heroVideo').play(); this.style.display='none';">
+    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="32" cy="32" r="30" stroke="white" stroke-width="2"/>
+      <path d="M26 22 L26 42 L42 32 Z" fill="white"/>
+    </svg>
+  </button>
   <div class="hero-shade"></div>
   <div class="hero-content container">
     <span class="eyebrow">Marbella · Costa del Sol</span>
