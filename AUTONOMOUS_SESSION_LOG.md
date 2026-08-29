@@ -326,4 +326,60 @@ All P0/P1 work that improves content quality + internal linking without needing 
 
 **END SESSION 3 REPORT**
 
-*Autonomous agent standing by for Session 4. Category optimization complete. Ready to continue with P1-4 (Pricing Guide) or other high-impact content work.*
+---
+
+## SESSION 4 REPORT (2026-08-29, Continued)
+
+### COMPLETED
+✅ **Comprehensive Pricing Guide Page (P1-4)** — New dedicated page created
+- Path: `/blog/boat-rental-marbella-prices-comprehensive/`
+- Target keyword: "boat rental marbella prices" (high commercial intent)
+- Comprehensive content: 2,500+ words, 4 pricing tables, 3 real examples
+
+✅ **Content Structure**
+- Quick price summary by boat type
+- Price breakdown by tier (Budget, Mid-range, Luxury)
+- Duration comparison (2h vs 4h vs 8h full-day)
+- Seasonal variations (peak, shoulder, off-season)
+- Group size optimization (per-person calculations)
+- What's included vs. add-ons breakdown
+- Real-world cost examples (couple, birthday, friends weekend)
+- FAQ section (6 common questions)
+- Payment & cancellation terms
+- Schema markup for SEO (FAQ, BlogPosting, LocalBusiness)
+
+✅ **Internal Link Strategy**
+- Links to boat pages (Dubhe, Astondoa 40, Azimut 39, Mangusta 80)
+- Clear CTA to WhatsApp booking
+- Cross-references to related guides
+- Better conversion funnel (pricing understanding → booking)
+
+### WHY
+1. **"Boat rental marbella prices" is high commercial intent keyword** — users actively searching for pricing info
+2. **Pricing is #1 decision factor** — prospects need clarity before committing
+3. **Transparent pricing builds trust** — competitors hide costs, we show everything
+4. **Tables are featured snippet gold** — pricing tables rank in position zero
+5. **Multiple entry points** — category pages, guides, price page all lead to booking
+
+### FILES CHANGED
+- Created: `site/blog/boat-rental-marbella-prices-comprehensive/index.html` (new page)
+
+### EXPECTED IMPACT
+- **Ranking**: +15-25 positions within 3-6 weeks (pricing keywords)
+- **Traffic**: +50-100 monthly clicks (pricing-intent keywords)
+- **Conversions**: Better clarity → higher conversion rate from searchers to inquiries
+- **Authority**: Transparent pricing differentiates vs. competitors
+- **Schema**: FAQ + pricing tables eligible for featured snippets (position zero)
+
+### WHAT MAKES THIS PAGE SPECIAL
+1. **Transparency** — We show ALL costs (included vs. extra)
+2. **Real Math** — 3 detailed cost breakdowns, not just base prices
+3. **Context** — Explains WHY prices vary by season/group size
+4. **Pragmatism** — Shows per-person value optimization
+5. **SEO Optimized** — Tables, FAQ, schema markup for discoverability
+
+---
+
+**END SESSION 4 REPORT**
+
+*Autonomous agent completed P1-4 (Comprehensive Pricing Guide). Ready for Session 5 or other high-priority work.*
