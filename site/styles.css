@@ -216,6 +216,69 @@ strong{color:var(--c-ink);font-weight:700}
   color:var(--c-sea);font-weight:700;font-size:.92rem;
 }
 
+/* ─── Why Choose Us section ───────────── */
+.why-choose-section{padding:48px 0;background:#fff}
+.why-choose-section .section-head{text-align:center;max-width:680px;margin:0 auto 40px;padding:0 24px}
+.why-choose-section .section-head .eyebrow{color:var(--c-sea-d);background:var(--c-sea-l);border-color:rgba(0,122,115,.4);margin-bottom:14px}
+.why-choose-section .section-head h2{
+  border:0;padding:0;margin:0 0 12px;
+  font-size:clamp(1.7rem, 3vw, 2.2rem);font-weight:800;color:var(--c-ink);letter-spacing:-.02em;
+}
+.why-choose-section .section-head p{color:var(--c-muted);font-size:1.05rem;margin:0}
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:28px;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 24px;
+}
+.why-card{
+  background:var(--c-sand);
+  border-radius:var(--r-lg);
+  padding:28px;
+  border:1px solid var(--c-sand-d);
+  text-align:center;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.why-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.why-icon{font-size:2.2rem;margin-bottom:12px;display:block}
+.why-card h3{margin:0 0 12px;font-size:1.15rem;color:var(--c-ink);border:0;padding:0;letter-spacing:-.01em}
+.why-card p{color:var(--c-muted);font-size:.95rem;margin:0;line-height:1.5}
+
+/* ─── Learn & Plan section ────────────── */
+.learn-plan-section{padding:56px 0;background:linear-gradient(180deg, var(--c-sea-l) 0%, #fff 100%)}
+.learn-plan-section .section-head{text-align:center;max-width:680px;margin:0 auto 40px;padding:0 24px}
+.learn-plan-section .section-head .eyebrow{color:var(--c-sea-d);background:var(--c-sea-l);border-color:rgba(0,122,115,.4);margin-bottom:14px}
+.learn-plan-section .section-head h2{
+  border:0;padding:0;margin:0 0 12px;
+  font-size:clamp(1.7rem, 3vw, 2.2rem);font-weight:800;color:var(--c-ink);letter-spacing:-.02em;
+}
+.learn-plan-section .section-head p{color:var(--c-muted);font-size:1.05rem;margin:0}
+.guides-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:24px;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 24px;
+}
+.guide-card{
+  background:#fff;
+  border-radius:var(--r-lg);
+  padding:24px;
+  border:1px solid var(--c-line);
+  box-shadow:var(--shadow-sm);
+  text-decoration:none;
+  color:inherit;
+  transition:all .2s ease;
+  display:flex;flex-direction:column;
+}
+.guide-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);text-decoration:none}
+.guide-icon{font-size:2rem;margin-bottom:14px;display:block}
+.guide-card h3{margin:0 0 10px;font-size:1.1rem;color:var(--c-ink);border:0;padding:0;letter-spacing:-.01em;font-weight:700}
+.guide-card p{color:var(--c-muted);font-size:.93rem;margin:0;line-height:1.5;flex:1}
+
 /* ─── Main layout ─────────────────────── */
 .page{
   display:grid;
