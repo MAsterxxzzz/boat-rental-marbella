@@ -1,0 +1,49 @@
+BOAT PAGE OPTIMIZATION PLAN
+===========================
+
+TIER 1 BOATS (Premium/Luxury - High Search Volume)
+- astondoa-40: "Astondoa 40 Charter Marbella" → focus on affordable luxury, 9 guests, €749
+- azimut-39: "Azimut 39 Yacht Rental Marbella" → focus on groups, 11 guests, premium
+- azimut-58: "Azimut 58 Luxury Yacht Marbella" → focus on superyacht, larger parties
+- ferretti-680: "Ferretti 680 Luxury Charter" → focus on superyacht, Italian, flagship
+- mangusta-80: "Mangusta 80 Superyacht Rental" → focus on massive luxury, biggest
+- maiora-26m: "Maiora 26m Private Yacht" → focus on ultra-luxury, custom
+- nuvar-64: "Nuvari 64 Premium Yacht Marbella" → focus on large groups, 10 guests
+- pershing-46: "Pershing 46 Sportyacht Charter" → focus on speed, luxury, performance
+
+TIER 2 BOATS (Mid-Range/Specialty)
+- canados-86: "Canados 86 Catamaran Marbella" → focus on catamaran stability
+- fairline-targa-43: "Fairline Targa 43 Charter" → focus on flybridge, British
+- fairline-targa-12m: "Fairline Targa 12m Rental" → focus on mid-size groups
+- ferretti-94: "Ferretti 94 Superyacht Rental" → focus on flagship superyacht
+- lagoon-380: "Lagoon 380 Sailing Catamaran" → focus on sailing, stability
+- mefasa-90: "Mefasa 90 Superyacht Charter" → focus on ultra-luxury
+- bandido: "Bandido Catamaran Marbella" → focus on catamaran, family-friendly
+
+TIER 3 BOATS (Smaller/License-Free/Specialty)
+- k80: "K80 Charter Boat Marbella" → focus on smaller groups, license-free options
+- mariah-sx21: "Mariah SX21 Speedboat Rental" → focus on speed, smaller groups
+- dubhe: "Dubhe Yacht Charter" → focus on specialty/unique boat
+- mangusta-80-grey: "Mangusta 80 Grey Luxury" → focus on exclusive variant
+
+KEYWORD STRATEGY (No Cannibalization):
+- Avoid using same exact keyword for all boats
+- Use [Boat Model] + Marbella + attribute (charter/rental/yacht)
+- Examples:
+  * "Astondoa 40 Charter from Puerto Banús"
+  * "Azimut 39 Luxury Yacht Rental Marbella"
+  * "Ferretti 680 Superyacht Puerto Banús"
+  * "Canados 86 Catamaran Charter Marbella"
+  * etc.
+
+INTERNAL LINKING STRATEGY:
+Homepage → Category Pages → Individual Boats
+- Link from "Our 29 Boats" to boat grid
+- Link from "Boat Rental Marbella" to top 3-5 boats
+- Link boats to each other (similar size/price class)
+- Link back to main "Boat Rental Marbella" from each boat
+
+CONTENT OPTIMIZATION PRIORITY:
+High: astondoa-40, azimut-39, ferretti-680, mangusta-80 (most searched)
+Medium: Other Tier 1 boats
+Low: Tier 2-3 (long-tail keywords)
