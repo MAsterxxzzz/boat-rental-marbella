@@ -1,0 +1,16 @@
+Batch,Send_Date,Week,Prospect,Email,Authority,Tier,Status
+batch_1,2026-08-29,1,Wanderlust Tips,hello@wanderlust.co.uk,68,1,Pending
+batch_1,2026-08-29,1,The Blonde Abroad,partnerships@theblondabroad.com,62,1,Pending
+batch_1,2026-08-29,1,Boat International,editorial@boatinternational.com,68,1,Pending
+batch_1,2026-08-29,1,Hens and Bucks,info@hensandbucks.co.uk,45,1,Pending
+batch_1,2026-08-29,1,Junebug Weddings,partnerships@junebugweddings.com,70,1,Pending
+batch_2,2026-09-05,2,Nomadic Matt,contact@nomadicmatt.com,76,2,Pending
+batch_2,2026-09-05,2,Hostelworld,partnerships@hostelworld.com,80,2,Pending
+batch_2,2026-09-05,2,ViaMichelin,tourism@viamichelin.com,82,2,Pending
+batch_2,2026-09-05,2,TripAdvisor,business@tripadvisor.com,92,2,Pending
+batch_2,2026-09-05,2,Vrbo/HomeAway,partnerships@vrbo.com,80,2,Pending
+batch_3,2026-09-12,3,Spain.info,info@spain.info,88,3,Pending
+batch_3,2026-09-12,3,Lonely Planet,editorial@lonelyplanet.com,95,3,Pending
+batch_3,2026-09-12,3,Booking.com,partnerships@booking.com,94,3,Pending
+batch_3,2026-09-12,3,Airbnb Experiences,host@airbnb.com,95,3,Pending
+batch_3,2026-09-12,3,SuperYacht Forum,info@superyachtforum.com,45,3,Pending
