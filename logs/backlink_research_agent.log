@@ -1,0 +1,2 @@
+2026-09-25 19:58:03,981 [WARNING] ANTHROPIC_API_KEY not set — skipping backlink research today. No prospects fabricated, no drafts written.
+2026-09-25 19:58:03,981 [INFO] Backlink research agent complete: {'status': 'skipped_no_api_key', 'new_prospects': 0}

@@ -52,3 +52,31 @@ if crawl_report.exists():
           f"url_count={sm.get('url_count')}, missing_on_disk={sm.get('urls_missing_count')}")
 else:
     print("- No technical crawl report generated this run (see logs/technical_crawl.log)")
+
+print()
+print("### Backlink outreach — separated counts (never conflated)")
+tracker_file = root / "data" / "backlink_prospects.csv"
+if tracker_file.exists():
+    import csv
+    with open(tracker_file) as f:
+        rows = list(csv.DictReader(f))
+    verified = sum(1 for r in rows if r.get("verified") == "true")
+    sent_verified = sum(1 for r in rows if (r.get("backlink_status") or "").startswith("sent_gmail_id"))
+    sent_unverified_legacy = sum(1 for r in rows if (r.get("backlink_status") or "") == "sent_unverified_recipient")
+    replied = sum(1 for r in rows if r.get("reply_status") not in ("pending", "not_contacted", ""))
+    live_backlinks = sum(1 for r in rows if r.get("backlink_status") == "confirmed_live")
+    print(f"- Prospects tracked total: {len(rows)} ({verified} with a verified real source)")
+    print(f"- Emails sent to verified contacts (real Gmail message ID recorded): {sent_verified}")
+    print(f"- Emails sent to unverified legacy addresses (pre-dates sourcing requirement, not re-sent): {sent_unverified_legacy}")
+    print(f"- Replies received: {replied}")
+    print(f"- Backlinks confirmed live on another site: {live_backlinks} (never counted just because an email was sent)")
+else:
+    print("- No prospect tracker found")
+
+pending_dir = root / "reports" / "pending_outreach"
+todays_drafts = list(pending_dir.glob(f"{today}_*.json")) if pending_dir.exists() else []
+print(f"- New research-agent drafts today (awaiting human review, NOT sent): {len(todays_drafts)}")
+for d in todays_drafts:
+    import json as _json
+    draft = _json.loads(d.read_text())
+    print(f"  - {draft['company']} ({draft['domain']}) — {d}")
