@@ -350,6 +350,11 @@ details p { color: rgba(244,244,242,.65) !important; }
 .founder-card .founder-meta strong, .founder-id strong { color: #f4f4f2 !important; }
 .founder-card .founder-meta p { color: rgba(244,244,242,.78) !important; }
 
+.guide-card { background: #0c1828 !important; border-color: rgba(201,168,78,.18) !important; }
+.guide-card:hover { border-color: rgba(201,168,78,.4) !important; }
+.guide-card h3 { color: #f4f4f2 !important; }
+.guide-card p { color: rgba(244,244,242,.6) !important; }
+
 .btn-ghost { background: rgba(255,255,255,.05) !important; border-color: rgba(201,168,78,.3) !important; color: #f4f4f2 !important; }
 
 /* ─── Accessibility: motion + focus ───────────── */
