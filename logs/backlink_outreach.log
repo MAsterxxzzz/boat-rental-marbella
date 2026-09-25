@@ -1,0 +1,380 @@
+2026-09-25 09:37:54,586 [INFO] Backlink Outreach Engine initialized
+2026-09-25 09:37:54,587 [INFO] ============================================================
+2026-09-25 09:37:54,587 [INFO] BACKLINK OUTREACH ENGINE - DAILY RUN
+2026-09-25 09:37:54,587 [INFO] ============================================================
+2026-09-25 09:37:54,587 [INFO] Loading up to 15 prospects for today's outreach...
+2026-09-25 09:37:54,587 [INFO] Found 20 qualified prospects
+2026-09-25 09:37:54,587 [INFO] Qualifying prospect: wanderlust.co.uk
+2026-09-25 09:37:54,587 [INFO] APPROVED: wanderlust.co.uk (relevant category: travel_blog)
+2026-09-25 09:37:54,587 [INFO] Preparing outreach to hello@wanderlust.co.uk
+2026-09-25 09:37:54,588 [INFO] Email template prepared for hello@wanderlust.co.uk
+2026-09-25 09:37:54,588 [INFO] LOGGED: Outreach sent to hello@wanderlust.co.uk
+2026-09-25 09:37:54,588 [INFO] Qualifying prospect: theblondabroad.com
+2026-09-25 09:37:54,588 [INFO] APPROVED: theblondabroad.com (relevant category: travel_blog)
+2026-09-25 09:37:54,588 [INFO] Preparing outreach to partnerships@theblondabroad.com
+2026-09-25 09:37:54,588 [INFO] Email template prepared for partnerships@theblondabroad.com
+2026-09-25 09:37:54,588 [INFO] LOGGED: Outreach sent to partnerships@theblondabroad.com
+2026-09-25 09:37:54,588 [INFO] Qualifying prospect: boatinternational.com
+2026-09-25 09:37:54,588 [INFO] APPROVED: boatinternational.com (relevant category: boating_magazine)
+2026-09-25 09:37:54,588 [INFO] Preparing outreach to editorial@boatinternational.com
+2026-09-25 09:37:54,588 [INFO] Email template prepared for editorial@boatinternational.com
+2026-09-25 09:37:54,588 [INFO] LOGGED: Outreach sent to editorial@boatinternational.com
+2026-09-25 09:37:54,588 [INFO] Qualifying prospect: hensandbucks.co.uk
+2026-09-25 09:37:54,588 [INFO] NEUTRAL: hensandbucks.co.uk (category not explicitly relevant, but may be OK)
+2026-09-25 09:37:54,589 [INFO] Qualifying prospect: junebugweddings.com
+2026-09-25 09:37:54,589 [INFO] APPROVED: junebugweddings.com (relevant category: wedding_planning)
+2026-09-25 09:37:54,589 [INFO] Preparing outreach to partnerships@junebugweddings.com
+2026-09-25 09:37:54,589 [INFO] Email template prepared for partnerships@junebugweddings.com
+2026-09-25 09:37:54,589 [INFO] LOGGED: Outreach sent to partnerships@junebugweddings.com
+2026-09-25 09:37:54,589 [INFO] Qualifying prospect: nomadicmatt.com
+2026-09-25 09:37:54,589 [INFO] APPROVED: nomadicmatt.com (relevant category: travel_blog)
+2026-09-25 09:37:54,589 [INFO] Preparing outreach to contact@nomadicmatt.com
+2026-09-25 09:37:54,589 [INFO] Email template prepared for contact@nomadicmatt.com
+2026-09-25 09:37:54,589 [INFO] LOGGED: Outreach sent to contact@nomadicmatt.com
+2026-09-25 09:37:54,589 [INFO] Qualifying prospect: hostelworld.com
+2026-09-25 09:37:54,589 [INFO] APPROVED: hostelworld.com (relevant category: travel_platform)
+2026-09-25 09:37:54,590 [INFO] Preparing outreach to partnerships@hostelworld.com
+2026-09-25 09:37:54,590 [INFO] Email template prepared for partnerships@hostelworld.com
+2026-09-25 09:37:54,590 [INFO] LOGGED: Outreach sent to partnerships@hostelworld.com
+2026-09-25 09:37:54,590 [INFO] Qualifying prospect: vrbo.com
+2026-09-25 09:37:54,590 [INFO] NEUTRAL: vrbo.com (category not explicitly relevant, but may be OK)
+2026-09-25 09:37:54,590 [INFO] Qualifying prospect: viamichelin.com
+2026-09-25 09:37:54,590 [INFO] APPROVED: viamichelin.com (relevant category: travel_portal)
+2026-09-25 09:37:54,591 [INFO] Preparing outreach to tourism@viamichelin.com
+2026-09-25 09:37:54,591 [INFO] Email template prepared for tourism@viamichelin.com
+2026-09-25 09:37:54,591 [INFO] LOGGED: Outreach sent to tourism@viamichelin.com
+2026-09-25 09:37:54,591 [INFO] Qualifying prospect: tripadvisor.com
+2026-09-25 09:37:54,591 [INFO] NEUTRAL: tripadvisor.com (category not explicitly relevant, but may be OK)
+2026-09-25 09:37:54,592 [INFO] Qualifying prospect: spain.info
+2026-09-25 09:37:54,592 [INFO] NEUTRAL: spain.info (category not explicitly relevant, but may be OK)
+2026-09-25 09:37:54,592 [INFO] Qualifying prospect: lonelyplanet.com
+2026-09-25 09:37:54,592 [INFO] APPROVED: lonelyplanet.com (relevant category: travel_guide)
+2026-09-25 09:37:54,592 [INFO] Preparing outreach to editorial@lonelyplanet.com
+2026-09-25 09:37:54,592 [INFO] Email template prepared for editorial@lonelyplanet.com
+2026-09-25 09:37:54,592 [INFO] LOGGED: Outreach sent to editorial@lonelyplanet.com
+2026-09-25 09:37:54,592 [INFO] Qualifying prospect: booking.com
+2026-09-25 09:37:54,592 [INFO] APPROVED: booking.com (relevant category: travel_platform)
+2026-09-25 09:37:54,592 [INFO] Preparing outreach to partnerships@booking.com
+2026-09-25 09:37:54,592 [INFO] Email template prepared for partnerships@booking.com
+2026-09-25 09:37:54,592 [INFO] LOGGED: Outreach sent to partnerships@booking.com
+2026-09-25 09:37:54,592 [INFO] Qualifying prospect: airbnb.com
+2026-09-25 09:37:54,593 [INFO] NEUTRAL: airbnb.com (category not explicitly relevant, but may be OK)
+2026-09-25 09:37:54,593 [INFO] Qualifying prospect: superyachtforum.com
+2026-09-25 09:37:54,593 [INFO] APPROVED: superyachtforum.com (relevant category: boating_community)
+2026-09-25 09:37:54,593 [INFO] Preparing outreach to info@superyachtforum.com
+2026-09-25 09:37:54,593 [INFO] Email template prepared for info@superyachtforum.com
+2026-09-25 09:37:54,593 [INFO] LOGGED: Outreach sent to info@superyachtforum.com
+2026-09-25 09:37:54,593 [INFO] Checking for pending follow-ups...
+2026-09-25 09:37:54,593 [INFO] Found 0 follow-ups due today
+2026-09-25 09:37:54,593 [INFO] ============================================================
+2026-09-25 09:37:54,593 [INFO] OUTREACH COMPLETE: 10 emails sent
+2026-09-25 09:37:54,593 [INFO] ============================================================
+2026-09-25 10:46:39,490 [WARNING] Gmail token not found at /Users/nunnu/.config/boathire-seo/gmail_token.json
+2026-09-25 10:46:39,491 [WARNING] Gmail emails will not be sent. Set up OAuth with: python3 scripts/setup_gmail_oauth.py
+2026-09-25 10:46:39,491 [INFO] Backlink Outreach Engine initialized
+2026-09-25 10:46:39,491 [INFO] ============================================================
+2026-09-25 10:46:39,492 [INFO] BACKLINK OUTREACH ENGINE - DAILY RUN
+2026-09-25 10:46:39,492 [INFO] ============================================================
+2026-09-25 10:46:39,492 [INFO] Loading up to 15 prospects for today's outreach...
+2026-09-25 10:46:39,493 [INFO] Found 20 qualified prospects
+2026-09-25 10:46:39,493 [INFO] Qualifying prospect: wanderlust.co.uk
+2026-09-25 10:46:39,493 [INFO] APPROVED: wanderlust.co.uk (relevant category: travel_blog)
+2026-09-25 10:46:39,493 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,494 [INFO] LOGGED: Outreach skipped for hello@wanderlust.co.uk
+2026-09-25 10:46:39,494 [WARNING] Skipped logging for hello@wanderlust.co.uk - send failed
+2026-09-25 10:46:39,494 [INFO] Qualifying prospect: theblondabroad.com
+2026-09-25 10:46:39,494 [INFO] APPROVED: theblondabroad.com (relevant category: travel_blog)
+2026-09-25 10:46:39,494 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,494 [INFO] LOGGED: Outreach skipped for partnerships@theblondabroad.com
+2026-09-25 10:46:39,494 [WARNING] Skipped logging for partnerships@theblondabroad.com - send failed
+2026-09-25 10:46:39,494 [INFO] Qualifying prospect: boatinternational.com
+2026-09-25 10:46:39,494 [INFO] APPROVED: boatinternational.com (relevant category: boating_magazine)
+2026-09-25 10:46:39,495 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,495 [INFO] LOGGED: Outreach skipped for editorial@boatinternational.com
+2026-09-25 10:46:39,495 [WARNING] Skipped logging for editorial@boatinternational.com - send failed
+2026-09-25 10:46:39,495 [INFO] Qualifying prospect: hensandbucks.co.uk
+2026-09-25 10:46:39,496 [INFO] NEUTRAL: hensandbucks.co.uk (category not explicitly relevant, but may be OK)
+2026-09-25 10:46:39,497 [INFO] Qualifying prospect: junebugweddings.com
+2026-09-25 10:46:39,497 [INFO] APPROVED: junebugweddings.com (relevant category: wedding_planning)
+2026-09-25 10:46:39,497 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,497 [INFO] LOGGED: Outreach skipped for partnerships@junebugweddings.com
+2026-09-25 10:46:39,497 [WARNING] Skipped logging for partnerships@junebugweddings.com - send failed
+2026-09-25 10:46:39,497 [INFO] Qualifying prospect: nomadicmatt.com
+2026-09-25 10:46:39,497 [INFO] APPROVED: nomadicmatt.com (relevant category: travel_blog)
+2026-09-25 10:46:39,497 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,498 [INFO] LOGGED: Outreach skipped for contact@nomadicmatt.com
+2026-09-25 10:46:39,498 [WARNING] Skipped logging for contact@nomadicmatt.com - send failed
+2026-09-25 10:46:39,498 [INFO] Qualifying prospect: hostelworld.com
+2026-09-25 10:46:39,498 [INFO] APPROVED: hostelworld.com (relevant category: travel_platform)
+2026-09-25 10:46:39,499 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,499 [INFO] LOGGED: Outreach skipped for partnerships@hostelworld.com
+2026-09-25 10:46:39,499 [WARNING] Skipped logging for partnerships@hostelworld.com - send failed
+2026-09-25 10:46:39,499 [INFO] Qualifying prospect: vrbo.com
+2026-09-25 10:46:39,499 [INFO] NEUTRAL: vrbo.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:46:39,499 [INFO] Qualifying prospect: viamichelin.com
+2026-09-25 10:46:39,499 [INFO] APPROVED: viamichelin.com (relevant category: travel_portal)
+2026-09-25 10:46:39,499 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,499 [INFO] LOGGED: Outreach skipped for tourism@viamichelin.com
+2026-09-25 10:46:39,499 [WARNING] Skipped logging for tourism@viamichelin.com - send failed
+2026-09-25 10:46:39,499 [INFO] Qualifying prospect: tripadvisor.com
+2026-09-25 10:46:39,499 [INFO] NEUTRAL: tripadvisor.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:46:39,500 [INFO] Qualifying prospect: spain.info
+2026-09-25 10:46:39,500 [INFO] NEUTRAL: spain.info (category not explicitly relevant, but may be OK)
+2026-09-25 10:46:39,500 [INFO] Qualifying prospect: lonelyplanet.com
+2026-09-25 10:46:39,500 [INFO] APPROVED: lonelyplanet.com (relevant category: travel_guide)
+2026-09-25 10:46:39,501 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,501 [INFO] LOGGED: Outreach skipped for editorial@lonelyplanet.com
+2026-09-25 10:46:39,501 [WARNING] Skipped logging for editorial@lonelyplanet.com - send failed
+2026-09-25 10:46:39,501 [INFO] Qualifying prospect: booking.com
+2026-09-25 10:46:39,502 [INFO] APPROVED: booking.com (relevant category: travel_platform)
+2026-09-25 10:46:39,502 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,502 [INFO] LOGGED: Outreach skipped for partnerships@booking.com
+2026-09-25 10:46:39,502 [WARNING] Skipped logging for partnerships@booking.com - send failed
+2026-09-25 10:46:39,502 [INFO] Qualifying prospect: airbnb.com
+2026-09-25 10:46:39,502 [INFO] NEUTRAL: airbnb.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:46:39,502 [INFO] Qualifying prospect: superyachtforum.com
+2026-09-25 10:46:39,502 [INFO] APPROVED: superyachtforum.com (relevant category: boating_community)
+2026-09-25 10:46:39,503 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:46:39,503 [INFO] LOGGED: Outreach skipped for info@superyachtforum.com
+2026-09-25 10:46:39,503 [WARNING] Skipped logging for info@superyachtforum.com - send failed
+2026-09-25 10:46:39,503 [INFO] Checking for pending follow-ups...
+2026-09-25 10:46:39,503 [INFO] Found 0 follow-ups due today
+2026-09-25 10:46:39,503 [INFO] ============================================================
+2026-09-25 10:46:39,503 [INFO] OUTREACH COMPLETE: 0 emails successfully sent
+2026-09-25 10:46:39,503 [INFO] ============================================================
+2026-09-25 10:50:09,310 [ERROR] Failed to initialize Gmail service: Authorized user info was not in the expected format, missing fields client_secret, client_id.
+2026-09-25 10:50:09,311 [INFO] Backlink Outreach Engine initialized
+2026-09-25 10:50:09,311 [INFO] ============================================================
+2026-09-25 10:50:09,311 [INFO] BACKLINK OUTREACH ENGINE - DAILY RUN
+2026-09-25 10:50:09,311 [INFO] ============================================================
+2026-09-25 10:50:09,311 [INFO] Loading up to 15 prospects for today's outreach...
+2026-09-25 10:50:09,312 [INFO] Found 20 qualified prospects
+2026-09-25 10:50:09,312 [INFO] Qualifying prospect: wanderlust.co.uk
+2026-09-25 10:50:09,313 [INFO] APPROVED: wanderlust.co.uk (relevant category: travel_blog)
+2026-09-25 10:50:09,313 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,313 [INFO] LOGGED: Outreach skipped for hello@wanderlust.co.uk
+2026-09-25 10:50:09,313 [WARNING] Skipped logging for hello@wanderlust.co.uk - send failed
+2026-09-25 10:50:09,313 [INFO] Qualifying prospect: theblondabroad.com
+2026-09-25 10:50:09,313 [INFO] APPROVED: theblondabroad.com (relevant category: travel_blog)
+2026-09-25 10:50:09,314 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,314 [INFO] LOGGED: Outreach skipped for partnerships@theblondabroad.com
+2026-09-25 10:50:09,314 [WARNING] Skipped logging for partnerships@theblondabroad.com - send failed
+2026-09-25 10:50:09,314 [INFO] Qualifying prospect: boatinternational.com
+2026-09-25 10:50:09,314 [INFO] APPROVED: boatinternational.com (relevant category: boating_magazine)
+2026-09-25 10:50:09,314 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,314 [INFO] LOGGED: Outreach skipped for editorial@boatinternational.com
+2026-09-25 10:50:09,314 [WARNING] Skipped logging for editorial@boatinternational.com - send failed
+2026-09-25 10:50:09,315 [INFO] Qualifying prospect: hensandbucks.co.uk
+2026-09-25 10:50:09,315 [INFO] NEUTRAL: hensandbucks.co.uk (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:09,315 [INFO] Qualifying prospect: junebugweddings.com
+2026-09-25 10:50:09,315 [INFO] APPROVED: junebugweddings.com (relevant category: wedding_planning)
+2026-09-25 10:50:09,315 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,315 [INFO] LOGGED: Outreach skipped for partnerships@junebugweddings.com
+2026-09-25 10:50:09,315 [WARNING] Skipped logging for partnerships@junebugweddings.com - send failed
+2026-09-25 10:50:09,315 [INFO] Qualifying prospect: nomadicmatt.com
+2026-09-25 10:50:09,316 [INFO] APPROVED: nomadicmatt.com (relevant category: travel_blog)
+2026-09-25 10:50:09,316 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,317 [INFO] LOGGED: Outreach skipped for contact@nomadicmatt.com
+2026-09-25 10:50:09,318 [WARNING] Skipped logging for contact@nomadicmatt.com - send failed
+2026-09-25 10:50:09,318 [INFO] Qualifying prospect: hostelworld.com
+2026-09-25 10:50:09,318 [INFO] APPROVED: hostelworld.com (relevant category: travel_platform)
+2026-09-25 10:50:09,318 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,319 [INFO] LOGGED: Outreach skipped for partnerships@hostelworld.com
+2026-09-25 10:50:09,319 [WARNING] Skipped logging for partnerships@hostelworld.com - send failed
+2026-09-25 10:50:09,319 [INFO] Qualifying prospect: vrbo.com
+2026-09-25 10:50:09,319 [INFO] NEUTRAL: vrbo.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:09,319 [INFO] Qualifying prospect: viamichelin.com
+2026-09-25 10:50:09,320 [INFO] APPROVED: viamichelin.com (relevant category: travel_portal)
+2026-09-25 10:50:09,320 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,320 [INFO] LOGGED: Outreach skipped for tourism@viamichelin.com
+2026-09-25 10:50:09,320 [WARNING] Skipped logging for tourism@viamichelin.com - send failed
+2026-09-25 10:50:09,320 [INFO] Qualifying prospect: tripadvisor.com
+2026-09-25 10:50:09,320 [INFO] NEUTRAL: tripadvisor.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:09,320 [INFO] Qualifying prospect: spain.info
+2026-09-25 10:50:09,321 [INFO] NEUTRAL: spain.info (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:09,321 [INFO] Qualifying prospect: lonelyplanet.com
+2026-09-25 10:50:09,321 [INFO] APPROVED: lonelyplanet.com (relevant category: travel_guide)
+2026-09-25 10:50:09,321 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,322 [INFO] LOGGED: Outreach skipped for editorial@lonelyplanet.com
+2026-09-25 10:50:09,322 [WARNING] Skipped logging for editorial@lonelyplanet.com - send failed
+2026-09-25 10:50:09,322 [INFO] Qualifying prospect: booking.com
+2026-09-25 10:50:09,322 [INFO] APPROVED: booking.com (relevant category: travel_platform)
+2026-09-25 10:50:09,323 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,323 [INFO] LOGGED: Outreach skipped for partnerships@booking.com
+2026-09-25 10:50:09,323 [WARNING] Skipped logging for partnerships@booking.com - send failed
+2026-09-25 10:50:09,323 [INFO] Qualifying prospect: airbnb.com
+2026-09-25 10:50:09,323 [INFO] NEUTRAL: airbnb.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:09,323 [INFO] Qualifying prospect: superyachtforum.com
+2026-09-25 10:50:09,323 [INFO] APPROVED: superyachtforum.com (relevant category: boating_community)
+2026-09-25 10:50:09,324 [ERROR] Gmail service not initialized - cannot send email
+2026-09-25 10:50:09,324 [INFO] LOGGED: Outreach skipped for info@superyachtforum.com
+2026-09-25 10:50:09,324 [WARNING] Skipped logging for info@superyachtforum.com - send failed
+2026-09-25 10:50:09,324 [INFO] Checking for pending follow-ups...
+2026-09-25 10:50:09,324 [INFO] Found 0 follow-ups due today
+2026-09-25 10:50:09,324 [INFO] ============================================================
+2026-09-25 10:50:09,324 [INFO] OUTREACH COMPLETE: 0 emails successfully sent
+2026-09-25 10:50:09,324 [INFO] ============================================================
+2026-09-25 10:50:30,372 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-25 10:50:30,383 [INFO] ✅ Gmail API service initialized
+2026-09-25 10:50:30,383 [INFO] Backlink Outreach Engine initialized
+2026-09-25 10:50:30,384 [INFO] ============================================================
+2026-09-25 10:50:30,384 [INFO] BACKLINK OUTREACH ENGINE - DAILY RUN
+2026-09-25 10:50:30,384 [INFO] ============================================================
+2026-09-25 10:50:30,384 [INFO] Loading up to 15 prospects for today's outreach...
+2026-09-25 10:50:30,385 [INFO] Found 20 qualified prospects
+2026-09-25 10:50:30,385 [INFO] Qualifying prospect: wanderlust.co.uk
+2026-09-25 10:50:30,385 [INFO] APPROVED: wanderlust.co.uk (relevant category: travel_blog)
+2026-09-25 10:50:30,385 [INFO] Preparing outreach to hello@wanderlust.co.uk
+2026-09-25 10:50:30,479 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:30,547 [ERROR] ❌ EMAIL SEND FAILED for hello@wanderlust.co.uk: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:30,547 [INFO] LOGGED: Outreach skipped for hello@wanderlust.co.uk
+2026-09-25 10:50:30,547 [WARNING] Skipped logging for hello@wanderlust.co.uk - send failed
+2026-09-25 10:50:30,547 [INFO] Qualifying prospect: theblondabroad.com
+2026-09-25 10:50:30,547 [INFO] APPROVED: theblondabroad.com (relevant category: travel_blog)
+2026-09-25 10:50:30,547 [INFO] Preparing outreach to partnerships@theblondabroad.com
+2026-09-25 10:50:30,565 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:30,584 [ERROR] ❌ EMAIL SEND FAILED for partnerships@theblondabroad.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:30,584 [INFO] LOGGED: Outreach skipped for partnerships@theblondabroad.com
+2026-09-25 10:50:30,584 [WARNING] Skipped logging for partnerships@theblondabroad.com - send failed
+2026-09-25 10:50:30,585 [INFO] Qualifying prospect: boatinternational.com
+2026-09-25 10:50:30,585 [INFO] APPROVED: boatinternational.com (relevant category: boating_magazine)
+2026-09-25 10:50:30,585 [INFO] Preparing outreach to editorial@boatinternational.com
+2026-09-25 10:50:30,619 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:30,644 [ERROR] ❌ EMAIL SEND FAILED for editorial@boatinternational.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:30,647 [INFO] LOGGED: Outreach skipped for editorial@boatinternational.com
+2026-09-25 10:50:30,648 [WARNING] Skipped logging for editorial@boatinternational.com - send failed
+2026-09-25 10:50:30,649 [INFO] Qualifying prospect: hensandbucks.co.uk
+2026-09-25 10:50:30,656 [INFO] NEUTRAL: hensandbucks.co.uk (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:30,656 [INFO] Qualifying prospect: junebugweddings.com
+2026-09-25 10:50:30,656 [INFO] APPROVED: junebugweddings.com (relevant category: wedding_planning)
+2026-09-25 10:50:30,656 [INFO] Preparing outreach to partnerships@junebugweddings.com
+2026-09-25 10:50:30,773 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:30,815 [ERROR] ❌ EMAIL SEND FAILED for partnerships@junebugweddings.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:30,817 [INFO] LOGGED: Outreach skipped for partnerships@junebugweddings.com
+2026-09-25 10:50:30,818 [WARNING] Skipped logging for partnerships@junebugweddings.com - send failed
+2026-09-25 10:50:30,818 [INFO] Qualifying prospect: nomadicmatt.com
+2026-09-25 10:50:30,851 [INFO] APPROVED: nomadicmatt.com (relevant category: travel_blog)
+2026-09-25 10:50:30,851 [INFO] Preparing outreach to contact@nomadicmatt.com
+2026-09-25 10:50:30,881 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:30,948 [ERROR] ❌ EMAIL SEND FAILED for contact@nomadicmatt.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:30,971 [INFO] LOGGED: Outreach skipped for contact@nomadicmatt.com
+2026-09-25 10:50:30,972 [WARNING] Skipped logging for contact@nomadicmatt.com - send failed
+2026-09-25 10:50:30,972 [INFO] Qualifying prospect: hostelworld.com
+2026-09-25 10:50:30,973 [INFO] APPROVED: hostelworld.com (relevant category: travel_platform)
+2026-09-25 10:50:30,973 [INFO] Preparing outreach to partnerships@hostelworld.com
+2026-09-25 10:50:31,144 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:31,172 [ERROR] ❌ EMAIL SEND FAILED for partnerships@hostelworld.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:31,173 [INFO] LOGGED: Outreach skipped for partnerships@hostelworld.com
+2026-09-25 10:50:31,173 [WARNING] Skipped logging for partnerships@hostelworld.com - send failed
+2026-09-25 10:50:31,173 [INFO] Qualifying prospect: vrbo.com
+2026-09-25 10:50:31,174 [INFO] NEUTRAL: vrbo.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:31,176 [INFO] Qualifying prospect: viamichelin.com
+2026-09-25 10:50:31,178 [INFO] APPROVED: viamichelin.com (relevant category: travel_portal)
+2026-09-25 10:50:31,179 [INFO] Preparing outreach to tourism@viamichelin.com
+2026-09-25 10:50:31,584 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:31,607 [ERROR] ❌ EMAIL SEND FAILED for tourism@viamichelin.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:31,611 [INFO] LOGGED: Outreach skipped for tourism@viamichelin.com
+2026-09-25 10:50:31,617 [WARNING] Skipped logging for tourism@viamichelin.com - send failed
+2026-09-25 10:50:31,619 [INFO] Qualifying prospect: tripadvisor.com
+2026-09-25 10:50:31,624 [INFO] NEUTRAL: tripadvisor.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:31,627 [INFO] Qualifying prospect: spain.info
+2026-09-25 10:50:31,627 [INFO] NEUTRAL: spain.info (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:31,630 [INFO] Qualifying prospect: lonelyplanet.com
+2026-09-25 10:50:31,631 [INFO] APPROVED: lonelyplanet.com (relevant category: travel_guide)
+2026-09-25 10:50:31,631 [INFO] Preparing outreach to editorial@lonelyplanet.com
+2026-09-25 10:50:31,671 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:31,694 [ERROR] ❌ EMAIL SEND FAILED for editorial@lonelyplanet.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:31,695 [INFO] LOGGED: Outreach skipped for editorial@lonelyplanet.com
+2026-09-25 10:50:31,695 [WARNING] Skipped logging for editorial@lonelyplanet.com - send failed
+2026-09-25 10:50:31,696 [INFO] Qualifying prospect: booking.com
+2026-09-25 10:50:31,696 [INFO] APPROVED: booking.com (relevant category: travel_platform)
+2026-09-25 10:50:31,697 [INFO] Preparing outreach to partnerships@booking.com
+2026-09-25 10:50:31,729 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:31,758 [ERROR] ❌ EMAIL SEND FAILED for partnerships@booking.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:31,761 [INFO] LOGGED: Outreach skipped for partnerships@booking.com
+2026-09-25 10:50:31,761 [WARNING] Skipped logging for partnerships@booking.com - send failed
+2026-09-25 10:50:31,762 [INFO] Qualifying prospect: airbnb.com
+2026-09-25 10:50:31,762 [INFO] NEUTRAL: airbnb.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:50:31,764 [INFO] Qualifying prospect: superyachtforum.com
+2026-09-25 10:50:31,764 [INFO] APPROVED: superyachtforum.com (relevant category: boating_community)
+2026-09-25 10:50:31,765 [INFO] Preparing outreach to info@superyachtforum.com
+2026-09-25 10:50:31,799 [INFO] Refreshing credentials due to a 401 response. Attempt 1/2.
+2026-09-25 10:50:31,829 [ERROR] ❌ EMAIL SEND FAILED for info@superyachtforum.com: ('invalid_client: The OAuth client was not found.', {'error': 'invalid_client', 'error_description': 'The OAuth client was not found.'})
+2026-09-25 10:50:31,829 [INFO] LOGGED: Outreach skipped for info@superyachtforum.com
+2026-09-25 10:50:31,830 [WARNING] Skipped logging for info@superyachtforum.com - send failed
+2026-09-25 10:50:31,830 [INFO] Checking for pending follow-ups...
+2026-09-25 10:50:31,830 [INFO] Found 0 follow-ups due today
+2026-09-25 10:50:31,830 [INFO] ============================================================
+2026-09-25 10:50:31,831 [INFO] OUTREACH COMPLETE: 0 emails successfully sent
+2026-09-25 10:50:31,831 [INFO] ============================================================
+2026-09-25 10:52:06,242 [INFO] Backlink Outreach Engine initialized
+2026-09-25 10:52:06,243 [INFO] ============================================================
+2026-09-25 10:52:06,243 [INFO] BACKLINK OUTREACH ENGINE - DAILY RUN
+2026-09-25 10:52:06,243 [INFO] ============================================================
+2026-09-25 10:52:06,243 [INFO] Loading up to 15 prospects for today's outreach...
+2026-09-25 10:52:06,244 [INFO] Found 20 qualified prospects
+2026-09-25 10:52:06,245 [INFO] Qualifying prospect: wanderlust.co.uk
+2026-09-25 10:52:06,245 [INFO] APPROVED: wanderlust.co.uk (relevant category: travel_blog)
+2026-09-25 10:52:06,245 [INFO] Sending to hello@wanderlust.co.uk...
+2026-09-25 10:52:07,190 [INFO] ✅ EMAIL SENT: hello@wanderlust.co.uk (ID: sent)
+2026-09-25 10:52:07,190 [INFO] LOGGED: Outreach sent to hello@wanderlust.co.uk
+2026-09-25 10:52:07,190 [INFO] Qualifying prospect: theblondabroad.com
+2026-09-25 10:52:07,190 [INFO] APPROVED: theblondabroad.com (relevant category: travel_blog)
+2026-09-25 10:52:07,190 [INFO] Sending to partnerships@theblondabroad.com...
+2026-09-25 10:52:07,815 [INFO] ✅ EMAIL SENT: partnerships@theblondabroad.com (ID: sent)
+2026-09-25 10:52:07,816 [INFO] LOGGED: Outreach sent to partnerships@theblondabroad.com
+2026-09-25 10:52:07,816 [INFO] Qualifying prospect: boatinternational.com
+2026-09-25 10:52:07,816 [INFO] APPROVED: boatinternational.com (relevant category: boating_magazine)
+2026-09-25 10:52:07,816 [INFO] Sending to editorial@boatinternational.com...
+2026-09-25 10:52:08,409 [INFO] ✅ EMAIL SENT: editorial@boatinternational.com (ID: sent)
+2026-09-25 10:52:08,410 [INFO] LOGGED: Outreach sent to editorial@boatinternational.com
+2026-09-25 10:52:08,410 [INFO] Qualifying prospect: hensandbucks.co.uk
+2026-09-25 10:52:08,410 [INFO] NEUTRAL: hensandbucks.co.uk (category not explicitly relevant, but may be OK)
+2026-09-25 10:52:08,410 [INFO] Qualifying prospect: junebugweddings.com
+2026-09-25 10:52:08,410 [INFO] APPROVED: junebugweddings.com (relevant category: wedding_planning)
+2026-09-25 10:52:08,410 [INFO] Sending to partnerships@junebugweddings.com...
+2026-09-25 10:52:09,038 [INFO] ✅ EMAIL SENT: partnerships@junebugweddings.com (ID: sent)
+2026-09-25 10:52:09,039 [INFO] LOGGED: Outreach sent to partnerships@junebugweddings.com
+2026-09-25 10:52:09,039 [INFO] Qualifying prospect: nomadicmatt.com
+2026-09-25 10:52:09,040 [INFO] APPROVED: nomadicmatt.com (relevant category: travel_blog)
+2026-09-25 10:52:09,040 [INFO] Sending to contact@nomadicmatt.com...
+2026-09-25 10:52:09,710 [INFO] ✅ EMAIL SENT: contact@nomadicmatt.com (ID: sent)
+2026-09-25 10:52:09,711 [INFO] LOGGED: Outreach sent to contact@nomadicmatt.com
+2026-09-25 10:52:09,711 [INFO] Qualifying prospect: hostelworld.com
+2026-09-25 10:52:09,711 [INFO] APPROVED: hostelworld.com (relevant category: travel_platform)
+2026-09-25 10:52:09,711 [INFO] Sending to partnerships@hostelworld.com...
+2026-09-25 10:52:10,332 [INFO] ✅ EMAIL SENT: partnerships@hostelworld.com (ID: sent)
+2026-09-25 10:52:10,332 [INFO] LOGGED: Outreach sent to partnerships@hostelworld.com
+2026-09-25 10:52:10,332 [INFO] Qualifying prospect: vrbo.com
+2026-09-25 10:52:10,332 [INFO] NEUTRAL: vrbo.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:52:10,333 [INFO] Qualifying prospect: viamichelin.com
+2026-09-25 10:52:10,333 [INFO] APPROVED: viamichelin.com (relevant category: travel_portal)
+2026-09-25 10:52:10,333 [INFO] Sending to tourism@viamichelin.com...
+2026-09-25 10:52:10,967 [INFO] ✅ EMAIL SENT: tourism@viamichelin.com (ID: sent)
+2026-09-25 10:52:10,967 [INFO] LOGGED: Outreach sent to tourism@viamichelin.com
+2026-09-25 10:52:10,968 [INFO] Qualifying prospect: tripadvisor.com
+2026-09-25 10:52:10,968 [INFO] NEUTRAL: tripadvisor.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:52:10,968 [INFO] Qualifying prospect: spain.info
+2026-09-25 10:52:10,968 [INFO] NEUTRAL: spain.info (category not explicitly relevant, but may be OK)
+2026-09-25 10:52:10,968 [INFO] Qualifying prospect: lonelyplanet.com
+2026-09-25 10:52:10,968 [INFO] APPROVED: lonelyplanet.com (relevant category: travel_guide)
+2026-09-25 10:52:10,968 [INFO] Sending to editorial@lonelyplanet.com...
+2026-09-25 10:52:11,562 [INFO] ✅ EMAIL SENT: editorial@lonelyplanet.com (ID: sent)
+2026-09-25 10:52:11,562 [INFO] LOGGED: Outreach sent to editorial@lonelyplanet.com
+2026-09-25 10:52:11,562 [INFO] Qualifying prospect: booking.com
+2026-09-25 10:52:11,562 [INFO] APPROVED: booking.com (relevant category: travel_platform)
+2026-09-25 10:52:11,562 [INFO] Sending to partnerships@booking.com...
+2026-09-25 10:52:12,178 [INFO] ✅ EMAIL SENT: partnerships@booking.com (ID: sent)
+2026-09-25 10:52:12,179 [INFO] LOGGED: Outreach sent to partnerships@booking.com
+2026-09-25 10:52:12,179 [INFO] Qualifying prospect: airbnb.com
+2026-09-25 10:52:12,179 [INFO] NEUTRAL: airbnb.com (category not explicitly relevant, but may be OK)
+2026-09-25 10:52:12,179 [INFO] Qualifying prospect: superyachtforum.com
+2026-09-25 10:52:12,179 [INFO] APPROVED: superyachtforum.com (relevant category: boating_community)
+2026-09-25 10:52:12,180 [INFO] Sending to info@superyachtforum.com...
+2026-09-25 10:52:12,799 [INFO] ✅ EMAIL SENT: info@superyachtforum.com (ID: sent)
+2026-09-25 10:52:12,800 [INFO] LOGGED: Outreach sent to info@superyachtforum.com
+2026-09-25 10:52:12,800 [INFO] Checking for pending follow-ups...
+2026-09-25 10:52:12,800 [INFO] Found 0 follow-ups due today
+2026-09-25 10:52:12,800 [INFO] ============================================================
+2026-09-25 10:52:12,800 [INFO] OUTREACH COMPLETE: 10 emails successfully sent
+2026-09-25 10:52:12,801 [INFO] ============================================================

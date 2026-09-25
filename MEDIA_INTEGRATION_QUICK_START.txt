@@ -1,0 +1,162 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                  HAPPY CUSTOMERS CAROUSEL - QUICK START                     ║
+║                 Integrate Your Customer Videos & Photos                      ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📍 LOCATION OF FILES IN GOOGLE DRIVE:
+   Google Drive > BoatRental > HAPPY CUSTOMERS
+
+   Latest uploads (Sept 25, 2026):
+   • 4 .mov videos (3.5-10.3 MB each)
+   • 4 .mp4 videos (up to 24.2 MB)
+   • 5 .jpg/.png photos (112-466 KB each)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ QUICK STEPS (5 minutes):
+
+1️⃣  Download from Google Drive
+   └─ Go to the Happy Customers folder
+   └─ Select new videos/photos
+   └─ Click Download → Extract to ~/Downloads/happy-customers/
+
+2️⃣  Run Integration Script
+   └─ Open Terminal
+   └─ cd /Users/nunnu/Desktop/boathire/boat-rental-marbella
+   └─ python3 scripts/integrate_customer_media.py
+
+3️⃣  Update Website HTML
+   └─ Edit: site/index.html
+   └─ Find: <div class="hc-track"> (around line 163)
+   └─ Add new <div class="hc-card"> items (see guide)
+
+4️⃣  Deploy
+   └─ git add .
+   └─ git commit -m "Add new customer testimonial media"
+   └─ git push origin main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION:
+   • Full Guide: CUSTOMER_MEDIA_INTEGRATION_GUIDE.md
+   • Script: scripts/integrate_customer_media.py
+
+📂 WEBSITE CAROUSEL LOCATIONS:
+   • Images: /site/img/happy-customers/
+   • Videos: /site/video/happy-customers/
+   • HTML: /site/index.html (lines 156-167)
+
+🌐 WHERE IT SHOWS ON WEBSITE:
+   https://boatrentalinmarbella.com/
+   → Section: "Happy customers on the water" (homepage carousel)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 EXAMPLE HTML SNIPPETS:
+
+IMAGE:
+  <div class="hc-card">
+    <img src="/img/happy-customers/group-laughing.jpg"
+         srcset="/img/happy-customers/group-laughing.webp 900w"
+         alt="Friends laughing on the boat 😂"
+         loading="lazy" width="220" height="391">
+    <div class="hc-caption">Friends laughing on the boat 😂</div>
+  </div>
+
+VIDEO:
+  <div class="hc-card">
+    <video autoplay muted loop playsinline preload="metadata"
+           poster="/video/happy-customers/sunset.jpg"
+           aria-label="Golden hour 🌅">
+      <source src="/video/happy-customers/sunset.mp4" type="video/mp4">
+    </video>
+    <div class="hc-caption">Golden hour 🌅</div>
+  </div>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ VERIFICATION CHECKLIST:
+
+Before pushing to production:
+
+□ Script completed without errors
+  (Look for "✅ Media processing complete!")
+
+□ Media files exist in correct directories
+  ls ~/Desktop/boathire/boat-rental-marbella/site/img/happy-customers/
+  ls ~/Desktop/boathire/boat-rental-marbella/site/video/happy-customers/
+
+□ HTML updated with new carousel items
+  grep "hc-card" ~/Desktop/boathire/boat-rental-marbella/site/index.html
+
+□ Git status shows expected changes
+  cd ~/Desktop/boathire/boat-rental-marbella && git status
+
+□ Test locally (if you have Python 3)
+  cd site && python3 -m http.server 8000
+  Visit: http://localhost:8000
+  Scroll to "Happy customers on the water" section
+
+□ No errors in browser console (F12)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆘 HELP:
+
+Q: Script says "No media files found"
+A: Make sure files are in ~/Downloads/happy-customers/ or ~/Desktop/happy-customers/
+
+Q: "ffmpeg not found"
+A: brew install ffmpeg (macOS) or apt-get install ffmpeg (Linux)
+
+Q: Images don't show on website
+A: Check file names are lowercase, use hyphens not spaces, clear browser cache (Cmd+Shift+R)
+
+Q: Video doesn't play
+A: Ensure MP4 codec is H.264, check poster image exists
+
+For full troubleshooting → see CUSTOMER_MEDIA_INTEGRATION_GUIDE.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 CAROUSEL STATS:
+
+Current carousel size: 14 items (7 images + 7 videos)
+After integration: 14 + new items
+Display: Infinite horizontal scroll on homepage
+
+Best practice: 15-20 items for good loop effect
+(Users see carousel repeat smoothly)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💬 CAPTION IDEAS:
+
+Use emojis for visual interest:
+✅ "Birthday squad celebrating 🎂"
+✅ "Sunset golden hour 🌅"
+✅ "Friends laughing 😂"
+✅ "Dolphins joined us 🐬"
+✅ "Cheers to good times 🥂"
+✅ "Water adventures 🌊"
+✅ "Beautiful coastline 📸"
+
+Bad captions (avoid):
+❌ "photo.jpg"
+❌ "video1"
+❌ "IMG_0001"
+❌ "Customers"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 RESULT:
+
+Website will display new customer moments in the "Happy Customers" carousel
+on the homepage, building social proof and showing real experiences from
+actual boat charter guests.
+
+Live at: https://boatrentalinmarbella.com/
+Section: "Happy customers on the water" (homepage scroll down)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ready? Download files from Google Drive and run the script! 🚀

@@ -3,10 +3,11 @@
 
 **Start Date:** 2026-08-29
 **First 5 Emails Sent:** ✅ Aug 29, 2026 (15:30 UTC)
+**Batch 2 Emails Sent:** ✅ Sep 6, 2026 (16:25 EDT) - RESEND API
 **Asset:** Marbella Boat Rental Price Index
 **Target Contacts:** 40+ verified prospects
 **Expected Results:** 5-10 quality links per asset (30-day window)
-**Campaign Status:** 🚀 ACTIVE - Tier 1 outreach deployed
+**Campaign Status:** 🚀 ACTIVE - Tier 1 & 2 outreach deployed
 
 ---
 
@@ -26,13 +27,13 @@
 
 ## WEEK 2 OUTREACH (Sep 5 - Sep 11)
 
-| # | Site | Contact | Sent | Response | Response Date | Link Status | Notes |
-|---|------|---------|------|----------|----------------|------------|-------|
-| 6 | Nomadic Matt | contact@ | [--] | Pending | -- | ⏳ Awaiting | Budget travel angle |
-| 7 | Hostelworld | partnerships@ | [--] | Pending | -- | ⏳ Awaiting | Backpacker demographic |
-| 8 | Vrbo/HomeAway | partnerships@ | [--] | Pending | -- | ⏳ Awaiting | Vacation rental angle |
-| 9 | ViaMichelin | tourism@ | [--] | Pending | -- | ⏳ Awaiting | High authority portal |
-| 10 | TripAdvisor | business@ | [--] | Pending | -- | ⏳ Awaiting | Verification + link opportunity |
+| # | Site | Contact | Sent | Message ID | Response | Response Date | Link Status | Notes |
+|---|------|---------|------|-----------|----------|----------------|------------|-------|
+| 6 | Nomadic Matt | contact@nomadicmatt.com | ✅ Sep 6, 2026 | 3bb2d018-6cd8-469a-afcd-7bf9b4ab5599 | ⏳ Pending | -- | ⏳ Awaiting | Budget travel angle |
+| 7 | Hostelworld | partnerships@hostelworld.com | ✅ Sep 6, 2026 | 6b8df53e-6934-4bf8-bfc5-bd50577cf691 | ⏳ Pending | -- | ⏳ Awaiting | Backpacker demographic |
+| 8 | Vrbo/HomeAway | partnerships@vrbo.com | ✅ Sep 6, 2026 | b5cd6414-28d0-4ba2-96ec-b4a9153860a1 | ⏳ Pending | -- | ⏳ Awaiting | Vacation rental angle |
+| 9 | ViaMichelin | tourism@viamichelin.com | ✅ Sep 6, 2026 | d906d606-2368-4302-9d6b-8ef419a928fa | ⏳ Pending | -- | ⏳ Awaiting | High authority portal |
+| 10 | TripAdvisor | business@tripadvisor.com | ✅ Sep 6, 2026 | 408a1d25-1259-484c-987e-ae42a1033a82 | ⏳ Pending | -- | ⏳ Awaiting | Verification + link opportunity |
 
 ---
 
@@ -114,10 +115,10 @@ Prospects who responded negatively or passed
 ## METRICS DASHBOARD
 
 ### Outreach Performance
-- **Emails Sent:** 0/40
-- **Response Rate:** 0%
-- **Link Acquisition Rate:** 0%
-- **Positive Engagement:** 0
+- **Emails Sent:** 10/40 (25% complete - Batches 1 & 2)
+- **Response Rate:** Pending (first 7-10 days)
+- **Link Acquisition Rate:** Pending
+- **Positive Engagement:** 0 (too early - responses expected Sep 9+)
 
 ### Link Quality (Once Acquired)
 - **Authority Average (DA):** --
