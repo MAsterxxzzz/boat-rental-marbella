@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-25T12:15:08.104894",
+  "date": "2026-09-25",
+  "timezone": "UTC",
+  "systems_checked": [
+    {
+      "name": "Daily SEO Agent",
+      "status": "\u2705 Executed",
+      "file": "/home/runner/work/boat-rental-marbella/boat-rental-marbella/reports/daily_seo/seo_report_2026-09-25.json",
+      "opportunities_found": 0,
+      "gsc_status": "ACTIVE"
+    },
+    {
+      "name": "Backlink Outreach Engine",
+      "status": "\u2705 Executed",
+      "emails_sent_today": 10,
+      "file": "/home/runner/work/boat-rental-marbella/boat-rental-marbella/logs/backlink_outreach.log"
+    }
+  ],
+  "metrics": {},
+  "actions": [],
+  "errors": [],
+  "next_run": {
+    "time": "2026-09-26T09:00:00",
+    "timezone": "UTC",
+    "systems": [
+      "Daily SEO Agent (fetch GSC data)",
+      "Backlink Outreach Engine (send emails)",
+      "Weekly SEO Review (if Monday)"
+    ]
+  }
+}
