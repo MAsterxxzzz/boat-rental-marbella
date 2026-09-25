@@ -355,6 +355,32 @@ details p { color: rgba(244,244,242,.65) !important; }
 .guide-card h3 { color: #f4f4f2 !important; }
 .guide-card p { color: rgba(244,244,242,.6) !important; }
 
+/* ─── Why-choose section (was still on the pre-dark-theme white background) ── */
+.why-choose-section {
+  background: linear-gradient(180deg, #0a1525 0%, #07101e 100%) !important;
+}
+.why-choose-section .section-head h2 {
+  color: #f4f4f2 !important;
+  border: none !important;
+  padding-left: 0 !important;
+}
+.why-choose-section .section-head p { color: rgba(244,244,242,.55) !important; }
+.why-card { background: #0c1828 !important; border-color: rgba(201,168,78,.18) !important; }
+.why-card:hover { border-color: rgba(201,168,78,.4) !important; }
+.why-card h3 { color: #f4f4f2 !important; }
+.why-card p { color: rgba(244,244,242,.6) !important; }
+
+/* ─── Learn & plan section (same leftover white background) ── */
+.learn-plan-section {
+  background: linear-gradient(180deg, #07101e 0%, #0a1525 100%) !important;
+}
+.learn-plan-section .section-head h2 {
+  color: #f4f4f2 !important;
+  border: none !important;
+  padding-left: 0 !important;
+}
+.learn-plan-section .section-head p { color: rgba(244,244,242,.55) !important; }
+
 .btn-ghost { background: rgba(255,255,255,.05) !important; border-color: rgba(201,168,78,.3) !important; color: #f4f4f2 !important; }
 
 /* ─── Accessibility: motion + focus ───────────── */
