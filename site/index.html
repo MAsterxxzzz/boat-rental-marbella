@@ -1275,6 +1275,11 @@
   color: #aaa;
 }
 
+/* Hide duplicate carousel items - show only first 79 unique items */
+.hc-track > .hc-card:nth-child(n+80) {
+  display: none !important;
+}
+
 @media (max-width: 640px) {
   .discount-popup {
     bottom: 10px;
