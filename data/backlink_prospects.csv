@@ -1,21 +1,24 @@
-domain,company,category,contact_name,email,relevance_score,collaboration_angle,first_email_date,follow_up_1_date,follow_up_2_date,response_status
-wanderlust.co.uk,Wanderlust Magazine,travel_blog,Editorial Team,hello@wanderlust.co.uk,9,Editorial feature: "Best Boat Charters Europe",2026-09-25T10:52:00,,,"pending"
-theblondabroad.com,The Blonda Broad,travel_blog,Kiersten,partnerships@theblondabroad.com,9,Guest post: "Marbella Yacht Charter Guide",2026-09-25T10:52:00,,,"pending"
-boatinternational.com,Boat International,boating_magazine,Editorial,editorial@boatinternational.com,9,Advertorial: "Luxury Charter Destinations",2026-09-25T10:52:00,,,"pending"
-hensandbucks.co.uk,Hens and Bucks,event_planning,Admin,info@hensandbucks.co.uk,7,Partnership: "Boat Party Packages for Events",,,,"pending"
-junebugweddings.com,JuneBug Weddings,wedding_planning,Submissions,partnerships@junebugweddings.com,8,Feature: "Romantic Yacht Wedding Ideas",2026-09-25T10:52:00,,,"pending"
-nomadicmatt.com,Nomadic Matt,travel_blog,Matt,contact@nomadicmatt.com,8,Guest post: "Marbella Travel Guide - Boat Activities",2026-09-25T10:52:00,,,"pending"
-hostelworld.com,HostelWorld,travel_platform,Partnerships,partnerships@hostelworld.com,8,Tour integration: "Add boat charters to tours",2026-09-25T10:52:00,,,"pending"
-vrbo.com,VRBO (Expedia),vacation_rental,Business Development,partnerships@vrbo.com,7,Co-marketing: "Boat activities for villa guests",,,,"pending"
-viamichelin.com,Via Michelin,travel_portal,Tourism Editor,tourism@viamichelin.com,8,Content inclusion: "Things to do in Marbella",2026-09-25T10:52:00,,,"pending"
-tripadvisor.com,TripAdvisor,travel_reviews,Business Partnerships,business@tripadvisor.com,9,Listing integration: "Boat tour bookings",,,,"pending"
-spain.info,Spain Tourism Board,tourism_government,Partnerships,info@spain.info,9,Featured experience: "Costa del Sol Water Activities",,,,"pending"
-lonelyplanet.com,Lonely Planet,travel_guide,Editorial Submissions,editorial@lonelyplanet.com,10,Featured guide: "Puerto Banús & Yacht Culture",2026-09-25T10:52:00,,,"pending"
-booking.com,Booking.com,travel_platform,Experience Partnerships,partnerships@booking.com,10,Integration: "Boat charters as guest experiences",2026-09-25T10:52:00,,,"pending"
-airbnb.com,Airbnb,vacation_rental,Experience Partnerships,partnerships@airbnb.com,8,New experience: "Private boat charters",,,,"pending"
-superyachtforum.com,SuperYacht Forum,boating_community,Business Development,info@superyachtforum.com,8,Community partnership: "Charter reviews",2026-09-25T10:52:00,,,"pending"
-costadelsoltravel.com,Costa del Sol Travel Blog,travel_blog,Editor,editorial@costadelsoltravel.com,8,Guest post: "Boat charter options",,,,"pending"
-marbellahotels.com,Marbella Hotels Association,hotels_local,Partnership Manager,partnerships@marbellahotels.com,7,Concierge partnership: "Recommend boat charters",,,,"pending"
-puertobanus.com,Puerto Banús Official,tourism_local,Marketing,marketing@puertobanus.com,8,Destination marketing: "Water activities",,,,"pending"
-luxurytraveladvisors.com,Luxury Travel Advisors,luxury_travel,Coordinator,info@luxurytraveladvisors.com,7,Concierge listing: "Marbella yacht charters",,,,"pending"
-travelweekly.com,Travel Weekly,travel_publication,Editor,editorial@travelweekly.com,8,Feature story: "Destination spotlight",,,,"pending"
+domain,company,category,contact_name,contact_email,source_url,relevance_reason,date_found,date_contacted,follow_up_1_date,follow_up_2_date,reply_status,reply_date,backlink_status,backlink_url,verified
+thesanctuarymarbella.com,The Sanctuary Marbella,villa_concierge,General inquiries,info@thesanctuarymarbella.com,https://thesanctuarymarbella.com/concierge-services,"Luxury villa concierge at Los Flamingos Golf Resort, Benahavis — page explicitly advertises 'exclusive yacht charter experiences' to villa guests already; direct service overlap",2026-09-25,,,,not_contacted,,not_sent,,true
+puertobanus.com,Puerto Banús Official Concierge,marina_official,Concierge desk,concierge@puertojosebanus.es,https://puerto-banus.com/en/concierge-services/,"Official marina concierge service for Puerto Banús (our own departure port) — already arranges yacht crew/catering support; natural fit to add charter recommendations",2026-09-25,,,,not_contacted,,not_sent,,true
+marbellainstyle.com,Marbella in Style,wedding_planning,General inquiries (phone/WhatsApp only — no public email found),,https://marbellainstyle.com/services/events/wedding-planner-marbella/,"Established Marbella wedding planner, no current yacht/boat offering mentioned — clear gap to fill with sunset-cruise or photoshoot-yacht add-on",2026-09-25,,,,not_contacted,,not_sent,,true
+puertojosebanus.es,Puerto Jose Banus Marina Authority,marina_official,Marina office,concierge@puertojosebanus.es,https://puerto-banus.com/en/concierge-services/,"Same contact as concierge desk above — marina-level relationship could support a listed-operator partnership beyond just guest concierge referrals",2026-09-25,,,,not_contacted,,not_sent,,true
+wanderlust.co.uk,Wanderlust Magazine,travel_blog,Editorial Team,hello@wanderlust.co.uk,,"LEGACY ENTRY — generic guessed address, no source URL recorded, contacted 2026-09-25 before this tracker existed. Flagged, not re-verified.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+theblondabroad.com,The Blonda Broad,travel_blog,Kiersten,partnerships@theblondabroad.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+boatinternational.com,Boat International,boating_magazine,Editorial,editorial@boatinternational.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+junebugweddings.com,JuneBug Weddings,wedding_planning,Submissions,partnerships@junebugweddings.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+nomadicmatt.com,Nomadic Matt,travel_blog,Matt,contact@nomadicmatt.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+hostelworld.com,HostelWorld,travel_platform,Partnerships,partnerships@hostelworld.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+viamichelin.com,Via Michelin,travel_portal,Tourism Editor,tourism@viamichelin.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+lonelyplanet.com,Lonely Planet,travel_guide,Editorial Submissions,editorial@lonelyplanet.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+booking.com,Booking.com,travel_platform,Experience Partnerships,partnerships@booking.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+superyachtforum.com,SuperYacht Forum,boating_community,Business Development,info@superyachtforum.com,,"LEGACY ENTRY — generic guessed address, no source URL recorded.",,2026-09-25T10:52:00,,,pending,,sent_unverified_recipient,,false
+hensandbucks.co.uk,Hens and Bucks,event_planning,Admin,info@hensandbucks.co.uk,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+vrbo.com,VRBO (Expedia),vacation_rental,Business Development,partnerships@vrbo.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+tripadvisor.com,TripAdvisor,travel_reviews,Business Partnerships,business@tripadvisor.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+spain.info,Spain Tourism Board,tourism_government,Partnerships,info@spain.info,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+airbnb.com,Airbnb,vacation_rental,Experience Partnerships,partnerships@airbnb.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+costadelsoltravel.com,Costa del Sol Travel Blog,travel_blog,Editor,editorial@costadelsoltravel.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+marbellahotels.com,Marbella Hotels Association,hotels_local,Partnership Manager,partnerships@marbellahotels.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+luxurytraveladvisors.com,Luxury Travel Advisors,luxury_travel,Coordinator,info@luxurytraveladvisors.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
+travelweekly.com,Travel Weekly,travel_publication,Editor,editorial@travelweekly.com,,"LEGACY ENTRY — not yet contacted, no source URL recorded.",,,,,not_contacted,,not_sent,,false
