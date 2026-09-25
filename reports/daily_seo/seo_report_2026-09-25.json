@@ -1,129 +1,233 @@
 {
   "date": "2026-09-25",
-  "timestamp": "2026-09-25T08:57:51.655699",
+  "timestamp": "2026-09-25T11:26:25.482966",
+  "data_source": "Google Search Console API (searchanalytics.query), sc-domain:boatrentalinmarbella.com",
+  "period": {
+    "start": "2026-08-25",
+    "end": "2026-09-22",
+    "days": 28
+  },
   "gsc_status": "ok",
   "opportunities_found": {
     "ranking_opportunities": 30,
-    "zero_click_high_impression": 27
+    "zero_click_high_impression": 27,
+    "pages_with_no_matching_language": 0
   },
   "top_ranking_opportunities": [
     {
       "query": "alquiler barco marbella",
+      "page": "https://boatrentalinmarbella.com/es/",
       "clicks": 0,
       "impressions": 24,
-      "ctr": 0,
       "position": 88.4,
-      "page": "https://boatrentalinmarbella.com/es/"
+      "query_language": "es",
+      "page_language": "es",
+      "top_country": "esp",
+      "countries": {
+        "esp": 24
+      },
+      "language_mismatch": false
     },
     {
       "query": "boat party marbella",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
       "clicks": 0,
       "impressions": 24,
-      "ctr": 0,
       "position": 82.0,
-      "page": "https://boatrentalinmarbella.com/boat-party-marbella/"
+      "query_language": "en_or_other",
+      "page_language": "en",
+      "top_country": "gbr",
+      "countries": {
+        "gbr": 19,
+        "irl": 5
+      },
+      "language_mismatch": false
     },
     {
       "query": "rent a boat marbella",
+      "page": "https://boatrentalinmarbella.com/",
       "clicks": 0,
       "impressions": 21,
-      "ctr": 0,
       "position": 78.0,
-      "page": "https://boatrentalinmarbella.com/"
+      "query_language": "en_or_other",
+      "page_language": "en",
+      "top_country": "usa",
+      "countries": {
+        "gbr": 3,
+        "usa": 18
+      },
+      "language_mismatch": false
     },
     {
       "query": "marbella rent a boat",
+      "page": "https://boatrentalinmarbella.com/",
       "clicks": 0,
       "impressions": 20,
-      "ctr": 0,
-      "position": 79,
-      "page": "https://boatrentalinmarbella.com/"
+      "position": 79.0,
+      "query_language": "en_or_other",
+      "page_language": "en",
+      "top_country": "usa",
+      "countries": {
+        "gbr": 3,
+        "ind": 1,
+        "mex": 1,
+        "usa": 15
+      },
+      "language_mismatch": false
     },
     {
       "query": "alquiler barco con patron marbella",
+      "page": "https://boatrentalinmarbella.com/es/",
       "clicks": 0,
       "impressions": 18,
-      "ctr": 0,
       "position": 75.3,
-      "page": "https://boatrentalinmarbella.com/es/"
+      "query_language": "es",
+      "page_language": "es",
+      "top_country": "esp",
+      "countries": {
+        "esp": 18
+      },
+      "language_mismatch": false
     },
     {
       "query": "best boat party in marbella",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
       "clicks": 0,
       "impressions": 18,
-      "ctr": 0,
       "position": 72.7,
-      "page": "https://boatrentalinmarbella.com/boat-party-marbella/"
+      "query_language": "en_or_other",
+      "page_language": "en",
+      "top_country": "esp",
+      "countries": {
+        "esp": 18
+      },
+      "language_mismatch": false
     },
     {
       "query": "alquiler embarcaciones con patr\u00f3n en marbella",
+      "page": "https://boatrentalinmarbella.com/es/",
       "clicks": 0,
       "impressions": 17,
-      "ctr": 0,
       "position": 82.1,
-      "page": "https://boatrentalinmarbella.com/es/"
+      "query_language": "es",
+      "page_language": "es",
+      "top_country": "esp",
+      "countries": {
+        "esp": 17
+      },
+      "language_mismatch": false
     },
     {
       "query": "alquiler de barcos con patron en marbella",
+      "page": "https://boatrentalinmarbella.com/es/",
       "clicks": 0,
       "impressions": 16,
-      "ctr": 0,
       "position": 72.4,
-      "page": "https://boatrentalinmarbella.com/es/"
+      "query_language": "es",
+      "page_language": "es",
+      "top_country": "esp",
+      "countries": {
+        "esp": 16
+      },
+      "language_mismatch": false
     },
     {
       "query": "boat rental marbella",
+      "page": "https://boatrentalinmarbella.com/",
       "clicks": 0,
       "impressions": 16,
-      "ctr": 0,
-      "position": 79,
-      "page": "https://boatrentalinmarbella.com/"
+      "position": 79.0,
+      "query_language": "en_or_other",
+      "page_language": "en",
+      "top_country": "usa",
+      "countries": {
+        "gbr": 5,
+        "usa": 11
+      },
+      "language_mismatch": false
     },
     {
       "query": "marbella alquiler barco",
+      "page": "https://boatrentalinmarbella.com/es/",
       "clicks": 0,
       "impressions": 12,
-      "ctr": 0,
       "position": 88.2,
-      "page": "https://boatrentalinmarbella.com/es/"
+      "query_language": "es",
+      "page_language": "es",
+      "top_country": "esp",
+      "countries": {
+        "esp": 12
+      },
+      "language_mismatch": false
     }
   ],
+  "language_mismatches": [],
+  "by_language": {
+    "en_or_other": {
+      "impressions": 254,
+      "clicks": 0,
+      "queries": 55
+    },
+    "es": {
+      "impressions": 168,
+      "clicks": 0,
+      "queries": 26
+    }
+  },
+  "by_country": {
+    "esp": 214,
+    "usa": 91,
+    "gbr": 62,
+    "irl": 24,
+    "nld": 17,
+    "swe": 3,
+    "ind": 2,
+    "tha": 1,
+    "bra": 1,
+    "vnm": 1,
+    "mex": 1,
+    "idn": 1,
+    "mys": 1,
+    "fra": 1,
+    "pol": 1,
+    "deu": 1
+  },
   "backlog_total_items": 15,
   "tasks_selected_today": [
     {
-      "id": "rank-4",
-      "type": "ranking_opportunity",
-      "page": "https://boatrentalinmarbella.com/",
-      "query": "marbella rent a boat",
-      "impressions": 20,
-      "position": 79,
-      "status": "selected_for_review",
-      "identified_date": "2026-09-25",
-      "notes": "20 impressions/28d at position 79 \u2014 not on page 1",
-      "selected_date": "2026-09-25"
-    },
-    {
-      "id": "rank-5",
-      "type": "ranking_opportunity",
-      "page": "https://boatrentalinmarbella.com/es/",
-      "query": "alquiler barco con patron marbella",
-      "impressions": 18,
-      "position": 75.3,
-      "status": "selected_for_review",
-      "identified_date": "2026-09-25",
-      "notes": "18 impressions/28d at position 75.3 \u2014 not on page 1",
-      "selected_date": "2026-09-25"
-    },
-    {
-      "id": "rank-6",
+      "id": "rank-13",
       "type": "ranking_opportunity",
       "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
-      "query": "best boat party in marbella",
-      "impressions": 18,
-      "position": 72.7,
+      "query": "marbella party boat",
+      "impressions": 10,
+      "position": 79.7,
       "status": "selected_for_review",
       "identified_date": "2026-09-25",
-      "notes": "18 impressions/28d at position 72.7 \u2014 not on page 1",
+      "notes": "10 impressions/28d at position 79.7 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-14",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler barcos marbella",
+      "impressions": 9,
+      "position": 84.8,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "9 impressions/28d at position 84.8 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-15",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler de barco en marbella",
+      "impressions": 9,
+      "position": 88.9,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "9 impressions/28d at position 88.9 \u2014 not on page 1",
       "selected_date": "2026-09-25"
     }
   ],

@@ -46,11 +46,11 @@ class DailySEOAgent:
         logger.info(f"Daily SEO Agent initialized for {self.base_url}")
 
     def get_gsc_data(self):
-        """Pull real Search Analytics data. Returns None (not fake data) on failure."""
+        """Pull real Search Analytics data (query, page, country). Returns None on failure — never fake data."""
         logger.info("Fetching Google Search Console data...")
         try:
             client = GSCClient(self.gsc_sa_path, self.site_property)
-            data = client.fetch_search_analytics(days=28, dimensions=("query", "page"))
+            data = client.fetch_search_analytics(days=28, dimensions=("query", "page", "country"))
             logger.info(f"GSC fetch OK: {len(data['rows'])} rows, {data['period_start']} to {data['period_end']}")
             return data
         except FileNotFoundError as e:
@@ -60,46 +60,115 @@ class DailySEOAgent:
             logger.error(f"GSC data fetch failed: {e}")
             return None
 
+    # Heuristic word lists for classifying query language — NOT a volume/intent source,
+    # just used to group real GSC queries for reporting. No invented data.
+    _SPANISH_MARKERS = {
+        "alquiler", "alquilar", "barco", "barcos", "patron", "patrón", "yate", "yates",
+        "paseo", "renta", "embarcaciones", "con", "en", "de", "por", "del", "para",
+    }
+
+    @classmethod
+    def _classify_query_language(cls, query: str) -> str:
+        """Heuristic ES-detector only — not a real language classifier. Anything without
+        a clear Spanish marker word is labeled 'en_or_other' rather than guessed as English,
+        since this word list has no signal for Dutch/German/French/etc. queries."""
+        words = set(query.lower().split())
+        return "es" if words & cls._SPANISH_MARKERS else "en_or_other"
+
+    @staticmethod
+    def _page_language(page_url: str) -> str:
+        for code in ("es", "de", "fr", "nl", "no", "pl", "ru", "sv", "ar", "uk"):
+            if f"/{code}/" in page_url:
+                return code
+        return "en"
+
     def analyze_opportunities(self, gsc_data):
-        """Turn raw GSC rows into concrete, page-mapped opportunities. No invented numbers."""
+        """Turn raw GSC rows (query, page, country) into concrete, page-mapped,
+        language/country-grouped opportunities. No invented numbers — every figure
+        here is a real GSC impression/click/position for the stated 28-day window."""
         if not gsc_data or not gsc_data.get("rows"):
             logger.warning("No GSC data available for analysis")
-            return {"ranking_opportunities": [], "zero_click_high_impression": [], "by_page": {}}
+            return {
+                "ranking_opportunities": [], "zero_click_high_impression": [],
+                "by_page": {}, "by_language": {}, "by_country": {},
+                "pages_with_no_matching_language": [],
+                "period": None,
+            }
+
+        # Collapse the country dimension per (query, page) so a query isn't double-counted per country
+        agg = defaultdict(lambda: {"clicks": 0, "impressions": 0, "positions": [], "countries": defaultdict(int)})
+        for row in gsc_data["rows"]:
+            query, page, country = row["keys"]
+            k = (query, page)
+            agg[k]["clicks"] += row["clicks"]
+            agg[k]["impressions"] += row["impressions"]
+            agg[k]["positions"].append((row["position"], row["impressions"]))
+            agg[k]["countries"][country] += row["impressions"]
 
         by_page = defaultdict(list)
-        for row in gsc_data["rows"]:
-            query, page = row["keys"]
-            by_page[page].append({
+        by_language = defaultdict(lambda: {"impressions": 0, "clicks": 0, "queries": 0})
+        by_country = defaultdict(int)
+        ranking_opportunities = []
+        zero_click_high_impression = []
+        no_matching_language = []
+
+        for (query, page), stats in agg.items():
+            total_impr = stats["impressions"]
+            weighted_pos = sum(p * w for p, w in stats["positions"]) / max(total_impr, 1)
+            lang = self._classify_query_language(query)
+            page_lang = self._page_language(page)
+            top_country = max(stats["countries"].items(), key=lambda kv: kv[1])[0] if stats["countries"] else None
+
+            record = {
                 "query": query,
-                "clicks": row["clicks"],
-                "impressions": row["impressions"],
-                "ctr": row["ctr"],
-                "position": round(row["position"], 1),
-            })
+                "page": page,
+                "clicks": stats["clicks"],
+                "impressions": total_impr,
+                "position": round(weighted_pos, 1),
+                "query_language": lang,
+                "page_language": page_lang,
+                "top_country": top_country,
+                "countries": dict(stats["countries"]),
+                # Only flag the confident, actionable case: a query with a strong Spanish
+                # signal landing on a page that isn't /es/. The classifier can't reliably
+                # detect other languages (Dutch, German, etc.), so it does not attempt to —
+                # everything not confidently Spanish is left unclassified rather than guessed as English.
+                "language_mismatch": lang == "es" and page_lang != "es",
+            }
+            by_page[page].append(record)
+            by_language[lang]["impressions"] += total_impr
+            by_language[lang]["clicks"] += stats["clicks"]
+            by_language[lang]["queries"] += 1
+            for c, n in stats["countries"].items():
+                by_country[c] += n
 
-        ranking_opportunities = []  # impressions >= 3, position between 11-100 (not page 1) = room to climb
-        zero_click_high_impression = []  # impressions >= 5, clicks == 0
-
-        for page, rows in by_page.items():
-            for r in rows:
-                if r["impressions"] >= 3 and r["position"] > 10:
-                    ranking_opportunities.append({**r, "page": page})
-                if r["impressions"] >= 5 and r["clicks"] == 0:
-                    zero_click_high_impression.append({**r, "page": page})
+            if total_impr >= 3 and weighted_pos > 10:
+                ranking_opportunities.append(record)
+            if total_impr >= 5 and stats["clicks"] == 0:
+                zero_click_high_impression.append(record)
+            # Spanish-language query landing on a non-/es/ page (or vice versa) = a real page-mapping gap
+            if record["language_mismatch"]:
+                no_matching_language.append(record)
 
         ranking_opportunities.sort(key=lambda x: -x["impressions"])
         zero_click_high_impression.sort(key=lambda x: -x["impressions"])
+        no_matching_language.sort(key=lambda x: -x["impressions"])
 
         logger.info(
             f"Found {len(ranking_opportunities)} ranking opportunities, "
             f"{len(zero_click_high_impression)} zero-click high-impression queries, "
-            f"across {len(by_page)} pages"
+            f"{len(no_matching_language)} language-mismatched page mappings, "
+            f"across {len(by_page)} pages, {len(by_country)} countries"
         )
 
         return {
+            "period": {"start": gsc_data["period_start"], "end": gsc_data["period_end"], "days": 28},
             "ranking_opportunities": ranking_opportunities[:30],
             "zero_click_high_impression": zero_click_high_impression[:30],
-            "by_page": {k: v for k, v in by_page.items()},
+            "pages_with_no_matching_language": no_matching_language[:20],
+            "by_page": dict(by_page),
+            "by_language": dict(by_language),
+            "by_country": dict(sorted(by_country.items(), key=lambda kv: -kv[1])),
         }
 
     def _load_backlog(self):
@@ -129,6 +198,8 @@ class DailySEOAgent:
                 "query": opp["query"],
                 "impressions": opp["impressions"],
                 "position": opp["position"],
+                "query_language": opp.get("query_language"),
+                "top_country": opp.get("top_country"),
                 "status": "identified",
                 "identified_date": datetime.utcnow().date().isoformat(),
                 "notes": f"{opp['impressions']} impressions/28d at position {opp['position']} — not on page 1",
@@ -158,12 +229,18 @@ class DailySEOAgent:
         report = {
             "date": report_date,
             "timestamp": datetime.utcnow().isoformat(),
+            "data_source": "Google Search Console API (searchanalytics.query), sc-domain:boatrentalinmarbella.com",
+            "period": opportunities.get("period"),
             "gsc_status": gsc_status,
             "opportunities_found": {
                 "ranking_opportunities": len(opportunities.get("ranking_opportunities", [])),
                 "zero_click_high_impression": len(opportunities.get("zero_click_high_impression", [])),
+                "pages_with_no_matching_language": len(opportunities.get("pages_with_no_matching_language", [])),
             },
             "top_ranking_opportunities": opportunities.get("ranking_opportunities", [])[:10],
+            "language_mismatches": opportunities.get("pages_with_no_matching_language", [])[:10],
+            "by_language": opportunities.get("by_language", {}),
+            "by_country": opportunities.get("by_country", {}),
             "backlog_total_items": len(backlog["items"]),
             "tasks_selected_today": selected_tasks,
             "status": "ACTIVE" if gsc_status == "ok" else "DEGRADED_NO_GSC_DATA",

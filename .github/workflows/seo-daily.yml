@@ -1,0 +1,73 @@
+name: Daily SEO automation
+
+# Runs entirely in GitHub's cloud — independent of any local machine being on.
+# Scoped to automation/, reports/, logs/ only. Never touches site/, so it can
+# never trigger or conflict with deploy-pages.yml (which only fires on
+# site/** pushes) and never conflicts with website-content work.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 09:00 UTC daily — GitHub Actions cron is always UTC, no DST/timezone drift
+  workflow_dispatch: {}     # manual trigger for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-daily
+  cancel-in-progress: false
+
+jobs:
+  seo-automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet google-auth google-api-python-client
+
+      - name: Write GSC service account credentials
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        run: |
+          mkdir -p "$HOME/.config/boathire-seo"
+          if [ -z "$GSC_SERVICE_ACCOUNT_JSON" ]; then
+            echo "::warning::GSC_SERVICE_ACCOUNT_JSON secret is not set — GSC fetch will fail and be logged as gsc_status=failed, not faked."
+          else
+            printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$HOME/.config/boathire-seo/service-account-key.json"
+          fi
+
+      - name: Run daily SEO agent (real GSC fetch + backlog update)
+        run: python3 automation/daily_seo_agent.py
+        continue-on-error: true
+
+      - name: Run technical crawl check (read-only, site/ untouched)
+        run: python3 automation/technical_crawl_check.py
+        continue-on-error: true
+
+      - name: Generate daily report
+        run: python3 automation/daily_report_generator.py
+        continue-on-error: true
+
+      - name: Commit updated reports/logs (never site/)
+        run: |
+          git config user.name "seo-automation-bot"
+          git config user.email "seo-automation-bot@users.noreply.github.com"
+          git add reports/ logs/
+          git status --short
+          if git diff --cached --quiet; then
+            echo "No report/log changes to commit."
+          else
+            git commit -m "Automated daily SEO run: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Write job summary
+        if: always()
+        run: python3 automation/write_daily_summary.py >> "$GITHUB_STEP_SUMMARY"

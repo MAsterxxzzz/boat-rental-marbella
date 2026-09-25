@@ -1,0 +1,26 @@
+{
+  "daily_seo_agent": {
+    "name": "Daily SEO Analysis",
+    "script": "/Users/nunnu/Projects/boat-rental-marbella/automation/daily_seo_agent.py",
+    "schedule": "daily@09:00",
+    "enabled": true,
+    "last_run": "2026-09-25T14:26:25.557095",
+    "last_status": "success"
+  },
+  "backlink_outreach": {
+    "name": "Backlink Outreach",
+    "script": "/Users/nunnu/Projects/boat-rental-marbella/automation/backlink_outreach_engine.py",
+    "schedule": "daily@10:00",
+    "enabled": true,
+    "last_run": "",
+    "last_status": "pending"
+  },
+  "weekly_seo_review": {
+    "name": "Weekly SEO Review",
+    "script": "/Users/nunnu/Projects/boat-rental-marbella/automation/weekly_seo_review.py",
+    "schedule": "weekly@monday09:00",
+    "enabled": true,
+    "last_run": "",
+    "last_status": "pending"
+  }
+}
