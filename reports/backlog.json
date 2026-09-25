@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "rank-1",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler barco marbella",
+      "impressions": 24,
+      "position": 88.4,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "24 impressions/28d at position 88.4 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-2",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
+      "query": "boat party marbella",
+      "impressions": 24,
+      "position": 82.0,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "24 impressions/28d at position 82.0 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-3",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/",
+      "query": "rent a boat marbella",
+      "impressions": 21,
+      "position": 78.0,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "21 impressions/28d at position 78.0 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-4",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/",
+      "query": "marbella rent a boat",
+      "impressions": 20,
+      "position": 79,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "20 impressions/28d at position 79 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-5",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler barco con patron marbella",
+      "impressions": 18,
+      "position": 75.3,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "18 impressions/28d at position 75.3 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-6",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
+      "query": "best boat party in marbella",
+      "impressions": 18,
+      "position": 72.7,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "18 impressions/28d at position 72.7 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-7",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler embarcaciones con patr\u00f3n en marbella",
+      "impressions": 17,
+      "position": 82.1,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "17 impressions/28d at position 82.1 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-8",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler de barcos con patron en marbella",
+      "impressions": 16,
+      "position": 72.4,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "16 impressions/28d at position 72.4 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-9",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/",
+      "query": "boat rental marbella",
+      "impressions": 16,
+      "position": 79,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "16 impressions/28d at position 79 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-10",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "marbella alquiler barco",
+      "impressions": 12,
+      "position": 88.2,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "12 impressions/28d at position 88.2 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-11",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/yacht-charter-marbella/",
+      "query": "rent yacht marbella",
+      "impressions": 11,
+      "position": 88.3,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "11 impressions/28d at position 88.3 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-12",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler de barcos en marbella",
+      "impressions": 10,
+      "position": 85.9,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "10 impressions/28d at position 85.9 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-13",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
+      "query": "marbella party boat",
+      "impressions": 10,
+      "position": 79.7,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "10 impressions/28d at position 79.7 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-14",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler barcos marbella",
+      "impressions": 9,
+      "position": 84.8,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "9 impressions/28d at position 84.8 \u2014 not on page 1"
+    },
+    {
+      "id": "rank-15",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler de barco en marbella",
+      "impressions": 9,
+      "position": 88.9,
+      "status": "identified",
+      "identified_date": "2026-09-25",
+      "notes": "9 impressions/28d at position 88.9 \u2014 not on page 1"
+    }
+  ],
+  "last_updated": "2026-09-25T08:57:51.654613"
+}

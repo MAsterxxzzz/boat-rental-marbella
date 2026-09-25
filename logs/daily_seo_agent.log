@@ -22,3 +22,33 @@
 2026-09-25 09:37:46,251 [INFO] ============================================================
 2026-09-25 09:37:46,251 [INFO] DAILY SEO AGENT - EXECUTION COMPLETE
 2026-09-25 09:37:46,251 [INFO] ============================================================
+2026-09-25 11:57:35,661 [INFO] Daily SEO Agent initialized for https://boatrentalinmarbella.com
+2026-09-25 11:57:35,662 [INFO] ============================================================
+2026-09-25 11:57:35,662 [INFO] DAILY SEO AGENT - EXECUTION START
+2026-09-25 11:57:35,662 [INFO] ============================================================
+2026-09-25 11:57:35,662 [INFO] Fetching Google Search Console data...
+2026-09-25 11:57:35,726 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-25 11:57:35,727 [INFO] Fetching GSC data: 2026-08-25 to 2026-09-22, dims=('query', 'page')
+2026-09-25 11:57:35,918 [INFO] GSC returned 81 rows
+2026-09-25 11:57:35,918 [INFO] GSC fetch OK: 81 rows, 2026-08-25 to 2026-09-22
+2026-09-25 11:57:35,922 [INFO] Found 44 ranking opportunities, 27 zero-click high-impression queries, across 12 pages
+2026-09-25 11:57:35,922 [INFO] Backlog: 15 new items added, 15 total tracked
+2026-09-25 11:57:35,926 [INFO] Report saved: /Users/nunnu/Desktop/boathire/boat-rental-marbella/reports/daily_seo/seo_report_2026-09-25.json
+2026-09-25 11:57:35,926 [INFO] ============================================================
+2026-09-25 11:57:35,926 [INFO] DAILY SEO AGENT - EXECUTION COMPLETE (gsc_status=ok)
+2026-09-25 11:57:35,927 [INFO] ============================================================
+2026-09-25 11:57:51,372 [INFO] Daily SEO Agent initialized for https://boatrentalinmarbella.com
+2026-09-25 11:57:51,373 [INFO] ============================================================
+2026-09-25 11:57:51,373 [INFO] DAILY SEO AGENT - EXECUTION START
+2026-09-25 11:57:51,373 [INFO] ============================================================
+2026-09-25 11:57:51,373 [INFO] Fetching Google Search Console data...
+2026-09-25 11:57:51,435 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-25 11:57:51,437 [INFO] Fetching GSC data: 2026-08-25 to 2026-09-22, dims=('query', 'page')
+2026-09-25 11:57:51,650 [INFO] GSC returned 81 rows
+2026-09-25 11:57:51,651 [INFO] GSC fetch OK: 81 rows, 2026-08-25 to 2026-09-22
+2026-09-25 11:57:51,652 [INFO] Found 44 ranking opportunities, 27 zero-click high-impression queries, across 12 pages
+2026-09-25 11:57:51,653 [INFO] Backlog: 0 new items added, 15 total tracked
+2026-09-25 11:57:51,656 [INFO] Report saved: /Users/nunnu/Desktop/boathire/boat-rental-marbella/reports/daily_seo/seo_report_2026-09-25.json
+2026-09-25 11:57:51,656 [INFO] ============================================================
+2026-09-25 11:57:51,656 [INFO] DAILY SEO AGENT - EXECUTION COMPLETE (gsc_status=ok)
+2026-09-25 11:57:51,656 [INFO] ============================================================

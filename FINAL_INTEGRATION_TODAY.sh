@@ -10,8 +10,8 @@ echo "║            Google Drive → Website (Sept 25, 2026 Uploads)           
 echo "╚════════════════════════════════════════════════════════════════════════╝"
 echo ""
 
-SITE_IMG="/Users/nunnu/Desktop/boathire/boat-rental-marbella/site/img/happy-customers"
-SITE_VID="/Users/nunnu/Desktop/boathire/boat-rental-marbella/site/video/happy-customers"
+SITE_IMG="$HOME/Projects/boat-rental-marbella/site/img/happy-customers"
+SITE_VID="$HOME/Projects/boat-rental-marbella/site/video/happy-customers"
 DOWNLOAD_DIR="$HOME/Downloads/happy-customers-today"
 
 echo "📂 Files needed from Google Drive Happy Customers folder (Sept 25):"
@@ -48,8 +48,8 @@ import shutil
 from PIL import Image
 
 DOWNLOAD_DIR = pathlib.Path.home() / "Downloads" / "happy-customers-today"
-SITE_IMG = pathlib.Path("/Users/nunnu/Desktop/boathire/boat-rental-marbella/site/img/happy-customers")
-SITE_VID = pathlib.Path("/Users/nunnu/Desktop/boathire/boat-rental-marbella/site/video/happy-customers")
+SITE_IMG = pathlib.Path.home() / "Projects" / "boat-rental-marbella" / "site" / "img" / "happy-customers"
+SITE_VID = pathlib.Path.home() / "Projects" / "boat-rental-marbella" / "site" / "video" / "happy-customers"
 
 processed = 0
 
