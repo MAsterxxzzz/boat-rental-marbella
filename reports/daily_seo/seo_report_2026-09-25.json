@@ -1,14 +1,131 @@
 {
   "date": "2026-09-25",
-  "timestamp": "2026-09-25T09:37:46.250888",
-  "opportunities": {
-    "high_impression_low_ctr": [],
-    "ranking_positions_4_20": [],
-    "pages_losing_visibility": [],
-    "indexing_issues": [],
-    "cannibalization": [],
-    "internal_link_gaps": []
+  "timestamp": "2026-09-25T08:57:51.655699",
+  "gsc_status": "ok",
+  "opportunities_found": {
+    "ranking_opportunities": 30,
+    "zero_click_high_impression": 27
   },
-  "actions_taken": [],
+  "top_ranking_opportunities": [
+    {
+      "query": "alquiler barco marbella",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 88.4,
+      "page": "https://boatrentalinmarbella.com/es/"
+    },
+    {
+      "query": "boat party marbella",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 82.0,
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/"
+    },
+    {
+      "query": "rent a boat marbella",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0,
+      "position": 78.0,
+      "page": "https://boatrentalinmarbella.com/"
+    },
+    {
+      "query": "marbella rent a boat",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 79,
+      "page": "https://boatrentalinmarbella.com/"
+    },
+    {
+      "query": "alquiler barco con patron marbella",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 75.3,
+      "page": "https://boatrentalinmarbella.com/es/"
+    },
+    {
+      "query": "best boat party in marbella",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 72.7,
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/"
+    },
+    {
+      "query": "alquiler embarcaciones con patr\u00f3n en marbella",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 82.1,
+      "page": "https://boatrentalinmarbella.com/es/"
+    },
+    {
+      "query": "alquiler de barcos con patron en marbella",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 72.4,
+      "page": "https://boatrentalinmarbella.com/es/"
+    },
+    {
+      "query": "boat rental marbella",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 79,
+      "page": "https://boatrentalinmarbella.com/"
+    },
+    {
+      "query": "marbella alquiler barco",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 88.2,
+      "page": "https://boatrentalinmarbella.com/es/"
+    }
+  ],
+  "backlog_total_items": 15,
+  "tasks_selected_today": [
+    {
+      "id": "rank-4",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/",
+      "query": "marbella rent a boat",
+      "impressions": 20,
+      "position": 79,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "20 impressions/28d at position 79 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-5",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler barco con patron marbella",
+      "impressions": 18,
+      "position": 75.3,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "18 impressions/28d at position 75.3 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-6",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
+      "query": "best boat party in marbella",
+      "impressions": 18,
+      "position": 72.7,
+      "status": "selected_for_review",
+      "identified_date": "2026-09-25",
+      "notes": "18 impressions/28d at position 72.7 \u2014 not on page 1",
+      "selected_date": "2026-09-25"
+    }
+  ],
   "status": "ACTIVE"
 }
