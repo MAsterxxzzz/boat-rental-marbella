@@ -90,6 +90,7 @@ strong{color:var(--c-ink);font-weight:700}
 .lang-switch strong{color:var(--c-ink);padding:4px 6px}
 .lang-switch .sep{color:var(--c-line);user-select:none}
 @media (max-width:880px){.lang-switch{display:none}}
+@media (max-width:480px){.header-ig-icon{display:none!important}}
 
 /* ─── Hero ────────────────────────────── */
 .hero{position:relative;width:100%;overflow:hidden;background:#0a1f33;color:#fff}
