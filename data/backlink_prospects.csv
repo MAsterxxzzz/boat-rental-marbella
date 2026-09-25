@@ -1,21 +1,21 @@
-domain,company,category,contact_name,email,relevance_score,collaboration_angle
-wanderlust.co.uk,Wanderlust Tips,travel_blog,Editorial Team,hello@wanderlust.co.uk,9,Guest post on Marbella experiences
-theblondabroad.com,The Blonde Abroad,travel_blog,Sarah,partnerships@theblondabroad.com,9,Resource feature in Marbella guide
-boatinternational.com,Boat International,boating_magazine,Editorial,editorial@boatinternational.com,8,Charter pricing data feature
-hensandbucks.co.uk,Hens and Bucks,event_planning,Team,info@hensandbucks.co.uk,8,Boat party packages for events
-junebugweddings.com,Junebug Weddings,wedding_planning,Editorial,partnerships@junebugweddings.com,8,Yacht charter for weddings
-nomadicmatt.com,Nomadic Matt,travel_blog,Matt,contact@nomadicmatt.com,8,Budget boat rental guide
-hostelworld.com,Hostelworld,travel_platform,Partnerships,partnerships@hostelworld.com,7,Activities listings
-vrbo.com,Vrbo/HomeAway,vacation_rental,Partnerships,partnerships@vrbo.com,8,Guest experiences
-viamichelin.com,ViaMichelin,travel_portal,Tourism,tourism@viamichelin.com,7,Costa del Sol activities
-tripadvisor.com,TripAdvisor,review_platform,Business,business@tripadvisor.com,9,Activity verification + listing
-spain.info,Spain Tourism,government,Editorial,info@spain.info,9,Marbella experiences guide
-lonelyplanet.com,Lonely Planet,travel_guide,Submissions,editorial@lonelyplanet.com,10,Costa del Sol yacht travel
-booking.com,Booking.com,travel_platform,Partnerships,partnerships@booking.com,9,Guest experiences platform
-airbnb.com,Airbnb Experiences,platform,Host Support,host@airbnb.com,8,Experience host partner
-superyachtforum.com,SuperYacht Forum,boating_community,Admin,info@superyachtforum.com,7,Community discussion
-marbellahotels.com,Marbella Hotels,hotels,Marketing,marketing@marbellahotels.com,7,Guest activity recommendations
-costadelsoltravel.com,Costa del Sol Travel,tourism_site,Editorial,editorial@costadelsoltravel.com,8,Travel guide partnership
-puertobanusoficial.com,Puerto Banús Official,local_business,Director,director@puertobanusoficial.com,9,Local business partnership
-marbellaweddings.com,Marbella Weddings,wedding_services,Team,info@marbellaweddings.com,8,Wedding experience offerings
-luxurytraveladvisors.com,Luxury Travel Advisors,travel_agency,Team,info@luxurytraveladvisors.com,8,Marbella yacht charters
+domain,company,category,contact_name,email,relevance_score,collaboration_angle,first_email_date,follow_up_1_date,follow_up_2_date,response_status
+wanderlust.co.uk,Wanderlust Magazine,travel_blog,Editorial Team,hello@wanderlust.co.uk,9,Editorial feature: "Best Boat Charters Europe",2026-09-25T10:52:00,,,"pending"
+theblondabroad.com,The Blonda Broad,travel_blog,Kiersten,partnerships@theblondabroad.com,9,Guest post: "Marbella Yacht Charter Guide",2026-09-25T10:52:00,,,"pending"
+boatinternational.com,Boat International,boating_magazine,Editorial,editorial@boatinternational.com,9,Advertorial: "Luxury Charter Destinations",2026-09-25T10:52:00,,,"pending"
+hensandbucks.co.uk,Hens and Bucks,event_planning,Admin,info@hensandbucks.co.uk,7,Partnership: "Boat Party Packages for Events",,,,"pending"
+junebugweddings.com,JuneBug Weddings,wedding_planning,Submissions,partnerships@junebugweddings.com,8,Feature: "Romantic Yacht Wedding Ideas",2026-09-25T10:52:00,,,"pending"
+nomadicmatt.com,Nomadic Matt,travel_blog,Matt,contact@nomadicmatt.com,8,Guest post: "Marbella Travel Guide - Boat Activities",2026-09-25T10:52:00,,,"pending"
+hostelworld.com,HostelWorld,travel_platform,Partnerships,partnerships@hostelworld.com,8,Tour integration: "Add boat charters to tours",2026-09-25T10:52:00,,,"pending"
+vrbo.com,VRBO (Expedia),vacation_rental,Business Development,partnerships@vrbo.com,7,Co-marketing: "Boat activities for villa guests",,,,"pending"
+viamichelin.com,Via Michelin,travel_portal,Tourism Editor,tourism@viamichelin.com,8,Content inclusion: "Things to do in Marbella",2026-09-25T10:52:00,,,"pending"
+tripadvisor.com,TripAdvisor,travel_reviews,Business Partnerships,business@tripadvisor.com,9,Listing integration: "Boat tour bookings",,,,"pending"
+spain.info,Spain Tourism Board,tourism_government,Partnerships,info@spain.info,9,Featured experience: "Costa del Sol Water Activities",,,,"pending"
+lonelyplanet.com,Lonely Planet,travel_guide,Editorial Submissions,editorial@lonelyplanet.com,10,Featured guide: "Puerto Banús & Yacht Culture",2026-09-25T10:52:00,,,"pending"
+booking.com,Booking.com,travel_platform,Experience Partnerships,partnerships@booking.com,10,Integration: "Boat charters as guest experiences",2026-09-25T10:52:00,,,"pending"
+airbnb.com,Airbnb,vacation_rental,Experience Partnerships,partnerships@airbnb.com,8,New experience: "Private boat charters",,,,"pending"
+superyachtforum.com,SuperYacht Forum,boating_community,Business Development,info@superyachtforum.com,8,Community partnership: "Charter reviews",2026-09-25T10:52:00,,,"pending"
+costadelsoltravel.com,Costa del Sol Travel Blog,travel_blog,Editor,editorial@costadelsoltravel.com,8,Guest post: "Boat charter options",,,,"pending"
+marbellahotels.com,Marbella Hotels Association,hotels_local,Partnership Manager,partnerships@marbellahotels.com,7,Concierge partnership: "Recommend boat charters",,,,"pending"
+puertobanus.com,Puerto Banús Official,tourism_local,Marketing,marketing@puertobanus.com,8,Destination marketing: "Water activities",,,,"pending"
+luxurytraveladvisors.com,Luxury Travel Advisors,luxury_travel,Coordinator,info@luxurytraveladvisors.com,7,Concierge listing: "Marbella yacht charters",,,,"pending"
+travelweekly.com,Travel Weekly,travel_publication,Editor,editorial@travelweekly.com,8,Feature story: "Destination spotlight",,,,"pending"

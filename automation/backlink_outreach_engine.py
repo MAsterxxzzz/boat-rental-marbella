@@ -154,11 +154,38 @@ class BacklinkOutreachEngine:
             return False
 
     def log_outreach(self, prospect, sent=True):
-        """Log outreach attempt"""
+        """Log outreach attempt and update prospect database"""
         if sent:
             logger.info(f"LOGGED: Outreach sent to {prospect['email']}")
+            self._update_prospect_sent_date(prospect)
         else:
             logger.info(f"LOGGED: Outreach skipped for {prospect['email']}")
+
+    def _update_prospect_sent_date(self, prospect):
+        """Update CSV with send date to prevent duplicates"""
+        if not self.prospect_db.exists():
+            return
+
+        try:
+            # Read current data
+            rows = []
+            with open(self.prospect_db, 'r') as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                for row in reader:
+                    if row.get('email') == prospect.get('email'):
+                        row['first_email_date'] = datetime.now().isoformat()
+                    rows.append(row)
+
+            # Write back
+            with open(self.prospect_db, 'w') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(rows)
+
+            logger.info(f"✅ Updated prospect database: {prospect['email']}")
+        except Exception as e:
+            logger.error(f"❌ Failed to update prospect database: {e}")
 
     def track_follow_ups(self):
         """Check which prospects need follow-ups"""
