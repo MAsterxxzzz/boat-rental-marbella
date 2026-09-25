@@ -19,6 +19,39 @@ from datetime import datetime
 from pathlib import Path
 from dataclasses import dataclass
 
+LOCK_PATH = Path(__file__).parent.parent / "logs" / "scheduler.lock"
+
+
+def _pid_alive(pid):
+    try:
+        os.kill(pid, 0)
+        return True
+    except (OSError, ProcessLookupError):
+        return False
+
+
+def acquire_lock():
+    """Prevent overlapping runs. Returns True if lock acquired, False if another run is active."""
+    if LOCK_PATH.exists():
+        try:
+            existing_pid = int(LOCK_PATH.read_text().strip())
+        except (ValueError, OSError):
+            existing_pid = None
+        if existing_pid and _pid_alive(existing_pid):
+            return False
+        # stale lock from a crashed/killed run — reclaim it
+    LOCK_PATH.parent.mkdir(parents=True, exist_ok=True)
+    LOCK_PATH.write_text(str(os.getpid()))
+    return True
+
+
+def release_lock():
+    try:
+        if LOCK_PATH.exists() and LOCK_PATH.read_text().strip() == str(os.getpid()):
+            LOCK_PATH.unlink()
+    except OSError:
+        pass
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
@@ -50,6 +83,7 @@ class AutomationScheduler:
 
         self.tasks_file = self.root / "automation" / "tasks.json"
         self.execution_log = self.logs_dir / "automation_execution.log"
+        self.last_run_marker = self.logs_dir / "last_full_run_date.txt"
 
         # Define all automation tasks
         self.tasks = {
@@ -138,9 +172,22 @@ class AutomationScheduler:
 
     def run_all_tasks(self):
         """Run all enabled tasks"""
+        utc_now = datetime.utcnow()
+        today = utc_now.date().isoformat()
+
+        if self.last_run_marker.exists() and self.last_run_marker.read_text().strip() == today:
+            logger.info(f"Full run already completed today (UTC {today}) — skipping duplicate run.")
+            return {}
+
         logger.info("=" * 70)
         logger.info("AUTOMATION SCHEDULER - FULL RUN")
-        logger.info(f"Time: {datetime.now().isoformat()}")
+        logger.info(f"Local time: {datetime.now().isoformat()} | UTC time: {utc_now.isoformat()}")
+        if not (8 <= utc_now.hour <= 10):
+            logger.warning(
+                f"UTC hour is {utc_now.hour}, outside the expected 08:00-10:00 UTC window. "
+                f"This run may be firing at the wrong wall-clock time (check system timezone "
+                f"vs the launchd plist's StartCalendarInterval, which uses LOCAL time)."
+            )
         logger.info("=" * 70)
 
         results = {}
@@ -158,6 +205,7 @@ class AutomationScheduler:
         logger.info(f"Results: {successes}/{total} tasks successful")
         logger.info("=" * 70)
 
+        self.last_run_marker.write_text(today)
         return results
 
     def get_status(self):
@@ -209,15 +257,24 @@ class AutomationScheduler:
 if __name__ == "__main__":
     scheduler = AutomationScheduler()
 
-    if len(sys.argv) > 1:
-        if sys.argv[1] == "--status":
-            scheduler.print_status()
-        elif sys.argv[1] == "--run-all":
+    needs_lock = len(sys.argv) <= 1 or sys.argv[1] in ("--run-all",) or sys.argv[1].startswith("--run=")
+
+    if needs_lock and not acquire_lock():
+        logger.warning("Another automation run is already active (lock held by a live PID) — skipping this invocation to avoid overlap.")
+        sys.exit(0)
+
+    try:
+        if len(sys.argv) > 1:
+            if sys.argv[1] == "--status":
+                scheduler.print_status()
+            elif sys.argv[1] == "--run-all":
+                scheduler.run_all_tasks()
+            elif sys.argv[1].startswith("--run="):
+                task_name = sys.argv[1].replace("--run=", "")
+                scheduler.execute_task(task_name)
+        else:
             scheduler.run_all_tasks()
-        elif sys.argv[1].startswith("--run="):
-            task_name = sys.argv[1].replace("--run=", "")
-            scheduler.execute_task(task_name)
-    else:
-        # Default: run all tasks
-        scheduler.run_all_tasks()
-        scheduler.print_status()
+            scheduler.print_status()
+    finally:
+        if needs_lock:
+            release_lock()
