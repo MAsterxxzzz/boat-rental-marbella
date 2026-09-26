@@ -1133,9 +1133,11 @@
       var v = entry.target;
       if (entry.isIntersecting) {
         v.play().catch(function(){});
+      } else {
+        v.pause();
       }
     });
-  }, { root: null, rootMargin: '50px', threshold: 0.01 });
+  }, { root: null, rootMargin: '0px', threshold: 0.15 });
   videos.forEach(function(v){ observer.observe(v); });
 })();
 </script>
