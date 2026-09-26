@@ -1132,7 +1132,7 @@
   // simultaneous <video> elements before extras silently freeze on their
   // poster frame despite reporting paused=false. Cap concurrent playback
   // and evict the longest-playing video (FIFO) when a new one needs the slot.
-  var MAX_CONCURRENT = 3;
+  var MAX_CONCURRENT = window.innerWidth <= 680 ? 2 : 3;
   var playingQueue = [];
   function startVideo(v) {
     if (playingQueue.indexOf(v) !== -1) return;
