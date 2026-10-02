@@ -3,7 +3,9 @@ name: Daily SEO automation
 # Runs entirely in GitHub's cloud — independent of any local machine being on.
 # Scoped to automation/, reports/, logs/ only. Never touches site/, so it can
 # never trigger or conflict with deploy-pages.yml (which only fires on
-# site/** pushes) and never conflicts with website-content work.
+# site/** pushes) and never conflicts with website-content work. Does NOT
+# touch data/backlink_prospects.csv — that tracker and outreach are owned
+# by a separate Claude routine; this workflow must not write to it.
 
 on:
   schedule:
@@ -55,24 +57,19 @@ jobs:
         run: python3 automation/daily_report_generator.py
         continue-on-error: true
 
-      - name: Run backlink research agent (drafts only — never sends)
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 automation/backlink_research_agent.py
-        continue-on-error: true
-
-      - name: Commit updated reports/logs/prospect data (never site/)
+      - name: Commit updated reports/logs (never site/, never the backlink tracker)
         run: |
           git config user.name "seo-automation-bot"
           git config user.email "seo-automation-bot@users.noreply.github.com"
-          git pull --rebase origin main
-          git add reports/ logs/ data/backlink_prospects.csv
+          git add reports/ logs/
           git status --short
           if git diff --cached --quiet; then
             echo "No report/log changes to commit."
           else
             git commit -m "Automated daily SEO run: $(date -u +%Y-%m-%d)"
-            git push
+            git fetch origin
+            git rebase origin/main
+            git push origin main
           fi
 
       - name: Write job summary
