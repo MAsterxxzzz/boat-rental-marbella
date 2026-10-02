@@ -8,9 +8,13 @@ name: Daily SEO automation
 # by a separate Claude routine; this workflow must not write to it.
 
 on:
-  schedule:
-    - cron: '0 9 * * *'   # 09:00 UTC daily — GitHub Actions cron is always UTC, no DST/timezone drift
-  workflow_dispatch: {}     # manual trigger for testing
+  # Scheduled trigger disabled 2026-10-02: the daily SEO job is now owned by the
+  # "Boat Rental Marbella - Daily Technical & On-Page SEO" Claude cloud routine
+  # (trig_01TCDxfrybPV5UgFwDeurBe7, runs 08:00 UTC daily), which runs these same
+  # scripts plus actually implements justified improvements. Keeping both on a
+  # schedule would be a duplicate automation writing to the same files. This
+  # workflow is kept, disabled-by-default, for manual testing only.
+  workflow_dispatch: {}     # manual trigger for testing only — no schedule
 
 permissions:
   contents: write
