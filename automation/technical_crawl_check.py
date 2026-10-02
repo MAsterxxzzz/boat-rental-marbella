@@ -135,6 +135,8 @@ def check_hreflang_canonical(site_dir: Path):
 
     issues = []
     declared = {}
+    self_hreflang = {}  # directory code -> the actual hreflang VALUE that page uses for itself
+                         # (e.g. dir "uk" self-declares as hreflang "en-GB", not literally "uk")
     for code, f in pages.items():
         text = f.read_text(encoding="utf-8", errors="replace")
         tags = hreflang_re.findall(text)
@@ -142,19 +144,28 @@ def check_hreflang_canonical(site_dir: Path):
         declared[code] = {h: href for h, href in tags}
         if not canon:
             issues.append({"page": str(f), "issue": "missing canonical tag"})
+        page_url_fragment = f"/{code}/" if code != "en" else "/"
+        for hreflang_value, href in tags:
+            if href.rstrip("/").endswith(page_url_fragment.rstrip("/")) or (code == "en" and href.rstrip("/") == href.split("://")[0] + "://" + href.split("://")[1].split("/")[0]):
+                self_hreflang[code] = hreflang_value
+        if code not in self_hreflang:
+            # fallback: assume directory code == hreflang value (true for es/de/fr/nl/no/pl/ru/sv/ar)
+            self_hreflang[code] = code
 
     for code, alts in declared.items():
+        my_hreflang_value = self_hreflang.get(code, code)
         for target_lang, target_href in alts.items():
-            if target_lang == "x-default":
+            if target_lang in ("x-default", my_hreflang_value):
                 continue
-            if target_lang not in declared:
+            # find which directory code this target hreflang value actually belongs to
+            target_code = next((c for c, hv in self_hreflang.items() if hv == target_lang), None)
+            if target_code is None or target_code not in declared:
                 continue  # target page doesn't exist on disk, not a reciprocity issue we can check
-            back = declared[target_lang]
-            # does the target page point back to `code`?
-            points_back = any(k == code or k == ("en" if code == "en" else code) for k in back)
+            back = declared[target_code]
+            points_back = my_hreflang_value in back
             if not points_back:
                 issues.append({
-                    "page": code, "issue": f"hreflang to '{target_lang}' not reciprocated back to '{code}'",
+                    "page": code, "issue": f"hreflang to '{target_lang}' not reciprocated back to '{code}' (as '{my_hreflang_value}')",
                 })
 
     logger.info(f"hreflang/canonical: {len(issues)} issues across {len(pages)} language homepages checked")
