@@ -79,10 +79,12 @@
       "query": "alquiler embarcaciones con patr\u00f3n en marbella",
       "impressions": 17,
       "position": 82.1,
-      "status": "selected_for_review",
+      "status": "completed",
       "identified_date": "2026-09-25",
       "notes": "17 impressions/28d at position 82.1 \u2014 not on page 1",
-      "selected_date": "2026-09-25"
+      "selected_date": "2026-09-25",
+      "completed_date": "2026-10-02",
+      "completion_note": "Added \"embarcaciones\" to /es/ meta description (commit a7fcaf85). One-line, verified diff, no business facts changed."
     },
     {
       "id": "rank-8",
@@ -179,7 +181,35 @@
       "identified_date": "2026-09-25",
       "notes": "9 impressions/28d at position 88.9 \u2014 not on page 1",
       "selected_date": "2026-09-25"
+    },
+    {
+      "id": "rank-16",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/es/",
+      "query": "alquiler de barcos marbella",
+      "impressions": 9,
+      "position": 84.6,
+      "query_language": "es",
+      "top_country": "esp",
+      "status": "selected_for_review",
+      "identified_date": "2026-09-30",
+      "notes": "9 impressions/28d at position 84.6 \u2014 not on page 1",
+      "selected_date": "2026-09-30"
+    },
+    {
+      "id": "rank-17",
+      "type": "ranking_opportunity",
+      "page": "https://boatrentalinmarbella.com/boat-party-marbella/",
+      "query": "marbella boat parties",
+      "impressions": 9,
+      "position": 79.2,
+      "query_language": "en_or_other",
+      "top_country": "gbr",
+      "status": "selected_for_review",
+      "identified_date": "2026-10-01",
+      "notes": "9 impressions/28d at position 79.2 \u2014 not on page 1",
+      "selected_date": "2026-10-01"
     }
   ],
-  "last_updated": "2026-09-25T12:15:03.317832"
+  "last_updated": "2026-10-02T14:24:18.728514"
 }
