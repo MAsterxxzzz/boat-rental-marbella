@@ -26,3 +26,28 @@ Since one evidenced improvement (`rank-7`) was already shipped today by a concur
 **Verification:** no `site/` files touched this run; only `reports/technical_crawl/crawl_report_2026-10-02.json`, `logs/technical_crawl.log`, and this log entry are committed.
 
 **Blocker to report:** GSC credentials not available in this environment (no service-account key file, no env var) — GSC-based evidence gathering (step 1) could not run; technical crawl ran successfully on its own.
+
+## 2026-10-03 (Claude cloud routine run)
+
+**Setup:**
+- Cloned MAsterxxzzz/boat-rental-marbella fresh (container is ephemeral).
+- `pip install google-auth google-api-python-client` — succeeded.
+- GSC credentials not available in this environment: no `~/.config/boathire-seo/service-account-key.json` and no `GSC_SERVICE_ACCOUNT_JSON` env var. Step 1 (`daily_seo_agent.py`) skipped per instructions — no fabricated GSC data used.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (57,945 hrefs checked).
+- hreflang/canonical: 0 issues (11 language homepages checked).
+- Sitemap: 800 URLs, 0 missing on disk.
+- HTML validity: 877 files flagged with `mismatched nesting: expected </p>, got </div>` — identical count to 2026-10-02's report; confirmed unchanged, pre-existing, site-wide baseline (not a new finding). Fixing it would require touching hundreds of files sharing the same template fragment, which this routine is barred from doing in one run.
+- Duplicate titles: "Redirected" shared by 349 pages — verified these are exactly the fabricated-future-year (2030+) redirect stub pages that are off-limits per standing instructions pending the business owner's review. Not actionable.
+- Net: no new, in-scope technical finding today.
+
+**Step 3/4 — Backlog review (`reports/backlog.json`):**
+- 16 items remain `selected_for_review` (rank-1 through rank-16, excluding completed rank-7), all carrying GSC evidence from 2026-09-25 (impressions/position), topped by rank-1 (24 impr, pos 88.4, /es/, "alquiler barco marbella") and rank-2 (24 impr, pos 82.0, /boat-party-marbella/, "boat party marbella").
+- Per standing instructions, since step 1 (GSC) failed today, technical findings from step 2 are the only valid evidence source for today's action — the backlog's stale 2026-09-25 GSC evidence does not qualify as today's evidence. Step 2 produced no new/actionable finding (see above), so no backlog item was selected or touched today, and no item's status was changed.
+
+**Decision: no change made today.** Nothing justified: GSC blocked, and the only technical findings are an unchanged baseline issue (bulk, out of scope for one run) and an off-limits duplicate-title set.
+
+**Verification:** no `site/` files touched this run; only `reports/technical_crawl/crawl_report_2026-10-03.json`, `logs/technical_crawl.log`, and this log entry committed. `backlog.json` unchanged (no status edits).
+
+**Blocker to report:** GSC credentials not available in this environment (no service-account key file, no env var) — GSC-based evidence gathering (step 1) could not run; technical crawl ran successfully on its own.
