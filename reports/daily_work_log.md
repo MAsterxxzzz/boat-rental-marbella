@@ -51,3 +51,28 @@ Since one evidenced improvement (`rank-7`) was already shipped today by a concur
 **Verification:** no `site/` files touched this run; only `reports/technical_crawl/crawl_report_2026-10-03.json`, `logs/technical_crawl.log`, and this log entry committed. `backlog.json` unchanged (no status edits).
 
 **Blocker to report:** GSC credentials not available in this environment (no service-account key file, no env var) — GSC-based evidence gathering (step 1) could not run; technical crawl ran successfully on its own.
+
+## 2026-10-04 (Claude cloud routine — standing instructions updated this run)
+
+**Setup:** Repo already present from the prior run; pulled latest (no new commits). GSC credentials still unavailable (no `~/.config/boathire-seo/service-account-key.json`, no `GSC_SERVICE_ACCOUNT_JSON` env var) — `daily_seo_agent.py` ran and logged `gsc_status=failed` as before. Per the updated standing instructions, this blocks only GSC-dependent evidence gathering, not the rest of the run.
+
+**Review:** Read current backlog.json (16 open items, all from the 2026-09-25 GSC pull, treated as still-actionable per updated policy), re-ran `technical_crawl_check.py` (877 HTML-validity files, 349 duplicate "Redirected" titles — both unchanged baselines), and manually inspected template/page source rather than relying only on the crawler's summary.
+
+**Found and fixed (2 changes):**
+1. **Content fix — backlog rank-11.** `/yacht-charter-marbella/` ranks at position 88.3 for "rent yacht marbella" (11 impressions/28d) but only ever says "yacht charter," never "rent." Added "(also called renting a yacht)" to the existing yacht-charter-vs-boat-rental FAQ answer, in both the visible `<details>` block and the matching FAQPage JSON-LD, on `site/yacht-charter-marbella/index.html`. No prices/fleet/booking facts touched.
+   - Commit: `8d0775f`
+   - URL: https://boatrentalinmarbella.com/yacht-charter-marbella/
+   - Deploy: GitHub Pages run for `8d0775f` completed successfully (confirmed via `actions/runs` API).
+   - Live verification: `curl`'d the live URL — "renting a yacht" present in both the visible FAQ and the JSON-LD. Confirmed live.
+   - Backlog: rank-11 status set to `completed` with this commit sha.
+
+2. **Technical fix — verified root cause of the long-standing 877-file HTML-validity finding.** Found by reading `templates/page.html.template` directly (not just the crawler output): the shared footer closes the `.footer-contact` paragraph with `</div>` instead of `</p>`, right before two more `</div>`s that close the Contact column and the footer-grid container. Confirmed by exact byte-offset parse of `site/index.html` and by regex-matching the identical pattern in all 877 flagged files (100% match, 0 ambiguous cases) — this one bug accounts for the entire 877-file finding. Fixed the template source (one line: `</div>` → `</p>`; verified this preserves total tag count/nesting).
+   - Commit: `778bf84`, file: `templates/page.html.template`.
+   - **No live effect from this commit alone** — it only affects pages built from the template going forward. The GitHub Pages deploy workflow only triggers on `site/**` changes, so (correctly) no deploy ran for this commit. The 877 already-built `site/*.html` files still carry the old bug today.
+   - Attempted a dry-run to also patch the existing files, but a bulk multi-file write (728 safe files + 149 excluded) was blocked by the session's own "modify shared resources" safeguard before any file was touched — nothing partial was written. Treating this correctly as a larger/bulk change: wrote up a full proposal instead (see below) rather than applying it piecemeal.
+   - **Proposal filed, not applied:** `reports/proposals/footer-p-tag-fix-2026-10-04.md` (exact patch + rationale) and `reports/proposals/footer-p-tag-fix-2026-10-04.json` (full list of the 728 files/URLs safe to fix now, and the 149 fabricated-future-year files intentionally excluded pending the separate future-dated-pages decision). Awaiting your go-ahead.
+
+**GSC blocker — status and exact remedy (not resolvable from inside this session):**
+No connector exists for Google Search Console; the script expects a service-account JSON key either at `~/.config/boathire-seo/service-account-key.json` or in a `GSC_SERVICE_ACCOUNT_JSON` environment variable (`AUTOMATION_SETUP.md` names the service account as `boathire-seo-agent@boathire-seo.iam.gserviceaccount.com`). This session cannot add environment secrets itself. Remedy for the business owner: (1) confirm `boathire-seo-agent@boathire-seo.iam.gserviceaccount.com` has Restricted (read) access as a user on the `sc-domain:boatrentalinmarbella.com` property in Search Console → Settings → Users and permissions; (2) take that service account's JSON key and add it as an environment variable named `GSC_SERVICE_ACCOUNT_JSON` in this cloud environment's settings (environment menu → Edit). The next run will pick it up automatically — no code change needed.
+
+**Net result today:** one live, verified content improvement (rank-11, deployed and confirmed); one verified technical root-cause fix committed (template-only, no live effect yet); one concrete proposal filed for the 728-file rollout of that same fix; GSC blocker diagnosed with an exact, actionable remedy for the owner. Nothing force-fit — no keyword stuffing, no mass rewrite, no new pages.

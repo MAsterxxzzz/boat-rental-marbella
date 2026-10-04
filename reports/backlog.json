@@ -129,10 +129,12 @@
       "query": "rent yacht marbella",
       "impressions": 11,
       "position": 88.3,
-      "status": "selected_for_review",
+      "status": "completed",
       "identified_date": "2026-09-25",
       "notes": "11 impressions/28d at position 88.3 \u2014 not on page 1",
-      "selected_date": "2026-09-25"
+      "selected_date": "2026-09-25",
+      "completed_date": "2026-10-04",
+      "completion_note": "Added \"(also called renting a yacht)\" to the yacht-charter-vs-boat-rental FAQ answer (visible <details> block and matching FAQPage JSON-LD) on /yacht-charter-marbella/. Commit 8d0775f. Verified live on boatrentalinmarbella.com after GitHub Pages deploy."
     },
     {
       "id": "rank-12",
@@ -211,5 +213,5 @@
       "selected_date": "2026-10-01"
     }
   ],
-  "last_updated": "2026-10-02T14:24:18.728514"
+  "last_updated": "2026-10-04T05:13:57.682193"
 }
