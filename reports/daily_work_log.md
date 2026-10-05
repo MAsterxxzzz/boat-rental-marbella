@@ -76,3 +76,27 @@ Since one evidenced improvement (`rank-7`) was already shipped today by a concur
 No connector exists for Google Search Console; the script expects a service-account JSON key either at `~/.config/boathire-seo/service-account-key.json` or in a `GSC_SERVICE_ACCOUNT_JSON` environment variable (`AUTOMATION_SETUP.md` names the service account as `boathire-seo-agent@boathire-seo.iam.gserviceaccount.com`). This session cannot add environment secrets itself. Remedy for the business owner: (1) confirm `boathire-seo-agent@boathire-seo.iam.gserviceaccount.com` has Restricted (read) access as a user on the `sc-domain:boatrentalinmarbella.com` property in Search Console → Settings → Users and permissions; (2) take that service account's JSON key and add it as an environment variable named `GSC_SERVICE_ACCOUNT_JSON` in this cloud environment's settings (environment menu → Edit). The next run will pick it up automatically — no code change needed.
 
 **Net result today:** one live, verified content improvement (rank-11, deployed and confirmed); one verified technical root-cause fix committed (template-only, no live effect yet); one concrete proposal filed for the 728-file rollout of that same fix; GSC blocker diagnosed with an exact, actionable remedy for the owner. Nothing force-fit — no keyword stuffing, no mass rewrite, no new pages.
+
+## 2026-10-05 (Claude cloud routine run)
+
+**Setup:**
+- Cloned MAsterxxzzz/boat-rental-marbella fresh (container is ephemeral). `pip install google-auth google-api-python-client` succeeded.
+- GSC credentials not available in this environment: no `~/.config/boathire-seo/service-account-key.json` and no `GSC_SERVICE_ACCOUNT_JSON` env var. Ran `daily_seo_agent.py` anyway to confirm: logged `gsc_status=failed`, 0 new backlog items added (17 total, unchanged). No fabricated GSC data used.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (57,945 hrefs checked). hreflang/canonical: 0 issues. Sitemap: 800 URLs, 0 missing.
+- HTML validity: 877 files, identical count and identical root cause (`</div>` instead of `</p>` in the shared footer) already diagnosed on 2026-10-04 — template source already fixed (`778bf84`), existing built files still carry the bug pending the filed proposal (`reports/proposals/footer-p-tag-fix-2026-10-04.*`), which is still awaiting the business owner's go-ahead. Nothing new to do; not re-proposing.
+- Duplicate titles: "Redirected" shared by 349 pages — confirmed these remain the off-limits fabricated-future-year (2030+) stub pages. Not actionable.
+- Net: no new technical finding today.
+
+**Step 3/4 — Backlog review (`reports/backlog.json`, 17 items, 2 already `completed`: rank-7, rank-11):**
+- Reviewed the top open items by impressions (rank-1 through rank-17, all from the stale 2026-09-25 GSC pull, treated as still-actionable per standing policy since GSC is blocked today).
+- Target pages: `/es/` (rank-1,5,8,10,12,14,15,16 — queries built from "alquiler", "barco(s)", "con patrón", "Marbella" in various word orders/singular-plural), `/boat-party-marbella/` (rank-2,6,13,17 — "boat party"/"party boat" variants), `/` homepage (rank-3,4,9 — "rent a boat"/"boat rental" variants).
+- Manually inspected all three pages' title, meta description, H1, hero copy, intro paragraph and visible FAQ text (not just the crawler's summary) for each query's vocabulary, the same method that surfaced the genuine gaps on 2026-10-04 (rank-7's missing "embarcaciones", rank-11's missing "rent/renting" framing).
+- Found no equivalent gap this time: `/es/` already uses "alquiler", plural and singular "barco(s)", and "con patrón" (hero price badge, intro paragraph, FAQ) in close proximity to each other and to "Marbella"; `/boat-party-marbella/` already exact-matches "boat party"/"party boat" in title, H1 and meta (21 and 6 occurrences respectively); the homepage already has "rent a boat in Marbella" verbatim in three visible FAQ questions plus matching FAQPage JSON-LD, and "Boat Rental Marbella" in title/H1. Adding more of the same vocabulary here would be force-fit keyword stuffing, not a genuine content gap — explicitly out of scope.
+
+**Decision: no change made today.** Nothing justified: GSC blocked (confirmed via actual run, not assumed), technical findings are an unchanged baseline (template already fixed, existing-file rollout is a proposal awaiting owner approval, explicitly a bulk change out of scope for one run) and an off-limits duplicate-title set, and the remaining content backlog items' target pages are already adequately covered for their query vocabulary on inspection.
+
+**Verification:** no `site/` files touched this run. Only `reports/technical_crawl/crawl_report_2026-10-05.json`, `reports/daily_seo/seo_report_2026-10-05.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only change), and this log entry committed.
+
+**Blocker to report:** GSC credentials still not available in this environment (no service-account key file, no `GSC_SERVICE_ACCOUNT_JSON` env var) — same exact remedy as documented on 2026-10-04 (add the key as an env var named `GSC_SERVICE_ACCOUNT_JSON`, or grant the service account Search Console read access). Technical crawl ran successfully on its own.
