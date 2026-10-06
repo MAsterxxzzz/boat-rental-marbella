@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-06",
+  "timestamp": "2026-10-06T08:11:12.731957",
+  "data_source": "Google Search Console API (searchanalytics.query), sc-domain:boatrentalinmarbella.com",
+  "period": null,
+  "gsc_status": "failed",
+  "opportunities_found": {
+    "ranking_opportunities": 0,
+    "zero_click_high_impression": 0,
+    "pages_with_no_matching_language": 0
+  },
+  "top_ranking_opportunities": [],
+  "language_mismatches": [],
+  "by_language": {},
+  "by_country": {},
+  "backlog_total_items": 17,
+  "tasks_selected_today": [],
+  "status": "DEGRADED_NO_GSC_DATA"
+}
