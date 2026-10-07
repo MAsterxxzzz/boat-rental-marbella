@@ -122,3 +122,24 @@ No connector exists for Google Search Console; the script expects a service-acco
 **Verification:** no `site/` files touched this run. Only `reports/technical_crawl/crawl_report_2026-10-06.json`, `reports/daily_seo/seo_report_2026-10-06.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only change), and this log entry committed.
 
 **Blocker to report:** GSC credentials still not available in this environment (no service-account key file, no `GSC_SERVICE_ACCOUNT_JSON` env var) — same remedy as documented on 2026-10-04/2026-10-05 (add the key as an env var named `GSC_SERVICE_ACCOUNT_JSON`, or grant the service account Search Console read access on the GSC property). Technical crawl ran successfully on its own.
+
+## 2026-10-07 (Claude cloud routine run)
+
+**Setup:**
+- Cloned MAsterxxzzz/boat-rental-marbella fresh (container is ephemeral). `pip install google-auth google-api-python-client` via plain `pip` landed in the python3.13 interpreter again (same mismatch as 2026-10-06: `pip3 --version` reports "python 3.13" while the scripts run under `/usr/local/bin/python3` = 3.11.17); reinstalled with `python3 -m pip install ...`. Hit the same `_cffi_backend` / rust-panic `cryptography` crash as 2026-10-06; fixed with `python3 -m pip install --ignore-installed cffi cryptography` (Debian's `cryptography` 41.0.7 had no pip RECORD, so `--force-reinstall` failed with "Cannot uninstall"; `--ignore-installed` worked instead). Import now succeeds. Documenting again since this environment quirk recurs on every fresh container.
+- GSC credentials not available: no `~/.config/boathire-seo/service-account-key.json`, no `GSC_SERVICE_ACCOUNT_JSON` env var. Ran `daily_seo_agent.py` anyway: logged `gsc_status=failed`, 0 new backlog items added, 17 total tracked (unchanged). No fabricated GSC data used.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (57,945 hrefs checked). hreflang/canonical: 0 issues (11 language homepages). Sitemap: 800 URLs, 0 missing.
+- HTML validity: 877 files — identical count to every prior run since 2026-10-04, same diagnosed root cause (shared footer `</div>`/`</p>` mismatch); template source already fixed (`778bf84`); the 728-file existing-build rollout proposal (`reports/proposals/footer-p-tag-fix-2026-10-04.*`) is unchanged on disk and still awaiting the business owner's go-ahead — no approval signal found in git history. Nothing new to do.
+- Duplicate titles: "Redirected" shared by 349 pages — confirmed still the off-limits fabricated-future-year (2030+) stub pages. Not actionable.
+- Net: no new, in-scope technical finding today.
+
+**Step 3/4 — Backlog review (`reports/backlog.json`, 17 items, 2 already `completed`: rank-7, rank-11):**
+- 15 remaining `selected_for_review` items are unchanged since 2026-10-05/06, all still carrying the same stale 2026-09-25 GSC evidence pointing at the same three target pages (`/es/`, `/boat-party-marbella/`, homepage) that 2026-10-05's exhaustive line-by-line review (title, meta description, H1, hero copy, intro paragraph, visible FAQ text) already found adequately covered for every query variant's vocabulary. No new GSC pull and no new technical finding today, so there is no new evidence to justify re-running that manual review — doing so again without new evidence would just be re-touching pages to look busy.
+
+**Decision: no change made today.** Nothing justified: GSC blocked (confirmed via actual run), technical findings are an unchanged baseline (template fix already shipped, bulk rollout still pending owner approval, duplicate-title set still off-limits), and the content backlog has no new evidence since 2026-10-05's exhaustive review found no gap.
+
+**Verification:** no `site/` files touched this run. Only `reports/technical_crawl/crawl_report_2026-10-07.json`, `reports/daily_seo/seo_report_2026-10-07.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only change), and this log entry committed.
+
+**Blocker to report:** GSC credentials still not available in this environment — same remedy as documented on 2026-10-04 (add the key as `GSC_SERVICE_ACCOUNT_JSON` env var, or grant the service account Search Console read access). Technical crawl ran successfully on its own.
