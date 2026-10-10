@@ -184,3 +184,15 @@
 2026-10-09 08:10:47,518 [INFO] ============================================================
 2026-10-09 08:10:47,518 [INFO] DAILY SEO AGENT - EXECUTION COMPLETE (gsc_status=failed)
 2026-10-09 08:10:47,518 [INFO] ============================================================
+2026-10-10 08:09:50,972 [INFO] Daily SEO Agent initialized for https://boatrentalinmarbella.com
+2026-10-10 08:09:50,972 [INFO] ============================================================
+2026-10-10 08:09:50,972 [INFO] DAILY SEO AGENT - EXECUTION START
+2026-10-10 08:09:50,972 [INFO] ============================================================
+2026-10-10 08:09:50,972 [INFO] Fetching Google Search Console data...
+2026-10-10 08:09:50,972 [ERROR] GSC credentials missing: GSC credentials not found at /root/.config/boathire-seo/service-account-key.json
+2026-10-10 08:09:50,972 [WARNING] No GSC data available for analysis
+2026-10-10 08:09:50,972 [INFO] Backlog: 0 new items added, 17 total tracked
+2026-10-10 08:09:50,974 [INFO] Report saved: /home/user/boat-rental-marbella/reports/daily_seo/seo_report_2026-10-10.json
+2026-10-10 08:09:50,974 [INFO] ============================================================
+2026-10-10 08:09:50,974 [INFO] DAILY SEO AGENT - EXECUTION COMPLETE (gsc_status=failed)
+2026-10-10 08:09:50,974 [INFO] ============================================================
