@@ -227,3 +227,31 @@ No connector exists for Google Search Console; the script expects a service-acco
 **Verification:** no `site/` files touched this run. Only `reports/technical_crawl/crawl_report_2026-10-11.json`, `reports/daily_seo/seo_report_2026-10-11.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only change), and this log entry committed.
 
 **Blocker to report:** GSC credentials still not available in this environment — same remedy as documented on 2026-10-04 (add the key as `GSC_SERVICE_ACCOUNT_JSON` env var, or grant the service account Search Console read access). Technical crawl ran successfully on its own.
+
+## 2026-10-12 (Claude cloud routine run)
+
+**Setup:**
+- Reused existing clone in this container session; `git pull origin main` confirmed up to date with `1c2e21e` (2026-10-11's commit). GSC python deps (google-auth, google-api-python-client, cffi/cryptography fix) already installed earlier in this session; import verified working.
+- GSC credentials not available: checked `~/.config/boathire-seo/service-account-key.json` (absent) and `GSC_SERVICE_ACCOUNT_JSON` env var (unset). Ran `daily_seo_agent.py` anyway: logged `gsc_status=failed`, 0 new backlog items, 17 total tracked (unchanged). No fabricated GSC data used.
+
+**Infra health check (ad hoc, read-only, prompted by a user "check everything's running" request):**
+- Live site: `https://boatrentalinmarbella.com/` returns HTTP 200, correct `<title>`.
+- GitHub Actions: "Deploy site/ to GitHub Pages" last ran successfully on the 2026-10-04 commit (`8d0775ff`) — correctly did NOT fire on 2026-10-10/11's commits since those only touched `reports/`/`logs/`, not `site/**` (workflow is `paths: ["site/**"]`-scoped; this is expected, not a failure).
+- "Daily SEO automation" GH Action shows failures from 2026-09-29 through 10-01 — confirmed these predate 2026-10-02, when its schedule was intentionally disabled in favor of this Claude routine (comment in `.github/workflows/seo-daily.yml` references trig_01TCDxfrybPV5UgFwDeurBe7). Workflow is now `workflow_dispatch`-only; not a current problem.
+- `data/backlink_prospects.csv` / `data/prospect_seed_candidates.csv` last modified 2026-10-10 by the separate backlink-outreach routine — confirmed alive, not touched by this run.
+- No infra problems found.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (57,945 hrefs). hreflang/canonical: 0 issues (11 language homepages). Sitemap: 800 URLs, 0 missing.
+- HTML validity: 877 files — identical count/cause to every run since 2026-10-04 (shared footer `</div>`/`</p>` mismatch, template source already fixed in `778bf84`, bulk existing-build rollout proposal `reports/proposals/footer-p-tag-fix-2026-10-04.*` unchanged on disk (md5 verified identical), still awaiting owner approval; repo HEAD `1c2e21e`, no approval commit since). Nothing new.
+- Duplicate titles: "Redirected" shared by 349 pages — still the off-limits fabricated-future-year stub pages. Not actionable.
+- Net: no new, in-scope technical finding today.
+
+**Step 3/4 — Backlog review (`reports/backlog.json`, 17 items, 2 `completed`, 15 `selected_for_review`):**
+- Unchanged since 2026-10-05: same stale 2026-09-25 GSC evidence, same three target pages (`/es/`, `/boat-party-marbella/`, homepage), already exhaustively reviewed with no gap found. No new GSC pull, no new technical finding → no new evidence to justify touching these pages again.
+
+**Decision: no change made today.** Same justified "nothing to do" outcome as every run since 2026-10-04: GSC blocked, technical baseline unchanged (fix shipped, rollout pending approval, duplicate-title set off-limits), backlog has no new evidence. A user request to "make progress" does not override the routine's own evidence requirement — fabricating a change here would violate the no-bulk-edit and evidence-only rules.
+
+**Verification:** no `site/` files touched. Only `reports/technical_crawl/crawl_report_2026-10-12.json`, `reports/daily_seo/seo_report_2026-10-12.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only), and this log entry to be committed.
+
+**Blocker to report:** GSC credentials still not available in this environment — same remedy as documented since 2026-10-04 (add `GSC_SERVICE_ACCOUNT_JSON` as an env var, or grant the service account Search Console read access on the property). This is now 9 consecutive days blocked; worth the business owner's attention if GSC-driven content work is wanted to resume. Technical crawl ran successfully on its own.
