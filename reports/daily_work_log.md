@@ -255,3 +255,24 @@ No connector exists for Google Search Console; the script expects a service-acco
 **Verification:** no `site/` files touched. Only `reports/technical_crawl/crawl_report_2026-10-12.json`, `reports/daily_seo/seo_report_2026-10-12.json`, `logs/technical_crawl.log`, `logs/daily_seo_agent.log`, `reports/backlog.json` (timestamp-only), and this log entry to be committed.
 
 **Blocker to report:** GSC credentials still not available in this environment — same remedy as documented since 2026-10-04 (add `GSC_SERVICE_ACCOUNT_JSON` as an env var, or grant the service account Search Console read access on the property). This is now 9 consecutive days blocked; worth the business owner's attention if GSC-driven content work is wanted to resume. Technical crawl ran successfully on its own.
+
+## 2026-10-13 (Claude cloud routine run)
+
+**Setup:**
+- Cloned MAsterxxzzz/boat-rental-marbella fresh (container is ephemeral). `pip install google-auth google-api-python-client` succeeded without the python3.13/3.11 interpreter mismatch seen on prior runs.
+- GSC credentials not available: checked `~/.config/boathire-seo/service-account-key.json` (absent) and `GSC_SERVICE_ACCOUNT_JSON` env var (unset). Per standing instructions, stopped step 1 here rather than running it against known-absent credentials, and proceeded straight to the technical crawl + backlog review (steps 2-4), which don't need GSC.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (57,945 hrefs checked). hreflang/canonical: 0 issues (11 language homepages). Sitemap: 800 URLs, 0 missing.
+- HTML validity: 877 files — identical count/cause to every run since 2026-10-04 (shared footer `</div>`/`</p>` mismatch; template source already fixed in `778bf84`; bulk existing-build rollout proposal `reports/proposals/footer-p-tag-fix-2026-10-04.*` confirmed byte-identical via md5 to 2026-10-04's originals, still awaiting owner approval; repo HEAD is still `c0185d8`, 2026-10-12's commit — no approval or new commits landed in between). Nothing new to do.
+- Duplicate titles: "Redirected" shared by 349 pages — spot-checked the file list in today's report; confirmed these remain the off-limits fabricated-future-year (2030+) stub pages (e.g. `.../marbella-yacht-charter-cancellation-policy-2032/`, `.../marbella-boat-rental-ironman-2050-recovery-charter/`). Not actionable.
+- Net: no new, in-scope technical finding today.
+
+**Step 3/4 — Backlog review (`reports/backlog.json`, 17 items, 2 `completed`, 15 `selected_for_review`):**
+- Unchanged since 2026-10-05: same stale 2026-09-25 GSC evidence, same three target pages (`/es/`, `/boat-party-marbella/`, homepage, topped by rank-1 "alquiler barco marbella" 24 impr/pos 88.4 and rank-2 "boat party marbella" 24 impr/pos 82.0), already exhaustively reviewed line-by-line with no gap found. No new GSC pull (blocked) and no new technical finding today → no new evidence to justify re-touching these pages.
+
+**Decision: no change made today.** Same justified "nothing to do" outcome as every run since 2026-10-04: GSC blocked (10 consecutive days now), technical baseline unchanged (fix shipped, rollout still pending owner approval, duplicate-title set off-limits), backlog has no new evidence since 2026-10-05's exhaustive review.
+
+**Verification:** no `site/` files touched. Only `reports/technical_crawl/crawl_report_2026-10-13.json`, `logs/technical_crawl.log`, `reports/backlog.json` (timestamp-only, if changed), and this log entry committed.
+
+**Blocker to report:** GSC credentials still not available in this environment — same remedy as documented since 2026-10-04 (add `GSC_SERVICE_ACCOUNT_JSON` as an env var, or grant the service account Search Console read access on the `sc-domain:boatrentalinmarbella.com` property). Now 10 consecutive days blocked.
