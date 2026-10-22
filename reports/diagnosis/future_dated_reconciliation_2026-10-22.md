@@ -1,5 +1,5 @@
 # Future-dated URL counts — reconciliation (2026-10-22)
-Rule used: a page directory whose path contains a year 2027–2099. Full list: `future_dated_urls_2026-10-22.csv` (561 rows; column `is_redirect_stub`, `in_proposal`, `in_sitemap`, `future_year`).
+Rule used: a page directory whose path contains a year 2027–2099. Full list: `future_dated_urls_2026-10-22.csv` (561 rows; columns `is_redirect_stub`, `in_prop` (in the pending proposal), `in_sitemap`, `future_year`).
 
 | Count | What it is |
 |---|---|

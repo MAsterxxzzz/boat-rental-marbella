@@ -12,7 +12,7 @@ Rules: one completed, verified action per run. A draft, report or unverified sub
 - B1 /yacht-charter-marbella/ lost impressions 41→11: review title/H1 vs query "yacht charter marbella" (6 impr, pos ~89) and add a verified-fact FAQ answer. todo
 - B2 /boats/ and /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/ are unknown to Google: add contextual internal links from indexed pages (/, /es/, /yacht-charter-marbella/), then request indexing in Search Console (owner/GSC UI). todo
 - B3 /es/ and /es/alquiler-de-yates-marbella/ (indexed; pos 53 on one query): confirm "con patrón" wording is mirrored in titles/H1 after the 2026-10-22 edit; measure before touching. todo (measure first, not before 2026-11-05)
-- B4 /boat-party-marbella/ (66 impr, pos 76, 0 clicks): improve snippet and add a "how to book" path using only verified prices. todo
+- B4 /boat-party-marbella/: DONE 2026-10-22 (460e5cb7): unsupported catamaran/40-guest boats and prices replaced with fleet-verified facts. Next: measure; consider a snippet tweak after 14 days.
 - B5 Re-link strategy for the blog hub: it links 349 redirect stubs and 98 future-year pages (51% of 871 links). Removing those cards is a bulk change → needs approval (A4/A5).
 - Done: sitemap now lists /boat-rental-with-skipper/ (2080baec); blog hub claim corrected 887→522 (e37f6c7f); homepage yacht link (f24d06c); /es/ con patrón (d4e6942).
 
@@ -32,3 +32,8 @@ Rules: one completed, verified action per run. A draft, report or unverified sub
 
 ## G. Weekly measurement (Fridays)
 GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg position for non-branded commercial queries (EN/ES), brand queries (currently 0), index status of the 6 unknown core pages, verified live placements, enquiries/bookings (owner-reported).
+
+## H. Owner decisions found 2026-10-22
+- H1 Price conflict: 6 boat pages show a 'from' price different from config/boats.json (Sunseeker Predator 72: 5,000 vs 4,200; Princess F70: 3,799/2h vs 3,500/4h; Sunseeker 68 Sport: 6,500 vs 3,600; Sunseeker 63: 1,999/2h vs 3,200/4h; Princess V58: 2,999 vs 2,400; Sunseeker Predator 58: 2,999 vs 2,800). Owner states the correct prices; then fix the wrong side. blocked: owner.
+- H2 80 real pages dated 2027-2029 are not covered by the future-dated proposal (see reports/diagnosis/future_dated_reconciliation_2026-10-22.md). blocked: owner.
+- H3 Boat-party page still says 'Prices include ... ice tubs, Bluetooth speaker and standard inflatables' and '12 NM cruise'; not in the authoritative inclusions list. Confirm or remove. blocked: owner.
