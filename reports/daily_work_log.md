@@ -370,3 +370,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, Puerto Banus page + routine prompt)
 **Done:** /boat-rental-puerto-banus/ price sentence EUR250->EUR749 and market-range table replaced with fleet-verified rows (commit e186645e, deploy success, live verified). Routine prompt (trig_01TCDxfrybPV5UgFwDeurBe7) rewritten to the 7-step growth system incl. 14-day rule, fact-check-against-boats.json step, outreach/tracker limits, GBP no-create, pending-approval list. **Pending approval:** sitewide claims wording, future-dated pages, footer rollout, sitemap reduction, 6 price conflicts.
+
+## 2026-10-22 (local session, keyword map + NL + catamaran)
+**Done:** catamaran title "from EUR350" -> "Price on Request" (53049ee4); /nl/ now targets "boot huren Marbella" + stale cards fixed (5514da49); keyword-to-page map written (reports/plans/keyword_to_page_map_2026-10-22.md). Both deployed (success) and verified live. **Pending approval:** other 8 language hubs carry stale featured cards; sitewide claims wording; future-dated pages; footer rollout; sitemap reduction.

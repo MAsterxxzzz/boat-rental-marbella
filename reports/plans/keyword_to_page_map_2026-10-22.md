@@ -1,0 +1,20 @@
+# Keyword → landing page map (built 2026-10-22 from Search Console, 2 × 28 days, plus live SERPs)
+Impressions = last two 28-day periods combined (sample is small: 395 + 457 impressions in total; treat as direction, not proof). One intent = one page. Competitors on page one are marketplaces/brokers (Click&Boat, Nautal, Samboat, Boatcrowd, Yumping, Manawa), so our edge is a single local operator with fixed prices, skipper/fuel/drinks included and real boats.
+
+| Intent group | Real queries (impr, avg pos) | Assigned page | Status / gap | Next step |
+|---|---|---|---|---|
+| EN boat rental / hire | boat rental marbella 42 (79), marbella rent a boat 41 (79), rent a boat marbella 40 (78), boat hire in marbella 12 (76), boat hire marbella 10 (77) | `/` | Homepage has "boat rental" ×7, "rent a boat" ×3, **"boat hire" ×0** (UK term, 22 impressions) | After 2026-11-05 (14-day rule): add "boat hire" naturally to the intro/FAQ. Also make `/uk/` (en-GB) lead with "boat hire" |
+| EN yacht charter / rental | rent yacht marbella 27 (88), rent a yacht in marbella 20 (86), marbella yacht hire 11 (84), yacht charter marbella 10 (97), yacht rental marbella 9 (93) | `/yacht-charter-marbella/` (+ `/` for "rent a yacht") | Title/H1 price error fixed today (€450→€749); homepage link to this page added today | Measure 14 days; then FAQ on "yacht hire vs charter" with fleet-verified facts |
+| EN boat party | boat party marbella 37 (82), best boat party in marbella 33 (73), marbella party boat 15 (80), boat party in puerto banus 13 (69) | `/boat-party-marbella/` | Unsupported boats/prices fixed today | Measure; add a "Puerto Banús departure" line (do not create a second page) |
+| EN Puerto Banús | boat party in puerto banus, puerto banus marina (marina terms are informational) | `/boat-rental-puerto-banus/` | Price table fixed today; page unknown to Google | Internal links from indexed pages; request indexing (owner, Search Console UI) |
+| ES alquiler barco/yate | alquiler barco marbella 36 (88), alquiler embarcaciones con patrón en marbella 30 (82), alquiler barco con patron marbella 24 (75), marbella alquiler barco 19 (88), alquiler de barcos con patron en marbella 16 (72), alquiler de barco con patrón marbella 16 (78) | `/es/` (+ `/es/alquiler-de-yates-marbella/` for yates) | **Largest demand (310 impr).** "con patrón" added to `/es/` today; "embarcaciones" in description since 10-02 | Measure from 2026-11-05; then fact-check `/es/alquiler-de-yates-marbella/` (position 53 on one query) |
+| ES eventos/lujo | yates para eventos marbella 8 (92), alquiler de barcos de lujo marbella 8 (96) | `/es/` sections or ES experiences | Weak coverage | After measurement; no new page |
+| NL | boot huren marbella 9 (65), bootje huren marbella 4 (67), marbella boot huren 3 (67), boot huren puerto banus 3 (70) | `/nl/` | **Fixed today**: title/meta/H1 now "Boot huren (in) Marbella"; stale cards corrected | Measure; same stale cards remain on the other 8 language hubs (needs approval) |
+| SV/DE/FR/NO/PL/RU/AR | 1–3 impressions each | language hubs | Too little data | Revisit when impressions appear |
+| Catamaran | (no impressions) | `/catamaran-rental-marbella/` | Title no longer claims "from €350" (price on request) | Owner: decide whether the body price guide stays (it describes market prices, not our fleet) |
+
+## Why "keywords, hashtags, tags" are not the lever
+Google ignores the `meta keywords` tag and does not rank by hashtags. What moves visibility: (1) the exact words people type in the title/H1/first paragraph of the one page assigned to that intent; (2) a page Google has crawled and indexed; (3) trust and links from real sites; (4) accurate facts (wrong prices hurt conversion and trust). Hashtags matter on Instagram/TikTok/YouTube (separate channels): suggested business set (no ranking claim): #boatrentalmarbella #marbellayachtcharter #puertobanus #costadelsol #marbellaboatparty #yachtcharterspain #alquilerbarcomarbella #marbella.
+
+## Gaps that need the owner
+Google Business Profile (existence/ownership), real enquiry/booking counts, real review source, and approval of the pending bulk items.
