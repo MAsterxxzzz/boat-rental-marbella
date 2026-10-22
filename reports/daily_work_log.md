@@ -349,3 +349,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 **Changed:** one sentence on `site/index.html` fleet intro adding a descriptive internal link "rent a yacht in Marbella" → `/yacht-charter-marbella/`. No price/fleet/booking facts touched. Crawl re-run: 0 broken (57,948 hrefs), baseline unchanged.
 
 **2026-10-22 second action (/es/):** GSC 2026-09-22..10-19 shows `/es/` for "alquiler de barco con patrón marbella" (16 impr, pos 77.9), "alquiler embarcaciones con patrón en marbella" (13, 75.9), "alquiler barco con patron marbella" (6, 71.8); page had zero occurrences of "con patrón". Added the phrase to meta description and hero subtitle in `site/es/index.html`. No prices/fleet/booking touched; crawl 0 broken, baseline unchanged.
+
+## 2026-10-22 (local session, off-site/plan)
+**Done:** wrote reports/plans/growth_plan_2026-10-22.md (sources dated, assumptions marked) and created reports/offsite_log.md with the community/listing rule findings. **Not done:** no post, listing, or email; no external link is live. Two on-site edits already shipped today by the routine (f24d06c homepage yacht link, d4e6942 ES con-patrón). **Blocked:** AngloINFO needs an owner account and a real unanswered question; directory terms unverified.
