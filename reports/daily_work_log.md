@@ -352,3 +352,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, off-site/plan)
 **Done:** wrote reports/plans/growth_plan_2026-10-22.md (sources dated, assumptions marked) and created reports/offsite_log.md with the community/listing rule findings. **Not done:** no post, listing, or email; no external link is live. Two on-site edits already shipped today by the routine (f24d06c homepage yacht link, d4e6942 ES con-patrón). **Blocked:** AngloINFO needs an owner account and a real unanswered question; directory terms unverified.
+
+## 2026-10-22 (local session, visibility diagnosis)
+**Diagnosis:** reports/diagnosis/visibility_diagnosis_2026-10-22.md (GSC cur vs prev 28d: 0 clicks, 395 vs 457 impr, pos ~79; zero branded queries; core pages indexed; /boats/, /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/, /boat-rental-with-skipper/ unknown to Google; 22/32 sampled blog/experience URLs unknown). **Changed:** one sitemap line, /boat-rental-with-skipper/ (commit shown in git log; deploy verified separately). **Pending approval:** future-dated pages (191 live), response-time and "verified reviews" claims need owner confirmation. No bulk change made.
