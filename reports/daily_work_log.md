@@ -355,3 +355,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, visibility diagnosis)
 **Diagnosis:** reports/diagnosis/visibility_diagnosis_2026-10-22.md (GSC cur vs prev 28d: 0 clicks, 395 vs 457 impr, pos ~79; zero branded queries; core pages indexed; /boats/, /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/, /boat-rental-with-skipper/ unknown to Google; 22/32 sampled blog/experience URLs unknown). **Changed:** one sitemap line, /boat-rental-with-skipper/ (commit shown in git log; deploy verified separately). **Pending approval:** future-dated pages (191 live), response-time and "verified reviews" claims need owner confirmation. No bulk change made.
+
+## 2026-10-22 (local session, growth execution)
+**Done:** blog hub claim "887 guides" corrected to 522 (what the hub lists; 349 of 887 were redirect stubs, 7 had no page; commits 1e799c50, e37f6c7f; deploy success; live text verified). Generator now counts real pages only. Wrote reports/plans/30_day_backlog.md - **routine: read it each run**, do one verified action from it, respect the owner-only blockers. **Not done / pending:** GBP status unverifiable from here (owner), "<5 min reply" and "verified reviews" claims need owner confirmation, hub still links 349 redirect stubs + 98 future-year pages (bulk, awaiting approval).
