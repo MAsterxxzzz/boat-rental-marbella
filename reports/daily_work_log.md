@@ -367,3 +367,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, sunset-cruise fix)
 **Done:** /sunset-cruise-marbella/ title/H1/social/JSON-LD "from EUR250" -> "from EUR749"; 3-hour cruise EUR350 -> EUR1,049 (visible + JSON-LD), matching config/boats.json tier_a. Commit a33d2e51, deploy success, live page verified (title, H1, 3h price, JSON-LD parses, HTTP 200). **Not done / pending:** sitewide claims wording (templates, 862 pages) awaiting approval; GBP existence unknown (owner checking); future-dated cleanup, footer rollout, sitemap reduction pending approval. **Next:** /catamaran-rental-marbella/ "from EUR350" claim has no price in fleet data.
+
+## 2026-10-22 (local session, Puerto Banus page + routine prompt)
+**Done:** /boat-rental-puerto-banus/ price sentence EUR250->EUR749 and market-range table replaced with fleet-verified rows (commit e186645e, deploy success, live verified). Routine prompt (trig_01TCDxfrybPV5UgFwDeurBe7) rewritten to the 7-step growth system incl. 14-day rule, fact-check-against-boats.json step, outreach/tracker limits, GBP no-create, pending-approval list. **Pending approval:** sitewide claims wording, future-dated pages, footer rollout, sitemap reduction, 6 price conflicts.
