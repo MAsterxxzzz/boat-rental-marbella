@@ -9,7 +9,7 @@ Rules: one completed, verified action per run. A draft, report or unverified sub
 - A5 Approve/decline the future-dated pages plan and the footer `</p>` rollout (pending since 2026-10-02).
 
 ## B. Existing-page improvements (one per run, evidence from GSC)
-- B1 /yacht-charter-marbella/ lost impressions 41→11: review title/H1 vs query "yacht charter marbella" (6 impr, pos ~89) and add a verified-fact FAQ answer. todo
+- B1 /yacht-charter-marbella/: DONE 2026-10-22 (title/H1 'from €450' → 'from €749', matches data). Next: measure after 14 days; FAQ addition only after that.
 - B2 /boats/ and /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/ are unknown to Google: add contextual internal links from indexed pages (/, /es/, /yacht-charter-marbella/), then request indexing in Search Console (owner/GSC UI). todo
 - B3 /es/ and /es/alquiler-de-yates-marbella/ (indexed; pos 53 on one query): confirm "con patrón" wording is mirrored in titles/H1 after the 2026-10-22 edit; measure before touching. todo (measure first, not before 2026-11-05)
 - B4 /boat-party-marbella/: DONE 2026-10-22 (460e5cb7): unsupported catamaran/40-guest boats and prices replaced with fleet-verified facts. Next: measure; consider a snippet tweak after 14 days.
@@ -37,3 +37,6 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - H1 Price conflict: 6 boat pages show a 'from' price different from config/boats.json (Sunseeker Predator 72: 5,000 vs 4,200; Princess F70: 3,799/2h vs 3,500/4h; Sunseeker 68 Sport: 6,500 vs 3,600; Sunseeker 63: 1,999/2h vs 3,200/4h; Princess V58: 2,999 vs 2,400; Sunseeker Predator 58: 2,999 vs 2,800). Owner states the correct prices; then fix the wrong side. blocked: owner.
 - H2 80 real pages dated 2027-2029 are not covered by the future-dated proposal (see reports/diagnosis/future_dated_reconciliation_2026-10-22.md). blocked: owner.
 - H3 Boat-party page still says 'Prices include ... ice tubs, Bluetooth speaker and standard inflatables' and '12 NM cruise'; not in the authoritative inclusions list. Confirm or remove. blocked: owner.
+
+- H4 Claims wording (A/B/C in reports/proposals/claims_wording_for_approval_2026-10-22.md): awaiting owner approval; template change affects 862 pages (bulk).
+- A3 update: owner is unsure whether a Google Business Profile exists; steps to check are in the same proposal file. Do not create or modify any profile.
