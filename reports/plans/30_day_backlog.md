@@ -52,3 +52,8 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B11 SCHEDULED after 2026-11-05 (14-day rule): add 'boat hire' wording to homepage and /uk/; measure /es/ 'con patrón' effect; see reports/plans/keyword_to_page_map_2026-10-22.md.
 
 - B2 PARTIAL DONE 2026-10-22 (096ebc48): /boat-rental-4-hours/ now links /boat-rental-puerto-banus/ and /boats/azimut-39/ (both unknown to Google). Deploy success, live verified. NEXT: same for /boats/ (hub) and /de/, /uk/ from indexed pages not edited in 14 days; owner to request indexing in Search Console UI.
+
+## I. Google Business Profile (2026-10-22)
+- I1 DONE: profile verified (SMS), hours/categories/services/logo/photos submitted; review kit created (see reports/plans/gbp_reviews_playbook.md).
+- I2 blocked: wait until the profile is public (owner confirms), then add the review link to /reviews/ and the profile URL to sameAs. Do NOT add before it is public.
+- I3 owner: collect first real reviews with the QR card / WhatsApp message (no incentives).

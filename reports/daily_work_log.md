@@ -376,3 +376,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (Claude cloud routine, B2 internal links)
 **Done:** /boat-rental-4-hours/ (last edited 2026-09-25): Puerto Banús departure -> /boat-rental-puerto-banus/, Azimut 39 row -> /boats/azimut-39/ (both unknown to Google per diagnosis). Price EUR1,299/4h verified vs config. Commit 096ebc48, deploy success, live verified. Crawl: 0 broken (57,950 hrefs), baseline unchanged. **Not done:** no GSC re-query (data from earlier today reused), no outreach/off-site (no owner accounts; tracker not checked). **Next:** B2 links for /boats/, /de/, /uk/; owner: request indexing in GSC UI.
+
+## 2026-10-22 (local session, GBP + reviews)
+Profile verified; hours live; categories/services/logo/photos pending Google review; review link tested; review kit (QR, print card, multilingual messages) given to owner. Website review button deferred until the profile is public. See reports/plans/gbp_reviews_playbook.md.
