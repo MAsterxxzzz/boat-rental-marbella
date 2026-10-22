@@ -140,9 +140,9 @@ CONTENT = {
         "destinations_intro": "Vi betjänar de fem viktigaste avgångspunkterna på Costa del Sol:",
     },
     "nl": {
-        "title": "Bootverhuur Marbella 2026 — Yachten, catamarans & charters vanaf €749",
-        "desc": "Huur een jacht in Marbella met gediplomeerde schipper. Puerto Banús, Marbella Marina, Cabopino. Vaste prijzen, directe WhatsApp-bevestiging.",
-        "h1": "Bootverhuur Marbella",
+        "title": "Boot huren Marbella 2026 — Jachten met schipper vanaf €749",
+        "desc": "Boot huren in Marbella? Huur een jacht met gediplomeerde schipper vanaf Puerto Banús, Marbella Marina of Cabopino. Vaste prijzen vanaf €749 voor 2 uur, directe WhatsApp-bevestiging.",
+        "h1": "Boot huren in Marbella",
         "tagline": "Yachten en catamarans met schipper aan de Costa del Sol",
         "hero_sub": "200+ charteropties via Puerto Banús, Marbella Marina, Cabopino, Estepona en Sotogrande. Gediplomeerde schippers, transparante prijzen, directe bevestiging via WhatsApp.",
         "cta_wa": "Stuur bericht via WhatsApp",
