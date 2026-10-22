@@ -141,12 +141,17 @@ def render_post_card(post):
 def main():
     posts = load_blog_posts()
     cards = "\n".join(render_post_card(p) for p in posts)
+    # Count only real guides: pages that are meta-refresh redirect stubs are not guides.
+    def _is_stub(p):
+        f = SITE_DIR / p["slug"].strip("/") / "index.html"
+        return (not f.exists()) or "<title>Redirected" in f.read_text(errors="replace")[:1500]
+    LIVE_GUIDES = sum(1 for p in posts if not _is_stub(p))
 
     body = f'''<div class="post-author" style="margin-bottom:20px">
   <img class="post-author-avatar" src="/img/team/andra-kiirkivi-200.jpg" srcset="/img/team/andra-kiirkivi-200.jpg 200w, /img/team/andra-kiirkivi-400.jpg 400w" sizes="56px" width="56" height="56" alt="Andra Kiirkivi — Founder &amp; CEO, Boat Rental Marbella" loading="lazy">
   <div class="post-author-meta">
     <span class="post-author-name">Edited by <strong>Andra Kiirkivi</strong></span>
-    <span class="post-author-role">Founder &amp; CEO · {len(posts)} guides · Updated {date.today().strftime("%-d %B %Y")} · Reviewed by local Marbella skippers</span>
+    <span class="post-author-role">Founder &amp; CEO · {LIVE_GUIDES} guides · Updated {date.today().strftime("%-d %B %Y")} · Reviewed by local Marbella skippers</span>
   </div>
 </div>
 
