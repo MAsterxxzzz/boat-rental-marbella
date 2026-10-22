@@ -40,3 +40,6 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 
 - H4 Claims wording (A/B/C in reports/proposals/claims_wording_for_approval_2026-10-22.md): awaiting owner approval; template change affects 862 pages (bulk).
 - A3 update: owner is unsure whether a Google Business Profile exists; steps to check are in the same proposal file. Do not create or modify any profile.
+
+- B6 DONE 2026-10-22 (a33d2e51): /sunset-cruise-marbella/ title/H1 'from €250'→'from €749', 3h cruise €350→€1,049 (data: tier_a). Scan of all page titles vs descriptions found 1 more mismatch: /jet-ski-rental-marbella/ title 'from €200/h' vs description '€250' (data: Sea-Doo 1h €250; €200 appears only as additional-hour rate per llms text) - owner to confirm wording.
+- B7 NEXT: /catamaran-rental-marbella/ (indexed) title says 'Sail & Power Catamarans from €350'; boats.json has one catamaran (Lagoon 380, 'on request', no price). Verify with owner or soften to 'quote on WhatsApp' before editing.

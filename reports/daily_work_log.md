@@ -364,3 +364,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, yacht-charter page + approval prep)
 **Done:** /yacht-charter-marbella/ title/H1/social/JSON-LD said "from EUR450" (the jet-ski 2h price) while data and description say EUR749 -> fixed in config/keyword_map.json + page + site-map listing (see git log for sha). **Prepared, not applied:** reports/proposals/claims_wording_for_approval_2026-10-22.md (reply-time/verified-review wording; 862 pages via templates = bulk, awaiting approval) and Google Business Profile check steps. Owner unsure whether a GBP exists: do not create or edit one. **Pending approval:** future-dated cleanup, footer rollout, sitemap reduction.
+
+## 2026-10-22 (local session, sunset-cruise fix)
+**Done:** /sunset-cruise-marbella/ title/H1/social/JSON-LD "from EUR250" -> "from EUR749"; 3-hour cruise EUR350 -> EUR1,049 (visible + JSON-LD), matching config/boats.json tier_a. Commit a33d2e51, deploy success, live page verified (title, H1, 3h price, JSON-LD parses, HTTP 200). **Not done / pending:** sitewide claims wording (templates, 862 pages) awaiting approval; GBP existence unknown (owner checking); future-dated cleanup, footer rollout, sitemap reduction pending approval. **Next:** /catamaran-rental-marbella/ "from EUR350" claim has no price in fleet data.
