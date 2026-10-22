@@ -50,3 +50,5 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B9 DONE 2026-10-22 (53049ee4): /catamaran-rental-marbella/ title 'from €350' → 'Price on Request' (owner: on request). Body price guide not touched (owner decision).
 - B10 DONE 2026-10-22 (5514da49): /nl/ title/meta/H1 'Boot huren Marbella' (GSC: boot huren marbella pos 65) + stale featured cards fixed. 8 other language hubs have the same stale cards (Mangusta 80 '€2299/2h', Canados 86 '€2099/2h', 10 pax): awaiting approval to regenerate/patch (careful: regeneration strips gtag/ai-graph/analytics scripts - patch surgically).
 - B11 SCHEDULED after 2026-11-05 (14-day rule): add 'boat hire' wording to homepage and /uk/; measure /es/ 'con patrón' effect; see reports/plans/keyword_to_page_map_2026-10-22.md.
+
+- B2 PARTIAL DONE 2026-10-22 (096ebc48): /boat-rental-4-hours/ now links /boat-rental-puerto-banus/ and /boats/azimut-39/ (both unknown to Google). Deploy success, live verified. NEXT: same for /boats/ (hub) and /de/, /uk/ from indexed pages not edited in 14 days; owner to request indexing in Search Console UI.

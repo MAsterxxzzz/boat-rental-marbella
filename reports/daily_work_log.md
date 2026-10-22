@@ -373,3 +373,6 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, keyword map + NL + catamaran)
 **Done:** catamaran title "from EUR350" -> "Price on Request" (53049ee4); /nl/ now targets "boot huren Marbella" + stale cards fixed (5514da49); keyword-to-page map written (reports/plans/keyword_to_page_map_2026-10-22.md). Both deployed (success) and verified live. **Pending approval:** other 8 language hubs carry stale featured cards; sitewide claims wording; future-dated pages; footer rollout; sitemap reduction.
+
+## 2026-10-22 (Claude cloud routine, B2 internal links)
+**Done:** /boat-rental-4-hours/ (last edited 2026-09-25): Puerto Banús departure -> /boat-rental-puerto-banus/, Azimut 39 row -> /boats/azimut-39/ (both unknown to Google per diagnosis). Price EUR1,299/4h verified vs config. Commit 096ebc48, deploy success, live verified. Crawl: 0 broken (57,950 hrefs), baseline unchanged. **Not done:** no GSC re-query (data from earlier today reused), no outreach/off-site (no owner accounts; tracker not checked). **Next:** B2 links for /boats/, /de/, /uk/; owner: request indexing in GSC UI.
