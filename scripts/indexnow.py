@@ -25,7 +25,7 @@ def load_key():
 
 def all_sitemap_urls():
     sm = SITE_DIR / "sitemap.xml"
-    return re.findall(r"<loc>([^<]+)</loc>", sm.read_text())
+    return re.findall(r"<(?:\w+:)?loc>([^<]+)</(?:\w+:)?loc>", sm.read_text())
 
 def changed_urls():
     # git diff HEAD~1 HEAD --name-only -- site/**/index.html
