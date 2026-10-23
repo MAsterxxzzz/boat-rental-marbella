@@ -10,7 +10,7 @@ Post length 100-300 characters is enough. One post per slot, never repost the sa
 | 4 | Tue W2 | 01 Mangusta 80 | Our flagship Mangusta 80: 24 m, up to 12 guests, jet ski included. 4 hours from €4,719. Message us on WhatsApp for dates. | /yacht-charter-marbella/ |
 | 5 | Thu W2 | 03 sunset | Sunset cruise or a full day at sea? Both leave from Puerto Banús with a licensed skipper. Tell us your date and group size. | /boat-rental-puerto-banus/ |
 | 6 | Sat W2 | 04 Azimut 39 | Celebrating a birthday or a hen/stag day? Private boat, up to 12 guests, your own music on board. | /boat-party-marbella/ |
-| 7 | Tue W3 | 02 Astondoa 40 | Five departure ports along the Costa del Sol: Puerto Banús, Marbella Marina, Cabopino, Estepona and Sotogrande. | /boat-rental-marbella/ |
+| 7 | Tue W3 | 02 Astondoa 40 | Five departure ports along the Costa del Sol: Puerto Banús, Marbella Marina, Cabopino, Estepona and Sotogrande. | /boat-rental-prices/ |
 | 8 | Thu W3 | 04 Azimut 39 | No boat licence needed. Every charter comes with a licensed skipper, so you just enjoy the day. | /boat-rental-with-skipper/ |
 | 9 | Sat W3 | 01 Mangusta 80 | 29 boats in our fleet, from 12.5 m motor yachts to a 24 m flagship. Ask us which fits your group. | /boats/ |
 | 10 | Tue W4 | 03 sunset | Alquiler de barco con patrón en Marbella: salidas desde Puerto Banús, combustible, bebidas y seguro incluidos. | /es/ |
