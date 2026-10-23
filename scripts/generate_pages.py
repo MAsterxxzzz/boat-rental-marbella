@@ -401,7 +401,7 @@ def jsonld_for(page: dict, kind: str, data: dict) -> str:
         "areaServed": SITE['departure_ports'],
         "sameAs": [u for u in [SITE.get('instagram_url'), SITE.get('facebook_url'), SITE.get('youtube_url'), SITE.get('x_url')] if u],
         "priceRange": FLEET_PRICE_RANGE,
-        "address": {"@type":"PostalAddress","addressLocality":"Marbella","addressRegion":"Andalucía","postalCode":"29602","addressCountry":"ES"},
+        "address": {"@type":"PostalAddress","addressLocality":"Marbella","addressRegion":"Andalucía","postalCode":"29660","addressCountry":"ES"},
     }
     if SITE.get('geo_lat') and SITE.get('geo_lng'):
         org_block["geo"] = {"@type":"GeoCoordinates","latitude":SITE['geo_lat'],"longitude":SITE['geo_lng']}

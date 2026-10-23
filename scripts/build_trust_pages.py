@@ -56,7 +56,7 @@ def jsonld_org_with_rating():
         "areaServed": SITE["departure_ports"],
         "sameAs": [u for u in [SITE.get("instagram_url"), SITE.get("facebook_url"), SITE.get("youtube_url"), SITE.get("x_url")] if u],
         "priceRange": FLEET_PRICE_RANGE,
-        "address": {"@type": "PostalAddress", "addressLocality": "Marbella", "addressRegion": "Andalucía", "postalCode": "29602", "addressCountry": "ES"},
+        "address": {"@type": "PostalAddress", "addressLocality": "Marbella", "addressRegion": "Andalucía", "postalCode": "29660", "addressCountry": "ES"},
         "geo": {"@type": "GeoCoordinates", "latitude": SITE["geo_lat"], "longitude": SITE["geo_lng"]},
         "foundingDate": str(SITE.get("founded_year", 2025)),
         "aggregateRating": {
@@ -328,7 +328,7 @@ def render_contact():
 <h2>Business details</h2>
 <ul>
   <li><strong>Trading name:</strong> Boat Rental Marbella</li>
-  <li><strong>Locale:</strong> Marbella, Andalucía, Spain · 29602</li>
+  <li><strong>Locale:</strong> Marbella, Andalucía, Spain · 29660</li>
   <li><strong>Founded:</strong> {SITE.get("founded_year", 2025)}</li>
   <li><strong>VAT:</strong> Spanish IVA (21%) included on every quote</li>
 </ul>

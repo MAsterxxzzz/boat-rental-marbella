@@ -317,7 +317,7 @@ def build_hub(code: str, lang_name: str, flag: str, dir_: str):
             "@type": "PostalAddress",
             "addressLocality": "Marbella",
             "addressRegion": "Andalucía",
-            "postalCode": "29602",
+            "postalCode": "29660",
             "addressCountry": "ES",
         },
         "geo": {"@type": "GeoCoordinates", "latitude": SITE["geo_lat"], "longitude": SITE["geo_lng"]},
