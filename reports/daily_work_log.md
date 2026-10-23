@@ -379,3 +379,8 @@ No connector exists for Google Search Console; the script expects a service-acco
 
 ## 2026-10-22 (local session, GBP + reviews)
 Profile verified; hours live; categories/services/logo/photos pending Google review; review link tested; review kit (QR, print card, multilingual messages) given to owner. Website review button deferred until the profile is public. See reports/plans/gbp_reviews_playbook.md.
+
+## 2026-10-23 (Claude cloud routine)
+**GSC** 2026-09-23..10-20: ~425 impr, 0 clicks (prev 28d: 424 impr, 1 click); / 157 impr pos 81.8, /es/ 137 pos 82.1, /boat-party-marbella/ 69 pos 76.1.
+**Done:** /private-boat-charter-marbella/ Lagoon 380 card: 11 guests/11.5 m/"from EUR700" -> 10 guests/11.6 m/price on request (matches config + live boat page). Commit 8c60f968, deploy success, live verified. Crawl: 0 broken, baseline unchanged.
+**Not done:** no outreach/off-site (no owner accounts; tracker not checked). **Next:** B2 links for /boats/, /de/, /uk/; fact-check /es/alquiler-de-yates-marbella/.
