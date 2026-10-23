@@ -15,3 +15,14 @@
 - M: YouTube/Instagram titles and descriptions with location and site link (owner posts).
 - A: reply-time/"verified reviews" wording (862 pages); six boat-page price conflicts; 229 future-dated pages; footer rollout; stale cards on 8 language hubs; catamaran page; Spanish phone number.
 - M after 5 days if profile still not found by name: inspect profile status for a hidden suspension/verification issue.
+
+## Content queue (saved 2026-10-23; owner said "go ahead")
+Cadence: 1 page per week, not daily (site already has ~880 pages; core pages still unindexed; extra thin pages dilute). Start once /boats/ and /boat-rental-puerto-banus/ leave "unknown/crawled-not-indexed" or by 2026-10-30, whichever first. Each page: new gap only (check site/ and site/es for overlap first), built from an existing page as template (head, JSON-LD, analytics, hreflang), facts only from config/boats.json, real photos from /img/boats/, one internal link to the matching money page, added to sitemap + IndexNow, one commit per page, then URL-inspection check after 3 days.
+Queue (gaps from GSC queries, last 28 days):
+1. ES: "Alquiler de yates para bodas, pedidas y celebraciones en Marbella" (query: alquiler de yates para bodas marbella; no ES page exists). No claims about legal at-sea ceremonies.
+2. ES: "Alquiler de barco por horas en Marbella: precios 2h/4h/8h" (alquiler barco marbella por horas; check overlap with /es/ and boat-rental-prices first).
+3. EN: "Best boat party in Marbella: how a private boat party works from Puerto Banús" (best boat party in marbella, boat party in puerto banus; compare with /boat-party-marbella/ first, improve that page instead if overlap).
+4. ES: "Alquiler de lancha en Marbella" (alquiler lancha marbella).
+5. NL: "Boot huren in Marbella met schipper" guide (boot huren marbella).
+Known issue to flag to owner: existing blog posts use random picsum.photos stock images as hero/og:image, not real boats. Replace with real photos = bulk change, needs approval.
+Do NOT: mass-generate with scripts/gen_blog_post.py (DeepSeek topics include unverified claims such as dolphin watching, fishing, weddings at sea).
