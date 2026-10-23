@@ -47,7 +47,7 @@ def main():
                 "phone": SITE["phone_e164"],
                 "email": SITE["email"],
                 "avg_reply_time_minutes": 5,
-                "hours_cet": "09:00–22:00 daily",
+                "hours_cet": "08:00–22:00 daily",
             },
         },
         "reviews": {

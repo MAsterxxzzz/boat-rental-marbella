@@ -303,7 +303,7 @@ def render_contact():
 <p><a class="btn btn-primary" href="{WA_LINK}" rel="nofollow noopener">💬 Message on WhatsApp · {SITE['phone_display']}</a></p>
 
 <h2>Phone</h2>
-<p><a href="tel:{SITE['phone_e164']}">{SITE['phone_display']}</a> — daily 09:00–22:00 CET. WhatsApp is faster for booking questions because it's always with us.</p>
+<p><a href="tel:{SITE['phone_e164']}">{SITE['phone_display']}</a> — daily 08:00–22:00 (Marbella time). WhatsApp is faster for booking questions because it's always with us.</p>
 
 <h2>Email</h2>
 <p><a href="mailto:{SITE['email']}">{SITE['email']}</a> — typical reply within 4 hours. Use email for press, partnerships or invoice/VAT requests; WhatsApp for booking.</p>
