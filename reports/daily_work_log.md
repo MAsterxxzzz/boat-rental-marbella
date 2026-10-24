@@ -384,3 +384,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-09-23..10-20: ~425 impr, 0 clicks (prev 28d: 424 impr, 1 click); / 157 impr pos 81.8, /es/ 137 pos 82.1, /boat-party-marbella/ 69 pos 76.1.
 **Done:** /private-boat-charter-marbella/ Lagoon 380 card: 11 guests/11.5 m/"from EUR700" -> 10 guests/11.6 m/price on request (matches config + live boat page). Commit 8c60f968, deploy success, live verified. Crawl: 0 broken, baseline unchanged.
 **Not done:** no outreach/off-site (no owner accounts; tracker not checked). **Next:** B2 links for /boats/, /de/, /uk/; fact-check /es/alquiler-de-yates-marbella/.
+
+## 2026-10-24 (Claude cloud routine)
+**GSC** 2026-09-24..10-21: 417 impr, 0 clicks, pos 78.5 (prev 28d 08-27..09-23: 467 impr, 1 click, pos 78.2). Top: / 'boat rental marbella' 30 impr pos 79.5; /es/ 'alquiler de barco con patrón marbella' 17 pos 78.6; /boat-party-marbella/ 'best boat party in marbella' 17 pos 74.5.
+**Done:** /boat-rental-prices/ gained contextual links to /boat-rental-puerto-banus/ and /boat-rental-with-skipper/ (unknown to Google). Commit c2cb2b8, deploy success, live verified. Crawl: 0 broken (58,021 hrefs); HTML-validity 878 (+1 = yesterday's new ES page, same footer bug).
+**Not done:** no outreach/off-site (no owner accounts; tracker not checked). **Next:** /de/ and /uk/ links; owner: request indexing in GSC UI.
