@@ -389,3 +389,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-09-24..10-21: 417 impr, 0 clicks, pos 78.5 (prev 28d 08-27..09-23: 467 impr, 1 click, pos 78.2). Top: / 'boat rental marbella' 30 impr pos 79.5; /es/ 'alquiler de barco con patrón marbella' 17 pos 78.6; /boat-party-marbella/ 'best boat party in marbella' 17 pos 74.5.
 **Done:** /boat-rental-prices/ gained contextual links to /boat-rental-puerto-banus/ and /boat-rental-with-skipper/ (unknown to Google). Commit c2cb2b8, deploy success, live verified. Crawl: 0 broken (58,021 hrefs); HTML-validity 878 (+1 = yesterday's new ES page, same footer bug).
 **Not done:** no outreach/off-site (no owner accounts; tracker not checked). **Next:** /de/ and /uk/ links; owner: request indexing in GSC UI.
+
+## 2026-10-25 (Claude cloud routine)
+**GSC** 2026-09-25..10-22: 445 impr, 1 click, pos 76.0 (prev 28d 08-28..09-24: 485 impr, 1 click, pos 78.1). Top: / (188 impr, pos 75), /es/ (143, 82), /boat-party-marbella/ (62, 76).
+**Done:** /boat-rental-with-skipper/ (not edited since 09-25) fact-checked vs config: 2h/4h/8h ranges and overnight range replaced with verified "from" prices (749/1,299/2,299) + overnight on WhatsApp; inclusions list now = shared_inclusions. Commit 423324fa, deploy success, live verified. Crawl: baseline unchanged (879).
+**Finding:** /de/ and /uk/ already linked sitewide (112 pages) - more B2 link work not needed. **Not done:** no outreach/off-site (no owner accounts; tracker not checked). **Next:** after 11-05 homepage/uk "boat hire" wording + measure /es/. Still unverified on the skipper page (owner): add-on prices, skipper credentials, "4.9 verified".
