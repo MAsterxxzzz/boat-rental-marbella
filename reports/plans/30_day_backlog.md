@@ -58,4 +58,5 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - I2 blocked: wait until the profile is public (owner confirms), then add the review link to /reviews/ and the profile URL to sameAs. Do NOT add before it is public.
 - I3 owner: collect first real reviews with the QR card / WhatsApp message (no incentives).
 
+- B12 DONE 2026-10-26 (33cdc92): /blog/puerto-banus-vs-marbella-marina/ fact-fixed (departure port) + link to /boat-rental-puerto-banus/. NEXT: fact-check /es/alquiler-yate-celebraciones-marbella/ and /experiences/ pages.
 - B2 PARTIAL DONE 2026-10-24 (c2cb2b8): /boat-rental-prices/ (last edit 10-04) now links /boat-rental-puerto-banus/ and /boat-rental-with-skipper/. Deploy success, live verified. /boats/ already linked sitewide (nav) so no further link work needed there; remaining: /de/, /uk/ contextual links; owner to request indexing in GSC UI. Fact-check of /es/alquiler-de-yates-marbella/: page created 10-23, recheck after 14 days.

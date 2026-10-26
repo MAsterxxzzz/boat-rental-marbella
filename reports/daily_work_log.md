@@ -397,3 +397,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 
 ## 2026-10-26 (Claude cloud routine, second action)
 **Done:** /luxury-yacht-rental-marbella/ fact-checked vs config: invented "day charters EUR2,400-18,000", "two 12.5 m yachts only / superyachts via partners" and weekly prices replaced with fleet data (Sunseeker 63 from 1,999/2h ... Maiora 8h 12,500; weekly on WhatsApp); body, FAQ and FAQ JSON-LD. Commit e1e95eaa, deploy success, live verified. Crawl 0 broken, baseline 879. **Owner:** APA/MYBA/contract and crew-role text on that page is generic industry copy, unverified for this business.
+
+## 2026-10-26 (Claude cloud routine, third action)
+**GSC** 2026-09-26..10-23: / 195 impr (pos 75.4, 1 click; 'boat rental marbella' 47 impr pos 58.1, improved from ~79), /es/ 142 (81.6), /boat-party-marbella/ 65 (76.2), /blog/puerto-banus-vs-marbella-marina/ 18 (pos 63.9).
+**Done:** that guide told readers to depart from Marbella Marina on '10-12 m yachts' and that prices/boats are the same at either marina; config says all 29 boats depart Puerto Banus. Body, 3 FAQs + FAQ JSON-LD now say so; added link to /boat-rental-puerto-banus/. Commit 33cdc92, deploy success, live verified. Crawl baseline 879 unchanged.
+**Checked, no change needed:** /day-charter-marbella/, /speedboat-rental-marbella/, /sailboat-rental-marbella/ match config. **Owner:** berth counts/parking prices/'~60% fleet share' on that guide are unverified; "reviewed by local skippers" too. No outreach/off-site (no owner accounts; tracker not checked).
