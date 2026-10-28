@@ -410,3 +410,5 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 
 ## 2026-10-28 (Claude cloud routine, continued)
 **Done:** /jet-ski-rental-marbella/ title/OG/Twitter/JSON-LD "from EUR200/h" -> "from EUR250" (config: 1h EUR250; EUR200 only extra hours); also config/keyword_map.json. Commit d1ac9c56, deploy success, live verified (6 hits). Crawl baseline 879. Resolves the jet-ski mismatch noted in backlog B6.
+
+**2026-10-28 owner instructions:** Gibraltar price = on request (done on /experiences/ card, 731a5a7d, deployed, live verified; also mentions Ceuta). Owner facts: main departure port = Puerto Banus harbour (other ports remain secondary, not removed); trips to Gibraltar AND Ceuta; drop-off/pick-up at beach clubs e.g. Nikki Beach Marbella. TODO: check /gibraltar day-trip blog page price, add beach-club drop-off wording on a relevant page (not done yet).

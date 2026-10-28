@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T05:34:17.242093",
+  "timestamp": "2026-10-28T05:38:53.774659",
   "html_validity_issues": [
     {
       "file": "/home/user/boat-rental-marbella/site/index.html",
@@ -5628,17 +5628,17 @@
   },
   "hreflang_canonical": {
     "pages_checked": [
-      "es",
-      "no",
-      "de",
-      "nl",
-      "en",
-      "pl",
-      "ar",
-      "sv",
-      "ru",
       "uk",
-      "fr"
+      "es",
+      "ru",
+      "fr",
+      "de",
+      "no",
+      "en",
+      "nl",
+      "ar",
+      "pl",
+      "sv"
     ],
     "issues": []
   },
