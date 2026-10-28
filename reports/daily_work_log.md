@@ -412,3 +412,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Done:** /jet-ski-rental-marbella/ title/OG/Twitter/JSON-LD "from EUR200/h" -> "from EUR250" (config: 1h EUR250; EUR200 only extra hours); also config/keyword_map.json. Commit d1ac9c56, deploy success, live verified (6 hits). Crawl baseline 879. Resolves the jet-ski mismatch noted in backlog B6.
 
 **2026-10-28 owner instructions:** Gibraltar price = on request (done on /experiences/ card, 731a5a7d, deployed, live verified; also mentions Ceuta). Owner facts: main departure port = Puerto Banus harbour (other ports remain secondary, not removed); trips to Gibraltar AND Ceuta; drop-off/pick-up at beach clubs e.g. Nikki Beach Marbella. TODO: check /gibraltar day-trip blog page price, add beach-club drop-off wording on a relevant page (not done yet).
+
+## 2026-10-28 (Claude cloud routine, Nikki Beach)
+**GSC** 2026-09-28..10-25: 468 impr, 1 click, pos 76.7 (prev 28d not re-queried; 10-27 run: 481 impr, pos 78.0).
+**Done:** /blog/nikki-beach-marbella-yacht/ (last edit 09-25): added owner-confirmed beach-club drop-off/pick-up wording (Nikki Beach + other clubs on request) and linked Puerto Banús to /boat-rental-puerto-banus/ (unknown to Google). Commit 9de8578e, deploy success, live verified. Crawl baseline 879.
+**Next:** /blog/gibraltar-day-trip-by-boat/ still shows €1,500-3,500 / 95-100 NM in meta, FAQ and JSON-LD (owner: Gibraltar = on request; Ceuta too) - edited 10-23, owner instruction is new evidence. Owner: pax counts differ across Astondoa 40/Azimut 39 pages (9/10/11/12) - confirm. No outreach/off-site (no owner accounts; tracker not checked).
