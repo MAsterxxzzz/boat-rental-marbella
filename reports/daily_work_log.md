@@ -417,3 +417,9 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-09-28..10-25: 468 impr, 1 click, pos 76.7 (prev 28d not re-queried; 10-27 run: 481 impr, pos 78.0).
 **Done:** /blog/nikki-beach-marbella-yacht/ (last edit 09-25): added owner-confirmed beach-club drop-off/pick-up wording (Nikki Beach + other clubs on request) and linked Puerto Banús to /boat-rental-puerto-banus/ (unknown to Google). Commit 9de8578e, deploy success, live verified. Crawl baseline 879.
 **Next:** /blog/gibraltar-day-trip-by-boat/ still shows €1,500-3,500 / 95-100 NM in meta, FAQ and JSON-LD (owner: Gibraltar = on request; Ceuta too) - edited 10-23, owner instruction is new evidence. Owner: pax counts differ across Astondoa 40/Azimut 39 pages (9/10/11/12) - confirm. No outreach/off-site (no owner accounts; tracker not checked).
+
+## 2026-10-29 (Claude cloud routine)
+**GSC** 2026-09-29..10-26: 475 impr, 1 click, pos 76.6 (10-27 run prev: 462 impr, pos 76.3; flat).
+**Done:** /blog/gibraltar-day-trip-by-boat/ (owner 10-28: Gibraltar = on request): removed EUR1,500-3,500 range from meta/OG/Twitter, hero, cost list, FAQ and FAQ JSON-LD (now "priced on request", WhatsApp quote). Commit 942ebb88, deploy success, live verified (no "3,500", JSON-LD parses). Crawl baseline 879.
+**Owner:** fuel surcharge (EUR200-500), berth fees and 95-100 NM claims on that page are unverified. Pax counts differ across Astondoa 40/Azimut 39 pages - confirm. No outreach/off-site (no owner accounts; tracker not checked).
+**Next:** B11 after 11-05 (homepage//uk "boat hire", measure /es/).
