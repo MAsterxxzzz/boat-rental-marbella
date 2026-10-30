@@ -423,3 +423,9 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Done:** /blog/gibraltar-day-trip-by-boat/ (owner 10-28: Gibraltar = on request): removed EUR1,500-3,500 range from meta/OG/Twitter, hero, cost list, FAQ and FAQ JSON-LD (now "priced on request", WhatsApp quote). Commit 942ebb88, deploy success, live verified (no "3,500", JSON-LD parses). Crawl baseline 879.
 **Owner:** fuel surcharge (EUR200-500), berth fees and 95-100 NM claims on that page are unverified. Pax counts differ across Astondoa 40/Azimut 39 pages - confirm. No outreach/off-site (no owner accounts; tracker not checked).
 **Next:** B11 after 11-05 (homepage//uk "boat hire", measure /es/).
+
+## 2026-10-30 (Claude cloud routine)
+**GSC** 2026-09-30..10-27: / 'boat rental marbella' 51 impr pos 60.1; 'marbella rent a boat' 27 pos 80.5; 'rent a boat marbella' 24 pos 80.0 (flat vs 10-29).
+**Done:** /catamaran-rental-marbella/ (indexed): invented 4-class catamaran price table (EUR350-2,400), '14-16 guests', 'groups above 16' removed from body, FAQ and FAQ JSON-LD; now Lagoon 380 (only catamaran in config, on request, 10 pax) + link to /boats/lagoon-380/. Edit 10-23 was postal code only; owner 10-22 said catamaran = on request. Commit 89a53006, deploy success, live verified. Crawl baseline 879.
+**Owner:** page still has generic unverified copy (itineraries, 'fishing rods/BBQ', sail speeds). No outreach/off-site (no owner accounts; tracker not checked).
+**Next:** B11 after 11-05.

@@ -64,3 +64,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B14 DONE 2026-10-28 (d1ac9c56): jet-ski title 'from €200/h' -> 'from €250'.
 - B15 DONE 2026-10-28 (9de8578e): Nikki Beach guide beach-club drop-off wording + Puerto Banus link. NEXT: Gibraltar day-trip blog price on request + Ceuta.
 - B16 DONE 2026-10-29 (942ebb88): Gibraltar day-trip guide price -> on request.
+- B17 DONE 2026-10-30 (89a53006): /catamaran-rental-marbella/ invented price table + >12-guest claims replaced with Lagoon 380 on-request facts.
