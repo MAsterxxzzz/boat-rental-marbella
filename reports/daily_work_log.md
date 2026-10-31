@@ -429,3 +429,9 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Done:** /catamaran-rental-marbella/ (indexed): invented 4-class catamaran price table (EUR350-2,400), '14-16 guests', 'groups above 16' removed from body, FAQ and FAQ JSON-LD; now Lagoon 380 (only catamaran in config, on request, 10 pax) + link to /boats/lagoon-380/. Edit 10-23 was postal code only; owner 10-22 said catamaran = on request. Commit 89a53006, deploy success, live verified. Crawl baseline 879.
 **Owner:** page still has generic unverified copy (itineraries, 'fishing rods/BBQ', sail speeds). No outreach/off-site (no owner accounts; tracker not checked).
 **Next:** B11 after 11-05.
+
+## 2026-10-31 (Claude cloud routine)
+**GSC** 2026-10-01..10-28: / 'boat rental marbella' 51 impr pos 60.1; 'marbella rent a boat' 27 pos 80.5; /es/ 'alquiler de barco con patrón marbella' 18 pos 79.3; /boats/k80/ 'luxury yachts in marbella' 1 impr pos 27. 0 clicks (flat; no prev-28d re-query).
+**Done:** /boats/k80/ (last edit 10-23 postal code only): title 'Smaller Groups, Budget-Friendly' -> '24 m Luxury Yacht Charter Marbella — Puerto Banús'; hero and booking-card 'From €749' -> 'Price on request' (config: K80 on_request, 24 m, 12 pax). Commit 89b5f2a9, live verified (title + 2x 'Price on request'); deploy run in progress at last check. Crawl baseline 879.
+**Owner:** Bandido page title says 'Catamaran Charter... Family-Friendly' but config = 11.5 m sport-fishing yacht (not edited yet); K80 JSON-LD offer price "0" left as is. Push initially 403 until add_repo(push) was called. No outreach/off-site (no owner accounts; tracker not checked).
+**Next:** /boats/bandido/ title/H1 fix; B11 after 11-05.
