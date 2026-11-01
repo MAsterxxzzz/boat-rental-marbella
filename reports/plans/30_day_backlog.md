@@ -66,3 +66,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B16 DONE 2026-10-29 (942ebb88): Gibraltar day-trip guide price -> on request.
 - B17 DONE 2026-10-30 (89a53006): /catamaran-rental-marbella/ invented price table + >12-guest claims replaced with Lagoon 380 on-request facts.
 - B18 DONE 2026-10-31 (89b5f2a9): /boats/k80/ title + 'From €749' -> luxury title / price on request. NEXT: /boats/bandido/ (title says catamaran; config = sport-fishing yacht), then B11 after 11-05.
+- B19 DONE 2026-11-01 (5a6da046): /boats/bandido/ title + price on request. NEXT: B11 after 11-05.
