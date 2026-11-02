@@ -67,3 +67,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B17 DONE 2026-10-30 (89a53006): /catamaran-rental-marbella/ invented price table + >12-guest claims replaced with Lagoon 380 on-request facts.
 - B18 DONE 2026-10-31 (89b5f2a9): /boats/k80/ title + 'From €749' -> luxury title / price on request. NEXT: /boats/bandido/ (title says catamaran; config = sport-fishing yacht), then B11 after 11-05.
 - B19 DONE 2026-11-01 (5a6da046): /boats/bandido/ title + price on request. NEXT: B11 after 11-05.
+- B20 DONE 2026-11-02 (dc334872): /boats/red-tide-fishing-boat/ meta "From €1,800 for 4h" -> price on request. NEXT: /boats/azimut-58/ title (Superyacht/18m vs 17.6 m flybridge); B11 after 11-05.

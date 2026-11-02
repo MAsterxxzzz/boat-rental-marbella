@@ -441,3 +441,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Done:** /boats/bandido/ (last edit 10-23 postal code only): title 'Catamaran Charter... Family-Friendly Stability' -> '11.5 m Sport-Fishing Yacht Charter Marbella — Puerto Banús'; hero and booking-card 'From €749' -> 'Price on request' (config: sport-fishing yacht, 8 pax, on_request). Commit 5a6da046, deploy success, live verified. Crawl baseline 879.
 **Owner:** Bandido JSON-LD offer price "0" left as is. No outreach/off-site (no owner accounts; tracker not checked).
 **Next:** B11 after 11-05.
+
+## 2026-11-02 (Claude cloud routine)
+**GSC** 2026-10-03..10-30: / 200 impr, 1 click, pos 75.8; 'boat rental marbella' 50 impr pos 59.6; /es/ 127 impr pos 82 ('alquiler de barco con patrón marbella' 19, pos 80.3); /boat-party-marbella/ 61 impr pos 77.8. 0 non-brand clicks beyond 1. (prev 28d 09-05..10-02 queried; top-60 rows only, not comparable totals.)
+**Done:** /boats/red-tide-fishing-boat/ meta/OG/Twitter said "From €1,800 for 4h"; config = on_request, 6 pax, body already "quote on WhatsApp". Replaced with 11 m / 6 anglers / Puerto Banús / price on request. Commit dc334872, deploy success, live verified (0x "1,800", 3x new text). Crawl baseline 879.
+**Owner/next:** Azimut 58 title says "Superyacht ... 18m" (config 17.6 m flybridge) - not edited yet; Product JSON-LD offer price "0" on all on-request boat pages. No outreach/off-site (no owner accounts; tracker not checked). B11 after 11-05.
