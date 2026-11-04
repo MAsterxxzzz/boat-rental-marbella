@@ -69,3 +69,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B19 DONE 2026-11-01 (5a6da046): /boats/bandido/ title + price on request. NEXT: B11 after 11-05.
 - B20 DONE 2026-11-02 (dc334872): /boats/red-tide-fishing-boat/ meta "From €1,800 for 4h" -> price on request. NEXT: /boats/azimut-58/ title (Superyacht/18m vs 17.6 m flybridge); B11 after 11-05.
 - B21 DONE 2026-11-03 (c29f7a66): /boats/azimut-58/ title (Superyacht 18m -> 17.6 m flybridge) + hero price on request. NEXT: B11 after 11-05.
+- B22 DONE 2026-11-04 (416e34a0): /private-boat-charter-marbella/ fleet stats fixed (29 boats, no 500+ clients, Puerto Banus main port). NEXT: B11 after 11-05.

@@ -450,3 +450,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 ## 2026-11-03 (Claude cloud routine)
 **Done:** /boats/azimut-58/ (last edit 10-23 postal code only): title 'Superyacht Charter ... Luxury 18m' -> 'Azimut 58 Flybridge Charter Marbella — 17.6 m Yacht, Puerto Banús'; hero 'From €749' -> 'Price on request' (config: 17.6 m, on_request, 12 pax). Commit c29f7a66, live verified (both strings served); deploy run was in progress at last check. Crawl baseline 879.
 **Owner:** Azimut 58 card prices elsewhere and Product JSON-LD offer price "0" on on-request boat pages. GSC not re-queried this run. No outreach/off-site (no owner accounts; tracker not checked). **Next:** B11 after 11-05.
+
+## 2026-11-04 (Claude cloud routine)
+**GSC** 2026-10-05..11-01 vs 09-07..10-04 (top-40 rows): 'boat rental marbella' / 48 impr pos 58.7 (prev 13 impr pos 81.6); /es/ 'alquiler barco con patron marbella' 11 impr pos 73.6 (prev 10, 74.6); 0 clicks in both sets.
+**Done:** /private-boat-charter-marbella/ (last edit 10-23 Lagoon card): stats '17 boats' -> 29 (config), '500+ Happy Clients' (page says Est. 2025; unsupported) -> 12 guests max, '5 departure ports' -> Puerto Banus main port (owner 10-28). Commit 416e34a0, deploy success, live verified. Crawl baseline 879.
+**Owner:** 'Only 4 dates left' / 'people viewed' urgency widgets and cash-discount popup on this page look like sitewide template claims; 'WhatsApp <5 min' pending A1. No outreach/off-site (no owner accounts; tracker not checked). **Next:** B11 after 11-05.
