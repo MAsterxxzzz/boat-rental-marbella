@@ -455,3 +455,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-10-05..11-01 vs 09-07..10-04 (top-40 rows): 'boat rental marbella' / 48 impr pos 58.7 (prev 13 impr pos 81.6); /es/ 'alquiler barco con patron marbella' 11 impr pos 73.6 (prev 10, 74.6); 0 clicks in both sets.
 **Done:** /private-boat-charter-marbella/ (last edit 10-23 Lagoon card): stats '17 boats' -> 29 (config), '500+ Happy Clients' (page says Est. 2025; unsupported) -> 12 guests max, '5 departure ports' -> Puerto Banus main port (owner 10-28). Commit 416e34a0, deploy success, live verified. Crawl baseline 879.
 **Owner:** 'Only 4 dates left' / 'people viewed' urgency widgets and cash-discount popup on this page look like sitewide template claims; 'WhatsApp <5 min' pending A1. No outreach/off-site (no owner accounts; tracker not checked). **Next:** B11 after 11-05.
+
+## 2026-11-05 (Claude cloud routine)
+**GSC** 2026-10-06..11-02 (top-40 q+page): / 'boat rental marbella' 46 impr pos 57.7 (prev 28d: 13 impr, pos ~82); 'boat hire marbella' / 5 impr pos 83.4; /es/ 'alquiler de barco con patrón marbella' 18 pos 80.5 + 'alquiler barco con patron' 10 pos 73.9 (flat). 0 clicks in either period.
+**Done (B11, 14-day rule satisfied):** homepage title/meta/OG/Twitter now include 'boat hire'; 'Catamarans' dropped from OG/Twitter title (config: one catamaran, on request). Commit 150def6, deploy success, live verified (3 hits). Crawl baseline 879.
+**Next:** /uk/ 'boat hire' wording (last edit 10-23 postal code only); measure homepage in 14 days (11-19). No outreach/off-site (no owner accounts; tracker not checked).
