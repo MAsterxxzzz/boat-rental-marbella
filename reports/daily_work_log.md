@@ -470,3 +470,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-10-08..11-04 (q+page top-25): /es/ 'alquiler de barco con patrón marbella' 15 impr pos 81, 'alquiler embarcaciones con patrón en marbella' 13 pos 75.8, 'alquiler barco con patron marbella' 9 pos 74; 0 clicks (no prev-28d re-query).
 **Done (B3):** /es/ (last real edit 10-22) title/OG/Twitter -> 'Alquiler de barcos con patrón en Marbella: Yates desde €749' (price matches config). Commit f919d80, deploy success, live verified. Crawl baseline 879.
 **Next:** measure homepage + /uk/ + /es/ from 11-19. No outreach/off-site (no owner accounts; tracker not checked). Owner: /es/ description still says only Astondoa 40/Azimut 39 12.5 m (fleet is 29) - confirm wording.
+
+## 2026-11-08 (Claude cloud routine)
+**GSC** 2026-10-09..11-05 (q+page top-30): /es/ 'alquiler de barco con patrón marbella' 15 impr pos 81, 'alquiler embarcaciones con patrón en marbella' 13 pos 75.8; /boat-party-marbella/ 'best boat party in marbella' 14 pos 75.9; 'boat hire marbella' / 3 impr pos 81. 0 clicks (no prev-28d re-query).
+**Done:** /boats/canados-86/ title said 'Catamaran ... Twin-Hull'; config = 26 m luxury motor yacht, 12 pax, on request. Title now 'Canados 86 Yacht Charter Marbella — 26 m Luxury Motor Yacht, Puerto Banús'. Commit 9dfaa21, live title verified. Actions-run API returned 403 in this session (deploy not confirmed via API; live HTML serves the change). Crawl baseline 879.
+**Owner:** Dubhe page shows 'From €230' vs config tier 'entry' (check); Lagoon 380 title 'Eco-Friendly' unverified; H1 price conflicts (H1) still open. No outreach/off-site (no owner accounts; tracker not checked). **Next:** measure homepage + /uk/ + /es/ from 11-19.

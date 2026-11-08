@@ -73,3 +73,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B11 PARTIAL DONE 2026-11-05 (150def6): homepage title/meta/OG add "boat hire". NEXT: /uk/ "boat hire"; measure homepage 11-19.
 - B11 DONE 2026-11-06 (d7e79d3f): /uk/ 'boat hire' title/meta/OG/Twitter. NEXT: measure homepage + /uk/ from 11-19; B3 /es/.
 - B3 DONE 2026-11-07 (f919d80): /es/ title/OG/Twitter mirror "con patrón". NEXT: measure from 11-19.
+- B23 DONE 2026-11-08 (9dfaa21): /boats/canados-86/ title catamaran -> 26 m luxury motor yacht (config). NEXT: Dubhe 'From €230' vs config entry tier; measure from 11-19.
