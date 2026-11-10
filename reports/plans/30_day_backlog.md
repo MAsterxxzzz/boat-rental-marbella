@@ -75,3 +75,4 @@ GSC 28-day vs previous 28-day (end = today−3): clicks, impressions, avg positi
 - B3 DONE 2026-11-07 (f919d80): /es/ title/OG/Twitter mirror "con patrón". NEXT: measure from 11-19.
 - B23 DONE 2026-11-08 (9dfaa21): /boats/canados-86/ title catamaran -> 26 m luxury motor yacht (config). NEXT: Dubhe 'From €230' vs config entry tier; measure from 11-19.
 - B24 DONE 2026-11-09 (89986dde): /boats/dubhe/ title "Specialty Luxury" -> 8 m, 5 guests, from €230 (config). Dubhe price conflict closed (page = config). NEXT: measure from 11-19.
+- B25 DONE 2026-11-10 (23d4ecf): /boats/mefasa-90/ title 27m -> 29 m (config). NEXT: measure from 11-19; Sunseeker/Princess title lengths vs config (owner, H1).

@@ -480,3 +480,8 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-10-10..11-06 (28d): 354 impr, 1 click, pos 77.5 (prev 28d 09-12..10-09: 344 impr, 0 clicks, pos 76.7; flat). /es/ 'alquiler de barco con patrón marbella' 15 impr pos 81; 'alquiler embarcaciones con patrón en marbella' 13 pos 75.8; /boat-party-marbella/ 'best boat party in marbella' 14 pos 75.9.
 **Done:** /boats/dubhe/ (last edit 10-23 postal code only): config price EUR230 matches page (no conflict); title 'Specialty Luxury Experience' contradicted config (8 m entry day boat, 5 pax). Now 'Dubhe 8 m Boat Hire Marbella — 5 Guests, from €230 | Puerto Banús'. Commit 89986dde, deploy success, live verified. Crawl baseline 879.
 **Owner:** Dubhe page body still shows 10/11/12-guest and catamaran text in related-boat cards (not Dubhe's own; unchecked). No outreach/off-site (no owner accounts; tracker not checked). **Next:** measure homepage + /uk/ + /es/ from 11-19.
+
+## 2026-11-10 (Claude cloud routine)
+**GSC** not re-queried this run (time spent on fleet-wide title/config scan). Last known (11-09): 354 impr, 1 click, pos 77.5, flat vs prev 28d.
+**Done:** scanned all 29 boat page titles/descriptions vs config/boats.json. /boats/mefasa-90/ title said '27m'; config + meta description = 29 m. Now '29 m Ultra-Luxury'. Commit 23d4ecf, deploy success, live verified. Crawl baseline 879.
+**Owner:** Lagoon 380 title 'Eco-Friendly' unverified; Sunseeker/Princess pages' title lengths (20m/21m/17m/19m) differ from config (21/21.8/18.2/19 m; H1 list) - owner/H1 decision. No outreach/off-site (no owner accounts; tracker not checked). **Next:** measure homepage + /uk/ + /es/ from 11-19.
