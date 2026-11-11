@@ -485,3 +485,9 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** not re-queried this run (time spent on fleet-wide title/config scan). Last known (11-09): 354 impr, 1 click, pos 77.5, flat vs prev 28d.
 **Done:** scanned all 29 boat page titles/descriptions vs config/boats.json. /boats/mefasa-90/ title said '27m'; config + meta description = 29 m. Now '29 m Ultra-Luxury'. Commit 23d4ecf, deploy success, live verified. Crawl baseline 879.
 **Owner:** Lagoon 380 title 'Eco-Friendly' unverified; Sunseeker/Princess pages' title lengths (20m/21m/17m/19m) differ from config (21/21.8/18.2/19 m; H1 list) - owner/H1 decision. No outreach/off-site (no owner accounts; tracker not checked). **Next:** measure homepage + /uk/ + /es/ from 11-19.
+
+## 2026-11-11 (Claude cloud routine)
+**GSC** 2026-10-11..11-07: 359 impr, 1 click, pos 76.7 (prev 28d 2026-08-17..09-13: 391 impr, 1 click, pos 78.7; flat overall, slight pos improvement).
+**Done:** /boats/lagoon-380/ title removed unverified 'Eco-Friendly' marketing claim, replaced with boat specs ('11.6m, 10 Guests, Quote on WhatsApp') to match config and align with other boat page title patterns (no published price; on_request tier). Commit 700daaa, deploy success (run 42985688660), live verified (new title served). Crawl: 0 broken (58,031 hrefs), baseline 878 unchanged.
+**Owner:** /boats/lagoon-380/ body still contains generic unverified copy (sail/features). No outreach/off-site (no owner accounts; tracker not checked).
+**Next:** /de/ and /uk/ pages still need B2 contextual links per backlog; measure homepage + /uk/ + /es/ from 2026-11-19 (14-day rule).
