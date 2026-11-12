@@ -12,7 +12,7 @@ Rules: one completed, verified action per run. A draft, report or unverified sub
 - B1 /yacht-charter-marbella/: DONE 2026-10-22 (title/H1 'from €450' → 'from €749', matches data). Next: measure after 14 days; FAQ addition only after that.
 - B2 /boats/ and /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/ are unknown to Google: add contextual internal links from indexed pages (/, /es/, /yacht-charter-marbella/), then request indexing in Search Console (owner/GSC UI). todo
 - B3 /es/ and /es/alquiler-de-yates-marbella/ (indexed; pos 53 on one query): confirm "con patrón" wording is mirrored in titles/H1 after the 2026-10-22 edit; measure before touching. todo (measure first, not before 2026-11-05)
-- B4 /boat-party-marbella/: DONE 2026-10-22 (460e5cb7): unsupported catamaran/40-guest boats and prices replaced with fleet-verified facts. Next: measure; consider a snippet tweak after 14 days.
+- B4 /boat-party-marbella/: DONE 2026-10-22 (460e5cb7) + DONE 2026-11-12 (8af59a8): unsupported catamaran/40-guest boats and prices replaced with fleet-verified facts; title/H1/OG/Twitter updated to include "at Puerto Banús" for location-specific query "boat party in puerto banus" (12 impr, pos 68.7). Next: measure from 2026-11-26.
 - B5 Re-link strategy for the blog hub: it links 349 redirect stubs and 98 future-year pages (51% of 871 links). Removing those cards is a bulk change → needs approval (A4/A5).
 - Done: sitemap now lists /boat-rental-with-skipper/ (2080baec); blog hub claim corrected 887→522 (e37f6c7f); homepage yacht link (f24d06c); /es/ con patrón (d4e6942).
 
