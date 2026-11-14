@@ -501,3 +501,21 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **GSC** 2026-10-13..11-10 (28d): 357 impr, 0 clicks, pos 80.1. Top: 'boat rental marbella' / 43 impr pos 57.3 (best-performing commercial query); /es/ 'alquiler de barco con patrón marbella' 15 pos 81; /boat-party-marbella/ 'best boat party in marbella' 14 pos 75.9.
 **Done (B2 partial):** /boat-rental-prices/ (last real edit 2026-10-24, 20 days ago - eligible for re-edit). Added contextual language availability links: "Languages: ES · DE" at end of article (matching footer style used elsewhere). Rationale: /de/ is unknown to Google (GSC diagnosis); internal links from indexed, commercial pages help discovery. Commit 0f6c699, deploy success (verified ~2026-11-13 08:25), live verified (link present, HTTP 200). Crawl: 0 broken links (58,033 hrefs, +2 from new DE/ES links), baselines 878 unchanged, sitemap 802 valid.
 **Next:** B2 remaining - contextual links for /de/ from other eligible indexed pages; B3 measurement from 2026-11-19; owner blockers A1-A5 still pending. No outreach/off-site (no owner accounts; tracker not checked).
+
+## 2026-11-14 (Claude cloud routine)
+
+**GSC** 2026-10-15..11-11: 295 impressions, 0 clicks, avg position 79.5. Top queries: "boat rental marbella" (40 impr, pos 55.6, indexed), "boat party marbella" (25, pos 84.2), "rent a yacht in marbella" (17, pos 83.8). Only 4 indexed pages out of 800+ in sitemap; 0 clicks across 28 days indicates ranking position is the binding constraint on enquiries (not snippet or CTR).
+
+**Constraint analysis:** homepage/boat-party-marbella//es/ all edited 2026-11-05..12 (within 14-day measurement window until 2026-11-19/26); backlog measures impact of B11/B3/B4 edits. Measurement window respected — no re-edits to these pages without new evidence.
+
+**Action:** B2 internal link strategy. /blog/puerto-banus-vs-marbella-marina/ (19 days old, indexed, 12 impressions) now links to /de/bootsverleih-puerto-banus/ (German equivalent, unknown to Google; newly in sitemap 2026-11-13). Added to "Bottom line" section: contextually relevant (page is about Puerto Banús marina choice) + helps /de/ discovery.
+
+- Change: +1 sentence with anchor link to /de/bootsverleih-puerto-banus/; +1 internal href (58034 total).
+- Commit: a11a3c5
+- Deploy: GitHub Pages run succeeded (~45 min after push; deploy workflow triggers on site/** changes). 
+- Live verification: curl confirms German link present on live page (https://boatrentalinmarbella.com/blog/puerto-banus-vs-marbella-marina/). HTTP 200, HTML valid.
+- Crawl: 0 broken links (58034 hrefs), baselines unchanged (878 HTML-validity files, 349 duplicate "Redirected" titles). Sitemap 802/802.
+
+**Next:** after 2026-11-19 (end of B11/B3 measurement window), measure homepage/uk position change vs 2026-10-15..11-11 baseline; then add more /de/ contextual links from other indexed pages if indicated, and fact-check /es/alquiler-de-yates-marbella/ (created 2026-10-23, 14-day rule expires 2026-11-06 — now editable). Owner decisions (A1-A5, H1-H4) still pending.
+
+**Outreach/external:** no owner accounts available for AngloINFO or other directories; tracker not checked (not accessible from cloud session); no send attempted. GBP profile verified live; review kit delivered to owner (reports/plans/gbp_reviews_playbook.md).
