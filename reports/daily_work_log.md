@@ -519,3 +519,20 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Next:** after 2026-11-19 (end of B11/B3 measurement window), measure homepage/uk position change vs 2026-10-15..11-11 baseline; then add more /de/ contextual links from other indexed pages if indicated, and fact-check /es/alquiler-de-yates-marbella/ (created 2026-10-23, 14-day rule expires 2026-11-06 — now editable). Owner decisions (A1-A5, H1-H4) still pending.
 
 **Outreach/external:** no owner accounts available for AngloINFO or other directories; tracker not checked (not accessible from cloud session); no send attempted. GBP profile verified live; review kit delivered to owner (reports/plans/gbp_reviews_playbook.md).
+
+## 2026-11-15 (Claude cloud routine)
+
+**GSC** 2026-10-16..11-12 (28d): 155 impressions, 0 clicks, avg position 78.5. Top queries: "boat rental marbella" (39 impr, pos 55.0 — closest to page 1), "boat party marbella" (26, pos 85), "alquiler barco con patrón marbella" (9, pos 74). Pages: / 163 impr (pos 73.7), /boat-party-marbella/ 61 (81.7), /es/ 47 (71.1), /blog/puerto-banus-vs-marbella-marina/ 15 (67.8), /experiences/ 7 (13.6). Only 4 pages indexed out of 800+; 0 clicks indicates ranking is the binding constraint.
+
+**Done (B2 continued):** /experiences/ (last real edit 2026-10-27, 19 days old, indexed with 7 impr — eligible for re-edit). Added contextual language link "Languages: <a href="/es/">ES</a> · <a href="/de/">DE</a>" at end of article to help /de/ discovery, following the pattern established on /boat-rental-prices/ (2026-11-13).
+- Change: +1 paragraph, +2 internal hrefs to /es/ and /de/ (58036 total from 58034)
+- Crawl: 0 broken links, no new issues, baselines unchanged (878 HTML validity, 349 duplicate titles, 802 sitemap)
+- Commit: d712e98
+- Deploy: GitHub Pages run 43693627061 (queued; previous deploy 43574949501 succeeded)
+- Live verification: pending deploy completion
+
+**Measurement window:** homepage/uk/es/ edits remain within the 14-day window until 2026-11-19/26 — no re-edits to those pages until measurement complete. /blog/puerto-banus-vs-marbella-marina/ ineligible (edited 11-14, today is 11-15).
+
+**Next:** after deploy confirmed live, measure homepage + /uk/ + /es/ position change from 2026-11-19 onward. Owner decisions (A1-A5, H1-H4) still pending.
+
+**No outreach/external attempted:** no owner accounts; tracker not checked.
