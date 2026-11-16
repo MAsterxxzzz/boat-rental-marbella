@@ -536,3 +536,21 @@ Profile verified; hours live; categories/services/logo/photos pending Google rev
 **Next:** after deploy confirmed live, measure homepage + /uk/ + /es/ position change from 2026-11-19 onward. Owner decisions (A1-A5, H1-H4) still pending.
 
 **No outreach/external attempted:** no owner accounts; tracker not checked.
+
+## 2026-11-16 (Claude cloud routine)
+
+**GSC** 2026-10-17..11-13 (28d): 245 impressions, 0 clicks, avg position 80.2. Top: "boat rental marbella" / 38 impr pos 54.3 (significant improvement from ~79 in prior runs; B11 "boat hire" wording edit on 2026-11-05 may be contributing). /es/ "alquiler de barco con patrón marbella" 7 impr pos 87.1; /boat-party-marbella/ "boat party marbella" 26 impr pos 85.0. Index status: only 4 pages indexed out of 800+; /de/ still unknown; blog guides showing impressions. Ranking gap (pos ~54-85, pages 6-9) is the binding constraint on enquiries.
+
+**Done (B2 continued):** /boat-rental-puerto-banus/ (indexed, 3-4 impr, last edited 2026-10-22, 25 days ago — eligible for re-edit per 14-day rule) now links to German equivalent /de/bootsverleih-puerto-banus/ (unknown to Google) at end of article. Added contextual language link paragraph: "Available in: EN · Deutsch · Español" (3 hreflang links, all targets verified in sitemap). Contextually relevant: the page discusses Puerto Banús marina choice and serves the location-specific intent; link helps /de/ discovery from an indexed, commercial page.
+
+- Change: +1 language link paragraph, +3 internal hrefs (1 to each language variant)
+- Crawl: 0 broken links (58039 hrefs, +8 from yesterday's 58031 due to the new links), no new issues, baselines unchanged (878 HTML-validity files, 349 duplicate "Redirected" titles, 802 sitemap URLs)
+- Commit: 0ed64eb
+- Deploy: GitHub Pages run queued (Pages workflow triggers on site/** changes). Live verification pending (site responds 200, deploy processing).
+- Fact-checked: no prices/fleet/booking claims touched; all hreflang targets verified to exist in sitemap.
+
+**Measurement window:** B11/B3/B4 edits remain within 14-day window until 2026-11-19/26 — measurement due end of that week. No re-edits to /, /uk/, /es/, /boat-party-marbella/ today.
+
+**Next:** verify deploy completion; measure homepage + /uk/ + /es/ + /blog/puerto-banus-vs-marbella-marina/ position change from 2026-11-19 onward; continue B2 with more /de/ contextual links from other indexed pages if indicated. Owner decisions (A1-A5, H1-H4) still pending.
+
+**No outreach/external attempted:** no owner accounts available; tracker not checked.
