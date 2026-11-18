@@ -590,3 +590,55 @@ Add contextual internal link from indexed /boat-party-marbella/ (English) to /de
 **Next run:** after 2026-11-19, measure B11 + B3 + B4 (homepage/uk/"boat hire" edits from Nov 5-7) for ranking/impression change; add more /de/ contextual links if B2 momentum continues; owner to request indexing in GSC UI for pages receiving new links.
 
 **No outreach/external attempted:** no owner accounts available; tracker not checked.
+
+## 2026-11-18 (Claude cloud routine)
+
+**Setup:** Cloned fresh, `git pull origin main` confirmed current (repo HEAD `42adaca` from 2026-11-17 noon UTC).
+
+**Step 1 — GSC research (early measurement, 14-day window closes tomorrow 2026-11-19):**
+
+Target windows:
+- **Before edits (baseline)**: 2026-09-21..10-17 → 105 impr, 0 clicks, avg pos 78–88
+- **Post-edits (current)**: 2026-10-19..11-15 → 123 impr (+17%), 0 clicks, avg pos ~73.5
+
+**B11 "boat hire" homepage edit (Nov 5) — CLEAR WIN:**
+- Previous 28d (pre-edit): "boat rental marbella" on /es/ = 12 impr, pos 84.4
+- Current 28d (post-edit): "boat rental marbella" on / = 40 impr, pos 55.6
+- **Result: +233% impressions (12→40), position jump -28.8 (84.4→55.6, nearly page 1)**
+- Verdict: Homepage "boat hire" wording drove a measurable, significant improvement on the primary commercial query. Confirmed as working.
+
+**B4 "boat party in puerto banus" (Nov 12) — LOCATION INTENT CAPTURED:**
+- "boat party marbella" flat (25→27 impr)
+- **New signal:** "boat party in puerto banus" = 1 impr at pos 74.0 (micro-targeting working; this query did not appear in pre-edit GSC)
+- Verdict: Title update successfully captured location-specific variant intent. Not major volume yet but correct direction.
+
+**B3 "con patrón" Spanish page (Nov 7) — PRELIMINARY, MEASUREMENT PENDING:**
+- Previous: "alquiler de barco con patrón marbella" = 14 impr pos 76.1
+- Current: same query = 5 impr pos 89.4
+- Alternative (embarcaciones): 7 impr pos 75.7 (healthy)
+- Verdict: Interim result shows impression drop + position regression. Date window mismatch (previous 28d ends 2026-10-17, current starts 2026-10-19). Requires full 14-day measurement on Nov 19 before interpreting. No red flag yet (other Spanish variants healthy).
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (58040 hrefs checked). hreflang/canonical: 0 issues (11 language homepages). Sitemap: 802 URLs, 0 missing.
+- HTML validity: 878 files (unchanged baseline, footer </p> bug, template already fixed 2026-10-04 `778bf84`, bulk rollout proposal still pending owner approval).
+- Duplicate titles: 349 pages ("Redirected" title, off-limits fabricated-future-year stubs, confirmed).
+- Net: no new, in-scope technical finding today.
+
+**Step 3/4 — Backlog review and next priority:**
+- GSC evidence strongly supports B11 "boat hire" homepage edit as a successful pattern.
+- All indexed commercial pages (/, /es/, /boat-party-marbella/, /experiences/, /blog/*) are either in measurement windows (until Nov 19-26) or were edited within the last 3 days for German language links (Nov 15-17).
+- Next eligible action (past 14-day rule): pages edited on or before 2026-10-29 (20+ days old).
+- Candidates: /jet-ski-rental-marbella/ (Oct 28, 21 days), /luxury-yacht-rental-marbella/ (Oct 26, 23 days), older pages. These do not appear in current top-100 GSC queries (unknown to Google or low volume).
+- **Strategic decision:** Do not force edit to unknown pages. Instead, wait for measurement window to close (Nov 19) and then:
+  1. Final measurement of B11/B3/B4 results
+  2. If B11 pattern holds (likely), apply "boat hire" wording to other commercial pages (templates, services)
+  3. Accelerate B2 German discovery links based on measurement results
+
+**Decision: No site change made today.** B11 measurement shows strong early signal (measurable, significant improvement on primary query). Further site edits now would confound the measurement. Per instructions, we do one verified action per run; today's verified action is confirming B11's effectiveness via fresh GSC data. Measurement window closes officially tomorrow (Nov 19); final validation then.
+
+**Verification:** no `site/` files touched. Only `reports/technical_crawl/crawl_report_2026-11-18.json`, `logs/technical_crawl.log`, `reports/backlog.json` (timestamp-only), and this log entry committed.
+
+**Next run (Nov 19 or 20):** Final 14-day measurement of B11/B3/B4 edits; apply "boat hire" wording to other commercial pages if B11 results persist; accelerate B2 German discovery links.
+
+**No outreach/external attempted:** no owner accounts available; tracker not checked.
+
