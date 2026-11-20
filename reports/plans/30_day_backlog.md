@@ -10,7 +10,11 @@ Rules: one completed, verified action per run. A draft, report or unverified sub
 
 ## B. Existing-page improvements (one per run, evidence from GSC)
 - B1 /yacht-charter-marbella/: DONE 2026-10-22 (title/H1 'from €450' → 'from €749', matches data). Next: measure after 14 days; FAQ addition only after that.
-- B2 /boats/ and /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/ are unknown to Google: add contextual internal links from indexed pages (/, /es/, /yacht-charter-marbella/), then request indexing in Search Console (owner/GSC UI). todo
+- B2 /boats/ and /boats/azimut-39/, /boat-rental-puerto-banus/, /de/, /uk/ are unknown to Google: add contextual internal links from indexed pages (/, /es/, /yacht-charter-marbella/), then request indexing in Search Console (owner/GSC UI).
+  - B2 PARTIAL DONE 2026-10-22 (096ebc48): /boat-rental-4-hours/ linked /boat-rental-puerto-banus/ and /boats/azimut-39/ (both unknown to Google).
+  - B2 PARTIAL DONE 2026-11-14 (a11a3c5): /blog/puerto-banus-vs-marbella-marina/ linked /de/bootsverleih-puerto-banus/.
+  - B2 PARTIAL DONE 2026-11-20 (536d7c38): /boat-rental-4-hours/ linked /de/bootsverleih-puerto-banus/ (German Puerto Banús hub discovery).
+  - NEXT: more /de/ contextual links from indexed English pages not edited in 14 days (/experiences/, /yacht-charter-marbella/, /boat-rental-prices/, /boat-rental-with-skipper/); owner to request indexing of /de/ pages in GSC UI.
 - B3 /es/ and /es/alquiler-de-yates-marbella/ (indexed; pos 53 on one query): confirm "con patrón" wording is mirrored in titles/H1 after the 2026-10-22 edit; measure before touching. todo (measure first, not before 2026-11-05)
 - B4 /boat-party-marbella/: DONE 2026-10-22 (460e5cb7) + DONE 2026-11-12 (8af59a8): unsupported catamaran/40-guest boats and prices replaced with fleet-verified facts; title/H1/OG/Twitter updated to include "at Puerto Banús" for location-specific query "boat party in puerto banus" (12 impr, pos 68.7). Next: measure from 2026-11-26.
 - B5 Re-link strategy for the blog hub: it links 349 redirect stubs and 98 future-year pages (51% of 871 links). Removing those cards is a bulk change → needs approval (A4/A5).
