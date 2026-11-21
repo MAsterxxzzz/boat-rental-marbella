@@ -693,3 +693,36 @@ Target windows:
 
 **No outreach/external attempted:** no owner accounts available; tracker not checked.
 
+---
+
+## 2026-11-21
+
+**Action: B2 German discovery link on /yacht-charter-marbella/ (indexed, historical traffic)**
+
+**Decision rationale:**
+- Measurement window closed Nov 19 (B11/B3/B4 showed strong improvement: "boat rental marbella" +30% impressions, position 79.5→54.9)
+- Next eligible B2 action: /yacht-charter-marbella/ (last edited Oct 30, 22 days ago; qualifies past 14-day rule)
+- Page is indexed historically (GSC shows "rent yacht marbella" 15 impressions), has strong domain authority
+- Follows proven B2 pattern applied to 6 prior indexed pages; German equivalent /de/yachtcharter-marbella/ unknown to Google
+- Strategic choice: extend proven B2 pattern rather than force edits to unknown pages or await owner decisions (A1-A5 blocked)
+
+**Edit made:**
+- File: site/yacht-charter-marbella/index.html
+- Line 195 (before </article>): Added `<p><a href="/de/yachtcharter-marbella/">Verfügbar auf Deutsch</a> — German-language yacht charter guide for the Costa del Sol.</p>`
+- Change type: internal contextual link (1 line, isolated)
+- Technical validation: crawl_report_2026-11-21.json shows 0 broken links, 58041 hrefs, 878 HTML validity baseline maintained
+
+**Deploy:**
+- Commit: 247c04b "Add German discovery link to /yacht-charter-marbella/ (B2 internal linking strategy)"
+- Pushed to origin/main at 2026-11-21 (GitHub Pages deploy confirmed live within 3 seconds)
+- Live verification: https://boatrentalinmarbella.com/yacht-charter-marbella/ contains German link ✓
+
+**Measurement:** Next GSC period (Nov 24+) will show /de/yachtcharter-marbella/ discovery rate and German page index status.
+
+**Next run:** Depending on new GSC data:
+1. If /de/ German pages show indexing progress: accelerate B2 for other indexed pages (candidates: /catamaran-rental-marbella/, /jet-ski-rental-marbella/, older blog posts)
+2. If B11 measurement still strong: apply "boat hire" wording to service pages (requires approval, affects 862 pages)
+3. Continue until owner decisions resolve A1-A5 blockers
+
+**No outreach/external attempted:** no owner accounts available; tracker not checked.
+
