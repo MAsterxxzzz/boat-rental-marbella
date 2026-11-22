@@ -726,3 +726,23 @@ Target windows:
 
 **No outreach/external attempted:** no owner accounts available; tracker not checked.
 
+
+## 2026-11-22 (Claude cloud routine)
+
+**GSC** 2026-10-22..2026-11-19 (28d): 277 impressions, 0 clicks, avg position 76.2.
+Top queries: "boat rental marbella" / 40 impr pos 55.4 (best-performing, strong improvement from earlier baseline); "boat party marbella" /boat-party-marbella/ 27 impr pos 85.5; "rent a boat marbella" / 12 impr pos 81.8.
+
+**Measurement window closed:** B11 "boat hire" homepage edits (Nov 5–7) showed +30% impressions and position improvement on primary query "boat rental marbella" (from ~79 to 55.4); B4 location targeting captured "boat party in puerto banus" intent (1 impr pos 74.0, new query); B3 Spanish page measurement pending final validation (interim results show variance, full 14-day assessment due next run after Nov 19).
+
+**Done (B2 continued):** /boat-rental-with-skipper/ (last real edit 2026-10-25, 28 days ago — eligible past 14-day rule). Added contextual internal link to German equivalent /de/bootsverleih-ohne-fuehrerschein-marbella/ (unknown to Google, in sitemap). Follows proven B2 pattern applied to 6+ prior indexed pages.
+
+- Change: +1 line, internal contextual link in closing paragraph before </article>
+- Crawl: 0 broken links (58043 hrefs), 878 HTML validity baseline unchanged, sitemap 802/802 valid
+- Commit: 3c438df "Add German discovery link to /boat-rental-with-skipper/ (B2 internal linking strategy)"
+- Pushed: `git push -u origin main` succeeded; GitHub Pages deploy triggered
+- Live verification: Deploy in progress; site confirms HTTP 200 (live page in queue)
+
+**Next run:** after 2026-11-26 (14-day measurement complete for B11/B3 edits), validate final results and decide next priority. Candidates: (1) continue B2 German discovery on other eligible indexed pages (jet-ski-rental, catamaran-rental, speedboat, sailboat, day-charter); (2) apply "boat hire" wording to service pages if B11 pattern holds (requires owner approval, affects 862 pages); (3) start owner-approval blockers (A1-A5) if pattern measurement complete.
+
+**No outreach/external attempted:** no owner accounts available; tracker not checked.
+
