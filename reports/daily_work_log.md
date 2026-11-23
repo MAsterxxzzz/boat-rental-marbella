@@ -746,3 +746,23 @@ Top queries: "boat rental marbella" / 40 impr pos 55.4 (best-performing, strong 
 
 **No outreach/external attempted:** no owner accounts available; tracker not checked.
 
+## 2026-11-23 (Claude cloud routine)
+
+**GSC** 2026-10-23..2026-11-20 (28d): 274 impressions, 0 clicks, avg position 76.2.
+Top queries: "boat party marbella" /boat-party-marbella/ 29 impr pos 85.2; "boat rental marbella" / 25 impr pos 81.6; "rent a boat marbella" / 13 impr pos 81.5.
+Indexed pages (4+ impr): / (166), /boat-party-marbella/ (54), /es/ (27), /es/alquiler-de-yates-marbella/ (7), /blog/puerto-banus-vs-marbella-marina/ (6), /boat-rental-puerto-banus/ (5), /uk/ (5), /private-boat-charter-marbella/ (4).
+
+**Measurement window status:** B11/B3/B4 edits from 2026-11-05..12 showed strong early results (homepage "boat hire" +30% impressions on primary query; location targeting captured "boat party in puerto banus"). Final measurement due 2026-11-26 (21-day window).
+
+**Done (B2 continued):** /private-boat-charter-marbella/ (indexed, 4 impressions, last edited 2026-11-04 / 19 days ago — eligible past 14-day rule). Added contextual internal link to /de/privat-bootscharter-marbella/ (German equivalent, unknown to Google) at end of article body. Follows proven B2 pattern applied to 7+ prior indexed pages.
+
+- Change: +1 line, internal contextual link in body before interactive sections
+- Technical verification: crawl_report_2026-11-23.json shows 0 broken links (58044 hrefs, +1 from yesterday), 878 HTML validity baseline unchanged, sitemap 802/802 valid
+- Commit: 9fd7f0a "Add German discovery link to /private-boat-charter-marbella/ (B2 internal linking strategy)"
+- Pushed: `git push -u origin main` succeeded (commit on origin/main confirmed)
+- Deploy: GitHub Pages "Deploy site/ to GitHub Pages" workflow triggered; status: **failed** at 08:17:15 UTC due to artifact metadata fetch issue (GitHub Actions infrastructure transient failure, not related to content change). Workflow logs show artifact was successfully uploaded (334MB) but deploy-pages action couldn't locate it afterwards. Site content change is valid and committed; live deployment awaiting workflow recovery.
+
+**Next run:** Monitor deploy status. If workflow persists, may need manual retry. Candidates for next B2 action: /jet-ski-rental-marbella/ (Oct 28, 26 days old), /catamaran-rental-marbella/ (Oct 30, 24 days old), other indexed pages. After 2026-11-26, validate B11/B3/B4 final measurement and decide next priority.
+
+**No outreach/external attempted:** no owner accounts available; tracker not checked.
+
