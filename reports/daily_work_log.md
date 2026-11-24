@@ -2,6 +2,51 @@
 
 Persistent record of every automated daily SEO run's decision: what was reviewed, what changed (if anything), and why. Read this before selecting a new improvement so work is never duplicated or repeated without new evidence.
 
+## 2026-11-24 (Claude cloud routine run)
+
+**Setup:**
+- Cloned fresh from MAsterxxzzz/boat-rental-marbella on new container.
+- Repo added via MCP with push access; GSC proxy credentials verified.
+
+**Step 1 — GSC Analysis (28-day: 2026-10-28 to 2026-11-24 vs Nov 20 snapshot):**
+- Current window: 294 total impressions, 0 clicks overall; top pages: homepage 173 impr at pos 79.3 (WORSENED from 72.7 on Nov 20), /boat-party-marbella/ 52 impr at pos 84.2.
+- Top commercial queries: "boat rental marbella" 30 impr pos 78.8, "boat party marbella" 32 impr pos 83.6, "boat hire marbella" 16 impr pos 78.2 — all at page 8+, 0 clicks. No position improvement despite edits on Nov 5-6 and Nov 20-23.
+- Key finding: Homepage position deteriorated 72.7→79.3 in 4 days (Nov 20–24). Recent edits (boat hire, German links) have not improved main keyword rankings; may require strategy reassessment.
+- Backlog status: B2 German internal linking mostly complete on top indexed pages (11 days of additions Nov 14–23).
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (58,045 hrefs checked).
+- hreflang/canonical: 0 issues.
+- Sitemap: 802 URLs, 0 missing.
+- HTML validity: 878 files (unchanged baseline from footer template).
+- Duplicate titles: 349 (future-dated stubs, off-limits).
+- Net: no new issues.
+
+**Step 3 — Backlog & eligibility analysis:**
+- Pages edited within 14 days (ineligible): homepage (Nov 5), /es/ (Nov 7), /boat-party-marbella/ (Nov 12), /boat-rental-4-hours/ (Nov 20), /boat-rental-prices/ (Nov 13), /boat-rental-with-skipper/ (Nov 22), /private-boat-charter-marbella/ (Nov 23), /yacht-charter-marbella/ (Nov 21), /experiences/ (Nov 15), /blog/puerto-banus-vs-marbella-marina/ (Nov 14).
+- Pages eligible (outside 14-day): /catamaran-rental-marbella/ (Oct 30, 25 days old), /blog/gibraltar-day-trip-by-boat/ (Oct 29), /blog/nikki-beach-marbella-yacht/ (Oct 28), /luxury-yacht-rental-marbella/ (Oct 26), and many earlier October pages.
+- B2 German discovery links not yet on: /catamaran-rental-marbella/, blog hubs, some lower-traffic pages.
+
+**Step 4 — Action taken:**
+1. **Added contextual German discovery link** to /catamaran-rental-marbella/ index.html in "How to book" section.
+   - Old: "...The full <a href="/">boat rental Marbella</a> hub compares catamarans against every other boat type if you're still deciding."
+   - New: "...The full <a href="/">boat rental Marbella</a> hub compares catamarans against every other boat type if you're still deciding. For German-speaking travelers, our <a href="/de/katamaran-mieten-marbella/">German catamaran rental Marbella guide</a> covers sail and power catamaran charter options in German."
+   - Rationale: Page is indexed, outside 14-day window, qualifies for B2 internal linking strategy (category page linking to German equivalent for discovery).
+   - Commit: `51652dba` ("Add German discovery link to /catamaran-rental-marbella/ (B2 internal linking strategy)")
+
+**Step 5 — Verification:**
+- Technical crawl re-run: 0 new broken links, 0 new issues.
+- Git diff verified: 1 line changed, 1 contextual German link added.
+- `git push -u origin main`: succeeded. Commit `51652dba` pushed to main.
+- GitHub Actions: Deploy workflow triggered; monitoring for completion.
+- Live URL verification: pending (deployment in progress).
+
+**Measurement & Next Action:**
+- Today's edit: /catamaran-rental-marbella/ now links /de/katamaran-mieten-marbella/ (B2 continuation: 1 of remaining ~5-6 indexed English pages not yet linked). Measure German page impressions from 2026-12-01 onwards (GSC 14-day lag + 2-day measurement window).
+- **CRITICAL FINDING:** Homepage position for "boat rental marbella" has WORSENED from 72.7 (Nov 20) to 78.8 (Nov 24), despite 5+ days of recent edits. All top commercial queries remain at page 8+ with 0 clicks. B2 German linking strategy may be approaching point of diminishing returns. Recommend pivot: (1) wait for metric window (Nov 28 measurement) to assess impact of Nov 5–23 edits, or (2) investigate why homepage ranking deteriorated (competitor changes, algorithm shift), or (3) focus on owner-approved strategic changes (claims wording, landing page optimization) to improve commercial visibility.
+- Next eligible pages for B2 (if continuing): /blog/gibraltar-day-trip-by-boat/, /blog/nikki-beach-marbella-yacht/, /luxury-yacht-rental-marbella/ (all 25–29 days old, can edit now).
+- Pending owner decisions: A1–A5 (WhatsApp claim, review wording, GBP, sitemap policy, future-dated pages), H1–H3 (price conflicts, claim wording, boat party inclusions).
+
 ## 2026-11-20 (Claude cloud routine run)
 
 **Setup:**
