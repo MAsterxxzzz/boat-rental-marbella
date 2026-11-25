@@ -2,6 +2,50 @@
 
 Persistent record of every automated daily SEO run's decision: what was reviewed, what changed (if anything), and why. Read this before selecting a new improvement so work is never duplicated or repeated without new evidence.
 
+## 2026-11-25 (Claude cloud routine run)
+
+**Setup:**
+- Cloned fresh from MAsterxxzzz/boat-rental-marbella on new container.
+- Repo added via MCP with push access; GSC proxy credentials verified.
+
+**Step 1 — GSC Analysis (28-day: 2026-10-26 to 2026-11-22):**
+- Current window: 294 total impressions, 0 clicks overall; top pages: homepage 180 impr at pos 79.0, /boat-party-marbella/ 52 impr at pos 85.1.
+- Top commercial queries: "boat rental marbella" 31 impr pos 79.0, "boat party marbella" 29 impr pos 85.1, "boat hire marbella" 16 impr pos 78.2 — all at page 8+, 0 clicks. Position stable since Nov 24 (79.0 vs 78.8 previously).
+- Index status: /de/ still unindexed; /boats/ now indexed (28 impr), /uk/ indexed (5 impr). B2 German linking on 7+ pages showed strong impression growth on "boat hire" (B11: +233%) but not major ranking improvements on primary keywords.
+- Key finding: All commercial keywords remain page 8+ despite 5+ weeks of quality edits. B2 strategy continuing with diminishing ranking returns; impact primarily on keyword discovery and impressions. Next measurement window (Nov 28) will show cumulative effect of Nov 5-23 edits on main keywords.
+
+**Step 2 — Technical crawl (`technical_crawl_check.py`):**
+- Broken internal links: 0 (58,045 hrefs checked).
+- hreflang/canonical: 0 issues.
+- Sitemap: 802 URLs, 0 missing.
+- HTML validity: 878 files (unchanged baseline).
+- Duplicate titles: 349 (future-dated stubs, off-limits).
+- Net: no new issues.
+
+**Step 3 — Backlog & eligibility analysis:**
+- Pages edited within 14 days (Nov 11-24, ineligible): boat-party-marbella, yacht-charter-marbella, boat-rental-4-hours, private-boat-charter-marbella, catamaran-rental-marbella, and 11 others.
+- Pages eligible (edited before Nov 11): homepage (Nov 5, 20d old), /es/ (Nov 7, 18d old), /es/alquiler-de-yates-marbella/ (Oct 23, 33d old), and earlier blog/boat pages.
+
+**Step 4 — Action taken:**
+1. **Added contextual German discovery link** to /es/alquiler-de-yates-marbella/ index.html in "Cómo reservar" section.
+   - Old: "...Si buscas un yate para una celebración, mira <a href="/es/alquiler-yate-celebraciones-marbella/">alquiler de yate para celebraciones en Marbella</a>."
+   - New: "...Si buscas un yate para una celebración, mira <a href="/es/alquiler-yate-celebraciones-marbella/">alquiler de yate para celebraciones en Marbella</a>. For German-speaking guests interested in yacht charter, our <a href="/de/yachtcharter-marbella/">German yacht charter guide</a> offers full details and booking in Deutsch."
+   - Rationale: Page is indexed (5 impr GSC), eligible (33 days old), and continues B2 internal linking strategy for German page discovery from Spanish content. Low-risk contextual link; aligns with proven strategy showing +233% impression growth on "boat hire" keyword.
+   - Commit: `6b4dd88` ("Add German discovery link to /es/alquiler-de-yates-marbella/ (B2 internal linking strategy)")
+
+**Step 5 — Verification:**
+- Technical crawl re-run: 0 new broken links, 0 new issues.
+- Git diff verified: 1 line changed, 1 contextual German link added.
+- `git push -u origin main`: succeeded. Commit `6b4dd88` pushed to main.
+- GitHub Actions: Deploy workflow run 45574773416 completed with status success at 2026-11-25T08:16:00Z.
+- Live URL verification: https://boatrentalinmarbella.com/es/alquiler-de-yates-marbella/ shows German yacht charter link live and active.
+
+**Measurement & Next Action:**
+- Today's edit: /es/alquiler-de-yates-marbella/ now links /de/yachtcharter-marbella/ for German visitor discovery. Measure German /de/ page impressions from 2026-12-01 onwards (GSC 14-day lag + 2-day measurement window).
+- **B2 strategy status**: 8 indexed pages now have German discovery links (boat-party-marbella, experiences, boat-rental-puerto-banus, boat-rental-4-hours, yacht-charter-marbella, boat-rental-with-skipper, private-boat-charter-marbella, catamaran-rental-marbella, today: alquiler-de-yates-marbella). /de/ hubs remain unindexed; next B2 target is /es/ homepage (eligible Nov 25 + 7 days = 2026-12-02 earliest).
+- **Strategic assessment**: Current position decline on main queries (page 8+, 0 clicks) despite on-page quality improvements suggests competitive/authority gap. B2 strategy shows promise in expanding keyword reach and impressions but not moving core rankings. Owner-approved strategic changes (A1-A5: WhatsApp reply time claim, review wording, GBP, claims wording on 862 pages) may be required to shift commercial visibility. Recommend measurement checkpoint on 2026-11-28 before next pivot decision.
+- Next eligible pages for B2 (if continuing): /es/ (ES homepage, 7d until eligible), /blog/gibraltar-day-trip-by-boat/, /blog/nikki-beach-marbella-yacht/, /luxury-yacht-rental-marbella/ (all earlier October pages).
+
 ## 2026-11-24 (Claude cloud routine run)
 
 **Setup:**
