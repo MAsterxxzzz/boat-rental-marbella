@@ -49,6 +49,10 @@ class BalanceChecker(HTMLParser):
         if not self.stack:
             self.errors.append(f"unexpected closing </{tag}> with nothing open")
             return
+        # HTML allows omission of </p> at the end of a div and </tbody>
+        # at the end of a table. Only accept a direct parent/child pair.
+        if len(self.stack) >= 2 and (self.stack[-2], self.stack[-1]) in {('div', 'p'), ('table', 'tbody')} and self.stack[-2] == tag:
+            self.stack.pop()
         if self.stack[-1] == tag:
             self.stack.pop()
         elif tag in self.stack:
@@ -106,6 +110,22 @@ def check_broken_internal_links(site_dir: Path):
     return dict(broken)
 
 
+def is_local_redirect_stub(text, source, site_dir):
+    # Only exempt the actual, immediate redirect template with a working
+    # local destination matching its canonical. Other repeated titles count.
+    refresh = re.search(r'<meta\s+http-equiv="refresh"\s+content="0;\s*url=([^"?#]+)"', text, re.I)
+    canonical = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', text, re.I)
+    if not refresh or not canonical or refresh[1] != canonical[1]:
+        return False
+    path = refresh[1]
+    if not path.startswith('/') or path.startswith('//') or '..' in path.split('/'):
+        return False
+    target = site_dir / path.lstrip('/')
+    if target.is_dir():
+        target = target / 'index.html'
+    return target.is_file() and target.resolve() != source.resolve()
+
+
 def check_duplicate_titles(site_dir: Path):
     logger.info("Checking for duplicate <title> tags...")
     title_re = re.compile(r'<title>([^<]*)</title>')
@@ -114,7 +134,10 @@ def check_duplicate_titles(site_dir: Path):
         text = f.read_text(encoding="utf-8", errors="replace")
         m = title_re.search(text)
         if m:
-            by_title[m.group(1).strip()].append(str(f))
+            title = m.group(1).strip()
+            if title == 'Redirected' and is_local_redirect_stub(text, f, site_dir):
+                continue
+            by_title[title].append(str(f))
     dupes = {t: files for t, files in by_title.items() if len(files) > 1}
     logger.info(f"Duplicate titles: {len(dupes)} titles shared by {sum(len(v) for v in dupes.values())} pages")
     return dupes
@@ -144,10 +167,11 @@ def check_hreflang_canonical(site_dir: Path):
         declared[code] = {h: href for h, href in tags}
         if not canon:
             issues.append({"page": str(f), "issue": "missing canonical tag"})
-        page_url_fragment = f"/{code}/" if code != "en" else "/"
+        expected_path = f'/{code}' if code != 'en' else ''
         for hreflang_value, href in tags:
-            if href.rstrip("/").endswith(page_url_fragment.rstrip("/")) or (code == "en" and href.rstrip("/") == href.split("://")[0] + "://" + href.split("://")[1].split("/")[0]):
+            if hreflang_value != 'x-default' and urlparse(href).path.rstrip('/') == expected_path:
                 self_hreflang[code] = hreflang_value
+                break
         if code not in self_hreflang:
             # fallback: assume directory code == hreflang value (true for es/de/fr/nl/no/pl/ru/sv/ar)
             self_hreflang[code] = code
@@ -187,10 +211,10 @@ def check_sitemap(site_dir: Path):
         result["valid_xml"] = True
         result["url_count"] = len(urls)
         missing_on_disk = []
-        for u in urls[:2000]:
+        for u in urls:
             path = urlparse(u).path
             candidate = site_dir / path.lstrip("/")
-            if not candidate.exists() and not (candidate / "index.html").exists():
+            if not candidate.is_file() and not (candidate / "index.html").is_file():
                 missing_on_disk.append(u)
         result["urls_missing_on_disk"] = missing_on_disk[:50]
         result["urls_missing_count"] = len(missing_on_disk)
