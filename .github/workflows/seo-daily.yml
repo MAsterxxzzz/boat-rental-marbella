@@ -1,81 +1,83 @@
 name: Daily SEO automation
 
-# Runs entirely in GitHub's cloud — independent of any local machine being on.
-# Scoped to automation/, reports/, logs/ only. Never touches site/, so it can
-# never trigger or conflict with deploy-pages.yml (which only fires on
-# site/** pushes) and never conflicts with website-content work. Does NOT
-# touch data/backlink_prospects.csv — that tracker and outreach are owned
-# by a separate Claude routine; this workflow must not write to it.
-
+# The daily schedule is owned by the existing Claude routine. This optional
+# diagnostic runs against the production source without publishing or pushing.
 on:
-  # Scheduled trigger disabled 2026-10-02: the daily SEO job is now owned by the
-  # "Boat Rental Marbella - Daily Technical & On-Page SEO" Claude cloud routine
-  # (trig_01TCDxfrybPV5UgFwDeurBe7, runs 08:00 UTC daily), which runs these same
-  # scripts plus actually implements justified improvements. Keeping both on a
-  # schedule would be a duplicate automation writing to the same files. This
-  # workflow is kept, disabled-by-default, for manual testing only.
-  workflow_dispatch: {}     # manual trigger for testing only — no schedule
-
+  workflow_dispatch: {}
 permissions:
-  contents: write
-
+  contents: read
 concurrency:
-  group: seo-daily
+  group: manual-technical-seo-diagnostic
   cancel-in-progress: false
-
 jobs:
-  seo-automation:
+  audit:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install --quiet google-auth google-api-python-client
-
-      - name: Write GSC service account credentials
+      - name: Audit checked-in pages and sitemap
+        shell: python
+        run: |
+          import os, sys
+          from pathlib import Path
+          Path('logs').mkdir(exist_ok=True)
+          sys.path.insert(0, str(Path('automation').resolve()))
+          from technical_crawl_check import run
+          report = run()
+          import json
+          (Path(os.environ['RUNNER_TEMP']) / 'public-technical-crawl.json').write_text(json.dumps(report, indent=2))
+          sm = report['sitemap']
+          pages = sum(1 for p in Path('site').rglob('*.html'))
+          counts = {'HTML parser findings (advisory)': len(report['html_validity_issues']), 'Internal link findings': len(report['broken_internal_links']), 'Duplicate title groups': len(report['duplicate_titles']), 'Language or canonical findings': len(report['hreflang_canonical']['issues'])}
+          lines = ['## Production source audit', f'HTML files: {pages}', f'Sitemap URLs: {sm.get("url_count", 0)}; missing targets: {sm.get("urls_missing_count", "unknown")}', '']
+          lines.extend(f'- {key}: {count}' for key, count in counts.items())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              print(*lines, sep='\n', file=out)
+          if not pages or not sm.get('valid_xml') or not sm.get('url_count') or sm.get('urls_missing_count'):
+              raise SystemExit('Missing pages, unusable sitemap, or unresolved sitemap destinations; see crawl report.')
+          if any(counts.values()):
+              print('::warning::The crawl found items for review. Counts are in the summary; file-level findings are in the artifact.')
+      - name: Save public site crawl findings for seven days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-technical-crawl
+          path: ${{ runner.temp }}/public-technical-crawl.json
+          retention-days: 7
+      - name: Check optional Search Console connection
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        shell: bash
         run: |
-          mkdir -p "$HOME/.config/boathire-seo"
+          set -eu
           if [ -z "$GSC_SERVICE_ACCOUNT_JSON" ]; then
-            echo "::warning::GSC_SERVICE_ACCOUNT_JSON secret is not set — GSC fetch will fail and be logged as gsc_status=failed, not faked."
-          else
-            printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$HOME/.config/boathire-seo/service-account-key.json"
+            echo 'Google Search Console: not tested here (credential not configured).' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
           fi
-
-      - name: Run daily SEO agent (real GSC fetch + backlog update)
-        run: python3 automation/daily_seo_agent.py
-        continue-on-error: true
-
-      - name: Run technical crawl check (read-only, site/ untouched)
-        run: python3 automation/technical_crawl_check.py
-        continue-on-error: true
-
-      - name: Generate daily report
-        run: python3 automation/daily_report_generator.py
-        continue-on-error: true
-
-      - name: Commit updated reports/logs (never site/, never the backlink tracker)
-        run: |
-          git config user.name "seo-automation-bot"
-          git config user.email "seo-automation-bot@users.noreply.github.com"
-          git add reports/ logs/
-          git status --short
-          if git diff --cached --quiet; then
-            echo "No report/log changes to commit."
-          else
-            git commit -m "Automated daily SEO run: $(date -u +%Y-%m-%d)"
-            git fetch origin
-            git rebase origin/main
-            git push origin main
-          fi
-
-      - name: Write job summary
+          umask 077
+          key_dir="$HOME/.config/boathire-seo"
+          mkdir -p "$key_dir"
+          trap 'rm -f "$key_dir/service-account-key.json"' EXIT
+          printf '%s' "$GSC_SERVICE_ACCOUNT_JSON" > "$key_dir/service-account-key.json"
+          unset GSC_SERVICE_ACCOUNT_JSON
+          python -m pip install -q google-auth google-api-python-client
+          python automation/daily_seo_agent.py > "$RUNNER_TEMP/seo-agent.log" 2>&1
+          python - <<'PY'
+          import datetime, json, os
+          from pathlib import Path
+          day = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          report = json.loads((Path('reports/daily_seo') / f'seo_report_{day}.json').read_text())
+          ok = report.get('gsc_status') == 'ok'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              print('Google Search Console: data received.' if ok else 'Google Search Console: no data returned; check the credential and property access.', file=out)
+          if not ok:
+              raise SystemExit('Search Console returned no data.')
+          PY
+      - name: Confirm the diagnostic left the website unchanged
         if: always()
-        run: python3 automation/write_daily_summary.py >> "$GITHUB_STEP_SUMMARY"
+        run: git diff --exit-code -- site/
