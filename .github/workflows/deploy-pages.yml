@@ -3,7 +3,7 @@ name: Deploy site/ to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ["site/**"]
+    paths: ["site/**", ".github/workflows/deploy-pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -23,6 +23,56 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Check public pages, booking links and fleet limits
+        shell: python
+        run: |
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          import json
+          import xml.etree.ElementTree as ET
+          
+          site = Path('site')
+          origin = 'https://boatrentalinmarbella.com'
+          instagram = 'https://www.instagram.com/boatrentalmarbella'
+          routes = ['/', '/es/', '/boat-party-marbella/', '/boat-rental-4-hours/', '/boats/astondoa-40/', '/boats/azimut-39/', '/boats/mangusta-80/']
+          class Page(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.tags = []; self.graph = []; self.ld = False
+              def handle_starttag(self, tag, attrs):
+                  a = dict(attrs); self.tags.append((tag, a))
+                  if tag == 'script': self.ld = a.get('type') == 'application/ld+json'
+              def handle_endtag(self, tag):
+                  if tag == 'script': self.ld = False
+              def handle_data(self, data):
+                  if self.ld and data.strip(): self.graph.append(json.loads(data))
+          
+          def require(ok, message):
+              if not ok: raise ValueError(message)
+          
+          ET.parse(site / 'sitemap.xml')
+          require((site / 'robots.txt').is_file(), 'robots.txt missing')
+          for f in site.rglob('*'):
+              require(f.name not in {'.env', '.git', 'service-account-key.json', 'id_rsa', 'id_ed25519'}, 'Unexpected private file in the public site: ' + str(f.relative_to(site)))
+          for route in routes:
+              p = Page(); p.feed((site / route.strip('/') / 'index.html').read_text(encoding='utf-8')); p.close()
+              links = [a.get('href','') for t,a in p.tags if t=='a']; metas = [a for t,a in p.tags if t=='meta']
+              canon = [a.get('href') for t,a in p.tags if t=='link' and 'canonical' in (a.get('rel') or '').lower().split()]
+              require(canon == [origin+route], route+' canonical differs from public URL')
+              require(sum(t=='h1' for t,a in p.tags)==1 and any(t=='title' for t,a in p.tags), route+' missing or ambiguous heading/title')
+              require(any(a.get('name')=='description' and a.get('content','').strip() for a in metas), route+' missing description')
+              require(not any(a.get('name','').lower() in ('robots','googlebot') and any(v in a.get('content','').lower().replace(',',' ').split() for v in ('noindex','none')) for a in metas), route+' blocks indexing')
+              require(any(urlsplit(h).netloc=='wa.me' and urlsplit(h).path=='/358400406194' for h in links), route+' missing business WhatsApp')
+              if route=='/':
+                  require(any(h.rstrip('/')==instagram for h in links), 'Homepage has no official Instagram link')
+                  objects = [obj for graph in p.graph for obj in (graph if isinstance(graph,list) else [graph]) if isinstance(obj,dict)]
+                  require(any(instagram in [url.rstrip('/') for url in obj.get('sameAs',[]) if isinstance(url,str)] for obj in objects), 'Official Instagram missing from business structured data')
+              if route=='/boat-party-marbella/':
+                  require(any(t=='input' and a.get('name')=='duration' for t,a in p.tags), 'Party enquiry has no duration')
+                  for model,cap,hours in [('Astondoa 40 Fufi','9','2'),('Azimut 39','11','2'),('Mangusta 80','12','4')]:
+                      require(any(t=='option' and a.get('value')==model and a.get('data-capacity')==cap and a.get('data-min-hours')==hours for t,a in p.tags), 'Incorrect party booking rules: '+model)
+              print('PASS',route)
+          print('Sitemap, publication files and all seven booking pages passed.')
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
